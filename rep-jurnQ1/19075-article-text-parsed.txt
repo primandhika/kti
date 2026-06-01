@@ -1,0 +1,730 @@
++06R/"- 0' -"/(6"(&  &%6$"5*0/    | Research Papers
+
+
+
+
+https://doi.org/10.17323/jle.2025.19075   Assessment of Intercultural
+
+                                          Communicative Competence in High-
+                                          Stakes Speaking Tests: The case of the
+                                          Czech Republic
+
+                                          Tomáš Mach
+
+                                          Jan Evangelista Purkyně University, Czech Republic
+
+                                          ABSTRACT
+                                          Background: For a long time, concepts such as the intercultural communicative competence
+                                          have challenged the view of culture as purely fact-based, objective content to be transmitted
+                                          to students, from whom only retention is expected. Today, cultural knowledge plays virtually
+                                          no role in international standardised English exams such as TOEFL or the Cambridge English
+                                          Qualifications. It is unknown to which extent this is true for examinations at the national level,
+                                          and the materials used to prepare students for these examinations.
+                                          Method: The study provides a quantitative account of exam topics in the speaking part of the
+                                          final exam in Czech grammar schools. The sample consists of 206 grammar schools in the Czech
+                                          Republic (58% of all such schools). The percentage of knowledge-oriented, culture-specific
+                                          topics was calculated for each school. The study further analyses the content of four books
+                                          used to prepare students for the exam. The sample comprises four frequently used preparatory
+                                          books. The text in the chapters that deal with cultural topics is classified using Larzén’s (2005)
+                                          typology of culture.
+                                          Results: The study has demonstrated that approximately 50% of the final exam topics are
+                                          focused on specific English-speaking countries, their geography, history and literature. A similar
+                                          tendency, but significantly more pronounced, has been found in the preparatory materials.
+                                          More than 95% of their content was heavily knowledge-oriented with no discernible difference
+                                          between older and recently published materials. Virtually no evidence of a skill-based or
+                                          intercultural approach to culture was found.
+                                          Conclusion: The study has confirmed what is often only an unfounded assumption by researchers
+Citation:   Mach, T. (2025). Assessment   and it has shown that the traditional factual view of culture is still immensely popular with no
+of    intercultural       communicative   change in sight. Recommendations for material writers, teachers, and teacher educators are
+competence         in       high-stakes
+speaking tests:    The     case  of the   provided at the end of the study.
+Czech Republic.    Journal of  Language
+and   Education,       11(3),   98-109.   KEYWORDS
+https://doi.org/10.17323/jle.2025.19075
+                                          culture in language education; intercultural communicative competence (ICC); culture in high-
+Correspondence:                           stakes assessment; standardized English exams; content knowledge in language assessment;
+Tomáš Mach,
+tomas.mach@mail.muni.cz                   assessment of speaking
+
+Received: January 29, 2024
+Accepted: September 18, 2025              INTRODUCTION                                         functioned as a lingua franca (ELF), new
+Published: September 30, 2025                                                                  challenges have emerged in conceptu-
+
+                                          The role of culture within English lan-              alising, eliciting, and evaluating the cul-
+                                          guage teaching (ELT) has been the sub-               tural dimension of language proficien-
+                                          ject of extensive discussion over the past           cy (Liddicoat & Scarino, 2010; Scarino,
+                                          two decades (Baker, 2009; Bayyurt, 2006;             2017). While a wide array of theoretical
+                                          Byrd et al., 2011; Larzén, 2005; Murphy,             models and pedagogical approaches to
+                                          1988; Paige et al., 1999; Zotzmann, 2015).           ICC have been proposed, its role in lan-
+                                          As the field has shifted from a focus on             guage assessment remains relatively un-
+                                          communicative competence     to             inter-   derexplored, especially in large-scale or
+                                          cultural communicative                  competence   high-stakes testing contexts. Historically,
+                                          (ICC), and as English has             increasingly   cultural content has been embedded in
+
+
+98                                                                                             +-& | 7PM 11 | /P 3 | 2025
+
+ASSESSMENT OF CULTURE IN HIGH-STAKES TESTS    | Research Papers
+
+
+
+both curricula and assessment practices, although some             Yet cultures are not synonymous with superficial knowledge
+international standardised tests have sought to reduce cul-        of language communities. As Baker (2022, p. 289) notes,
+tural bias (e.g., Weir, 2005). Whether similar developments        “cultures are heterogeneous and cultural characterisations
+have taken place in national testing systems, however, is          are contestable.” They change over time and are continu-
+less well understood.                                              ously interpreted and co-constructed. For English in partic-
+                                                                   ular, there is no single English-speaking culture; not even
+This study addresses this gap by examining the represen-           among native speakers, long viewed as custodians of the
+tation of cultural content in high-stakes English language         language (Llurda & Calvet-Terré, 2022; Seidlhofer, 2005). ELF
+assessment, focusing on the Czech maturita exam as a rep-          further perspectives challenge this view, positioning native
+resentative example. Despite growing curricular emphasis           speakers as participants in global culture, not its curators.
+on ICC, there is limited empirical research on how cultural
+knowledge is reflected in assessment tasks and prepara-            Many newer definitions of culture seek to move beyond
+tory materials. In particular, little is known about how far       static models but often remain vague. Importantly, how cul-
+assessment practices align with curricular aims, or about          ture is conceptualised, whether as fixed knowledge or as a
+the extent to which they prioritise knowledge-based, atti-         dynamic communicative skill, has direct consequences for
+tudinal, or behavioural dimensions of culture. To explore          assessment. Static views lend themselves to factual testing,
+these questions, the study investigates (1) to what extent         whereas processual approaches require more complex and
+knowledge-oriented cultural topics are represented in the          authentic formats that are harder to implement, especially
+maturita speaking exam, and (2) how knowledge-oriented             in high-stakes contexts.
+the preparatory materials for the exam are. The study ap-
+plies Larzén’s (2005) typology as an analytical framework to       Teachers’ Conceptions and Classroom
+examine a corpus of exam topics and commercially available         Practices
+textbooks. In doing so, it offers a theoretically grounded, da-
+ta-driven contribution to current debates about culture and        Byram’s (1997) influential model of intercultural commu-
+assessment in language education.                                  nicative competence (ICC) identifies knowledge, skills, and
+                                                                   attitudes as core components. Larzén (2005) links these to
+
+LITERATURE REVIEW                                                  classroom practice, showing how each shapes goals and
+                                                                   teacher–student roles (see Table 1). In practice, however, it
+                                                                   is factual knowledge, especially about target cultures, that
+Defining Culture in Language Education                             dominates (Johnson & Rinvolucri, 2010, p. 15; Kramsch,
+                                                                   1995, p. 89; Scarino, 2017, p. 16; Sercu, 2002, p. 62). Although
+To understand how culture affects assessment, it is neces-         Byram (2014) and Gu & Zhao (2021) report shifts towards
+sary to define what culture represents. Traditional views          more complex assessment (e.g., in China, Bulgaria, Argen-
+often describe cultures as static artifacts tied to specific re-   tina), gaps exist elsewhere, likely due to insufficient teacher
+gions (Canale, 2016; Murphy, 1988; Paige et al., 1999), en-        training or discrepancies between policy and practice (Safa
+abling generalisations that reinforce us–them dichotomies.         & Tofighi, 2021).
+
+Table 1
+Teachers’ Сonceptions of ICC in TEFL
+
+                            Cognitive orientation                    Action orientation            Affective orientation
+
+                              Quantitative view                        Qualitative view
+
+ WHAT?                      Factual knowledge              Skills                               Bi-directional perspective
+ (Teachers’ conceptions of
+ «culture»)
+ WHY?                       Providing general background   Preparing for future intercultural   Promoting tolerance and empa-
+ (Teachers’ beliefs about   information                    encounters                           thy
+ cultural objectives)
+ HOW?                       Pedagogy of Information        Pedagogy of Preparation              Pedagogy of Encounter
+ (Teachers’ classroom       Teacher in centre              Teacher and pupil in centre          Pupil in centre
+ practice)
+Note. Adapted from Larzén (2005).
+
+
+
+
++LE ] 7ol  ] No  ]                                                                             99
+
+Tomáš Mach    | Research Papers
+
+
+Empirical studies across national contexts further illustrate        tween research and classroom practice and may ultimately
+that teachers’ conceptualisations of culture correspond to           lead teachers to shy away from addressing cultural topics
+this fact-based instructional focus. Decke-Cornill (2003), for       altogether.
+example, found that teachers at German Gymnasien resisted
+ELF-oriented perspectives and instead focused on conveying           Turning to the materials themselves, Canale (2016) analysed
+information about specific English-speaking countries. One           foreign language textbooks across six languages and con-
+participant emphasized that “[w]hat they [students] expect           cluded that:
+from us, at school, is cultural knowledge. They want informa-         a common pattern of homogenisation which – almost para-
+tion about the specific countries” (p. 63). In Finland, similar       doxically – can be achieved by means of adopting politics of
+attitudes led Larzén (2005) to conclude that teachers viewed          exclusion or inclusion of cultural diversity and heterogene-
+culture as a static product to be transmitted. Roughly half           ity. This homogenisation manifests itself both in verbal and
+of the participants specifically described culture explicitly in      non-verbal language, and also in the activities and exercises
+terms of “facts about the history, geography, religion and            surrounding the text itself. (p. 239)
+political conditions of the English-speaking countries“ (p.          Kang-Young’s (2009) analysis of EFL textbooks revealed that
+103). Zerzová (2012) reported nearly identical views among           general culture, i.e. culture not specific to a particular coun-
+lower-secondary teachers in the Czech Republic. Bayyurt’s            try, as well as the subjective (small-c) culture, are consistent-
+(2006) study added further nuance, noting that while some            ly neglected. Instead, preference was given to what could be
+teachers valued local or international cultural references,          memorised (arts, history, and customs) with a strong bias
+others excluded culture altogether unless it clearly support-        towards facts about the USA. Shin, Eslami, & Chen (2011) ex-
+ed linguistic objectives.                                            amined seven EFL textbook series, distinguishing between
+                                                                     knowledge-oriented and communication-oriented culture.
+These knowledge-oriented beliefs are also reflected in class-        The knowledge-oriented culture accounted for the average
+room practice. In the UK, Driscoll, Earl, and Cable (2013)           of 83.1%, with 58.7% and 100% as the minimum and max-
+found that cultural instruction was typically treated as an          imum respectively. Since teachers generally display reluc-
+ad hoc supplement, with most activities focused on factual           tance to go against the textbook (Forman, 2014), inferences
+knowledge. Larzén (2005) and Zerzová (2012) both observed            about their classroom practice can, among other things, be
+that approximately 90% of instructional time devoted to cul-         made based on the materials they use.
+ture was spent transmitting factual content. Safa & Tofighi
+(2021) compared teachers’ beliefs about ICC with their im-           These studies collectively reveal a pattern in which text-
+plementation, and found that “the implementation of ICC              books tend to present culture as a static body of factual
+in their pedagogical practices was evidently quite poor and          knowledge, rather than as a dynamic set of communicative
+far from their stated beliefs“ (p. 170). These findings point        skills. This representation aligns closely with the Pedagogy
+to the widespread dominance of what has been termed the              of Information conception and serves as evidence for the
+“Pedagogy of Information” – a model in which culture is              limited intercultural focus in many ELT materials. Moreover,
+presented as a body of knowledge rather than a set of com-           given teachers’ reliance on textbooks, the predominance of
+municative skills. This over-reliance on the factual approach        static cultural content likely influences both classroom prac-
+to cultural instruction, despite the availability of alternative     tices and the nature of culture-related assessment tasks.
+models, warrants an examination of the role of culture in
+testing and assessment, and learning materials. The follow-          Culture in Language Assessment and ICC
+ing section turns to an analysis of teaching materials as an-        Testing
+other domain where cultural ideologies are embedded and
+transmitted.                                                         Compared to teaching, relatively little is known about how
+                                                                     culture should be assessed – or whether it should be as-
+Textbooks as Vehicles of Cultural Ideology                           sessed at all (Scarino, 2017; Sercu, 2010). As in teaching,
+                                                                     two core questions arise: what should be assessed and
+The dominance of the Pedagogy of Information approach                how. However, unlike teaching, where cultural content is
+in language instruction is further supported by analyses             often expected, in assessment the very inclusion of culture
+of learning materials, which primarily focus on expanding            remains contested. Zotzmann (2015), for example, argues
+factual knowledge about specific English-speaking coun-              that intercultural learning is an embodied, value-laden, and
+tries (Lee 2009; Rodríguez & Espinar 2015), often without            unpredictable process that “certainly [does] not lend [itself]
+deeper exploration or consideration of an ELF intercultural          to assessment” (p. 186). Borghetti (2017, p. 10) echoes this,
+perspective.             Byrd, Cummings, Watzke, and Montes (2011)   likening interculturality to values such as honesty or gener-
+attribute this deficiency to university teacher-training pro-        osity – qualities that should be promoted but not necessarily
+grams, which, while often covering cultural content in their         tested.
+curricula, rarely provide    training specifically focused      on
+how to teach that content effectively. This lack of hands-on         These concerns go beyond the familiar objection that ICC
+teaching preparation further widens the existing gap be-             is too latent to be measured (Schauer, 2020). Here, ICC is
+
+
+100                                                                   +-& | 7PM 11 | /P 3 | 2025
+
+ASSESSMENT OF CULTURE IN HIGH-STAKES TESTS    | Research Papers
+
+
+
+       framed not just as a complex construct but as a value, and             language use, assessment should reflect this. Yet, as Fantini
+       thus fundamentally unsuited to assessment. While such po-                (2009) observes, this alignment between goals, instruction,
+     sitions are in the minority, they highlight key tensions. Even              and assessment is often absent (p. 460). Problems with va-
+      advocates of ICC assessment like Deardorff (2009) stress of              lidity and reliability compound the issue (Sercu, 2004). For
+       ICC assessment like Deardorff (2009) stress that "assess-              instance, if a course targets communication skills, assessing
+      ment is ultimately about learning" (p. 490). This reflects a            cultural facts may undermine content validity. Likewise, if a
+      broader shift from cognitive (psychometric) to sociocultural              test rewards memorized knowledge, its construct validity is
+       views of assessment (Liddicoat & Scarino, 2012), prompting                 compromised. Reliability suffers too when test objectives
+renewed attention to both what and how to assess.                                are unclear, e.g., one version emphasizes interaction, and
+                                                                                   another factual knowledge. These concerns are especially
+          Content recommendations often mirror ICC dimensions,                      relevant in high-stakes exams, where washback can rein-
+        and while assessing all components is desirable (Sercu,        force outdated, fact-based models of cultural instruction.
+       2010), no comprehensive measure exists. As Schauer (2020)
+      notes, holistic assessment may not even be feasible in com-      Research Gap
+      pulsory education. This makes it likely that knowledge will
+     be prioritized as it is the easiest to assess and historically               Despite growing theoretical interest in assessing ICC and
+      linked to cultural instruction (Byram, 1997; Scarino, 2010,                    the development of well-grounded recommendations, sig-
+      2017). But this raises dilemmas. As Larzén (2005) and Sercu                nificant gaps remain regarding the implementation of these
+      (2010) point out, choosing which cultural facts to assess is           ideas in practice. On one hand, the relatively recent interest
+         complex and depends on teacher preferences and learner                 in assessing ICC, and, more importantly, offering theoreti-
+        needs. Given the interdependence of teaching and assess-                  cally grounded recommendations for doing so, is without a
+       ment (McNamara, 2000), cultural knowledge tied to history,               doubt a positive development. On the other hand, it remains
+       geography, and literature will likely dominate. Additional                   unclear if and how these recommendations materialise in
+      factors, such as resistance to ELF benchmarks (Ke, 2018) or      practice.
+       treating Anglo-centric norms as “international” (Jenkins &
+Leung, 2017, p. 114) can further strengthen this bias.                               Research on the assessment of ICC in national speaking
+                                                                               exams is scarce, especially regarding the status of cultural
+       As for how culture is assessed, alternative approaches aim                  content in compulsory high-stakes speaking tests and how
+      to capture more dimensions of ICC. These include reflective               well exam content aligns with stated curricular goals rele-
+      diaries, self-assessment portfolios, role-plays, group dis-               vant to ICC. This study addresses these gaps by empirically
+       cussions, and other tasks that foster learning and provide              investigating the presence and nature of cultural content in
+       insight into development (Byram, 1997; Liu, 2021; Schauer,                 Czech national high-stakes speaking tests and preparatory
+       2020). Yet testing cultural knowledge in isolation remains             materials, and how this reflects curricular objectives. Simi-
+       problematic. First, without support from other task types,             larly, teachers can hardly be expected to follow and act upon
+       such tests are one-sided, reducing assessment to mere fac-               research findings (McIntyre, 2005; Vanderlinde & van Braak,
+      tual recall. Second, they suffer from a complication shared                2010; Willingham & Daniel, 2021¹). This study thus aims to
+by all approaches that seek to integrate language and con-                make the first step, at least in the Czech context. Specifically,
+      tent – construct irrelevant variance, where “the trait being            its purpose it to investigate the current state of compulsory
+       assessed…is confounded with the irrelevant requirement of       high-stakes examinations because:
+      having knowledge of a particular topic” (McNamara, 2000, p.
+   53). Llosa (2017, p. 4) clarifies that construct irrelevant vari-   (1)              These exams strongly influence the educational con-
+        ance depends on whether the focal point of assessment is                      tent leading up to them, as teachers and institutions
+content or language:                                                                often align their curriculum and instruction to prepare
+        From the perspective of content assessment, language has                         students for the test. Examining exam content thus
+       typically been considered a source of construct-irrelevant              provides critical insights into the cultural priorities that
+     variance – variance in scores that is not related to the con-          shape classroom teaching and learning.
+        struct being assessed. From the perspective of language        (2)            If the study reveals any inconsistencies or misalign-
+       assessment, content (also referred to as topical knowledge
+        or background knowledge) has also been considered a po-                        ments in how culture is addressed, implementing cor-
+   tential source of construct-irrelevant variance. (p. 4)                             rective changes in the exams could have a widespread
+                                                                                       impact. This would in turn benefit a large number of
+      If the primary goal of language education is to develop ICC                    students who rely on these exams as a measure of their
+          or communicative competence, with both framed around              readiness and cultural competence in English.
+
+1  Willingham, D. T., & Daniel, D. B. (2021). Making education research relevant: How researchers can give teachers more choices. Education
+   Next, 21(2), 28-33.
+
+
+
+
++LE ] 7ol  ] No  ]                                                         101
+
+Tomáš Mach    | Research Papers
+
+
+METHOD                                                           a standardised test that every student regardless of school
+                                                                 type is required to take. The test is set approximately at a
+
+Context of the Study                                             B1 level and comprises tasks in the areas of listening, read-
+                                                                 ing and use of English. This test is only graded pass or fail.
+                                                                 The rest of the exam is currently administered by the school.
+The study focuses on the secondary/high-school leaving           The law stipulates that there has to be a writing task with an
+exam in the Czech Republic called maturitní zkouška or matu-     output of min. 200 words, and that the speaking part (which
+rita, for short. The scope has been narrowed down to gram-       carries 60 % of the mark) should take max. 15 minutes. 20-
+mar schools that are academically oriented (gymnasium)           30     topics are to be prepared by the school for the purposes
+and aim to prepare their students to study at a university.      of the speaking exam and a student chooses one of them at
+This excludes a field-specific orientation of the final exam,    random. The speaking exam can be divided into more parts
+which is often the case with other more vocation-oriented        (monologic, dialogic, with/without visual aids etc.) as long
+secondary schools. When taking the exam, students are 18-        as these are confined to the selected topic. For the gymna-
+19 years old, and they have completed nine years of manda-       sium school type, the target level for these two parts is B2.
+tory primary education and four years of grammar school.         The writing as well as the speaking sections are designed by
+For the exam, four subjects are typically chosen by every        teachers, which means that both the form and the content
+student, with Czech language being compulsory for every-         of the examination may differ across schools.
+one. Presently (2024), students further have to opt for either
+Mathematics or a foreign language. They choose the two re-       Research Questions
+maining subjects based on their interests.
+                                                                 The prevalence of a cognitive, knowledge-based approach
+Both the educational content and the educational goals of        to culture is often mentioned in various studies (see above),
+secondary education, and by extension the corresponding          but mostly no reference is made to any data supporting the
+final exams, are regulated by the Framework Education Pro-       view that this is indeed a common practice. Very little is also
+gramme (MEYS, 2021). Much like the Common European               known about the national assessment policies with respect
+Framework of Reference for Languages (CEFR), this curric-        to ICC despite the number of students affected. Therefore,
+ular document specifies what a successful student should         a quantitative account of what is assessed is needed. The
+be able to do. Apart from this, it also provides information     following research questions have been formulated:
+on the content to be covered during the four years of study.
+While cultural content is indeed mentioned as one of many        RQ 1:   To what extent are  knowledge-oriented          cultur-
+areas to be addressed, it is not part of any of the expected             al topics represented in the speaking part of the
+learning outcomes listed. Instead, the following references              Czech maturita exam?
+to ICC can, among other things, be found as the goal of the
+area of language and communication:                              RQ 2:   How knowledge-oriented are the materials that
+                                                                         help students prepare for the Czech maturita exam?
+(1)   mastering the basic rules of interpersonal communi-
+      cation in a given cultural environment and respecting      Data Collection
+      them;
+(2)   forming a general overview of the social and historical    In order to answer the first question, I examined the lists of
+      development of human society, which aids in learning       topics for individual schools. In December 2022, I accessed
+      respect and tolerance for the different cultural values    the websites of 250 Czech grammar schools and succeeded
+      of various language communities²                           in finding the lists in 206 cases. This was deemed represen-
+                                                                 tative enough given that there were 355 such schools in the
+In line with Fantini’s (2009) plea for the alignment of educa-   country. Thus, approximately 58 per cent are covered with
+tion goals, their implementation, and assessment, it seems       proportional representation across all regions. If the school
+sensible that the overarching goals (competence acquisi-         had different streams (general, CLIL, bilingual), which also
+tion) as well as the expected outcomes should also be the        happened to differ with respect to the exam topics, the list
+object of assessment.                                            for the general stream was taken. I tallied the topics for each
+                                                                 school and determined how many of them were focused on
+As for the final exam itself, it is divided into the so-called   specific cultural topics, which are commonly associated with
+state and profile part. For English (or any other foreign lan-   the necessity to memorise facts. These topics included for
+guage), this means that the state is responsible for creating    example the UK, the USA, Commonwealth countries, British lit-
+
+
+2   MEYS - The Ministry of Education, Youth and Sports [Ministerstvo školství, mládeže a tělovýchovy České republiky]. (2021). Framework
+    education programme for secondary general education (grammar schools) [Rámcový vzdělávací program pro gymnázia]. Retrieved
+    from edu.cz: https://www.edu.cz/rvp-ramcove-vzdelavaci-programy/ramcove-vzdelavaci-programy-pro-gymnazia-rvp-g/
+
+
+102                                                                      +-& | 7PM 11 | /P 3 | 2025
+
+ASSESSMENT OF CULTURE IN HIGH-STAKES TESTS    | Research Papers
+
+
+
+   erature, Czech Republic, Prague etc. To control for the vari-   Analytical Framework and Procedures
+     ety in the number of topics, the percentage of these topics
+          was counted for each school. Some schools had made the   I searched the publications for cultural topics that appeared
+     corresponding materials publicly available, which I used to   in at least three of them. Five such topics were identified: the
+confirm that the content was indeed knowledge-oriented.            United States of America, the United Kingdom, the Czech Re-
+                                                                   public, (other) English-speaking countries, and literature (of
+       Although the first research question already provides in-   the English-speaking countries). These topics were chosen
+   sights into the exam focus, I also decided to analyse the ma-   because they directly reference specific cultural contexts,
+    terials marketed as preparatory for the Czech maturita exam.   making it easier to reliably identify cultural content – even
+          Not only are these commonly used by and recommended to   if it is implicit. Broader categories, such as education or
+     students, but they are also often utilised as supplementary   technology could indeed involve cultural aspects, but these
+   materials in schools. Unlike traditional textbooks, these ma-   vary greatly in emphasis and would require subjective in-
+      terials are structured specifically around commonly tested   terpretation to confirm their cultural relevance. By focusing
+   topics, prioritising certain language aspects (mainly vocabu-   on topics tied to distinct cultural settings, this approach en-
+lary) while neglecting others (such as grammar).                   sures consistency in identifying culturally relevant material.
+                                                                   Using Larzén’s (2005) typology outlined above, I aimed to
+    Several criteria were used to guide the selection of the ma-   establish how much of the text on the corresponding pages
+  turita preparation books. First, only materials explicitly de-   is related to factual knowledge (Pedagogy of Information),
+         signed and marketed as dedicated exam-preparation tools   skills (Pedagogy of Preparation), and the bi-directional per-
+        were included. While there are other books with the word   spective (Pedagogy of Encounter). After initial probing, look-
+      maturita in the title, many of these function primarily as   ing for the last two categories seemed a moot point, as no
+        comprehensive coursebooks with only a subset of exercis-   such instances were present. This conclusion was confirmed
+   es linked to the exam. Such titles were excluded, since their   by two colleagues specialising in applied linguistics and ELT
+    primary aim is general language instruction rather than sys-   methodology.
+       tematic exam preparation. By contrast, the selected books
+       (published in 2005, 2008, 2014, and 2020) were explicitly   With Pedagogy of Information being the dominant concep-
+      designed as exam-focused materials, and their distribution   tion in the materials, I instead turned my attention to the
+     across different publication years makes it possible to ob-   nature of factual knowledge; Larzén (2005) offers four sub-
+         serve developments in how maturita preparation has been   categories:
+       approached over time. Second, the chosen titles represent
+        the main publishers active on the Czech market, ensuring   (1)   realia
+     coverage of the principal options available to teachers and   (2)   cultural products
+    learners. Third, they are regularly recommended on the offi-   (3)   traditions and ways of life
+  cial websites of surveyed schools, appear in school libraries,   (4)   modes of thought
+    and are cited in lists of required or supplementary reading,
+     which demonstrates their adoption in practice. Finally, the   Realia refers to “facts about the history, geography, religion
+       limited number of specialized publications means that the   and political conditions of the English-speaking countries”
+   list presented here covers the key materials available at the   (p. 103). The second category is represented by art, litera-
+      time of data collection and can thus be regarded as repre-   ture, film and music associated with the English-speaking
+ sentative. A limitation of this selection is that newer materi-   world. Examples of the third category include, for example
+   als published after the period of data collection may not yet   Christmas, Easter, and Halloween but also practices related
+        have been widely adopted and therefore are not included.   to family life, work life, and leisure. Lastly, modes of thought
+The following four books were included:                            “can be described in terms of the values, norms and beliefs
+                                                                   underlying the way people live and act” (p. 105). The instanc-
+Book 1:   Mrákota, J. (2005). Maturitní otázky z angličtiny [Ma-   es in these categories were counted for each book and topic.
+        turita questions for English]. Jiří Mrákota – vydavatel-   The counting proved challenging because there was rarely
+        ství jazykové literatury.                                  a one-to-one correspondence between a sentence and an
+Book 2:    Smith-Dluhá, G. (2008). Angličtina - otázky a odpově-   idea. As I did not want to artificially inflate the numbers, I ap-
+            di nejen k maturitě [ English – question and answers   proached the counting relatively conservatively and decided
+        not just for maturita]. Infoa.                             to err on the side of caution; as shown in c) below, longer
+Book 3:      El-Hmoudová, D. (2014). Angličtina - edice Maturita   lists of items were counted as only two pieces of informa-
+        [English – the maturita edition]. Vyuka.cz.                tion. A couple of examples:
+Book 4:        Baláková, L., Baron, U., Hamzová, A., Knápek, J.,
+           Pešková, D. (2020) Maturita z anglického jazyka – Ma-   (a)   Canterbury: The spiritual centre of the Church of En-
+          turitní témata [Maturita in the English language – ma-         gland, the Cathedral was built between 1000s and the
+        turita topics]. Didaktis.                                        early 1500s. It was the destination of travellers in The
+                                                                         Canterbury tales by Geoffrey Chaucer.
+
+
++LE ] 7ol  ] No  ]                                                      103
+
+Tomáš Mach    | Research Papers
+
+
+     i.           The spiritual centre of the Church of England was   ple of texts and refined through discussion. A coding guide
+           the Cathedral.                                             was created to ensure consistent application of Larzén’s
+     ii.         The Cathedral was built between 1000s and the ear-   categories across the full dataset. To further validate the
+           ly 1500s                                                   approach, approximately 20 % of the textbook content was
+     iii.    It was the destination of travellers in The Canterbury   independently coded by one of the two colleagues. Coding
+           tales by Geoffrey Chaucer.                                 decisions were then compared, and differences in interpre-
+                                          (3 pieces of information)   tation were discussed until consensus was reached. While
+                                                                      formal intercoder reliability statistics were not calculated,
+(b)  Legislature:     Congress consists  of     two     houses: the   this process of double coding and negotiation helped to
+              100-member Senate, elected for a term of 6 years; the   reduce subjectivity and clarify ambiguous cases. Although
+                 435-member House of Representatives, elected for a   some discrepancies emerged, these were mostly limited to
+     term of 2 years.                                                 the precise quantification of realia. For example, one coder
+                                                                      counted 85 instances, while the other counted 93, for the
+           i.     Congress consists of two houses.                    USA topic in Book 1. In a few cases, the colleague also ex-
+           ii.    The Senate has 100 members.                         pressed scepticism about whether examples from the other
+           iii.   Senators are elected for a term of 6 years.         three subcategories were present at all.
+           iv.            The House of Representatives has 435 mem-
+                  bers.                                               Even though the quantitative approach taken here allows
+           v.            Th Members of the House of Representatives   for a systematic scrutiny of the cultural content in exam top-
+                  are elected for a term of 2 years.                  ics and preparatory materials, it cannot capture how teach-
+                                                                      ers interpret or implement the materials in practice. The
+                                          (3 pieces of information)   study as such does not endeavour to account for classroom
+                                                                      dynamics or teacher perspectives, which could add more
+(c)            Important products: Agriculture – wool, beef, cattle   context and depth. These aspects are further discussed in
+               horse breeding, potatoes, barley, sugar beet, wheat,   Section 5.5.
+     oats.
+
+    i.     [a list of words or short phrases]                         RESULTS
+
+                                          (2 pieces of information)   Cultural Topics Account for About Half of the
+
+Reliability and Validation                                            Final Exam
+
+In order to enhance the reliability of the categorisation pro-        Figure 1 below shows the relative proportion of cultural top-
+          cess, the coding scheme was first piloted on a small sam-   ics in the final exam across Czech grammar schools.
+
+Figure 1
+Proportion of Cultural Topics in the Final Exam in Czech Grammar Schools (n=206)
+
+
+
+
+
+
+
+
+
+
+104                                                                   +-& | 7PM 11 | /P 3 | 2025
+
+ASSESSMENT OF CULTURE IN HIGH-STAKES TESTS    | Research Papers
+
+
+
+The mean proportion of cultural topics was 52.33% (SD =           historical style. The following excerpt from Book 3 is a case
+22.45), with a median of 50%. This indicates that, on aver-       in point:
+age, approximately half of the final speaking exam topics              Much American writing in the 1600s and 1700s focused on
+are cultural in nature. However, substantial variation was             religious issues linked to the challenges of such life. During
+observed between schools. Some institutions included only              the 1700s some writers turned to political issues. Essays like
+culture-focused topics such as The Politics of Australia, New          Thomas Paine’s pamphlet Common Sense (1776) encouraged
+Zealand, and Canada, American Literature after Romanticism,            Americans to seek independence from Britain. (Book 3)
+US Political System, or Early History of the USA. In contrast,    This pattern of presentation was consistent across the ma-
+other schools included few or no explicitly cultural topics in    terials surveyed.
+their final exams, or integrated cultural content more implic-
+itly within broader themes.                                       DISCUSSION
+
+A Kruskal-Wallis test was conducted to examine whether the
+proportion of cultural content in final exams differed across     The results paint a clear picture: on average, approximate-
+the 14 Czech regions. The test indicated no significant dif-      ly half of the final exam topics in Czech grammar schools
+ferences (H = 13.06, df = 13, p = 0.443; adjusted for ties: H =   explicitly test cultural content. This cultural component,
+13.10, p = 0.440), suggesting that regional variation in exam     though     nominally aligned with communicative goals,     is
+content is negligible. Although the median proportions var-       overwhelmingly factual in nature. The preparatory materi-
+ied slightly between regions (from 35% to 59%), these differ-     als reinforce this pattern, focusing heavily on realia such as
+ences were not statistically significant.                         political systems, historical events, and biographical details
+                                                                  about authors. Literature, which might be expected to of-
+Cultural Content in Preparatory Materials Is                      fer more affective cultural engagement, is presented almost
+Predominantly Factual and Realia-Based                            entirely through factual summaries.
+Table 2 below presents the frequency of cultural content in       The findings also invite reflection on the theoretical frame-
+four commonly used preparatory books, categorised by top-         work guiding the analysis. Larzén’s (2005) typology was
+ic.                                                               originally developed to categorise teachers’ conceptions
+                                                                  of ICC. While the typology offers valuable conceptual clar-
+In this table, the “realia” category includes factual content     ity regarding different pedagogical orientations (cognitive,
+related to history, politics, geography, and culture. The re-     action, and affective), it was not designed with direct cate-
+maining categories of cultural products, traditions and ways      gorisation of assessment artefacts in mind. It follows from
+of life, and modes of thought are grouped under “other”           this that applying the model to exam tasks and textbooks in-
+due to their low frequency. For example, cultural content         volved inference. Furthermore, in practice, elements of dif-
+related to literature was typically presented in a factual or     ferent orientations may often appear in blended forms, even
+Table 2
+Amount of Information about Culture in Preparatory Materials for the Final Exam
+
+               USA        UK                                           CR  English-speaking countries  Literature
+ Book 1
+       realia   93    109                                         134                  91                 116
+       other    0      0                                          0                    1                   0
+ Book 2
+       realia  190    265                                         110                 166                 160
+       other      0    0                                          0                    0                   0
+ Book 3
+       realia  163    104                                         192                 130                  80
+       other    4      7                                               11        11                        4
+ Book 4
+       realia  150    152                                         178                 111                  -
+       other    3      8                                          6                    0                   -
+
+
+
+
++LE ] 7ol  ] No  ]                                                    105
+
+Tomáš Mach    | Research Papers
+
+
+within individual tasks, although this was rarely the case in      Limitations
+the data. Acknowledging this hybridity offers a potential re-
+finement of the typology as it underscores the need to move        The limitations of the study stem mainly from the sampling.
+beyond ideal-type distinctions and at the same time consid-        First, the study focuses exclusively on the situation in the
+er how educators’ conceptions may co-exist, interact, and          Czech Republic and, although the discovered tendencies
+shape real-world educational materials. Overall, Larzén’s          may be similar to those in other countries, the results can-
+typology provides a useful lens for analysis. Its use here si-     not be generalised. Second, the study was narrowed down
+multaneously points to the need for caution when applying          to gymnasium-type schools (secondary/further education),
+belief-oriented models to real-life educational materials, es-     which are academically oriented and do not offer vocation-
+pecially when these may further be shaped by institutional         al specialisations. For other schools, the level and format of
+pressures and constraints, which the individual-driven mod-        the final exam differ; specifically, the exam topics must re-
+el can account for only to a limited extent.                       flect the particular focus of the programme (business, gas-
+                                                                   tronomy, construction, etc.).
+The findings overall corroborate Scarino’s (2017) observa-
+tion that culture in language teaching is still often treated as   Equally important is the fact that this study relies solely on
+a repository of specific and factual knowledge. They also ex-      document analysis, specifically exam topics and preparato-
+tend Zerzová’s (2012) work by showing that such tendencies         ry materials. While this method is effective for identifying
+persist well beyond lower secondary education and are now          what is being assessed and how, it does not provide insight
+structurally embedded at multiple levels of the Czech school       into why teachers and schools design their assessment in
+system. Decke-Cornill’s (2003) account of similar patterns in      these ways. The absence of qualitative data, such as teacher
+other countries adds further weight to the claim that this         interviews or classroom observations, limits the interpreta-
+is not merely a local anomaly but part of a broader issue in       tive depth of the findings and makes it difficult to fully un-
+how language education conceives of and assesses culture.          derstand the beliefs, constraints, or institutional pressures
+                                                                   that may influence assessment practices. To address this,
+The internal variation between schools is notable. Some in-        a qualitative follow-up study would be beneficial. Investi-
+stitutions test almost exclusively knowledge-based content         gating teachers’ motivations and conceptions of culture
+(e.g., “US political system,” “American literature after Ro-       and assessment through interviews, focus groups, or class-
+manticism”), while others appear to downplay or even avoid         room-based research could enrich the present findings and
+such tasks    altogether. This inconsistency    suggests that      provide a stronger foundation for possible interventions. By
+teacher beliefs and institutional culture may play a larger        understanding the rationale behind current practices, the
+role than formal curricula, a possibility that deserves further    chances of meaningful change and alignment with ICC-in-
+inquiry.                                                           formed assessment principles could increase.
+
+Implications                                                       CONCLUSION
+
+It is remarkable – and troubling at the same time – that such
+practices persist in high-stakes exit examinations, where          With intercultural communicative competence (ICC) becom-
+one would expect adherence to research-based standards in          ing increasingly central in English language teaching (ELT),
+assessment and ICC. Despite Scarino’s (2017) argument that         there is a need to consider how its development is reflected
+“teachers’ assessment practices are heavily constrained by         in assessment practices. This study analysed the final exam
+the requirements of the education systems in which they            topics of 206 Czech grammar schools, alongside the cultural
+work” (p. 27), the Ministry’s curricular documents do in fact      content found in preparatory materials. The findings con-
+allow for considerable teacher autonomy, offering guide-           firm what many earlier studies have suggested anecdotally:
+lines rather than prescriptive rules. Yet this flexibility ap-     the pedagogical focus on factual knowledge remains domi-
+pears underutilised. Rather than capitalise on this space for      nant. Despite the rhetoric of communicative and intercultur-
+pedagogical innovation, many teachers continue to rely on          al aims in curricular documents, there is still approximately a
+traditional, information-heavy approaches, perhaps out of          50:50 chance that the most consequential component of the
+inertia, or perhaps due to deeper institutional pressures.         final exam – its speaking part – will assess students’ factual
+                                                                   knowledge about an English-speaking country, rather than
+The implications are serious. A narrow interpretation of           their ability to communicate meaningfully across cultures.
+culture undermines not just the spirit of ICC but – perhaps
+more importantly – the validity, reliability, and authentici-      This tendency is mirrored in the preparatory materials. Four
+ty of the final exam itself. If (intercultural) communicative      widely used books were analysed, and their content was
+competence is to be meaningfully assessed, then culture            found to rely almost exclusively on factual, country-specific
+must be approached not as inert content but as something           knowledge. Literature, for instance, was largely presented
+to be interpreted, negotiated, and situated in real-world in-      through historical summaries and biographical detail rath-
+teraction.                                                         er than through interpretive engagement. These findings
+
+
+106                                                                +-& | 7PM 11 | /P 3 | 2025
+
+ASSESSMENT OF CULTURE IN HIGH-STAKES TESTS    | Research Papers
+
+
+
+suggest that the testing of culture rests on a narrow and           Teacher educators play a crucial role in shaping future
+static conception of knowledge, effectively leaving ICC out         teachers’ conceptualisations  of culture and       assessment.
+of assessment. This has two significant consequences for            They should prioritise critical engagement with culture and
+assessment quality. First, it undermines construct validity: if     equip their students with the skills to assess ICC meaning-
+the intended construct is intercultural communicative com-          fully.
+petence, then tests that reward factual recall misrepresent
+what they purport to assess. Second, it creates problemat-          While this study focuses on the Czech Republic, the challeng-
+ic washback effects. When high-stakes exams emphasise               es identified extend to other European countries, as docu-
+memorisation, teachers and learners are likely to prioritise        mented in prior research from Germany, Finland, Spain, for
+factual knowledge over communicative and intercultural              instance. What sets this study apart is its large-scale empir-
+skills in the classroom, regardless of curricular intentions.       ical evidence base, demonstrating the dominance of factual
+                                                                    cultural knowledge in both high-stakes testing and prepara-
+The results  carry     the following implications for        dif-   tory materials. The Czech case thus serves as both a caution-
+ferent     stakeholders  in the educational            landscape:   ary example and a point of reflection for other systems that
+Teachers should critically reflect on the content and meth-         strive to genuinely embed ICC.
+ods they use for assessment. In high-stakes tests, they
+should avoid rote memorisation of cultural knowledge and            Future research should focus on understanding the inter-
+instead aim to assess students’ communicative abilities in          play of factors that influence the assessment of intercultur-
+diverse contexts.                                                   al communicative competence. As these are likely to differ
+                                                                    across countries, data from other educational contexts and
+Textbook authors and material designers are in a position to        comparative studies across different countries could high-
+re-introduce ICC into preparatory materials. Moving beyond          light shared obstacles and/or provide examples effective
+encyclopaedic content, they can develop resources that fos-         practices. Such work is essential to guide the development
+ter intercultural awareness, empathy, and negotiation skills        of policy, teacher education, and instructional materials that
+through open-ended questions, critical comparisons, and             support ICC in language assessment, while upholding con-
+situated dialogues.                                                 struct validity and reducing harmful washback.
+
+Policy-makers and national exam designers must ensure co-           DECLARATION OF COMPETING INTEREST
+herence between curricular documents and actual assess-
+ment.
+                                                                    None declared.
+
+REFERENCES
+
+Baker,   W.     (2009).  The cultures of    English   as     a      lingua    franca. TESOL     Quarterly,   43(4),       567-592.
+ http://dx.doi.org/10.1002/j.1545-7249.2009.tb00187.x
+Baker, W. (2022). From intercultural to transcultural communication. Language and Intercultural Communication, 22(3), 280-293.
+ http://dx.doi.org/10.1080/14708477.2021.2001477
+Bayyurt, Y. (2006). Non-native English language teachers’ perspective on culture in English as a Foreign Language classrooms.
+ Teacher Development, 10(2), 233-247. http://dx.doi.org/10.1080/13664530600773366
+Borghetti, C. (2017). Is there really a need for assessing intercultural competence? Some ethical issues.Journal of Intercultural
+ Communication, 17(2), 1-15. http://dx.doi.org/10.36923/jicc.v17i2.736
+Byram, M. (1997). Teaching and assessing intercultural communicative competence. Multilingual matters.
+Byram, M. (2014). Twenty-five years on – from cultural studies to intercultural citizenship. Language, Culture and Curriculum,
+ 27(3), 209-225. http://dx.doi.org/10.1080/07908318.2014.974329
+Byrd, D., Cummings, A. H., Watzke, J., & Montes, M. F. (2011). An examination of culture knowledge: A study of L2 teachers’ and
+ teacher educators’ beliefs and practices. Foreign Language Annals, 44(1), 4-39.
+Canale, G. (2016). (Re)Searching culture in foreign language textbooks, or the politics of hide and seek.Culture and Curriculum,
+ 29(2), 225-243. http://dx.doi.org/10.1080/07908318.2016.1144764
+Deardorff, D. K. (2009). Implementing intercultural competence assessment. In D. K. Deardorff (Ed.), The SAGE handbook of
+ intercultural competence (pp. 477-491). SAGE. http://dx.doi.org/10.4135/9781071872987
+Decke-Cornill, H. (2003). ‘We would have to invent the language we are supposed to teach’: The issue of English as lingua fran-
+ ca in language education in Germany. In M. Byram & P. Grundy (Eds.), Context and culture in language teaching and learning
+ (pp. 59-71). Multilingual matters.
+
+
++LE ] 7ol  ] No  ]                                                 107
+
+Tomáš Mach    | Research Papers
+
+
+Driscoll, P., Earl, J., & Cable, C. (2013). The role and nature of the cultural dimension in primary modern languages.Language
+ Culture and Curriculum, 26(2), 146-160. https://doi.org/10.1080/07908318.2013.799675
+Fantini, A. E. (2009). Assessing intercultural competence: Issues and tools. In D. K. Deardorff,The SAGE Handbook of Intercultural
+ Competence (pp. 456-476). SAGE.
+Forman, R. (2014). How local teachers respond to the culture and language of a global English as a Foreign Language textbook.
+ Language, Culture and Curriculum, 27(1), 72-88. http://dx.doi.org/10.1080/07908318.2013.868473
+Gu, X., & Zhao, Y. (2021). Integration of Teaching and Assessing Intercultural Communicative Competence. Chinese Journal of
+ Applied Linguistics, 44(2), 241–258. https://doi.org/10.1515/CJAL-2021-0014
+Jenkins, J., & Leung, C. (2017). Assessing English as a lingua franca. In E. Shohamy, I. G. Or & S. May (Eds.),Language testing and
+ assessment (pp. 103-117). Springer.
+Johnson, G., & Rinvolucri, M. (2010). Culture in our classrooms: Teaching language through cultural content. Delta publishing.
+Ke, I.-C. (2018). Has English been increasingly tested as an international language? Evidence from 1956–2016. Language,
+ Culture and Curriculum, 32(2), 191-206. http://dx.doi.org/10.1080/07908318.2018.1512609
+Kramsch,   C. (1995). The  cultural component  of   language   teaching.   Language,    Culture and Curriculum,    8(2),     83-92.
+ http://dx.doi.org/10.1080/07908319509525192
+Larzén, E.  (2005). In pursuit of an  intercultural dimension in EFL-teaching: Exploring  cognitions    among       Finland-Swedish
+ comprehensive school teachers. Åbo akademi university press.
+Lee, K.-Y. (2009). Treating culture: What 11 high school EFL conversation textbooks in South Korea do.English Teaching: Practice
+ and Critique, 8(1), 76-96.
+Liddicoat, A., & Scarino, A. (2010). Eliciting the intercultural in foreign language education at school. In A. Paran & L. Sercu
+ (Eds.), Testing the untestable in language education (pp. 52-73). Multilingual matters.
+Liddicoat, A., & Scarino, A. (2012). Assessing intercultural language learning. In J. Jackson (Ed.), The Routledge handbook of
+ language and intercultural communication (pp. 123-142). Routledge.
+Liu, K.-L. (2021). Teaching and Assessing Intercultural Communicative Competence (ICC): Experience with Student-Authored
+ Critical Incidents. Taiwan Journal of TESOL, 18(1), 1–27. https://doi.org/10.30397/TJTESOL.202104_18(1).0001
+Llosa, L. (2017). Assessing students’ content knowledge and language proficiency. In E. Shohamy, I. G. Or & S. May,Language
+ testing and assessment (pp. 3-14). Springer.
+Llurda, E., & Calvet-Terré, J. (2022). Native-speakerism and non-native second language teachers: A research agenda.Language
+ Teaching, 57(2), 229-245. https://doi.org/10.1017/S0261444822000271
+McIntyre, D. (2005). Bridging the gap between research and practice. Cambridge Journal of Education,     35(3), 357-382.
+ http://dx.doi.org/10.1080/03057640500319065
+McNamara, T. (2000). Language testing. Oxford University Press.
+Murphy, E. (1988). The cultural dimension in foreign language teaching: Four models. Language, Culture and Curriculum, 1(2),
+ 147-163. http://dx.doi.org/10.1080/07908318809525033
+Paige, M. R., Jorstad, H., Siaya, L., Klein, F., & Colby, J. (1999). Culture learning in language education: A review of the literature.
+ In R. M. Paige, D. L. Lange & Y. A. Yeshova, Culture as the Core: Integrating Culture into the Language Curriculum (pp. 47-113).
+ University of Minnesota.
+Rodríguez, A. R., & Espinar, Á. M. (2015). General and specific culture learning in EFL textbooks aimed at adult learners in Spain.
+ Studia Anglica Posnaniensia, 50(1), 5-25.
+Safa, M.    A.,  &  Tofighi, S.   (2021). Intercultural communicative      competence    beliefs  and practices    of        Irani-
+ an     pre-service and in-service    EFL teachers. Innovation   in Language     Learning    and   Teaching,  16(2),       164–175.
+ https://doi.org/10.1080/17501229.2021.1889562
+Scarino, A.  (2010).  THE  ISSUE:   Assessing  intercultural capability in  learning    languages: A renewed            understand-
+ ing    of  language,  culture, learning, and  the  nature of assessment.   The  Modern Language     Journal,     94(1),   324-329.
+ http://dx.doi.org/10.1111/j.1540-4781.2010.01023.x
+Scarino, A. (2017). Culture and language assessment. In E. Shohamy, I. G. Or & S. May (Eds.), Language testing and assessment
+ (pp. 15-32). Springer.
+Seidlhofer, B. (2005). English as a lingua franca. ELT Journal, 59(4), 339-341. https://doi.org/110.1093/elt/cci064
+Sercu, L. (2002). Autonomous learning and the acquisition of intercultural communicative competence: Some implications for
+ course development. Language, Culture and Curriculum, 15(1), 61-74. http://dx.doi.org/10.1080/07908310208666633
+
+
+
+108                                                                                     +-& | 7PM 11 | /P 3 | 2025
+
+ASSESSMENT OF CULTURE IN HIGH-STAKES TESTS    | Research Papers
+
+
+
+Sercu, L. (2004). Assessing intercultural competence: A framework for systematic test development in foreign language
+ education and beyond. Intercultural Education, 15(1), 73-89. http://dx.doi.org/10.1080/1467598042000190004
+Sercu, L. (2010). Assessing intercultural competence: More questions than answers. In A. Paran & L. Sercu (Eds.), Testing the
+ untestable in language education (pp. 17-34). Multilingual Matters.
+Shin, J., Eslami, Z. R., & Chen, W.-C. (2011). Presentation of local and international culture in current international English-
+ language       teaching   textbooks.     Language,     Culture        and     Curriculum,            24(3),                  253-268.
+ http://dx.doi.org/10.1080/07908318.2011.614694
+Schauer, G. A. (2020). Measuring intercultural competence. In P. Winke & T. Brunfaut (Eds.), The Routledge handbook of second
+ language acquisition and language testing (pp. 359-370). Routledge.
+Vanderlinde, R., & van Braak, J. (2010). The gap between educational research and practice: Views of teachers, school leaders,
+ intermediaries      and   researchers.      British       Education   Research     Journal,          36(2),                  299-316.
+ http://dx.doi.org/10.1080/01411920902919257
+Weir, C. J. (2005). Testing as validity. In C. J. Weir, Language testing and validation: An evidence-based approach (pp. 1-40).
+ Palgrave Macmillan.
+Zerzová, J. (2012). Interkulturní komunikativní kompetence a její rozvíjení v hodinách anglického jazyka na 2. stupni ZŠ[Intercultural
+ communicative competence and its development in Czech lower-secondary English classes]. Munipress.
+Zotzmann, K. (2015). The  impossibility of defining and    measuring  intercultural competencies.  In D. J.  Rivers             (Ed.),
+ Resistance  to  the known: Counter-conduct       in  language     education (pp.   168-191).      Palgrave                 Macmillan.
+ http://dx.doi.org/10.1057/9781137345196_8
+
+ANALYSED TEXTBOOKS
+
+Baláková, L., Baron, U., Hamzová, A., Knápek, J., Pešková, D. (2020)Maturita z anglického jazyka – Maturitní témata [Maturita in
+ the English language – maturita topics]. Didaktis.
+El-Hmoudová, D. (2014). Angličtina - edice Maturita [English – the maturita edition]. Vyuka.cz.
+Mrákota, J. (2005). Maturitní otázky z angličtiny [Maturita questions for English]. Jiří Mrákota – vydavatelství jazykové literatury.
+Smith-Dluhá, G. (2008). Angličtina - otázky a odpovědi nejen k maturitě [English – question and answers not just for maturita].
+ Infoa.
+
+
+
+
+
+
+
+
+
+
++LE ] 7ol  ] No  ]                                                                                109

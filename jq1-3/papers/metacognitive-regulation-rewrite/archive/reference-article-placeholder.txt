@@ -1,0 +1,11 @@
+PLACEHOLDER FILE
+
+Replace this file with your target/reference article.
+
+Recommended replacement path:
+- papers/metacognitive-regulation-rewrite/reference-article.pdf
+
+Or, if you want to keep this placeholder and add the real file separately, place your file here:
+- papers/metacognitive-regulation-rewrite/
+
+After replacing or adding the real file, tell me the exact filename.

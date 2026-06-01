@@ -1,0 +1,41 @@
+student_id,session,reflection_text,theme_code,theme_label
+S01,2,Senang bisa bicara bahasa Inggris.,EV,general_evaluation
+S01,4,I planned my intro before I started.,PL,planning_awareness
+S01,6,Saya berhenti sejenak untuk memikirkan kata yang benar.,MN,monitoring_awareness
+S01,8,I feel more confident when I use the reflection prompts.,RF,reflective_evaluation
+S02,2,Senang bisa bicara bahasa Inggris.,EV,general_evaluation
+S02,4,I listed the key points in my head.,PL,planning_awareness
+S02,6,I corrected my grammar while speaking.,MN,monitoring_awareness
+S02,8,I feel more confident when I use the reflection prompts.,RF,reflective_evaluation
+S03,2,I enjoyed the video.,EV,general_evaluation
+S03,4,I prepared my ideas using the digital prompt.,PL,planning_awareness
+S03,6,Saya berhenti sejenak untuk memikirkan kata yang benar.,MN,monitoring_awareness
+S03,8,I need to work on my eye contact later.,RF,reflective_evaluation
+S04,2,I like the activity.,EV,general_evaluation
+S04,4,I planned my intro before I started.,PL,planning_awareness
+S04,6,I noticed I forgot a point and went back to it.,MN,monitoring_awareness
+S04,8,Refleksi tadi membantu saya tahu kekurangan saya.,RF,reflective_evaluation
+S05,2,I like the activity.,EV,general_evaluation
+S05,4,I prepared my ideas using the digital prompt.,PL,planning_awareness
+S05,6,I stopped and tried again because it was not clear.,MN,monitoring_awareness
+S05,8,I need to work on my eye contact later.,RF,reflective_evaluation
+S06,2,Senang bisa bicara bahasa Inggris.,EV,general_evaluation
+S06,4,I prepared my ideas using the digital prompt.,PL,planning_awareness
+S06,6,Saya berhenti sejenak untuk memikirkan kata yang benar.,MN,monitoring_awareness
+S06,8,I think I did better than last time because I planned.,RF,reflective_evaluation
+S07,2,Senang bisa bicara bahasa Inggris.,EV,general_evaluation
+S07,4,I thought about what I wanted to say first.,PL,planning_awareness
+S07,6,I realized I was speaking too fast and slowed down.,MN,monitoring_awareness
+S07,8,I feel more confident when I use the reflection prompts.,RF,reflective_evaluation
+S08,2,I enjoyed the video.,EV,general_evaluation
+S08,4,I listed the key points in my head.,PL,planning_awareness
+S08,6,I stopped and tried again because it was not clear.,MN,monitoring_awareness
+S08,8,Refleksi tadi membantu saya tahu kekurangan saya.,RF,reflective_evaluation
+S09,2,It was fun.,EV,general_evaluation
+S09,4,Saya merencanakan apa yang mau diucapkan dulu.,PL,planning_awareness
+S09,6,Saya berhenti sejenak untuk memikirkan kata yang benar.,MN,monitoring_awareness
+S09,8,Next time I will explain more slowly.,RF,reflective_evaluation
+S10,2,I like the activity.,EV,general_evaluation
+S10,4,I prepared my ideas using the digital prompt.,PL,planning_awareness
+S10,6,I realized I was speaking too fast and slowed down.,MN,monitoring_awareness
+S10,8,Next time I will explain more slowly.,RF,reflective_evaluation
