@@ -1,13 +1,13 @@
-no,tema,subtema,kode_mahasiswa,kutipan,tanggal_wawancara,catatan_analisis
-1,Peningkatan Kesadaran Metakognitif,Kesadaran strategi berbicara,MHS_03,"[kutipan wawancara mahasiswa 3]",[tanggal],Menggambarkan peningkatan metacognitive awareness
-2,Peningkatan Kesadaran Metakognitif,Self-monitoring,MHS_09,"[kutipan wawancara mahasiswa 9]",[tanggal],Fitur rekaman mendukung self-monitoring
-3,Peningkatan Kesadaran Metakognitif,Identifikasi kelemahan,MHS_14,"[kutipan wawancara mahasiswa 14]",[tanggal],Mahasiswa mampu mengidentifikasi area perbaikan
-4,Kemudahan Akses dan Fleksibilitas,Belajar mandiri,MHS_07,"[kutipan wawancara mahasiswa 7]",[tanggal],Prinsip microlearning mendukung fleksibilitas
-5,Kemudahan Akses dan Fleksibilitas,Durasi konten,MHS_11,"[kutipan wawancara mahasiswa 11]",[tanggal],Konten singkat tidak membosankan
-6,Peningkatan Kepercayaan Diri,Pengurangan kecemasan,MHS_05,"[kutipan wawancara mahasiswa 5]",[tanggal],Latihan berulang mengurangi kecemasan berbicara
-7,Peningkatan Kepercayaan Diri,Penguasaan materi,MHS_22,"[kutipan wawancara mahasiswa 22]",[tanggal],Teknik Feynman memperdalam pemahaman
-8,Pengorganisasian Ide Terstruktur,Kerangka berpikir,MHS_08,"[kutipan wawancara mahasiswa 8]",[tanggal],Teknik Feynman mendukung regulasi metakognitif
-9,Pengorganisasian Ide Terstruktur,Urutan penyampaian,MHS_19,"[kutipan wawancara mahasiswa 19]",[tanggal],Struktur pembukaan-isi-penutup
-10,Refleksi dan Evaluasi Diri,Fitur playback,MHS_12,"[kutipan wawancara mahasiswa 12]",[tanggal],Fitur perekaman memfasilitasi metacognitive evaluation
-11,Refleksi dan Evaluasi Diri,Perbaikan iteratif,MHS_25,"[kutipan wawancara mahasiswa 25]",[tanggal],Mahasiswa melakukan perbaikan berulang
-12,Refleksi dan Evaluasi Diri,Kesadaran kesalahan,MHS_16,"[kutipan wawancara mahasiswa 16]",[tanggal],Mahasiswa sadar akan kesalahan bahasa
+no,tema,subtema,kode_subjek,nim,nama,kutipan,tanggal_wawancara,catatan_analisis
+1,Peningkatan Kesadaran Metakognitif,Kesadaran strategi berbicara,E03,25210050,Reifa Nazwa Shakira,,,
+2,Peningkatan Kesadaran Metakognitif,Self-monitoring,E09,25210061,Nur Ainun Nadhifah Gumilar,,,
+3,Peningkatan Kesadaran Metakognitif,Identifikasi kelemahan,E14,25210049,Hadi Wikarsa,,,
+4,Kemudahan Akses dan Fleksibilitas,Belajar mandiri,E07,25210073,Nazmi Yulia,,,
+5,Kemudahan Akses dan Fleksibilitas,Durasi konten,E11,25210047,Lismaya Aulia Zakian,,,
+6,Peningkatan Kepercayaan Diri,Pengurangan kecemasan,E05,25210064,Anisha Delaneira Novelianda,,,
+7,Peningkatan Kepercayaan Diri,Penguasaan materi,E22,25210087,Novelia Andara Putri,,,
+8,Pengorganisasian Ide Terstruktur,Kerangka berpikir,E08,25210058,Zahra Bilbina Ramadhani,,,
+9,Pengorganisasian Ide Terstruktur,Urutan penyampaian,E19,25210091,Nurwanti,,,
+10,Refleksi dan Evaluasi Diri,Fitur playback,E12,25210060,Nur Sifa Awaliah,,,
+11,Refleksi dan Evaluasi Diri,Perbaikan iteratif,E25,25210097,Bagus Agri Ramdhani,,,
+12,Refleksi dan Evaluasi Diri,Kesadaran kesalahan,E16,25210016,Risma Ardina,,,

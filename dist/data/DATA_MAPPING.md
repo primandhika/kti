@@ -97,21 +97,21 @@ Gunakan tanda ✅ jika sudah diganti, ❌ jika belum.
 ### Data Kuantitatif
 | No | Tabel di BAB IV | File CSV | Status |
 |----|----------------|----------|--------|
-| 1 | Tabel 4.18 Statistik Deskriptif Keterampilan Berbicara | `data/field_test/keterampilan_berbicara.csv` | ❌ |
-| 2 | Tabel 4.19 Uji Normalitas | Dihitung dari CSV | ❌ |
+| 1 | Tabel 4.18 Statistik Deskriptif Keterampilan Berbicara | `data/field_test/[v]keterampilan_berbicara.csv` | ✅ |
+| 2 | Tabel 4.19 Uji Normalitas | Dihitung dari `[v]keterampilan_berbicara.csv` | ❌ |
 | 3 | Tabel 4.20 Uji Homogenitas | Dihitung dari CSV | ❌ |
 | 4 | Tabel 4.21 Uji Paired Sample T-Test | Dihitung dari CSV | ❌ |
 | 5 | Tabel 4.22 Uji Independent Sample T-Test (Gain Score) | Dihitung dari CSV | ❌ |
 | 6 | Tabel 4.23 Gain Score Per-Aspek Keterampilan Berbicara | Dihitung dari CSV | ❌ |
-| 7 | Tabel 4.24 Statistik Deskriptif Metakognitif | `data/field_test/metakognitif.csv` | ❌ |
-| 8 | Tabel 4.25 Gain Score Per-Dimensi Metakognitif | Dihitung dari CSV | ❌ |
+| 7 | Tabel 4.24 Statistik Deskriptif Metakognitif | `data/field_test/[v]metakognitif.csv` | ✅ |
+| 8 | Tabel 4.25 Gain Score Per-Dimensi Metakognitif | Dihitung dari `[v]metakognitif.csv` | ❌ |
 
 ### Data Kualitatif
 | No | Konten | File CSV / Sumber | Status |
 |----|--------|-------------------|--------|
 | 1 | Kutipan wawancara (12 kutipan, 5 tema) | `data/kualitatif/wawancara.csv` | ❌ |
 | 2 | Data observasi (8 indikator) | `data/kualitatif/observasi.csv` | ❌ |
-| 3 | Tabel 4.26 Respons Mahasiswa Field Test | `data/field_test/respons_mahasiswa.csv` | ❌ |
+| 3 | Tabel 4.26 Respons Mahasiswa Field Test | `data/field_test/[v]respons_mahasiswa.csv` | ✅ |
 
 ### Integrasi (Joint Display)
 | No | Tabel di BAB IV | Sumber | Status |
@@ -128,6 +128,63 @@ Gunakan tanda ✅ jika sudah diganti, ❌ jika belum.
 | 1 | Tabel sintesis validitas-praktikalitas-efektivitas | Tabel 4.28 | ❌ |
 | 2 | Diagram mekanisme kerja intervensi | `[Diagram 4.1: Mekanisme Kerja]` | ❌ |
 | 3 | Diagram model konseptual hasil penelitian | `[Diagram 4.2: Model Konseptual]` | ❌ |
+
+---
+
+## Catatan Pemformatan Data (2 Juni 2026)
+
+### File yang Sudah Diproses dari [SoT]
+| File SoT | Output | Keterangan |
+|---------|--------|------------|
+| `[SoT] pemetaan_kelas.csv` | `QN_pemetaan_kelas.csv` | 40 eksperimen (E01-E40), 37 kontrol (K01-K37) |
+| `[SoT] rekap-pretes-postes.csv` | `field_test/[v]keterampilan_berbicara.csv` | 38 eksperimen + 21 kontrol |
+| `[SoT] angket-metakognitif.csv` | `field_test/[v]metakognitif.csv` | 38 eksperimen + 21 kontrol |
+| `[SoT] angket-media.csv` | `field_test/[v]respons_mahasiswa.csv` | 38 eksperimen + 8 kontrol |
+
+File [SoT] asli telah dipindahkan ke `data/_history/`.
+Script pemformatan tersimpan di `data/_scripts/format_data.py`.
+
+### ⚠️ Temuan Penting: Kelengkapan Data Pre-test
+
+**Keterampilan Berbicara (rekap-pretes-postes):**
+- Eksperimen: 35 mahasiswa punya pre+post (lengkap), 3 post-only
+- Kontrol: **hanya 6 mahasiswa** punya pre+post, 15 post-only, 16 tidak ada data
+- → Paired t-test eksperimen feasible (n=35); kontrol sangat terbatas (n=6)
+
+**Metakognitif (angket):**
+- Eksperimen: **hanya 1 mahasiswa** punya pre+post
+- Kontrol: 6 mahasiswa punya pre+post
+- → **Data pre-test metakognitif hampir tidak ada di platform.**
+  Kemungkinan: pre-test metakognitif dilakukan di luar platform (paper-based)?
+  Perlu konfirmasi apakah ada sumber data pre-test metakognitif yang belum diunggah.
+
+**Angket Media (respons_mahasiswa):**
+- Hanya kelompok eksperimen yang relevan (pengguna Bicaranta): 38 mahasiswa
+- 8 data kontrol ikut mengisi (mungkin dari sesi uji coba)
+
+### Pemetaan Kolom: Template → SoT
+
+**keterampilan_berbicara.csv** (template kolom → SoT kolom):
+| Template | SoT (rekap) | Konstruk |
+|----------|------------|----------|
+| `pre_pengorganisasian` | `Struktur (/15)` | Pengorganisasian ide |
+| `pre_kejelasan` | `Artikulasi (/15)` | Kejelasan artikulasi |
+| `pre_ketepatan` | `Kebahasaan (/15)` | Ketepatan bahasa |
+| `pre_strategi` | `Penyesuaian (/15)` | Strategi penyesuaian |
+| `pre_metakognitif` | `Dampak (/15)` | Penyampaian berdampak |
+| `pre_total` | `Nilai Akhir` | Nilai 0-100 (bukan skor mentah) |
+
+⚠️ Catatan skala: template awal mengasumsikan max 20/aspek; SoT menggunakan max 15/aspek (raw) dinormalisasi ke 0-100.
+
+**metakognitif.csv** (template kolom → SoT kolom):
+| Template | SoT (angket) | Konstruk |
+|----------|-------------|----------|
+| `pre_awareness` | `Planning (/16)` | Perencanaan pra-bicara |
+| `pre_evaluation` | `Evaluation (/16)` | Evaluasi pasca-bicara |
+| `pre_regulation` | `Monitoring (/16)` | Pemantauan selama bicara |
+| `pre_total` | `Total Skor (/64)` | |
+
+⚠️ Kolom `Integratif (/16)` (Teknik Feynman) di SoT tidak ada di template → ditambahkan sebagai kolom extra.
 
 ---
 

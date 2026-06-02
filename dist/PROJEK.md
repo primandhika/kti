@@ -8,6 +8,7 @@
 ## Rujukan
 - akan ada beberapa catatan revisi dari promotor dan kopromotor selaku supervisor yang berkontribusi pada pengembangan disertasi ini. mungkin masukkan mereka akan berbeda atau bahkan membingungkan, tapi cobalah konsultasikan dulu padaku, atau berikan aku pilihan, jika fokusnya mulai kesana-kemari. biar nanti aku yang putuskan
 - selalu bandingkan dengan /reference
+- sebelum merevisi bab apa pun, cek file target terlebih dahulu, buat backup file asli, lalu lakukan revisi menyeluruh setelah membandingkan dengan /reference
 
 ## Menulis
 - pertahankan sistematika struktur, jangan coba mengubah tanpa konsultasi dahulu.
