@@ -1,0 +1,11 @@
+no,indikator,pernyataan,validator_1,validator_2,validator_3
+1,Kejelasan Bahasa,Ketepatan pemilihan kata dalam instruksi,4,4,4
+2,Kejelasan Bahasa,Ketepatan struktur kalimat,3,4,4
+3,Kejelasan Bahasa,Makna kalimat tidak ambigu,4,3,4
+4,Kejelasan Bahasa,Kesesuaian bahasa dengan EYD Edisi V,4,4,3
+5,Kejelasan Bahasa,Kesesuaian bahasa dengan tingkat pemahaman mahasiswa,4,4,4
+6,Kejelasan Bahasa,Bahasa tidak mengandung unsur SARA atau kasar,4,4,4
+7,Kekomunikatifan,Kemudahan pemahaman bahasa dalam modul,4,4,4
+8,Kekomunikatifan,Kejelasan kalimat pada petunjuk penggunaan,4,3,4
+9,Kekomunikatifan,Kejelasan kalimat pada kuis dan evaluasi,3,4,4
+10,Kekomunikatifan,Konsistensi penggunaan istilah,4,4,3

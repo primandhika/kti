@@ -1,0 +1,18 @@
+no,indikator,pernyataan,validator_1,validator_2,validator_3
+1,Tampilan,Kemenarikan desain antarmuka secara keseluruhan,4,3,4
+2,Tampilan,Ketepatan pemilihan warna dan komposisi visual,4,4,3
+3,Tampilan,Kesesuaian tata letak (layout) elemen halaman,3,4,4
+4,Tampilan,Kualitas gambar dan ikon yang digunakan,4,3,3
+5,Navigasi,Kemudahan navigasi antarmenu dan modul,4,4,4
+6,Navigasi,Kejelasan petunjuk penggunaan media,4,3,4
+7,Navigasi,Kemudahan akses fitur-fitur utama,3,4,4
+8,Multimedia,Kualitas video pembelajaran yang disajikan,4,3,3
+9,Multimedia,Kualitas audio dan narasi dalam video,3,4,4
+10,Multimedia,Sinkronisasi antara elemen visual dan audio,4,3,4
+11,Interaktivitas,Kualitas fitur kuis dan evaluasi interaktif,4,4,3
+12,Interaktivitas,Kualitas fitur perekaman berbicara,3,3,4
+13,Interaktivitas,Kualitas fitur umpan balik,4,4,3
+14,Responsivitas,Kemudahan akses melalui perangkat mobile,4,3,4
+15,Responsivitas,Kecepatan loading halaman dan konten,3,4,3
+16,Kualitas Teknis,Keamanan dan kestabilan platform,4,4,4
+17,Kualitas Teknis,Kemudahan penyimpanan dan pengelolaan data,4,3,4

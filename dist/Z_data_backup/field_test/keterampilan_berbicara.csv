@@ -1,0 +1,78 @@
+id,nim,nama,kelompok,pre_pengorganisasian,pre_kejelasan,pre_ketepatan,pre_strategi,pre_metakognitif,pre_total,post_pengorganisasian,post_kejelasan,post_ketepatan,post_strategi,post_metakognitif,post_total
+E01,25210027,Dira Laura Sanifiyanti,eksperimen,,,,,,33.00,,,,,,33.00
+E02,25210082,Rianti Khoirunnisa,eksperimen,9,13,9,11,11,70.70,13,13,13,13,13,86.70
+E03,25210050,Reifa Nazwa Shakira,eksperimen,9,12,10,12,11,72.00,11,10,13,11,12,76.00
+E04,25210066,Jihan Shafira,eksperimen,9,10,9,11,9,64.00,12,14,12,12,11,81.30
+E05,25210064,Anisha Delaneira Novelianda,eksperimen,,,,,,33.00,0,0,0,0,0,33.00
+E06,25210053,Mochamad Rifki Al Malik,eksperimen,,,,,,33.00,0,0,0,0,0,33.00
+E07,25210073,Nazmi Yulia,eksperimen,10,10,10,11,10,68.00,13,14,12,15,13,89.30
+E08,25210058,Zahra Bilbina Ramadhani,eksperimen,9,11,10,11,9,66.70,14,13,13,14,14,90.70
+E09,25210061,Nur Ainun Nadhifah Gumilar,eksperimen,,,,,,33.00,11,12,12,13,12,80.00
+E10,25210086,Mardian Reza Susanto,eksperimen,12,14,13,14,10,84.00,13,13,13,13,14,88.00
+E11,25210047,Lismaya Aulia Zakian,eksperimen,14,15,13,14,12,90.70,0,0,0,0,0,33.00
+E12,25210060,Nur Sifa Awaliah,eksperimen,,,,,,33.00,13,14,12,14,13,88.00
+E13,25210048,Lena Septiana,eksperimen,10,7,9,11,11,64.00,14,9,10,13,14,80.00
+E14,25210049,Hadi Wikarsa,eksperimen,10,13,9,13,11,74.70,14,13,11,13,12,84.00
+E15,25210041,Widya Tri Nugroho,eksperimen,0,0,9,0,0,67.00,13,14,13,13,14,89.30
+E16,25210016,Risma Ardina,eksperimen,10,12,10,12,10,72.00,12,14,14,14,15,92.00
+E17,25210077,Niwati Halawa,eksperimen,6,12,10,13,14,73.30,13,15,11,14,13,88.00
+E18,25210103,Revalina,eksperimen,8,11,7,9,10,60.00,12,14,12,11,11,80.00
+E19,25210091,Nurwanti,eksperimen,9,13,10,12,9,70.70,14,12,11,11,12,80.00
+E20,25210079,Putri naesilla lupia Sifa,eksperimen,,,,,,33.00,14,15,13,14,13,92.00
+E21,25210084,Fitriah Nur Oktaviani,eksperimen,9,13,10,12,8,69.30,12,15,12,14,12,86.70
+E22,25210087,Novelia Andara Putri,eksperimen,11,12,10,13,9,73.30,12,15,12,14,12,86.70
+E23,25210080,Amellia Triwulandari,eksperimen,,,,,,33.00,11,15,12,14,14,88.00
+E24,25210052,Andini suci ayu trisna,eksperimen,9,12,10,12,11,72.00,12,14,13,12,13,85.30
+E25,25210097,Bagus Agri Ramdhani,eksperimen,10,12,10,12,9,70.70,11,14,14,14,13,88.00
+E26,25210081,M Akmal,eksperimen,9,10,7,9,9,58.70,0,0,0,0,0,33.00
+E27,25210069,M RIVALDI RAMADHAN,eksperimen,,,,,,,0,0,0,0,0,33.00
+E28,25210068,Moch Raihan Wijaya,eksperimen,,,,,,33.00,10,12,11,12,10,73.00
+E29,25210085,Muhamad Usman,eksperimen,,,,,,,12,12,13,13,13,84.00
+E30,25210056,Muhammad Wildan Nurdin,eksperimen,10,10,10,10,10,66.70,11,11,9,10,10,68.00
+E31,25210063,Muhammad Yusril Albarrabbani,eksperimen,9,9,10,12,9,65.30,14,12,14,9,12,81.30
+E32,25210095,Nahdiatul aidah,eksperimen,,,,,,,6,7,9,8,7,49.30
+E33,25220007,NIWATI HALAWA,eksperimen,9,13,11,11,10,72.00,13,13,11,14,14,33.00
+E34,25210096,Rafi Nurdiansyah,eksperimen,9,10,9,9,9,61.30,11,10,12,11,11,73.30
+E35,25210023,Rostianiputri,eksperimen,,,,,,33.00,0,0,0,0,0,33.00
+E36,25210092,Sabrina Humaira,eksperimen,,,,,,33.00,12,11,12,14,13,82.70
+E37,25210072,Sandrina Nurpadilah,eksperimen,,,,,,33.00,9,13,12,14,14,82.70
+E38,25210057,Siti Nurhani Rahmayanti,eksperimen,10,9,9,11,12,68.00,12,13,12,12,11,80.00
+E39,25210074,Syatifa Yasmin,eksperimen,,,,,,,,,,,,
+E40,25210075,Tania Nurlaila,eksperimen,,,,,,,,,,,,
+K01,25210033,Abdul Rahman Reyhan Alzaelani,kontrol,,,,,,,13,14,13,13,10,84.00
+K02,25210035,Afdil Miftahussudur,kontrol,,,,,,,12,15,11,14,10,82.70
+K03,25210030,Alma Nazwa Agustina,kontrol,,,,,,,12,13,10,14,12,81.30
+K04,25210039,chaesar Bintara yudha,kontrol,,,,,,,12,14,11,13,13,84.00
+K05,25210018,Dandi Putra Septiana,kontrol,8,16,19,17,,72.00,,,,,,33.00
+K06,25210038,Dinar Alifa Diyanti,kontrol,,,,,,,12,14,12,13,10,81.30
+K07,25210002,Hesel Aziz Mutaqin,kontrol,,,,,,,11,13,11,11,11,76.00
+K08,25210006,Irmayanti,kontrol,12,11,9,12,13,76.00,12,13,11,11,13,80.00
+K09,25210021,Khoerul mufti faikar,kontrol,,,,,,,13,14,11,14,13,86.70
+K10,25210019,Lisna Yulianti,kontrol,,,,,,,9,13,10,14,12,77.30
+K11,25210059,M ZULFAN RIZQULLAH,kontrol,,,,,,,11,13,9,12,13,77.30
+K12,25210017,Merliyansya,kontrol,,,,,,,11,9,10,11,9,66.70
+K13,25210013,Moch Kahfi Arasyadin,kontrol,,,,,,,11,14,11,14,13,84.00
+K14,25210007,Muhamad Raihan A,kontrol,,,,,,,11,13,12,12,12,80.00
+K15,25210008,Muhamad Sabi As Shiddiq,kontrol,12,11,11,13,11,77.30,0,0,0,0,0,33.00
+K16,25210043,Muhammad faiz nuralim,kontrol,,,,,,33.00,0,0,0,0,0,0.00
+K17,25210101,Muhammad zidan alfarizi,kontrol,10,11,9,11,11,69.30,12,12,11,13,12,80.00
+K18,25210099,Muhammad Zulfiqar,kontrol,12,11,10,12,12,76.00,12,12,13,12,13,82.70
+K19,25210012,Mutia aulia r,kontrol,,,,,,,13,12,10,14,9,77.30
+K20,25210054,Nabila Nuraini,kontrol,,,,,,,12,12,10,12,12,77.30
+K21,25210088,Nadva Khusifa Lail,kontrol,,,,,,,11,14,14,14,12,86.70
+K22,25210026,Reva intan aurellia,kontrol,,,,,,,,,,,,
+K23,25210028,Revalina putri R W,kontrol,,,,,,,,,,,,
+K24,25210020,Rina karlina,kontrol,,,,,,,,,,,,
+K25,25210040,Rizqia Dwi Putri,kontrol,,,,,,,,,,,,
+K26,25210024,Septia Sapitri,kontrol,,,,,,,,,,,,
+K27,25210025,Siria ayu,kontrol,,,,,,,,,,,,
+K28,25210001,Siti Fauziah,kontrol,,,,,,,,,,,,
+K29,25210004,Siti Khumaeso,kontrol,,,,,,,,,,,,
+K30,25210034,Syahdan Azkia Wardani,kontrol,,,,,,,,,,,,
+K31,25210051,Syahdan Naufal Dhia Mulyandi,kontrol,,,,,,,,,,,,
+K32,25200029,syahla widhi Oktovia,kontrol,,,,,,,,,,,,
+K33,25210037,Syifa Dewi Lestari,kontrol,,,,,,,,,,,,
+K34,25210015,Sylva Amelia Putri Ramdhani,kontrol,,,,,,,,,,,,
+K35,25210010,Tarisya Sukma Oktaviani,kontrol,,,,,,,,,,,,
+K36,25210036,Widya putri alrasyid,kontrol,,,,,,,,,,,,
+K37,25210032,zihan shalma,kontrol,,,,,,,,,,,,
