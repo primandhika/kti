@@ -1,0 +1,46 @@
+jenis_validasi,no,aspek,indikator,pernyataan,n_penilai,skor_total,skor_maks,persentase,kategori_persentase,aiken_v,kategori_aiken
+Materi,1,Kelayakan Isi Materi,Kelayakan Isi Materi,Kesesuaian materi dengan kompetensi keterampilan berbicara mahasiswa Pendidikan Bahasa Indonesia,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,2,Kelayakan Isi Materi,Kelayakan Isi Materi,Keakuratan konsep dan teori keterampilan berbicara yang disajikan,1,3,4,75.00,Valid,0.667,Perlu Revisi
+Materi,3,Kelayakan Isi Materi,Kelayakan Isi Materi,Kedalaman dan kelengkapan materi keterampilan berbicara,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,4,Kelayakan Isi Materi,Kelayakan Isi Materi,Kesesuaian materi dengan kurikulum Pendidikan Bahasa Indonesia,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,5,Kelayakan Isi Materi,Kelayakan Isi Materi,Relevansi materi dengan kebutuhan pembelajaran mahasiswa,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,6,Kelayakan Isi Materi,Kelayakan Isi Materi,Keaktualan dan kemutakhiran materi yang disajikan,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,7,Desain Pembelajaran Microlearning,Desain Pembelajaran Microlearning,Kesesuaian segmentasi materi dalam format microlearning (bite-sized),1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,8,Desain Pembelajaran Microlearning,Desain Pembelajaran Microlearning,Sistematika penyajian materi yang runtut dan logis,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,9,Desain Pembelajaran Microlearning,Desain Pembelajaran Microlearning,Kemudahan materi untuk dipahami mahasiswa,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,10,Desain Pembelajaran Microlearning,Desain Pembelajaran Microlearning,Durasi setiap modul pembelajaran yang tepat dan efektif,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,11,Desain Pembelajaran Microlearning,Desain Pembelajaran Microlearning,Keterpaduan antar modul dalam satu kesatuan pembelajaran,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,12,Desain Pembelajaran Microlearning,Desain Pembelajaran Microlearning,Fleksibilitas akses materi sesuai kebutuhan belajar mandiri,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,13,Kesesuaian dengan Teknik Feynman,Kesesuaian dengan Teknik Feynman,Kesesuaian materi dengan prinsip teknik Feynman,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,14,Kesesuaian dengan Teknik Feynman,Kesesuaian dengan Teknik Feynman,Dukungan materi terhadap kemampuan menjelaskan konsep dengan bahasa sederhana,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,15,Kesesuaian dengan Teknik Feynman,Kesesuaian dengan Teknik Feynman,Tersedianya contoh dan latihan penerapan teknik Feynman,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,16,Kesesuaian dengan Teknik Feynman,Kesesuaian dengan Teknik Feynman,Kesesuaian aktivitas pembelajaran dengan filosofi learning by teaching,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,17,Kesesuaian dengan Teknik Feynman,Kesesuaian dengan Teknik Feynman,Dukungan materi untuk identifikasi kesenjangan pemahaman,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,18,Pengembangan Kemampuan Metakognitif,Pengembangan Kemampuan Metakognitif,Dukungan materi untuk pengembangan kemampuan perencanaan (planning),1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,19,Pengembangan Kemampuan Metakognitif,Pengembangan Kemampuan Metakognitif,Dukungan materi untuk pengembangan kemampuan pemantauan (monitoring),1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,20,Pengembangan Kemampuan Metakognitif,Pengembangan Kemampuan Metakognitif,Dukungan materi untuk pengembangan kemampuan evaluasi diri (evaluation),1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,21,Pengembangan Kemampuan Metakognitif,Pengembangan Kemampuan Metakognitif,Tersedianya panduan refleksi dan self-assessment,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,22,Pengembangan Kemampuan Metakognitif,Pengembangan Kemampuan Metakognitif,Aktivitas yang mendorong kesadaran metakognitif mahasiswa,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,23,Keterampilan Berbicara,Keterampilan Berbicara,Kesesuaian materi dengan aspek pengorganisasian ide dalam berbicara,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,24,Keterampilan Berbicara,Keterampilan Berbicara,Dukungan materi untuk pengembangan kejelasan penyampaian,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,25,Keterampilan Berbicara,Keterampilan Berbicara,Kesesuaian materi dengan pengembangan ketepatan bahasa,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,26,Keterampilan Berbicara,Keterampilan Berbicara,Dukungan materi untuk pengembangan strategi komunikasi,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,27,Keterampilan Berbicara,Keterampilan Berbicara,Tersedianya contoh dan model keterampilan berbicara yang baik,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,28,Aspek Motivasi dan Kebahasaan Umum,Aspek Motivasi dan Kebahasaan Umum,Kemampuan materi memotivasi mahasiswa dalam pembelajaran,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,29,Aspek Motivasi dan Kebahasaan Umum,Aspek Motivasi dan Kebahasaan Umum,Daya tarik dan engagement materi pembelajaran,1,4,4,100.00,Sangat Valid,1.000,Valid
+Materi,30,Aspek Motivasi dan Kebahasaan Umum,Aspek Motivasi dan Kebahasaan Umum,Kontekstualitas materi dengan kehidupan mahasiswa,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,1,Bentuk Media,Bentuk Media - Antarmuka (UI),Desain antarmuka menarik secara visual dan profesional,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,2,Bentuk Media,Bentuk Media - Navigasi,Menu dan navigasi media sederhana jelas dan mudah dipahami,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,3,Bentuk Media,Bentuk Media - Tata Letak,Tata letak dan desain konsisten di seluruh halaman,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,4,Bentuk Media,Bentuk Media - Tipografi,Jenis font ukuran dan warna teks mudah dibaca dan sesuai,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,5,Kualitas Media,Kualitas Media - Stabilitas Media,Media stabil saat digunakan dengan minim kesalahan teknis (bug),1,3,4,75.00,Valid,0.667,Perlu Revisi
+Media,6,Kualitas Media,Kualitas Media - Kemudahan Penggunaan,Media mudah digunakan oleh mahasiswa (user-friendly),1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,7,Kualitas Media,Kualitas Media - Relevansi Konten,Konten relevan dengan tujuan pembelajaran keterampilan berbicara,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,8,Fungsi Media,Fungsi Media - Pembelajaran Aktif,Media mendukung pembelajaran aktif dan mandiri mahasiswa,1,3,4,75.00,Valid,0.667,Perlu Revisi
+Media,9,Fungsi Media,Fungsi Media - Pemahaman Konsep,Media mempermudah mahasiswa memahami konsep dengan lebih cepat,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,10,Fungsi Media,Fungsi Media - Keterampilan Berbicara,Media meningkatkan keterampilan berbicara melalui praktik langsung,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,11,Fungsi Media,Fungsi Media - Integrasi Teknik Feynman,Media mendukung implementasi teknik Feynman dalam pembelajaran,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,12,Aspek Microlearning,Aspek Microlearning - Segmentasi Konten,Materi tersegmentasi dalam unit-unit kecil yang fokus (bite-sized),1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,13,Aspek Microlearning,Aspek Microlearning - Durasi Pembelajaran,Durasi modul sesuai prinsip microlearning (5-15 menit),1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,14,Aspek Microlearning,Aspek Microlearning - Aksesibilitas,Media dapat diakses kapan saja dan di mana saja melalui perangkat digital,1,4,4,100.00,Sangat Valid,1.000,Valid
+Media,15,Aspek Microlearning,Aspek Microlearning - Interaktivitas,Media menyediakan elemen interaktif yang mendukung keterlibatan,1,3,4,75.00,Valid,0.667,Perlu Revisi

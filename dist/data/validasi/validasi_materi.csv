@@ -1,16 +1,31 @@
-no,indikator,pernyataan,validator_1,validator_2,validator_3
-1,Kesesuaian Materi,Kesesuaian materi dengan capaian pembelajaran mata kuliah,4,4,4
-2,Kesesuaian Materi,Kesesuaian materi dengan tujuan pembelajaran berbicara,4,3,4
-3,Kesesuaian Materi,Kesesuaian materi dengan prinsip microlearning (singkat dan terfokus),4,4,3
-4,Keakuratan Materi,Keakuratan konsep linguistik yang disajikan,4,4,4
-5,Keakuratan Materi,Kedalaman materi sesuai jenjang pendidikan tinggi,3,4,3
-6,Keakuratan Materi,Keluasan cakupan materi keterampilan berbicara,3,3,4
-7,Keakuratan Materi,Kesesuaian contoh dan ilustrasi dengan materi,4,3,4
-8,Kelayakan Materi,Kesesuaian materi dengan perkembangan keilmuan terkini,4,4,3
-9,Kelayakan Materi,Kesesuaian urutan penyajian materi (sekuensial),4,4,4
-10,Integrasi Teknik Feynman,Kesesuaian langkah teknik Feynman dalam materi,4,3,4
-11,Integrasi Teknik Feynman,Kejelasan panduan eksplanasi ulang untuk mahasiswa,3,4,4
-12,Integrasi Teknik Feynman,Keterkaitan teknik Feynman dengan latihan berbicara,4,4,3
-13,Aspek Metakognitif,Ketersediaan materi yang merangsang kesadaran metakognitif,4,3,4
-14,Aspek Metakognitif,Ketersediaan panduan evaluasi diri dalam materi,3,4,3
-15,Aspek Metakognitif,Ketersediaan panduan regulasi strategi berbicara,4,3,4
+no,indikator,pernyataan,validator_1
+1,Kelayakan Isi Materi,Kesesuaian materi dengan kompetensi keterampilan berbicara mahasiswa Pendidikan Bahasa Indonesia,4
+2,Kelayakan Isi Materi,Keakuratan konsep dan teori keterampilan berbicara yang disajikan,3
+3,Kelayakan Isi Materi,Kedalaman dan kelengkapan materi keterampilan berbicara,4
+4,Kelayakan Isi Materi,Kesesuaian materi dengan kurikulum Pendidikan Bahasa Indonesia,4
+5,Kelayakan Isi Materi,Relevansi materi dengan kebutuhan pembelajaran mahasiswa,4
+6,Kelayakan Isi Materi,Keaktualan dan kemutakhiran materi yang disajikan,4
+7,Desain Pembelajaran Microlearning,Kesesuaian segmentasi materi dalam format microlearning (bite-sized),4
+8,Desain Pembelajaran Microlearning,Sistematika penyajian materi yang runtut dan logis,4
+9,Desain Pembelajaran Microlearning,Kemudahan materi untuk dipahami mahasiswa,4
+10,Desain Pembelajaran Microlearning,Durasi setiap modul pembelajaran yang tepat dan efektif,4
+11,Desain Pembelajaran Microlearning,Keterpaduan antar modul dalam satu kesatuan pembelajaran,4
+12,Desain Pembelajaran Microlearning,Fleksibilitas akses materi sesuai kebutuhan belajar mandiri,4
+13,Kesesuaian dengan Teknik Feynman,Kesesuaian materi dengan prinsip teknik Feynman,4
+14,Kesesuaian dengan Teknik Feynman,Dukungan materi terhadap kemampuan menjelaskan konsep dengan bahasa sederhana,4
+15,Kesesuaian dengan Teknik Feynman,Tersedianya contoh dan latihan penerapan teknik Feynman,4
+16,Kesesuaian dengan Teknik Feynman,Kesesuaian aktivitas pembelajaran dengan filosofi learning by teaching,4
+17,Kesesuaian dengan Teknik Feynman,Dukungan materi untuk identifikasi kesenjangan pemahaman,4
+18,Pengembangan Kemampuan Metakognitif,Dukungan materi untuk pengembangan kemampuan perencanaan (planning),4
+19,Pengembangan Kemampuan Metakognitif,Dukungan materi untuk pengembangan kemampuan pemantauan (monitoring),4
+20,Pengembangan Kemampuan Metakognitif,Dukungan materi untuk pengembangan kemampuan evaluasi diri (evaluation),4
+21,Pengembangan Kemampuan Metakognitif,Tersedianya panduan refleksi dan self-assessment,4
+22,Pengembangan Kemampuan Metakognitif,Aktivitas yang mendorong kesadaran metakognitif mahasiswa,4
+23,Keterampilan Berbicara,Kesesuaian materi dengan aspek pengorganisasian ide dalam berbicara,4
+24,Keterampilan Berbicara,Dukungan materi untuk pengembangan kejelasan penyampaian,4
+25,Keterampilan Berbicara,Kesesuaian materi dengan pengembangan ketepatan bahasa,4
+26,Keterampilan Berbicara,Dukungan materi untuk pengembangan strategi komunikasi,4
+27,Keterampilan Berbicara,Tersedianya contoh dan model keterampilan berbicara yang baik,4
+28,Aspek Motivasi dan Kebahasaan Umum,Kemampuan materi memotivasi mahasiswa dalam pembelajaran,4
+29,Aspek Motivasi dan Kebahasaan Umum,Daya tarik dan engagement materi pembelajaran,4
+30,Aspek Motivasi dan Kebahasaan Umum,Kontekstualitas materi dengan kehidupan mahasiswa,4

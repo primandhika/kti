@@ -1,0 +1,12 @@
+aspek,catatan
+Bentuk Media,Antarmuka sudah rapi dah terlihat profesional. Navigasi mudah dipahami terutama pada dashboard dan modul uji. Tingkatkan hirarkis visual supaya lebih fokus.
+Kualitas Media,Secara menyeluruh sudah stabil. Fitur modul uji perlu perbaikan karena beberapa tombol terdapat kekutu (bugs). Alur penggunaan relatif intuitif.
+Fungsi Media,"Konsepnya bisa dipahami dan sangat mendukung pembelajaran aktif (dilihat dari beberapa modul contoh). Ada kuis sebagai bentuk implementasi teknik feynman, juga asesmen mandiri (uji rekam)."
+Aspek Microlearning,Segmentasi sudah sesuai prinsip microlearning dan CTML. Sangat bisa untuk pembelajaran mandiri. Tombol navigasi bisa dieksplor lebih lanjut fiturnya.
+Aspek yang Perlu Diperbaiki,Bugs
+Saran Spesifik,Sesuai saran dari setiap sesi.
+Rekomendasi,-
+Alasan rekomendasi,-
+Kelebihan Media,"UI sudah terstruktur baik, mendukung evaluasi terintegrasi dalam bentuk video. Terdapat juga sistem gamifikasi (XP, Level dsb.) yang berpotensi meningkatkan motivasi belajar mahasiswa."
+Kelemahan Media,"Sistem gamifikasi terlihat seperti ""hiasan"" semata, karena memang bukan fokus utama pengembangan. Integrasikan dengan alur penggunaan web ini."
+Saran Pengembangan Lebih Lanjut,"Di modul uji perlu diperjelas setiap instruksinya agar penilaian menjadi lebih valid. Lebih baiknnya lagi dengan ikon/emoji. Lebih beragam lagi game inovatif di setiap perpindahan sesi, khususnya yang terkait keterampilan bicara/suara dan juga teknik feynman."

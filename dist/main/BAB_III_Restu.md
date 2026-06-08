@@ -196,7 +196,21 @@ Lembar validasi digunakan untuk memperoleh penilaian dari ahli materi, ahli medi
 
 ## F. Validitas dan Reliabilitas Instrumen
 
-Validitas instrumen dalam penelitian ini ditempuh melalui dua cara, yaitu validitas isi dan validitas empiris. Validitas isi dilakukan melalui *expert judgment* dari para ahli yang menilai kesesuaian butir instrumen dengan konstruk yang diukur. Validitas empiris dilakukan pada instrumen yang berbentuk angket untuk memastikan bahwa butir-butir pernyataan benar-benar merepresentasikan indikator yang dimaksud.
+Validitas instrumen dalam penelitian ini ditempuh melalui dua cara, yaitu validitas isi dan validitas empiris. Validitas isi dilakukan melalui *expert judgment* dari para ahli yang menilai kesesuaian butir instrumen dengan konstruk yang diukur. Penilaian ahli dianalisis menggunakan koefisien validitas isi Aiken's V agar tingkat kesepakatan ahli terhadap relevansi butir dapat dinyatakan secara kuantitatif. Rumus Aiken's V yang digunakan adalah sebagai berikut.
+
+\[
+V = \frac{\sum s}{n(c - 1)}
+\]
+
+Keterangan:
+
+- \(s = r - l_o\), yaitu skor yang diberikan ahli dikurangi skor terendah dalam skala;
+- \(r\) = skor yang diberikan oleh ahli;
+- \(l_o\) = skor terendah dalam skala penilaian;
+- \(n\) = jumlah ahli atau penilai;
+- \(c\) = jumlah kategori skala penilaian.
+
+Pada penelitian ini, lembar validasi ahli menggunakan skala 1 sampai 4 sehingga \(l_o = 1\) dan \(c = 4\). Butir atau aspek instrumen dinyatakan memiliki validitas isi yang memadai apabila nilai Aiken's V mencapai \(V \geq 0{,}78\). Selain validitas isi, validitas empiris dilakukan pada instrumen yang berbentuk angket untuk memastikan bahwa butir-butir pernyataan benar-benar merepresentasikan indikator yang dimaksud.
 
 Reliabilitas instrumen dilakukan untuk memastikan konsistensi hasil pengukuran. Angket diuji reliabilitasnya melalui konsistensi internal. Sementara itu, rubrik keterampilan berbicara diuji melalui kesepakatan antarpenilai (*inter-rater reliability*) agar skor yang diberikan tetap konsisten ketika penilaian dilakukan oleh lebih dari satu penilai. Dengan demikian, hasil pengukuran diharapkan stabil dan dapat dipertanggungjawabkan.
 
@@ -214,7 +228,7 @@ Analisis deskriptif digunakan untuk menggambarkan rata-rata, persentase, dan seb
 
 #### b. Analisis validasi ahli dan respons pengguna
 
-Skor validasi ahli dan respons pengguna dihitung melalui rata-rata dan persentase dari skor ideal. Hasilnya digunakan untuk menentukan kategori kelayakan, kepraktisan, dan keterpakaian media.
+Skor validasi ahli dianalisis dengan dua cara. Pertama, nilai Aiken's V dihitung untuk melihat validitas isi setiap butir, aspek, dan keseluruhan instrumen. Kedua, skor perolehan dibandingkan dengan skor ideal untuk memperoleh persentase kelayakan produk. Respons pengguna dihitung melalui rata-rata dan persentase dari skor ideal. Hasil analisis tersebut digunakan untuk menentukan kategori kelayakan, kepraktisan, dan keterpakaian media.
 
 #### c. Uji prasyarat analisis
 

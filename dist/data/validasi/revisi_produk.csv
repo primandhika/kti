@@ -4,6 +4,5 @@ no,sumber,masukan_validator,revisi_yang_dilakukan,keterangan_gambar
 3,Ahli Media,Navigasi antarmodul perlu diperjelas dengan breadcrumb,Ditambahkan breadcrumb navigation dan progress bar di setiap halaman,[Gambar sebelum-sesudah navigasi]
 4,Ahli Media,Ukuran tombol perekaman perlu diperbesar untuk kemudahan akses,Tombol perekaman diperbesar dan diberi label teks yang jelas,[Gambar revisi tombol rekaman]
 5,Ahli Media,Tampilan mobile belum responsif secara optimal,Dilakukan penyesuaian CSS untuk tampilan responsif di berbagai ukuran layar,[Gambar tampilan mobile]
-6,Ahli Bahasa,Beberapa istilah teknis belum diberi penjelasan,Ditambahkan tooltip untuk istilah teknis dan glosarium di akhir modul,[Gambar penambahan tooltip]
-7,Ahli Bahasa,Konsistensi penggunaan istilah perlu diperbaiki,Dilakukan standardisasi istilah di seluruh modul,[Gambar konsistensi istilah]
-8,Praktisi,Tambahkan panduan singkat sebelum latihan berbicara,Ditambahkan panduan langkah-langkah teknik Feynman di awal setiap latihan,[Gambar panduan latihan]
+6,Penguji Seminar Kemajuan,"Kriteria penilaian agar lebih rinci (tidak ambigu) dan instuksi modul /uji agar lebih jelas, ditambahkan instruksi yang bisa mendeteksi gestur","Dilakukan sesuai saran, sub poin kriteria dan penambahan instruksi uji."
+7,Penguji Seminar Kemajuan,Kriteria harus sesuai konstruk.,Pemetaan (mapping) kriteria eksisting ke konstruk berbicara dan metakognitif.

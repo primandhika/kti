@@ -1,0 +1,3 @@
+jenis_validasi,jumlah_butir,kolom_penilai,n_skor_terisi,skor_total,skor_maks,persentase,kategori_persentase,aiken_v,kategori_aiken,catatan_data
+Materi,30,validator_1,30,119,120,99.17,Sangat Valid,0.989,Valid,
+Media,15,validator_1,15,57,60,95.00,Sangat Valid,0.933,Valid,

@@ -87,7 +87,7 @@ Komentar untuk Aspek Bentuk Media:
 
 B. KUALITAS MEDIA
 
-No Aspek/Indikator  Pernyataan  4 3 2 1 Ket.
+No Aspek/Indikator  Pernyataan  1 2 3 4 Ket.
 
 
 5 Stabilitas Media   Media stabil saat digunakan
@@ -167,15 +167,15 @@ REKAPITULASI PENILAIAN
 
     Aspek             Skor Perolehan   Persentase  Kategori
 
-Bentuk Media          ___/20         ___%
+Bentuk Media          ___/16         ___%
 
-Kualitas Media        ___/15         ___%
+Kualitas Media        ___/12         ___%
 
-Fungsi Media          ___/20         ___%
+Fungsi Media          ___/16         ___%
 
-Aspek Microlearning   ___/20         ___%
+Aspek Microlearning   ___/16         ___%
 
-TOTAL                 ___/75         ___%
+TOTAL                 ___/60         ___%
 
 Kriteria Validitas:
 

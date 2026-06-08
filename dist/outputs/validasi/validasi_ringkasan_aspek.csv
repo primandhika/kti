@@ -1,0 +1,11 @@
+jenis_validasi,aspek,jumlah_butir,n_skor_terisi,skor_total,skor_maks,persentase,kategori_persentase,aiken_v_rerata,kategori_aiken
+Materi,Kelayakan Isi Materi,6,6,23,24,95.83,Sangat Valid,0.944,Valid
+Materi,Desain Pembelajaran Microlearning,6,6,24,24,100.00,Sangat Valid,1.000,Valid
+Materi,Kesesuaian dengan Teknik Feynman,5,5,20,20,100.00,Sangat Valid,1.000,Valid
+Materi,Pengembangan Kemampuan Metakognitif,5,5,20,20,100.00,Sangat Valid,1.000,Valid
+Materi,Keterampilan Berbicara,5,5,20,20,100.00,Sangat Valid,1.000,Valid
+Materi,Aspek Motivasi dan Kebahasaan Umum,3,3,12,12,100.00,Sangat Valid,1.000,Valid
+Media,Bentuk Media,4,4,16,16,100.00,Sangat Valid,1.000,Valid
+Media,Kualitas Media,3,3,11,12,91.67,Sangat Valid,0.889,Valid
+Media,Fungsi Media,4,4,15,16,93.75,Sangat Valid,0.917,Valid
+Media,Aspek Microlearning,4,4,15,16,93.75,Sangat Valid,0.917,Valid
