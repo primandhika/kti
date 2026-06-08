@@ -76,3 +76,10 @@ Masukan dari institusi menyatakan bahwa BAB II yang sudah direvisi sebelumnya "s
 ### Catatan untuk Revisi Selanjutnya
 - Jika ada permintaan untuk meringkas kembali, perlu dikonsultasikan dulu karena ada konflik antara masukan promotor (ringkas) dan institusi (format lengkap seperti contoh)
 - Daftar pustaka perlu diselaraskan dengan sitasi yang dipakai di BAB II
+
+### Pembaruan 2026-06-08
+- Menyelaraskan subbagian validasi media pada `main/BAB_II.md` dengan data aktual di `data/validasi/` dan `outputs/validasi/`.
+- Tabel 2.4 diperbarui agar mengikuti aspek instrumen yang benar-benar dipakai, yaitu 6 aspek validasi materi dan 4 aspek validasi media.
+- Menghapus ketidaksesuaian lama yang masih mencampur indikator ahli media, mahasiswa, pengembang media, dan ahli bahasa pada tabel indikator validasi.
+- Menegaskan bahwa validasi produk pada naskah teoritis berfokus pada ahli materi dan ahli media.
+- Backup pembanding untuk file BAB II disimpan di `main/_origins/BAB_II_20260608_from_HEAD_backup.md`.

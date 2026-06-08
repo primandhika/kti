@@ -17,4 +17,7 @@ Secara Deskriptif, temuannya seperti ini:
 - Di awal sesi, wawancara dengan pengampu mata kuliah dilakukan. Pengampu merasa mahasiswa di kedua kelas agak abai terhadap kesantunan bahasa (lebih menurut Via), cuek terhadap pemilihan kata yang formal ketika situasinya akademis (menurut Aditya). Kurang mampu mengontrol pilihan kata dan sudah tidak sanggup diberi modul yang pajang seperti buku, jadi hanya dibaca awalnya saja. Bahkan ada yang belajar dari konten-konten media sosial seperti TikTok, padahal belum tentu sumbernya valid (menurut Aditya).
 - Uji coba terbatas kelas kecil dilakukan dengan mahasiswa yang ketika analsisis awal merasa kesulitan memilih media pembelajaran yang cocok dan punya beragam preferensi dalam belajar (outliers) degan sampel 3 dari kelas eksperiman dan 2 dari kelas kontrol. Uji ini untuk memastikan kelancaran fitur dari awal sampai akhir. Memastikan ada/tidak fitur yang mereka butuhkan dari hasil analisis kebutuhan. Semuanya secara 100% menjawab bahwa fitur yang mereka butuhkan untuk belajar terakomodasi.
 - Uji kepraktisan 10 orang, masing-masing 5 orang dari tiap kelas. Menguji aspek-aspek kepraktisan dan kognitif sesuai dengan CTML.
--  
+
+
+
+Pre-tes dan pos-tes:

@@ -52,3 +52,10 @@ Tanggal revisi: 2026-06-02
   - penambahan identitas validator,
   - penegasan timeline penelitian per bulan,
   - atau penyesuaian istilah teknis mengikuti arahan promotor/kopromotor.
+
+## Pembaruan 2026-06-08
+- Menyesuaikan `main/BAB_III_Restu.md` dengan data validasi aktual yang tersedia.
+- Tabel subjek validasi diubah dari skema multi-validator placeholder menjadi 1 ahli materi dan 1 ahli media, sesuai data terisi pada folder validasi.
+- Subbagian instrumen validasi diperinci agar mengikuti konstruk yang benar-benar dipakai pada validasi materi dan validasi media.
+- Bagian validitas isi dan analisis validasi diperjelas dengan catatan metodologis bahwa Aiken's V dihitung secara mekanis dari satu validator per instrumen dan karena itu harus dibaca hati-hati sebagai indikator deskriptif.
+- Kriteria keberhasilan bagian valid diperumum agar tidak lagi menyebut ahli bahasa dan praktisi yang belum muncul pada data validasi terdokumentasi.

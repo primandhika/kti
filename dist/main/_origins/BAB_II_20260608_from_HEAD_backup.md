@@ -59,7 +59,7 @@ Dalam konteks keterampilan berbicara, Sabnani dan Goh (2022) menekankan pentingn
 
 Metakognitif juga mencerminkan kemampuan berpikir tingkat tinggi, dimana proses berpikir menjadi objek refleksi untuk meningkatkan kinerja intelektual dan keterampilan berbicara secara holistik. Sebagai contoh, Hartman (2001) menyoroti interaksi antara komponen kognitif, afektif dan lingkungan dalam mengembangkan kemampuan metakognitif. Dengan pendekatan ini, siswa didorong untuk belajar secara lebih mandiri dan terarah, khususnya dalam keterampilan berbicara yang memerlukan penguasaan linguistik, strategi dan refleksi mendalam terhadap umpan balik audiens.
 
-Dalam literatur metakognitif, Magiera dan Zawojewski (2011) menjelaskan tiga aktivitas utama, yaitu *metacognitive awareness, metacognitive evaluation,* dan *metacognitive regulation*. Kerangka ini penting karena membantu memetakan alur refleksi belajar secara umum. Namun, dalam penelitian ini kerangka tersebut diposisikan sebagai landasan pembanding, bukan sebagai konstruk operasional utama, karena fokus penelitian berada pada metakognitif dalam keterampilan berbicara yang lebih spesifik:
+Dalam konteks berbicara ini, Magiera dan Zawojewski (2011) menjelaskan tiga aktivitas utama dalam metakognitif, yaitu metacognitive awareness, metacognitive evaluation dan metacognitive regulation:
 
 #### a. Metacognitive Awareness
 
@@ -83,7 +83,7 @@ Pada tahap ini, seseorang memanfaatkan sumber daya kognitif untuk merencanakan l
 
 Indikator tersebut diadaptasi dari Magiera dan Zawojewski (2011) dengan penyesuaian pada konteks keterampilan berbicara mahasiswa Pendidikan Bahasa Indonesia.
 
-Berdasarkan berbagai sumber tersebut, metakognitif dalam konteks penelitian ini dipahami sebagai kemampuan mahasiswa untuk mengelola proses berpikirnya ketika menyiapkan, menyusun, menyampaikan, memantau, dan merefleksikan performa berbicara. Kerangka umum seperti perencanaan-pemantauan-evaluasi atau *awareness-evaluation-regulation* tetap penting untuk dibahas sebagai pijakan teoretis. Akan tetapi, karena penelitian ini berfokus pada performa lisan, konstruk operasionalnya tidak berhenti pada tiga tahap umum tersebut. Penelitian ini mengarahkannya ke lima dimensi yang lebih dekat dengan praktik berbicara, yaitu *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*. Kelima dimensi ini dipilih karena lebih mampu menggambarkan bagaimana mahasiswa membangun gagasan, memilih bahasa, menyampaikan penjelasan, memantau kejelasan komunikasi, dan menilai kembali hasil berbicaranya.
+Berdasarkan berbagai sumber-sumber tersebut, metakognitif dalam konteks penelitian ini dapat didefinisikan sebagai kemampuan mahasiswa untuk menyadari, mengontrol dan mengevaluasi proses berpikir mereka saat mempersiapkan, menyusun dan menyajikan keterampilan berbicara secara efektif. Kemampuan ini mencakup kesadaran tentang strategi berbicara yang digunakan, penilaian terhadap keefektifan komunikasi, serta pengaturan ulang langkah atau strategi untuk mencapai tujuan berbicara. Metakognitif berperan penting dalam membantu mahasiswa merefleksikan kinerja mereka, mengidentifikasi kekuatan dan kelemahan, serta meningkatkan kualitas pembelajaran melalui kontrol yang sistematis terhadap proses berpikir dan berbicara.
 
 ### 3. Media Pembelajaran Berbasis Web
 
@@ -318,7 +318,7 @@ Penjabaran teori-teori tersebut menjadi landasan dalam memahami hubungan antar v
 
 ### 7. Sintesis Teoretis Antarvariabel
 
-Hubungan antarkonsep dalam penelitian ini dapat dijelaskan melalui tiga simpul utama yang saling bertautan, yaitu desain media, proses metakognitif, dan performa berbicara.
+Hubungan antarkonsep dalam penelitian ini dapat dijelaskan melalui empat simpul utama yang saling bertautan, yaitu desain media, proses metakognitif, dan performa berbicara.
 
 #### a. Microlearning dan CTML
 
@@ -326,15 +326,15 @@ Microlearning sejalan dengan CTML karena sama-sama menekankan penyajian informas
 
 #### b. Teknik Feynman dan Kemampuan Metakognitif
 
-Teknik Feynman mendorong mahasiswa untuk menjelaskan kembali materi dengan bahasa sendiri, menemukan bagian yang belum benar-benar dipahami, lalu memperbaiki penjelasan tersebut. Pada tingkat umum, proses ini memang dapat dibaca sebagai perencanaan, pemantauan, dan evaluasi. Namun, dalam konteks berbicara, proses itu bekerja lebih rinci melalui *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*. Karena itu, teknik Feynman dapat dipahami sebagai strategi belajar reflektif yang bukan hanya membantu pemahaman konsep, tetapi juga memperkuat kesadaran mahasiswa terhadap cara mereka menyusun dan menyampaikan penjelasan.
+Teknik Feynman mendorong mahasiswa untuk menjelaskan kembali materi dengan bahasa sendiri, mengidentifikasi bagian yang belum dipahami, lalu memperbaiki penjelasan. Proses ini secara langsung melatih perencanaan, pemantauan, dan evaluasi. Karena itu, teknik Feynman dapat dipahami sebagai strategi belajar reflektif yang memperkuat kesadaran mahasiswa terhadap cara mereka memahami dan mengomunikasikan materi.
 
 #### c. Kemampuan Metakognitif dan Keterampilan Berbicara
 
-Mahasiswa yang mampu membangun tujuan komunikasi, memilih bahasa yang tepat, menyampaikan penjelasan dengan jelas, memantau respons audiens, dan merefleksikan hasil berbicaranya cenderung menghasilkan performa lisan yang lebih terstruktur dan meyakinkan. Dalam konteks ini, metakognitif tidak dipahami sebagai tambahan yang berdiri di luar berbicara, melainkan sebagai proses yang bekerja di dalam praktik berbicara itu sendiri. Oleh karena itu, peningkatan kemampuan metakognitif diharapkan berdampak langsung pada peningkatan keterampilan berbicara.
+Mahasiswa yang mampu merencanakan isi, memantau kelancaran penyampaian, dan mengevaluasi hasil berbicaranya cenderung menghasilkan performa lisan yang lebih terstruktur dan meyakinkan. Dalam konteks ini, metakognitif bukan bagian dari skor berbicara, melainkan faktor yang mendukung kualitas performa berbicara. Oleh karena itu, peningkatan kemampuan metakognitif diharapkan berdampak pada peningkatan keterampilan berbicara.
 
 #### d. Sintesis Model Penelitian
 
-Berdasarkan ketiga simpul tersebut, model teoretis penelitian ini dapat disarikan sebagai berikut: media web *microlearning* berbasis teknik Feynman dirancang dengan prinsip CTML untuk menciptakan pembelajaran yang tersegmentasi dan multimodal; desain tersebut mendorong mahasiswa menjalani proses metakognitif-berbicara melalui *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*; proses itulah yang kemudian memperkuat kualitas keterampilan berbicara mahasiswa. Dengan demikian, kemampuan metakognitif diposisikan sebagai jembatan konseptual antara penggunaan media dan peningkatan performa berbicara.
+Berdasarkan ketiga simpul tersebut, model teoretis penelitian ini dapat disarikan sebagai berikut: media web microlearning berbasis teknik Feynman dirancang dengan prinsip CTML untuk menciptakan pembelajaran yang tersegmentasi dan multimodal; desain tersebut mendorong mahasiswa melakukan proses metakognitif melalui perencanaan, pemantauan, dan evaluasi; proses metakognitif itu kemudian memperkuat kualitas keterampilan berbicara mahasiswa. Dengan demikian, kemampuan metakognitif diposisikan sebagai jembatan konseptual antara penggunaan media dan peningkatan performa berbicara.
 
 ## B. Penelitian yang Relevan
 
@@ -392,17 +392,17 @@ Kerangka berpikir penelitian ini menempatkan kemampuan metakognitif sebagai medi
 
 Hubungan antara media pembelajaran berbasis web microlearning dengan keterampilan berbicara mahasiswa terletak pada fleksibilitas penyajian materi dan potensi interaktivitas yang disesuaikan dengan gaya belajar mahasiswa. Media ini tidak hanya menyajikan konten secara bertahap dan terfokus, tetapi juga memungkinkan penyisipan elemen multimodal (teks, audio, video) yang dirancang sesuai dengan affordances-nya. Hal ini mendukung pengembangan proses kognitif seperti konseptualisasi dan formulasi, serta memungkinkan mahasiswa untuk melakukan evaluasi diri dan refleksi terhadap performa berbicara mahasiswa. Dalam konteks blended learning, media microlearning juga memperluas ruang belajar ke luar kelas dan mendukung model pembelajaran fleksibel.
 
-Teknik Feynman memiliki relevansi langsung dengan pengembangan keterampilan berbicara karena mendorong mahasiswa memahami konsep, menyederhanakannya, lalu menjelaskan ulang dengan bahasa sendiri. Dalam proses itu, mahasiswa tidak hanya belajar isi materi, tetapi juga belajar membangun gagasan, memilih cara penyampaian, menyampaikan penjelasan, memantau kejelasannya, dan merefleksikan hasilnya. Itulah sebabnya teknik ini selaras dengan pengembangan dimensi *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*.
+Teknik Feynman memiliki relevansi langsung dengan pengembangan keterampilan berbicara, karena mendorong mahasiswa untuk memahami dan menyederhanakan konsep, kemudian menjelaskan ulang dengan bahasanya sendiri. Proses ini mengaktifkan keterampilan metakognitif seperti perencanaan, pemantauan dan evaluasi selama aktivitas berbicara. Teknik ini juga memperkuat organisasi wacana dan meningkatkan kemampuan mahasiswa untuk mengkomunikasikan ide secara logis, koheren dan percaya diri.
 
-Keterampilan berbicara yang efektif bukan hanya hasil dari penguasaan linguistik dan teknik penyampaian, tetapi juga dari kesadaran diri terhadap proses berpikir yang menyertainya. Oleh karena itu, penggabungan antara media *microlearning*, pendekatan Feynman, dan penguatan dimensi metakognitif menghasilkan sinergi pedagogis yang saling melengkapi. *Microlearning* menyediakan struktur belajar modular dan responsif, teknik Feynman memperkuat elaborasi dan produksi linguistik, sementara pendekatan metakognitif membantu mahasiswa mengelola proses berbicara secara sadar dan reflektif. Kombinasi ketiganya diprediksi mampu meningkatkan keterampilan berbicara secara lebih utuh dan berkelanjutan.
+Keterampilan berbicara yang efektif bukan hanya hasil dari penguasaan linguistik dan teknik penyampaian, tetapi juga dari kesadaran diri terhadap proses berpikir yang menyertainya. Oleh karena itu, penggabungan antara media microlearning, pendekatan Feynman dan penguatan dimensi metakognitif menghasilkan sinergi pedagogis yang saling melengkapi. Microlearning menyediakan struktur belajar modular dan responsif, Teknik Feynman memperkuat strategi elaborasi dan produksi linguistik, sementara pendekatan metakognitif mendorong mahasiswa untuk mengelola dan mengevaluasi proses berbicara mereka secara sadar dan reflektif. Kombinasi ketiganya diprediksi mampu meningkatkan keterampilan berbicara secara menyeluruh dan berkelanjutan.
 
 Secara keseluruhan, alur berpikir penelitian ini dapat dijelaskan sebagai berikut:
 
-1. Mahasiswa memiliki kebutuhan untuk meningkatkan keterampilan berbicara dan kemampuan metakognitif.
-2. Media pembelajaran berbasis web *microlearning* menyediakan lingkungan belajar yang fleksibel, ringkas, dan interaktif.
-3. Teknik Feynman mendorong mahasiswa memahami dan menjelaskan ulang materi dengan bahasa sendiri.
-4. CTML memastikan desain media selaras dengan cara kerja kognisi manusia.
-5. Media yang terdesain baik mendorong mahasiswa membangun ide, memilih bahasa, menyampaikan penjelasan, memantau performa, dan merefleksikan hasil berbicara.
+1. Mahasiswa memiliki kebutuhan untuk meningkatkan keterampilan berbicara dan kemampuan metakognitif;
+2. Media pembelajaran berbasis web microlearning menyediakan lingkungan belajar yang fleksibel, ringkas, dan interaktif;
+3. Teknik Feynman mendorong mahasiswa memahami dan menjelaskan ulang materi dengan bahasa sendiri;
+4. CTML memastikan desain media selaras dengan cara kerja kognisi manusia;
+5. Media yang terdesain baik mendorong proses perencanaan, pemantauan, dan evaluasi;
 6. Kemampuan metakognitif yang berkembang membantu mahasiswa menghasilkan keterampilan berbicara yang lebih terstruktur dan meyakinkan.
 
 **Gambar 2.2 Kerangka Berpikir**
@@ -412,9 +412,8 @@ Karakteristik Mahasiswa
         ↓
 Web Microlearning Berbasis Teknik Feynman
         ↓
-Kemampuan Metakognitif dalam Keterampilan Berbicara
-(Conceptualisation, Formulation, Articulation,
-Self-monitoring, Self-evaluation)
+Kemampuan Metakognitif
+(Planning, Monitoring, Evaluating)
         ↓
 Keterampilan Berbicara
         ↓
@@ -447,40 +446,30 @@ Keterampilan Berbicara adalah kemampuan individu untuk menyampaikan ide, gagasan
 
 ### 2. Kemampuan Metakognitif
 
-Kemampuan metakognitif dalam penelitian ini merupakan kemampuan mahasiswa untuk menyadari, mengelola, dan menilai proses berpikirnya ketika mempersiapkan, menyusun, menyampaikan, memantau, dan merefleksikan keterampilan berbicara. Secara umum, literatur memang sering memetakan metakognitif ke dalam perencanaan, pemantauan, dan evaluasi. Kerangka itu tetap dipertahankan dalam pembahasan teoretis sebagai pembanding. Namun, untuk kepentingan operasional penelitian, konstruk yang digunakan dibuat lebih dekat dengan praktik berbicara.
+Kemampuan metakognitif merupakan kemampuan untuk menyadari, mengontrol dan mengevaluasi proses berpikir mahasiswa saat mempersiapkan, menyusun dan menyajikan keterampilan berbicara secara efektif. Kemampuan ini mencakup kesadaran tentang strategi berbicara yang digunakan, penilaian terhadap keefektifan komunikasi, serta pengaturan ulang langkah atau strategi untuk mencapai tujuan berbicara.
 
-Dengan pertimbangan tersebut, kemampuan metakognitif mahasiswa dalam konteks keterampilan berbicara dirumuskan ke dalam lima dimensi berikut:
+Untuk mengukur kemampuan metakognitif mahasiswa dalam konteks keterampilan berbicara, dibutuhkan indikator yang menggambarkan proses berpikir sadar (conscious thinking) yang terjadi sebelum, saat dan setelah mereka menyampaikan presentasi lisan. Asesmen diarahkan untuk menggali bagaimana mahasiswa merencanakan isi dan strategi komunikasinya, memantau keefektifan penyampaiannya secara langsung, serta mengevaluasi kembali proses dan hasil pembicaraannya guna perbaikan di masa mendatang. Oleh karena itu, berikut ini dirumuskan konstruk kemampuan metakognitif yang akan menjadi dasar dalam penyusunan instrumen penilaian:
 
-**a) Conceptualisation**
+**a) Perencanaan (Planning)**
 - Mahasiswa mampu menentukan tujuan komunikasi lisan secara jelas.
-- Mahasiswa mampu memilih topik, subtopik, dan fokus isi yang relevan.
-- Mahasiswa mampu merancang struktur penjelasan sesuai audiens dan konteks.
+- Mahasiswa memilih dan menyusun isi pembicaraan berdasarkan audiens dan konteks.
+- Merancang alur penyampaian ide dan memilih strategi komunikasi yang sesuai (misalnya: penekanan, jeda, atau tanya jawab).
 
-**b) Formulation**
-- Mahasiswa mampu memilih kosakata yang tepat dan sesuai konteks.
-- Mahasiswa mampu menyusun kalimat dan alur penjelasan yang logis.
-- Mahasiswa mampu menentukan strategi retorika atau cara penyampaian yang mendukung kejelasan pesan.
+**b) Pemantauan (Monitoring)**
+- Mahasiswa menyadari saat terjadi kesalahan dalam penyampaian (mispronunciation, kehilangan ide, atau gangguan komunikasi).
+- Mahasiswa dapat memperbaiki diri selama berbicara, seperti mengulang informasi yang tidak jelas atau menjelaskan ulang bagian yang kurang dimengerti audiens.
+- Memeriksa apakah strategi komunikasi yang digunakan sudah berjalan efektif di tengah proses berbicara.
 
-**c) Articulation**
-- Mahasiswa mampu menyampaikan penjelasan secara lisan dengan artikulasi yang jelas.
-- Mahasiswa mampu menggunakan intonasi dan tempo bicara yang sesuai.
-- Mahasiswa mampu menjaga kelancaran penyampaian agar pesan mudah dipahami.
-
-**d) Self-monitoring**
-- Mahasiswa mampu memantau kejelasan penjelasan selama berbicara.
-- Mahasiswa mampu memperhatikan respons audiens dan menyesuaikan penyampaian bila diperlukan.
-- Mahasiswa mampu melakukan perbaikan langsung ketika muncul kekeliruan atau ketidakjelasan.
-
-**e) Self-evaluation**
-- Mahasiswa mampu menilai kembali pencapaian tujuan komunikasinya setelah berbicara.
-- Mahasiswa mampu mengidentifikasi kekuatan dan kelemahan performa berbicaranya.
-- Mahasiswa mampu merumuskan perbaikan untuk penampilan berbicara berikutnya.
+**c) Evaluasi (Evaluating)**
+- Mahasiswa merefleksikan efektivitas presentasi setelah selesai berbicara.
+- Dapat mengidentifikasi bagian-bagian yang perlu ditingkatkan dari segi isi, penyampaian, atau interaksi.
+- Mampu merencanakan perbaikan untuk penampilan selanjutnya, baik dari sisi teknis maupun strategi komunikasi.
 
 ### 3. Media Pembelajaran Berbasis Web
 
 Media Pembelajaran Berbasis Web didefinisikan sebagai media pembelajaran yang memanfaatkan platform berbasis internet, seperti situs web atau aplikasi daring, untuk menyediakan media interaktif yang mendukung pengembangan keterampilan berbicara mahasiswa secara fleksibel, mandiri dan adaptif. Media pembelajaran ini dirancang untuk menampilkan berbagai elemen, seperti teks, audio, video dan modul digital yang memungkinkan mahasiswa untuk mengakses, mempelajari dan merefleksikan materi secara terstruktur kapan saja dan di mana saja.
 
-Untuk memastikan bahwa media pembelajaran berbasis web yang dikembangkan layak digunakan dalam proses pembelajaran, dilakukan proses validasi kelayakan produk melalui penilaian ahli materi dan ahli media. Validasi materi difokuskan pada kesesuaian isi, rancangan microlearning, integrasi teknik Feynman, dukungan terhadap kemampuan metakognitif, relevansi terhadap keterampilan berbicara, serta aspek motivasi dan kebahasaan umum. Sementara itu, validasi media difokuskan pada bentuk media, kualitas teknis, fungsi pembelajaran, dan kesesuaian implementasi prinsip microlearning.
+Untuk memastikan bahwa media pembelajaran berbasis web yang dikembangkan layak digunakan dalam proses pembelajaran, dilakukan proses validasi dan evaluasi kelayakan produk oleh para ahli serta calon pengguna. Validasi dilakukan untuk menilai aspek substansi materi, tampilan media, fungsi interaktivitas, kemudahan penggunaan dan kesesuaian dengan kebutuhan pembelajaran keterampilan berbicara.
 
 Selain itu, evaluasi media pembelajaran juga mempertimbangkan prinsip-prinsip desain dari Computer-Assisted Language Learning (CALL) atau pembelajaran bahasa berbasis komputer, seperti yang dikemukakan oleh Jamieson et al. (2004) dengan tiga elemen utama:
 
@@ -488,32 +477,29 @@ a) **Enhanced input**: bagaimana teks, audio dan video disajikan secara menarik 
 
 b) **Interaksi**: keterlibatan pengguna melalui latihan, umpan balik dan bantuan otomatis, yang dirancang agar mahasiswa aktif dalam proses belajar.
 
-c) **Produksi linguistik**: peluang bagi mahasiswa untuk memproduksi ujaran, misalnya menjelaskan ulang konsep, serta memperoleh umpan balik terhadap performanya.
+c) **Produksi linguistik**: peluang bagi mahasiswa untuk memproduksi ujaran (misalnya menjelaskan ulang konsep), serta umpan balik terhadap performanya.
 
 Evaluasi ini dilakukan melalui lembar validasi ahli dan uji coba terbatas kepada mahasiswa. Untuk menguatkan kualitas penilaian, desain evaluasi media juga mengacu pada prinsip keautentikan dan validitas konstruk serta pendekatan Computer-Assisted Language Teaching (CALT) atau Penilaian Bahasa Berbantuan Komputer (Chapelle dan Douglas, 2006).
 
-Dalam konteks media pembelajaran berbasis web, CALT membuka peluang untuk menyajikan input yang beragam secara multimodal, memberikan respons lisan atau tertulis yang fleksibel, dan menyisipkan interaksi berbasis komputer seperti *highlighting*, *drag-and-drop*, atau pengulangan audio-visual sebagai strategi *enhanced input*.
+Dalam konteks media pembelajaran berbasis web, CALT membuka peluang untuk menyajikan input yang beragam secara multimodal (teks, suara, video), memberikan respons lisan atau tertulis yang fleksibel dan menyisipkan interaksi berbasis komputer seperti highlighting, drag-and-drop, atau pengulangan audio-visual sebagai strategi enhanced input.
 
 Selain memungkinkan akses fleksibel kapan dan di mana saja, CALT juga memungkinkan penilaian adaptif dan format respons terbuka yang lebih otentik, seperti rekaman suara atau video penjelasan. Hal ini mendukung penilaian terhadap keterampilan berbicara dan metakognitif secara lebih menyeluruh.
 
-Namun, evaluasi tetap perlu mempertimbangkan potensi efek metode dan validitas konstruk, karena pengalaman mahasiswa terhadap teknologi dapat memengaruhi performa mereka. Oleh karena itu, desain instrumen tidak hanya mengukur performa linguistik, tetapi juga mempertimbangkan proses produksi ujaran seperti konseptualisasi, formulasi, artikulasi, serta evaluasi diri.
+Namun, sejalan dengan itu, evaluasi tetap perlu mempertimbangkan potensi efek metode dan validitas konstruk, karena pengalaman siswa terhadap teknologi dapat mempengaruhi performa mereka. Oleh karena itu, desain instrumen tidak hanya mengukur performa linguistik, tetapi juga mempertimbangkan proses produksi ujaran seperti konseptualisasi, formulasi, artikulasi, serta evaluasi diri.
 
-Setiap aspek penilaian tersebut dirumuskan ke dalam indikator-indikator yang dikonstruksi secara sistematis, sebagaimana disajikan dalam tabel berikut.
+Setiap aspek penilaian tersebut dirumuskan ke dalam indikator-indikator yang dikonstruksi secara sistematis, sebagaimana disajikan dalam tabel berikut:
 
 **Tabel 2.4 Indikator Validasi Media Pembelajaran Berbasis Web**
 
-| No | Aspek yang Dinilai | Indikator Pokok | Penilai |
+| No | Aspek yang Dinilai | Indikator | Penilai |
 |---|---|---|---|
-| 1 | Kelayakan Isi Materi | Kesesuaian materi dengan kompetensi keterampilan berbicara; keakuratan konsep dan teori; kedalaman dan kelengkapan materi; kesesuaian dengan kurikulum; relevansi dengan kebutuhan mahasiswa; keaktualan materi | Ahli materi |
-| 2 | Desain Pembelajaran Microlearning | Segmentasi materi dalam format *bite-sized*; sistematika penyajian runtut; kemudahan dipahami; durasi modul tepat; keterpaduan antarmodul; fleksibilitas akses belajar mandiri | Ahli materi |
-| 3 | Kesesuaian dengan Teknik Feynman | Kesesuaian dengan prinsip teknik Feynman; dukungan terhadap penjelasan dengan bahasa sederhana; tersedianya contoh dan latihan; kesesuaian dengan filosofi *learning by teaching*; dukungan identifikasi kesenjangan pemahaman | Ahli materi |
-| 4 | Pengembangan Kemampuan Metakognitif | Dukungan terhadap *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*; panduan refleksi dan *self-assessment*; aktivitas yang mendorong kesadaran metakognitif | Ahli materi |
-| 5 | Keterampilan Berbicara | Kesesuaian dengan pengorganisasian ide; pengembangan kejelasan penyampaian; ketepatan bahasa; strategi komunikasi; tersedianya contoh dan model berbicara yang baik | Ahli materi |
-| 6 | Aspek Motivasi dan Kebahasaan Umum | Kemampuan materi memotivasi mahasiswa; daya tarik dan *engagement*; kontekstualitas materi dengan kehidupan mahasiswa | Ahli materi |
-| 7 | Bentuk Media | Desain antarmuka menarik dan profesional; navigasi sederhana; tata letak konsisten; tipografi mudah dibaca | Ahli media |
-| 8 | Kualitas Media | Stabilitas media saat digunakan; kemudahan penggunaan; relevansi konten dengan tujuan pembelajaran keterampilan berbicara | Ahli media |
-| 9 | Fungsi Media | Dukungan terhadap pembelajaran aktif dan mandiri; percepatan pemahaman konsep; peningkatan keterampilan berbicara melalui praktik; integrasi teknik Feynman | Ahli media |
-| 10 | Aspek Microlearning | Segmentasi konten; durasi pembelajaran; aksesibilitas lintas perangkat; interaktivitas yang mendukung keterlibatan | Ahli media |
+| 1 | Kelayakan Isi Materi | Kesesuaian isi dengan kurikulum; Ketepatan konsep bahasa; Relevansi dengan keterampilan berbicara | Ahli materi |
+| 2 | Desain Antarmuka (UI) | Tampilan menarik dan profesional; Konsistensi warna, ikon dan navigasi; Tipografi mudah dibaca | Ahli media |
+| 3 | Fungsionalitas Teknologi | Navigasi mudah digunakan; Bebas dari kekutu (bug)/kesalahan teknis; Dapat diakses di berbagai perangkat; Dapat diakses kapan saja dan di mana saja | Ahli media |
+| 4 | Dukungan terhadap Belajar Mandiri | Disusun dalam unit microlearning kecil dan bertahap; Mendukung pembelajaran fleksibel | Ahli media dan mahasiswa |
+| 5 | Interaktivitas dan Engagement | Tersedia fitur kuis, latihan, atau forum diskusi; Meningkatkan keterlibatan pengguna; Merangsang refleksi diri melalui teknik Feynman | Ahli media dan mahasiswa |
+| 6 | Kesesuaian dengan Strategi Feynman | Tugas mendorong penjelasan ulang materi dengan bahasa sendiri; Memfasilitasi pemahaman mendalam melalui refleksi dan latihan menjelaskan | Ahli materi dan pengembang media |
+| 7 | Kelayakan Bahasa dan Komunikasi | Bahasa jelas, komunikatif dan tidak ambigu; Instruksi mudah dipahami mahasiswa | Ahli materi |
 
 ### 4. Microlearning
 

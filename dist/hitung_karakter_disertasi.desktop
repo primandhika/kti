@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Hitung Karakter Disertasi
+Comment=Bandingkan jumlah karakter Bab I-V main dan reference/Ika_Yatri
+Exec=bash -lc 'cd /home/primandhika/artikel/dist && ./hitung_karakter_disertasi.sh'
+Terminal=true
+Categories=Utility;
