@@ -3,29 +3,29 @@
 ## Rekapitulasi Kuantitatif
 | jenis_validasi | jumlah_butir | n_skor_terisi | skor_total | skor_maks | persentase | kategori_persentase | aiken_v | kategori_aiken |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Materi | 30 | 30 | 119 | 120 | 99.17 | Sangat Valid | 0.989 | Valid |
-| Media | 15 | 15 | 57 | 60 | 95.00 | Sangat Valid | 0.933 | Valid |
+| Materi | 30 | 90 | 351 | 360 | 97.50 | Sangat Valid | 0.967 | Valid |
+| Media | 15 | 45 | 166 | 180 | 92.22 | Sangat Valid | 0.896 | Valid |
 
 ## Analisis Per Aspek
 | jenis_validasi | aspek | jumlah_butir | skor_total | skor_maks | persentase | kategori_persentase | aiken_v_rerata | kategori_aiken |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Materi | Kelayakan Isi Materi | 6 | 23 | 24 | 95.83 | Sangat Valid | 0.944 | Valid |
-| Materi | Desain Pembelajaran Microlearning | 6 | 24 | 24 | 100.00 | Sangat Valid | 1.000 | Valid |
-| Materi | Kesesuaian dengan Teknik Feynman | 5 | 20 | 20 | 100.00 | Sangat Valid | 1.000 | Valid |
-| Materi | Pengembangan Kemampuan Metakognitif | 5 | 20 | 20 | 100.00 | Sangat Valid | 1.000 | Valid |
-| Materi | Keterampilan Berbicara | 5 | 20 | 20 | 100.00 | Sangat Valid | 1.000 | Valid |
-| Materi | Aspek Motivasi dan Kebahasaan Umum | 3 | 12 | 12 | 100.00 | Sangat Valid | 1.000 | Valid |
-| Media | Bentuk Media | 4 | 16 | 16 | 100.00 | Sangat Valid | 1.000 | Valid |
-| Media | Kualitas Media | 3 | 11 | 12 | 91.67 | Sangat Valid | 0.889 | Valid |
-| Media | Fungsi Media | 4 | 15 | 16 | 93.75 | Sangat Valid | 0.917 | Valid |
-| Media | Aspek Microlearning | 4 | 15 | 16 | 93.75 | Sangat Valid | 0.917 | Valid |
+| Materi | Kelayakan Isi Materi | 6 | 69 | 72 | 95.83 | Sangat Valid | 0.944 | Valid |
+| Materi | Desain Pembelajaran Microlearning | 6 | 71 | 72 | 98.61 | Sangat Valid | 0.981 | Valid |
+| Materi | Kesesuaian dengan Teknik Feynman | 5 | 59 | 60 | 98.33 | Sangat Valid | 0.978 | Valid |
+| Materi | Pengembangan Kemampuan Metakognitif | 5 | 58 | 60 | 96.67 | Sangat Valid | 0.956 | Valid |
+| Materi | Keterampilan Berbicara | 5 | 58 | 60 | 96.67 | Sangat Valid | 0.956 | Valid |
+| Materi | Aspek Motivasi dan Kebahasaan Umum | 3 | 36 | 36 | 100.00 | Sangat Valid | 1.000 | Valid |
+| Media | Bentuk Media | 4 | 47 | 48 | 97.92 | Sangat Valid | 0.972 | Valid |
+| Media | Kualitas Media | 3 | 30 | 36 | 83.33 | Sangat Valid | 0.778 | Perlu Revisi |
+| Media | Fungsi Media | 4 | 44 | 48 | 91.67 | Sangat Valid | 0.889 | Valid |
+| Media | Aspek Microlearning | 4 | 45 | 48 | 93.75 | Sangat Valid | 0.917 | Valid |
 
 ## Narasi Ringkas
 ### Materi
-Validasi materi memperoleh skor 119 dari skor maksimum 120 atau 99.17% dengan kategori Sangat Valid. Nilai Aiken's V keseluruhan adalah 0.989 dengan interpretasi deskriptif Valid. Aspek tertinggi adalah Desain Pembelajaran Microlearning (100.00%), sedangkan aspek terendah adalah Kelayakan Isi Materi (95.83%).
+Validasi materi memperoleh skor 351 dari skor maksimum 360 atau 97.50% dengan kategori Sangat Valid. Nilai Aiken's V keseluruhan adalah 0.967 dengan interpretasi deskriptif Valid. Aspek tertinggi adalah Aspek Motivasi dan Kebahasaan Umum (100.00%), sedangkan aspek terendah adalah Kelayakan Isi Materi (95.83%).
 
 ### Media
-Validasi media memperoleh skor 57 dari skor maksimum 60 atau 95.00% dengan kategori Sangat Valid. Nilai Aiken's V keseluruhan adalah 0.933 dengan interpretasi deskriptif Valid. Aspek tertinggi adalah Bentuk Media (100.00%), sedangkan aspek terendah adalah Kualitas Media (91.67%).
+Validasi media memperoleh skor 166 dari skor maksimum 180 atau 92.22% dengan kategori Sangat Valid. Nilai Aiken's V keseluruhan adalah 0.896 dengan interpretasi deskriptif Valid. Aspek tertinggi adalah Bentuk Media (97.92%), sedangkan aspek terendah adalah Kualitas Media (83.33%).
 
 ## Catatan Kualitatif Validator
 | jenis_validasi | aspek | catatan |
@@ -33,17 +33,18 @@ Validasi media memperoleh skor 57 dari skor maksimum 60 atau 95.00% dengan kateg
 | Materi | Kelayakan isi materi | aspek kebahasaan pada beberapa materi, khususnya pada materi hubungan keterampilan bicara dengan keterampilan berbahasa yang lain. Istilah "mendengarkan" baiknya diganti dengan "meyimak dan memirsa" |
 | Materi | Simpulan validator | Modul ajar web cukup menarik dan memiliki kebaruan. Khususnya dari sisi alur pembelajaran. |
 | Materi | Saran Pengembangan Lebih lanjut | Sesuaikan istilah teknis menjadi lebih sederhana. Kedalaman materi lebih diperluas lagi. |
-| Media | Bentuk Media | Antarmuka sudah rapi dah terlihat profesional. Navigasi mudah dipahami terutama pada dashboard dan modul uji. Tingkatkan hirarkis visual supaya lebih fokus. |
+| Media | Bentuk Media | V1 & V2: Antarmuka sudah rapi dah terlihat profesional. Navigasi mudah dipahami terutama pada dashboard dan modul uji. Tingkatkan hirarkis visual supaya lebih fokus. V3: Sangat Menarik. |
 | Media | Kualitas Media | Secara menyeluruh sudah stabil. Fitur modul uji perlu perbaikan karena beberapa tombol terdapat kekutu (bugs). Alur penggunaan relatif intuitif. |
-| Media | Fungsi Media | Konsepnya bisa dipahami dan sangat mendukung pembelajaran aktif (dilihat dari beberapa modul contoh). Ada kuis sebagai bentuk implementasi teknik feynman, juga asesmen mandiri (uji rekam). |
-| Media | Aspek Microlearning | Segmentasi sudah sesuai prinsip microlearning dan CTML. Sangat bisa untuk pembelajaran mandiri. Tombol navigasi bisa dieksplor lebih lanjut fiturnya. |
-| Media | Aspek yang Perlu Diperbaiki | Bugs |
+| Media | Fungsi Media | V1: Konsepnya bisa dipahami dan sangat mendukung pembelajaran aktif (dilihat dari beberapa modul contoh). Ada kuis sebagai bentuk implementasi teknik feynman, juga asesmen mandiri (uji rekam). V2: Manfaatkan gamifikasi tidak hanya sekadar fitur pendukung. V3: Perbaiki fungis login, beberapa otentikasi sering ditemukan error |
+| Media | Aspek Microlearning | V1: Segmentasi sudah sesuai prinsip microlearning dan CTML. Sangat bisa untuk pembelajaran mandiri. Tombol navigasi bisa dieksplor lebih lanjut fiturnya., V2: Tambahkan fitur suka dan tidak suka pada video agar bisa tahu dan bisa perbaiki kualitas, V3: interaksi lewat pertanyaan sebaiknya dibuat menjadi chat |
+| Media | Aspek yang Perlu Diperbaiki | V3: Bugs pada proses auth (login), agar lebih dipermudah. |
 | Media | Saran Spesifik | Sesuai saran dari setiap sesi. |
-| Media | Rekomendasi | - |
+| Media | Rekomendasi | V3: Ketika sudah jadi, mohon disimpan sebagai open-source repository, agar banyak developer lain yang juga bisa berkontribusi terdap fiturnya |
 | Media | Alasan rekomendasi | - |
-| Media | Kelebihan Media | UI sudah terstruktur baik, mendukung evaluasi terintegrasi dalam bentuk video. Terdapat juga sistem gamifikasi (XP, Level dsb.) yang berpotensi meningkatkan motivasi belajar mahasiswa. |
-| Media | Kelemahan Media | Sistem gamifikasi terlihat seperti "hiasan" semata, karena memang bukan fokus utama pengembangan. Integrasikan dengan alur penggunaan web ini. |
-| Media | Saran Pengembangan Lebih Lanjut | Di modul uji perlu diperjelas setiap instruksinya agar penilaian menjadi lebih valid. Lebih baiknnya lagi dengan ikon/emoji. Lebih beragam lagi game inovatif di setiap perpindahan sesi, khususnya yang terkait keterampilan bicara/suara dan juga teknik feynman. |
+| Media | Kelebihan Media | V1: UI sudah terstruktur baik, mendukung evaluasi terintegrasi dalam bentuk video. V2 & V3: Terdapat juga sistem gamifikasi (XP, Level dsb.) yang berpotensi meningkatkan motivasi belajar mahasiswa. |
+| Media | Kelemahan Media | V1: Sistem gamifikasi terlihat seperti "hiasan" semata, karena memang bukan fokus utama pengembangan. Integrasikan dengan alur penggunaan web ini. V2 & V3: Navigasi masih tidak kompatibel di mobile, pertimbangkan karena banyak pemakai mobile |
+| Media | Saran Pengembangan Lebih Lanjut | V1: Di modul uji perlu diperjelas setiap instruksinya agar penilaian menjadi lebih valid. Lebih baiknnya lagi dengan ikon/emoji. Lebih beragam lagi game inovatif di setiap perpindahan sesi, khususnya yang terkait keterampilan bicara/suara dan juga teknik feynman. V2: Integrasi angket harus bisa mode acak baik dari substansi soal dan pola negatif-positifnya, agar memuat pernyataan yang ketika diisi itu valid. V3: Bisa diintegrasikan dengan LMS kampus manapun. |
+| Media | KETERANGAN | V1: Validator 1, V2: Validator 2, V3: Validator 3 |
 
 ## Revisi Produk Berdasarkan Masukan
 | no | sumber | masukan_validator | revisi_yang_dilakukan | keterangan_gambar |
@@ -57,4 +58,4 @@ Validasi media memperoleh skor 57 dari skor maksimum 60 atau 95.00% dengan kateg
 | 7 | Penguji Seminar Kemajuan | Kriteria harus sesuai konstruk. | Pemetaan (mapping) kriteria eksisting ke konstruk berbicara dan metakognitif. | None |
 
 ## Catatan Metodologis
-Persentase dihitung dari skor terisi dibanding skor maksimum skala 1-4. Aiken's V dihitung dengan lo=1 dan c=4. Jika hanya satu penilai terisi, nilai V tetap dapat dihitung secara mekanis, tetapi interpretasinya perlu dibaca hati-hati karena validitas isi idealnya melibatkan beberapa ahli.
+Persentase dihitung dari skor terisi dibanding skor maksimum skala 1-4. Aiken's V dihitung dengan lo=1 dan c=4. Pada data validasi saat ini, setiap instrumen dinilai oleh tiga validator, sehingga nilai V dibaca sebagai derajat kesepakatan antarvalidator. Jika pada data lain hanya sebagian penilai terisi, nilai V tetap dihitung dari skor yang tersedia dan harus diinterpretasikan secara proporsional.

@@ -1,13 +1,9 @@
 - Terminologi untuk keterampilan berbicara yang digunakan harus sesuai konstruk  yang dibuat di definisi operasional mengenai keterampilan bicara 5 terkait (dari Goh & Liu dan 3 mengenai Speaking & Metacognitive (Lucas & Stob) 
 - Dimesi metakognitif termasuk dalam skor keterampilan berbicara. Jadi di pretes dan postes itu sebenarnya ada 2x tes. 1 berbicara di depan umum (presentasi) dan 1 berbicara secara teruji di platform itu sendiri. Jadi data nilai itu berasal dari rata-rata. Sementara
 - Data pos tes memang masih belum masuk.   
-- Lembar validasi bahasa sebetulnya ada.
-- Jika data aktual 38 untuk kelas eksperimen, maka ikutilah itu. Jadi total subjek 74
-- Ahli materi namanya: Dr. Teti Sobari, M.Pd. dari Institut Keguruan dan Pendidikan Siliwangi
-- Ahli media namanya: Udi Samanhudi, Ph.D dari Universitas Sultan Ageng Tiratayasa
+- Ahli materi namanya: Dr. Teti Sobari, M.Pd. dari Institut Keguruan dan Pendidikan Siliwangi (val 1),  Aditya Permana, M.Pd. dari Institut Keguruan dan Pendidikan Siliwangi (val 2) 
+- Ahli media namanya: Udi Samanhudi, Ph.D dari Universitas Sultan Ageng Tiratayasa (val 1), Martin Bernard, M.Pd. dari Institut Keguruan dan Pendidikan Siliwangi (val 2), Dr. M. Ghiyats Ristiyana, M.Pd. dari Institut Keguruan dan Pendidikan Siliwangi (val 3)
 - Uji kepraktisan dilakukan sekaligus saat uji coba terbatas dengan sampel 10 orang, dimana setelah mereka memakai medianya, dimintai pendapat tentang ease of use, kualitas konten, dan sebagainya.
-
-
 
 Secara Deskriptif, temuannya seperti ini:
 

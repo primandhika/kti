@@ -1,12 +1,13 @@
 aspek,catatan
-Bentuk Media,Antarmuka sudah rapi dah terlihat profesional. Navigasi mudah dipahami terutama pada dashboard dan modul uji. Tingkatkan hirarkis visual supaya lebih fokus.
+Bentuk Media,V1 & V2: Antarmuka sudah rapi dah terlihat profesional. Navigasi mudah dipahami terutama pada dashboard dan modul uji. Tingkatkan hirarkis visual supaya lebih fokus. V3: Sangat Menarik.
 Kualitas Media,Secara menyeluruh sudah stabil. Fitur modul uji perlu perbaikan karena beberapa tombol terdapat kekutu (bugs). Alur penggunaan relatif intuitif.
-Fungsi Media,"Konsepnya bisa dipahami dan sangat mendukung pembelajaran aktif (dilihat dari beberapa modul contoh). Ada kuis sebagai bentuk implementasi teknik feynman, juga asesmen mandiri (uji rekam)."
-Aspek Microlearning,Segmentasi sudah sesuai prinsip microlearning dan CTML. Sangat bisa untuk pembelajaran mandiri. Tombol navigasi bisa dieksplor lebih lanjut fiturnya.
-Aspek yang Perlu Diperbaiki,Bugs
+Fungsi Media,"V1: Konsepnya bisa dipahami dan sangat mendukung pembelajaran aktif (dilihat dari beberapa modul contoh). Ada kuis sebagai bentuk implementasi teknik feynman, juga asesmen mandiri (uji rekam). V2: Manfaatkan gamifikasi tidak hanya sekadar fitur pendukung. V3: Perbaiki fungis login, beberapa otentikasi sering ditemukan error"
+Aspek Microlearning,"V1: Segmentasi sudah sesuai prinsip microlearning dan CTML. Sangat bisa untuk pembelajaran mandiri. Tombol navigasi bisa dieksplor lebih lanjut fiturnya., V2: Tambahkan fitur suka dan tidak suka pada video agar bisa tahu dan bisa perbaiki kualitas, V3: interaksi lewat pertanyaan sebaiknya dibuat menjadi chat"
+Aspek yang Perlu Diperbaiki,"V3: Bugs pada proses auth (login), agar lebih dipermudah."
 Saran Spesifik,Sesuai saran dari setiap sesi.
-Rekomendasi,-
+Rekomendasi,"V3: Ketika sudah jadi, mohon disimpan sebagai open-source repository, agar banyak developer lain yang juga bisa berkontribusi terdap fiturnya "
 Alasan rekomendasi,-
-Kelebihan Media,"UI sudah terstruktur baik, mendukung evaluasi terintegrasi dalam bentuk video. Terdapat juga sistem gamifikasi (XP, Level dsb.) yang berpotensi meningkatkan motivasi belajar mahasiswa."
-Kelemahan Media,"Sistem gamifikasi terlihat seperti ""hiasan"" semata, karena memang bukan fokus utama pengembangan. Integrasikan dengan alur penggunaan web ini."
-Saran Pengembangan Lebih Lanjut,"Di modul uji perlu diperjelas setiap instruksinya agar penilaian menjadi lebih valid. Lebih baiknnya lagi dengan ikon/emoji. Lebih beragam lagi game inovatif di setiap perpindahan sesi, khususnya yang terkait keterampilan bicara/suara dan juga teknik feynman."
+Kelebihan Media,"V1: UI sudah terstruktur baik, mendukung evaluasi terintegrasi dalam bentuk video. V2 & V3: Terdapat juga sistem gamifikasi (XP, Level dsb.) yang berpotensi meningkatkan motivasi belajar mahasiswa."
+Kelemahan Media,"V1: Sistem gamifikasi terlihat seperti ""hiasan"" semata, karena memang bukan fokus utama pengembangan. Integrasikan dengan alur penggunaan web ini. V2 & V3: Navigasi masih tidak kompatibel di mobile, pertimbangkan karena banyak pemakai mobile"
+Saran Pengembangan Lebih Lanjut,"V1: Di modul uji perlu diperjelas setiap instruksinya agar penilaian menjadi lebih valid. Lebih baiknnya lagi dengan ikon/emoji. Lebih beragam lagi game inovatif di setiap perpindahan sesi, khususnya yang terkait keterampilan bicara/suara dan juga teknik feynman. V2: Integrasi angket harus bisa mode acak baik dari substansi soal dan pola negatif-positifnya, agar memuat pernyataan yang ketika diisi itu valid. V3: Bisa diintegrasikan dengan LMS kampus manapun."
+KETERANGAN,"V1: Validator 1, V2: Validator 2, V3: Validator 3"

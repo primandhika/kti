@@ -59,3 +59,11 @@ Tanggal revisi: 2026-06-02
 - Subbagian instrumen validasi diperinci agar mengikuti konstruk yang benar-benar dipakai pada validasi materi dan validasi media.
 - Bagian validitas isi dan analisis validasi diperjelas dengan catatan metodologis bahwa Aiken's V dihitung secara mekanis dari satu validator per instrumen dan karena itu harus dibaca hati-hati sebagai indikator deskriptif.
 - Kriteria keberhasilan bagian valid diperumum agar tidak lagi menyebut ahli bahasa dan praktisi yang belum muncul pada data validasi terdokumentasi.
+
+## Pembaruan 2026-06-09
+- Merevisi `main/BAB_III.md` secara terarah tanpa menulis ulang seluruh bab.
+- Memperbaiki bagian desain kuasi-eksperimen agar sesuai dengan konfirmasi bahwa pengacakan dilakukan pada tingkat kelas, bukan pada tingkat individu mahasiswa.
+- Memperbarui bagian lokasi dan waktu penelitian, termasuk penambahan tabel jadwal penelitian berdasarkan konfirmasi terbaru dan pengisian tanggal rasional untuk tahap yang belum diingat lengkap.
+- Memperbarui subjek penelitian dan teknik sampling berdasarkan `data/QN_pemetaan_kelas.csv`, sehingga jumlah uji lapangan menjadi 77 mahasiswa: 40 eksperimen dan 37 kontrol.
+- Memperbaiki bagian validator dari 1+1 menjadi 3 ahli materi dan 3 ahli media sesuai file validasi terbaru.
+- Memperbarui uraian validitas isi, analisis validasi, uji prasyarat, uji efektivitas, *effect size*, dan integrasi *mixed methods* agar selaras dengan konfirmasi revisi.

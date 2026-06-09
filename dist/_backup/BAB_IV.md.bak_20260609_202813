@@ -204,9 +204,9 @@ Secara keseluruhan, produk final yang dihasilkan merupakan media web *microlearn
 
 ## B. Hasil Validasi Produk
 
-Sebelum media diujicobakan kepada mahasiswa, produk terlebih dahulu melalui tahap validasi untuk memastikan bahwa substansi materi dan kualitas media telah layak digunakan dalam pembelajaran. Pada tahap ini, penilaian difokuskan pada dua sisi utama, yaitu substansi materi dan kualitas media. Karena itu, validator yang terlibat terdiri atas 3 ahli materi dan 3 ahli media. Penilaian dilakukan menggunakan skala 1 sampai 4, dengan kriteria 1 = kurang baik, 2 = cukup baik, 3 = baik, dan 4 = sangat baik.
+Sebelum media diujicobakan kepada mahasiswa, produk terlebih dahulu melalui tahap validasi untuk melihat apakah isi yang disajikan dan media yang dikembangkan sudah layak digunakan dalam pembelajaran. Pada tahap ini, penilaian difokuskan pada dua sisi yang paling menentukan, yaitu substansi materi dan kualitas media. Karena itu, validator yang terlibat berasal dari ahli materi dan ahli media. Penilaian dilakukan menggunakan skala 1 sampai 4, dengan kriteria 1 = kurang baik, 2 = cukup baik, 3 = baik, dan 4 = sangat baik.
 
-Hasil validasi dianalisis melalui persentase kelayakan dan koefisien Aiken's V. Karena setiap instrumen dinilai oleh tiga validator, nilai Aiken's V pada tahap ini dapat dibaca sebagai derajat kesepakatan antarvalidator terhadap relevansi butir yang dinilai. Meskipun demikian, angka kuantitatif tetap tidak dibaca secara terpisah, tetapi dipertimbangkan bersama catatan, saran, dan penilaian kualitatif dari para validator. Dengan cara ini, kelayakan produk dapat dipahami secara lebih utuh sebelum media masuk ke tahap uji coba.
+Hasil validasi dianalisis melalui persentase kelayakan dan koefisien Aiken's V. Meskipun demikian, nilai Aiken's V pada tahap ini dibaca secara hati-hati karena setiap instrumen diisi oleh satu validator. Dengan demikian, angka kuantitatif tidak dibaca secara terpisah, tetapi dipertimbangkan bersama catatan, saran, dan penilaian kualitatif dari masing-masing validator. Pendekatan ini dipandang lebih tepat untuk menggambarkan kelayakan produk secara utuh sebelum media masuk ke tahap uji coba.
 
 ### 1. Hasil Validasi Ahli Materi
 
@@ -216,19 +216,19 @@ Validasi ahli materi bertujuan menilai kesesuaian substansi materi, rancangan pe
 
 | No | Aspek | Jumlah Butir | Skor Perolehan | Skor Maksimal | Persentase (%) | Aiken's V | Kriteria |
 |---|---|---:|---:|---:|---:|---:|---|
-| 1 | Kelayakan Isi Materi | 6 | 69 | 72 | 95,83 | 0,944 | Sangat Valid |
-| 2 | Desain Pembelajaran *Microlearning* | 6 | 71 | 72 | 98,61 | 0,981 | Sangat Valid |
-| 3 | Kesesuaian dengan Teknik Feynman | 5 | 59 | 60 | 98,33 | 0,978 | Sangat Valid |
-| 4 | Pengembangan Kemampuan Metakognitif | 5 | 58 | 60 | 96,67 | 0,956 | Sangat Valid |
-| 5 | Keterampilan Berbicara | 5 | 58 | 60 | 96,67 | 0,956 | Sangat Valid |
-| 6 | Aspek Motivasi dan Kebahasaan Umum | 3 | 36 | 36 | 100,00 | 1,000 | Sangat Valid |
-|  | **Total** | **30** | **351** | **360** | **97,50** | **0,967** | **Sangat Valid** |
+| 1 | Kelayakan Isi Materi | 6 | 23 | 24 | 95,83 | 0,944 | Sangat Valid |
+| 2 | Desain Pembelajaran *Microlearning* | 6 | 24 | 24 | 100,00 | 1,000 | Sangat Valid |
+| 3 | Kesesuaian dengan Teknik Feynman | 5 | 20 | 20 | 100,00 | 1,000 | Sangat Valid |
+| 4 | Pengembangan Kemampuan Metakognitif | 5 | 20 | 20 | 100,00 | 1,000 | Sangat Valid |
+| 5 | Keterampilan Berbicara | 5 | 20 | 20 | 100,00 | 1,000 | Sangat Valid |
+| 6 | Aspek Motivasi dan Kebahasaan Umum | 3 | 12 | 12 | 100,00 | 1,000 | Sangat Valid |
+|  | **Total** | **30** | **119** | **120** | **99,17** | **0,989** | **Sangat Valid** |
 
-Tabel 4.2 memperlihatkan bahwa hasil validasi materi berada pada kategori sangat valid. Dari skor maksimum 360, materi memperoleh skor 351 atau setara 97,50%, dengan nilai Aiken's V keseluruhan sebesar 0,967. Capaian ini menunjukkan bahwa para validator memiliki tingkat kesepakatan yang tinggi terhadap kelayakan substansi materi, rancangan *microlearning*, integrasi teknik Feynman, dan dukungannya terhadap kemampuan metakognitif serta keterampilan berbicara.
+Tabel 4.2 memperlihatkan bahwa hasil validasi materi berada pada kategori sangat valid. Dari skor maksimum 120, materi memperoleh 119 atau setara 99,17%. Capaian ini menunjukkan bahwa hampir seluruh komponen yang dinilai telah sesuai dengan kebutuhan pengembangan media, baik dari sisi isi, rancangan pembelajaran, maupun keterkaitannya dengan teknik Feynman dan kemampuan metakognitif.
 
-Aspek yang memperoleh capaian paling tinggi adalah aspek motivasi dan kebahasaan umum, yaitu 100,00% dengan nilai Aiken's V 1,000. Hasil ini menunjukkan bahwa materi dinilai menarik, kontekstual, dan cukup komunikatif untuk digunakan oleh mahasiswa. Desain pembelajaran *microlearning* dan kesesuaian dengan teknik Feynman juga memperoleh skor yang sangat tinggi, masing-masing 98,61% dan 98,33%. Dengan demikian, struktur materi dipandang sudah selaras dengan prinsip penyajian singkat, terfokus, dan mendorong mahasiswa menjelaskan ulang konsep dengan bahasa sendiri.
+Menariknya, sebagian besar aspek memperoleh skor penuh. Desain pembelajaran *microlearning*, kesesuaian dengan teknik Feynman, pengembangan kemampuan metakognitif, keterampilan berbicara, serta aspek motivasi dan kebahasaan umum masing-masing mencapai 100,00%. Ini memberi gambaran bahwa struktur materi dinilai sudah padu dan arah pembelajarannya terbaca dengan jelas. Adapun aspek kelayakan isi materi memperoleh 95,83%, sehingga menjadi bagian yang paling perlu dicermati dibanding aspek lainnya, walaupun tetap berada pada kategori sangat valid.
 
-Aspek dengan persentase terendah adalah kelayakan isi materi, yaitu 95,83% dengan nilai Aiken's V 0,944, tetapi tetap berada pada kategori sangat valid. Temuan ini menunjukkan bahwa bagian yang masih perlu dicermati bukanlah kerangka besar materi, melainkan beberapa rincian isi, terutama yang berkaitan dengan ketepatan istilah, kedalaman penjelasan, dan keakuratan pengaitan teori keterampilan berbicara dengan konteks pembelajaran. Dengan kata lain, revisi yang dibutuhkan bersifat penyempurnaan, bukan perombakan mendasar.
+Jika diperhatikan pada tingkat butir, skor yang belum maksimal terutama muncul pada keakuratan konsep dan teori keterampilan berbicara. Butir ini memperoleh skor 3 atau kategori valid. Dengan kata lain, masalahnya bukan terletak pada kerangka besar materi, melainkan pada beberapa bagian penjelasan yang masih dapat diperdalam atau dipertegas. Di sinilah revisi materi menjadi penting, terutama untuk memastikan istilah yang digunakan benar-benar tepat dan mudah dipahami mahasiswa.
 
 Catatan dan saran ahli materi disajikan pada Tabel 4.3.
 
@@ -250,17 +250,17 @@ Validasi ahli media bertujuan menilai bentuk media, kualitas media, fungsi media
 
 | No | Aspek | Jumlah Butir | Skor Perolehan | Skor Maksimal | Persentase (%) | Aiken's V | Kriteria |
 |---|---|---:|---:|---:|---:|---:|---|
-| 1 | Bentuk Media | 4 | 47 | 48 | 97,92 | 0,972 | Sangat Valid |
-| 2 | Kualitas Media | 3 | 30 | 36 | 83,33 | 0,778 | Sangat Valid |
-| 3 | Fungsi Media | 4 | 44 | 48 | 91,67 | 0,889 | Sangat Valid |
-| 4 | Aspek *Microlearning* | 4 | 45 | 48 | 93,75 | 0,917 | Sangat Valid |
-|  | **Total** | **15** | **166** | **180** | **92,22** | **0,896** | **Sangat Valid** |
+| 1 | Bentuk Media | 4 | 16 | 16 | 100,00 | 1,000 | Sangat Valid |
+| 2 | Kualitas Media | 3 | 11 | 12 | 91,67 | 0,889 | Sangat Valid |
+| 3 | Fungsi Media | 4 | 15 | 16 | 93,75 | 0,917 | Sangat Valid |
+| 4 | Aspek *Microlearning* | 4 | 15 | 16 | 93,75 | 0,917 | Sangat Valid |
+|  | **Total** | **15** | **57** | **60** | **95,00** | **0,933** | **Sangat Valid** |
 
-Jika dibandingkan dengan validasi materi, hasil validasi media juga menunjukkan gambaran yang positif dan tetap berada pada kategori sangat valid. Media memperoleh skor 166 dari 180 atau setara 92,22%, dengan nilai Aiken's V keseluruhan 0,896. Artinya, secara umum media telah memenuhi syarat untuk digunakan pada tahap berikutnya, meskipun masih ada beberapa bagian teknis yang perlu dirapikan.
+Jika dibandingkan dengan validasi materi, hasil validasi media juga menunjukkan gambaran yang sangat positif. Media memperoleh skor 57 dari 60 atau setara 95,00%, sehingga tetap berada pada kategori sangat valid. Artinya, secara umum media telah memenuhi syarat untuk digunakan pada tahap berikutnya, meskipun masih ada beberapa bagian teknis yang perlu dirapikan.
 
-Aspek yang memperoleh penilaian paling tinggi adalah bentuk media, yaitu 97,92% dengan nilai Aiken's V 0,972. Hal ini menunjukkan bahwa tampilan antarmuka, navigasi, tata letak, dan tipografi dipandang sudah sangat baik oleh para validator. Dari sisi pengalaman pengguna, temuan ini penting karena media yang baik tidak hanya harus benar secara isi, tetapi juga mudah dipahami dan nyaman digunakan sejak pertama kali diakses.
+Aspek yang memperoleh penilaian paling tinggi adalah bentuk media, yaitu 100,00%. Hal ini menunjukkan bahwa tampilan antarmuka, navigasi, tata letak, dan tipografi sudah dinilai sangat baik oleh validator. Dari sisi pengalaman pengguna, ini penting karena media yang baik tidak hanya harus benar secara isi, tetapi juga mudah dipahami dan nyaman digunakan sejak pertama kali diakses.
 
-Di sisi lain, aspek kualitas media memperoleh persentase paling rendah, yaitu 83,33%, dengan nilai Aiken's V 0,778. Nilai ini menunjukkan bahwa kualitas media masih menjadi titik yang paling perlu diperhatikan, terutama pada stabilitas sistem, kemudahan penggunaan, dan potensi gangguan teknis pada beberapa fitur. Sementara itu, fungsi media memperoleh 91,67% dan aspek *microlearning* mencapai 93,75%, sehingga dapat dikatakan bahwa secara pedagogis media sudah dinilai baik, tetapi pada sisi teknis dan pengalaman penggunaan masih memerlukan penyempurnaan. Dengan demikian, fokus revisi pada aspek media lebih diarahkan pada perbaikan fitur, kejelasan alur penggunaan, kestabilan login, dan konsistensi interaksi pengguna di dalam modul.
+Di sisi lain, kualitas media memperoleh persentase 91,67%, sedangkan fungsi media dan aspek *microlearning* masing-masing berada pada angka 93,75%. Persentase tersebut tetap tinggi, tetapi sekaligus memberi isyarat bahwa penyempurnaan teknis masih diperlukan. Pada tingkat butir, skor 3 muncul pada indikator stabilitas media, dukungan terhadap pembelajaran aktif dan mandiri, serta interaktivitas media. Dengan demikian, fokus revisi pada aspek media lebih diarahkan pada perbaikan fitur, kejelasan alur penggunaan, dan konsistensi interaksi pengguna di dalam modul.
 
 Catatan dan saran ahli media disajikan pada Tabel 4.5.
 
@@ -286,13 +286,13 @@ Rekapitulasi hasil validasi produk disajikan pada Tabel 4.6.
 
 | No | Jenis Validasi | Jumlah Butir | Skor Perolehan | Skor Maksimal | Persentase (%) | Aiken's V | Kriteria | Keterangan |
 |---|---|---:|---:|---:|---:|---:|---|---|
-| 1 | Ahli materi | 30 | 351 | 360 | 97,50 | 0,967 | Sangat Valid | Layak digunakan dengan revisi terbatas |
-| 2 | Ahli media | 15 | 166 | 180 | 92,22 | 0,896 | Sangat Valid | Layak digunakan dengan revisi terbatas |
-|  | **Total tertimbang** | **45** | **517** | **540** | **95,74** | **0,943** | **Sangat Valid** | **Produk layak diujicobakan** |
+| 1 | Ahli materi | 30 | 119 | 120 | 99,17 | 0,989 | Sangat Valid | Layak digunakan dengan revisi terbatas |
+| 2 | Ahli media | 15 | 57 | 60 | 95,00 | 0,933 | Sangat Valid | Layak digunakan dengan revisi terbatas |
+|  | **Total tertimbang** | **45** | **176** | **180** | **97,78** |  | **Sangat Valid** | **Produk layak diujicobakan** |
 
-Jika kedua hasil validasi dibaca secara bersamaan, tampak bahwa baik substansi materi maupun kualitas media sama-sama telah berada pada kategori sangat valid. Validasi materi memberikan capaian yang lebih tinggi, sedangkan validasi media masih menyisakan beberapa catatan pada sisi teknis, stabilitas sistem, dan kelancaran interaksi pengguna. Perbedaan ini wajar karena materi dan media diuji melalui fokus yang berbeda.
+Jika kedua hasil validasi dibaca secara bersamaan, tampak bahwa baik substansi materi maupun kualitas media sama-sama telah berada pada kategori sangat valid. Validasi materi memberikan capaian yang sedikit lebih tinggi, sedangkan validasi media masih menyisakan beberapa catatan pada sisi teknis dan interaktivitas. Perbedaan ini wajar karena materi dan media diuji melalui fokus yang berbeda.
 
-Secara tertimbang, produk memperoleh skor 517 dari 540 atau 95,74%, dengan nilai Aiken's V gabungan sebesar 0,943. Angka ini menegaskan bahwa media web *microlearning* berbasis teknik Feynman telah memenuhi kelayakan untuk memasuki tahap uji coba. Meski demikian, keputusan tersebut tidak diambil hanya karena persentasenya tinggi, tetapi juga karena catatan para validator menunjukkan bahwa perbaikan yang dibutuhkan bersifat terbatas dan masih berada pada ranah penyempurnaan, bukan perombakan mendasar.
+Secara tertimbang, produk memperoleh skor 176 dari 180 atau 97,78%. Angka ini menegaskan bahwa media web *microlearning* berbasis teknik Feynman telah memenuhi kelayakan untuk memasuki tahap uji coba. Meski demikian, keputusan tersebut tidak diambil hanya karena persentasenya tinggi, tetapi juga karena catatan dari validator menunjukkan bahwa perbaikan yang dibutuhkan bersifat terbatas dan masih berada pada ranah penyempurnaan, bukan perombakan mendasar.
 
 ### 4. Revisi Produk Berdasarkan Masukan Validator
 

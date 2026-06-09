@@ -1,16 +1,17 @@
-no,indikator,pernyataan,validator_1
-1,Bentuk Media - Antarmuka (UI),Desain antarmuka menarik secara visual dan profesional,4
-2,Bentuk Media - Navigasi,Menu dan navigasi media sederhana jelas dan mudah dipahami,4
-3,Bentuk Media - Tata Letak,Tata letak dan desain konsisten di seluruh halaman,4
-4,Bentuk Media - Tipografi,Jenis font ukuran dan warna teks mudah dibaca dan sesuai,4
-5,Kualitas Media - Stabilitas Media,Media stabil saat digunakan dengan minim kesalahan teknis (bug),3
-6,Kualitas Media - Kemudahan Penggunaan,Media mudah digunakan oleh mahasiswa (user-friendly),4
-7,Kualitas Media - Relevansi Konten,Konten relevan dengan tujuan pembelajaran keterampilan berbicara,4
-8,Fungsi Media - Pembelajaran Aktif,Media mendukung pembelajaran aktif dan mandiri mahasiswa,3
-9,Fungsi Media - Pemahaman Konsep,Media mempermudah mahasiswa memahami konsep dengan lebih cepat,4
-10,Fungsi Media - Keterampilan Berbicara,Media meningkatkan keterampilan berbicara melalui praktik langsung,4
-11,Fungsi Media - Integrasi Teknik Feynman,Media mendukung implementasi teknik Feynman dalam pembelajaran,4
-12,Aspek Microlearning - Segmentasi Konten,Materi tersegmentasi dalam unit-unit kecil yang fokus (bite-sized),4
-13,Aspek Microlearning - Durasi Pembelajaran,Durasi modul sesuai prinsip microlearning (5-15 menit),4
-14,Aspek Microlearning - Aksesibilitas,Media dapat diakses kapan saja dan di mana saja melalui perangkat digital,4
-15,Aspek Microlearning - Interaktivitas,Media menyediakan elemen interaktif yang mendukung keterlibatan,3
+no,indikator,pernyataan,validator_1,validator_2,validator_3
+1,Bentuk Media - Antarmuka (UI),Desain antarmuka menarik secara visual dan profesional,4,4,4
+2,Bentuk Media - Navigasi,Menu dan navigasi media sederhana jelas dan mudah dipahami,4,4,4
+3,Bentuk Media - Tata Letak,Tata letak dan desain konsisten di seluruh halaman,4,4,4
+4,Bentuk Media - Tipografi,Jenis font ukuran dan warna teks mudah dibaca dan sesuai,4,4,3
+5,Kualitas Media - Stabilitas Media,Media stabil saat digunakan dengan minim kesalahan teknis (bug),3,3,3
+6,Kualitas Media - Kemudahan Penggunaan,Media mudah digunakan oleh mahasiswa (user-friendly),4,3,3
+7,Kualitas Media - Relevansi Konten,Konten relevan dengan tujuan pembelajaran keterampilan berbicara,4,3,4
+8,Fungsi Media - Pembelajaran Aktif,Media mendukung pembelajaran aktif dan mandiri mahasiswa,3,3,4
+9,Fungsi Media - Pemahaman Konsep,Media mempermudah mahasiswa memahami konsep dengan lebih cepat,4,4,4
+10,Fungsi Media - Keterampilan Berbicara,Media meningkatkan keterampilan berbicara melalui praktik langsung,4,3,4
+11,Fungsi Media - Integrasi Teknik Feynman,Media mendukung implementasi teknik Feynman dalam pembelajaran,4,3,4
+12,Aspek Microlearning - Segmentasi Konten,Materi tersegmentasi dalam unit-unit kecil yang fokus (bite-sized),4,4,4
+13,Aspek Microlearning - Durasi Pembelajaran,Durasi modul sesuai prinsip microlearning (5-15 menit),4,4,4
+14,Aspek Microlearning - Aksesibilitas,Media dapat diakses kapan saja dan di mana saja melalui perangkat digital,4,4,3
+15,Aspek Microlearning - Interaktivitas,Media menyediakan elemen interaktif yang mendukung keterlibatan,3,4,3
+,,,,,

@@ -53,3 +53,13 @@ Menyesuaikan Seksi B (Hasil Validasi Produk) pada `main/BAB_IV.md` dengan data a
 - Melakukan *humanising* terbatas pada Section B di `main/BAB_IV.md` tanpa mengubah data, tabel, maupun substansi hasil validasi.
 - Narasi sesudah tabel dibuat lebih natural, lebih interpretatif, dan mengurangi pengulangan pola kalimat yang terlalu mekanis.
 - Transisi antarsubbagian divariasikan agar alur pembacaan lebih halus, tetapi tetap mempertahankan gaya akademik disertasi.
+
+## Pembaruan 2026-06-09
+- Menghitung ulang `data/validasi/olah_validasi.ipynb` karena data validasi kini diisi oleh 3 validator pada instrumen materi dan media.
+- Memperbarui notebook agar memfilter baris kosong pada CSV, menyesuaikan catatan metodologis untuk skema multi-validator, dan menyimpan ulang output eksekusi notebook.
+- Menghasilkan ulang file ringkasan pada `outputs/validasi/`, termasuk `validasi_rekap.csv`, `validasi_ringkasan_aspek.csv`, dan `ringkasan_validasi.md`.
+- Menyesuaikan Seksi B pada `main/BAB_IV.md` dengan hasil hitung terbaru:
+  - validasi materi: 351/360 = 97,50% ; Aiken's V = 0,967
+  - validasi media: 166/180 = 92,22% ; Aiken's V = 0,896
+  - total tertimbang: 517/540 = 95,74% ; Aiken's V gabungan = 0,943
+- Memperbaiki narasi pengantar validasi agar konsisten dengan fakta bahwa penilaian dilakukan oleh 3 ahli materi dan 3 ahli media, bukan lagi 1 validator per instrumen.

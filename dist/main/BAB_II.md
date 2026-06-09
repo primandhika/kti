@@ -553,7 +553,7 @@ Untuk memastikan bahwa penerapan teknik Feynman dalam media yang akan dikembangk
 
 6) **Keterkaitan dengan Metakognitif**: Strategi ini membantu mahasiswa merancang, memantau dan mengevaluasi proses belajar mereka sendiri melalui aktivitas menjelaskan.
 
-### 6. Cognitive Theory of Multimedia Learning (CTML)
+### 6. *Cognitive Theory of Multimedia Learning* (CTML)
 
 CTML dalam penelitian ini diacu sebagai teori yang menjelaskan bagaimana seorang pembelajar dapat lebih efektif mempelajari sesuatu melalui kombinasi elemen visual dan verbal dibandingkan hanya menggunakan satu jenis elemen saja. CTML beroperasi berdasarkan tiga prinsip utama: (1) adanya dua saluran pemrosesan informasi (visual dan verbal), (2) kapasitas terbatas dari memori kerja dan (3) pentingnya proses aktif untuk memilih, mengorganisasi, serta mengintegrasikan informasi.
 
