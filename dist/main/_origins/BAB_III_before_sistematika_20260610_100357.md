@@ -1,19 +1,37 @@
 # BAB III
-# METODOLOGI PENELITIAN
+# METODE PENELITIAN
 
 Bab ini memaparkan rancangan penelitian yang digunakan untuk mengembangkan media web *microlearning* berbasis teknik Feynman serta menguji efektivitasnya dalam meningkatkan kemampuan metakognitif dan keterampilan berbicara mahasiswa. Uraian dalam bab ini mencakup desain penelitian, lokasi dan waktu penelitian, subjek penelitian, prosedur penelitian dan pengembangan, teknik pengumpulan data dan instrumen penelitian, validitas dan reliabilitas instrumen, teknik analisis data, etika penelitian dan manajemen data, serta kriteria keberhasilan penelitian.
 
-## A. Tempat dan Waktu Penelitian
+## A. Desain Penelitian
 
-### 1. Tempat Penelitian
+Penelitian ini menggunakan pendekatan *mixed methods sequential explanatory*. Pendekatan ini memadukan data kuantitatif dan kualitatif secara berurutan, dengan penekanan awal pada data kuantitatif untuk menguji efektivitas media, kemudian dilanjutkan dengan data kualitatif untuk menjelaskan hasil kuantitatif secara lebih mendalam (Creswell & Plano Clark, 2018). Desain ini dipilih karena penelitian tidak hanya ingin mengetahui apakah media efektif, tetapi juga ingin menjelaskan bagaimana dan mengapa media tersebut bekerja dalam konteks pembelajaran berbicara mahasiswa.
+
+Secara metodologis, penelitian ini juga merupakan penelitian dan pengembangan (*Research and Development*). Produk yang dikembangkan berupa media web *microlearning* berbasis teknik Feynman. Model pengembangan yang digunakan adalah **ASSURE**, karena model ini menekankan analisis karakteristik pembelajar, pemilihan metode dan media yang sesuai, keterlibatan aktif mahasiswa, serta evaluasi dan revisi yang berkelanjutan (Smaldino et al., 2019).
+
+Pemilihan model ASSURE dalam penelitian ini dilakukan setelah mempertimbangkan beberapa model pengembangan lain yang lazim digunakan dalam desain pembelajaran. Model Kemp memiliki cakupan yang luas dengan iterasi yang cukup banyak pada setiap tahap, sehingga lebih sesuai untuk proyek pengembangan skala besar dan sistem instruksional yang kompleks (Bajracharya, 2019). Model Dick dan Carey menawarkan langkah yang sistematis untuk merancang pembelajaran, tetapi orientasinya lebih kuat pada desain sistem instruksional secara menyeluruh, sehingga relatif lebih kompleks untuk kebutuhan pengembangan media yang terfokus pada satu produk pembelajaran berbasis web (Dick et al., 2021). Model ADDIE juga ditelaah karena sangat populer dalam penelitian pengembangan. Namun, model ini tidak secara spesifik menonjolkan analisis karakteristik pembelajar sedetail langkah *Analyze Learners* pada ASSURE, dan tidak secara eksplisit menempatkan integrasi teknologi sebagai pusat desain pembelajaran (Molenda, 2003; Rayanto, 2020; Kim & Downey, 2016). Adapun model 4D (*Define, Design, Develop, Disseminate*) dinilai lebih menekankan pengembangan produk secara bertahap, tetapi tidak memberi penekanan sekuat ASSURE pada keterlibatan aktif pembelajar selama proses pembelajaran berlangsung.
+
+Berdasarkan perbandingan tersebut, ASSURE dipandang paling sesuai dengan konteks penelitian ini karena lebih sederhana, langsung operasional, dan relevan untuk pengembangan media pembelajaran berbasis web *microlearning*. Model ini menyediakan alur yang jelas mulai dari analisis karakteristik mahasiswa, perumusan tujuan, pemilihan media dan materi, pemanfaatan media dalam pembelajaran, pelibatan aktif mahasiswa, hingga evaluasi dan revisi. Dengan karakter tersebut, ASSURE dinilai paling mampu menjembatani kebutuhan pedagogis, kebutuhan teknologi, dan kebutuhan evaluasi dalam pengembangan media yang terintegrasi dengan teknik Feynman.
+
+Untuk pengujian efektivitas, penelitian ini menggunakan desain kuasi-eksperimen (*quasi-experimental design*) dengan model **pretest-posttest control group** pada kelas yang sudah ada. Desain ini dipilih karena penelitian dilakukan dalam setting perkuliahan yang tidak memungkinkan pengacakan individu mahasiswa ke dalam kelompok eksperimen dan kontrol. Pengacakan dilakukan pada tingkat kelas melalui undian awal bersama dosen pengampu untuk menentukan kelas eksperimen dan kelas kontrol, sehingga perlakuan tetap dapat dibandingkan pada dua kelompok yang relatif sebanding (Cook & Campbell, 1986; Shadish & Luellen, 2012).
+
+### Tabel 3.1 Alur Mixed Methods Sequential Explanatory
+
+| Fase | Aktivitas Utama | Data yang Dikumpulkan | Output |
+|---|---|---|---|
+| Fase 1: Kuantitatif | Pretest, implementasi media, posttest, dan angket respons | Skor keterampilan berbicara, skor metakognitif, dan skor respons pengguna | Temuan awal tentang efektivitas media |
+| Fase 2: Kualitatif | Wawancara mendalam dan observasi lanjutan pada peserta terpilih | Narasi pengalaman belajar, hambatan, dan strategi penggunaan media | Penjelasan atas hasil kuantitatif |
+| Fase 3: Integrasi | Penggabungan hasil kuantitatif dan kualitatif | Temuan statistik dan tema-tema kualitatif | Joint display dan interpretasi komprehensif |
+
+Dengan demikian, desain penelitian ini memadukan tiga kerangka sekaligus, yaitu ASSURE sebagai model pengembangan produk, kuasi-eksperimen sebagai desain uji efektivitas, dan *mixed methods sequential explanatory* sebagai kerangka integrasi data. Kombinasi ini dipandang paling sesuai untuk menghasilkan media yang valid, praktis, dan efektif, sekaligus memberikan penjelasan yang utuh mengenai mekanisme penggunaannya.
+
+## B. Lokasi dan Waktu Penelitian
 
 Penelitian dilaksanakan di Program Studi Pendidikan Bahasa dan Sastra Indonesia, Institut Keguruan dan Ilmu Pendidikan Siliwangi. Lokasi ini dipilih karena sesuai dengan konteks penelitian, yaitu pengembangan media pembelajaran berbicara bagi mahasiswa pada jenjang perguruan tinggi.
 
-### 2. Waktu Penelitian
-
 Waktu penelitian mengikuti tahapan model ASSURE dan kebutuhan uji produk. Secara khusus, pelaksanaan eksperimen lapangan berlangsung pada 7 November 2025 sampai dengan 10 Januari 2026. Adapun rangkaian penelitian secara keseluruhan, mulai dari analisis kebutuhan sampai analisis data, dilakukan secara bertahap sejak tahap awal pengembangan hingga penyusunan hasil penelitian.
 
-**Tabel 3.2 Jadwal Penelitian**
+### Tabel 3.2 Jadwal Penelitian
 
 | Tahap | Waktu | Keterangan |
 |---|---|---|
@@ -31,75 +49,7 @@ Waktu penelitian mengikuti tahapan model ASSURE dan kebutuhan uji produk. Secara
 | Analisis data | Juni 2026 | Analisis kuantitatif, kualitatif, dan integrasi hasil |
 | Penyusunan laporan | Juni 2026 | Finalisasi hasil penelitian dalam disertasi |
 
-## B. Metode dan Desain Penelitian
-
-### 1. Pendekatan Penelitian
-
-Penelitian ini menggunakan pendekatan *mixed methods sequential explanatory*. Pendekatan ini memadukan data kuantitatif dan kualitatif secara berurutan, dengan penekanan awal pada data kuantitatif untuk menguji efektivitas media, kemudian dilanjutkan dengan data kualitatif untuk menjelaskan hasil kuantitatif secara lebih mendalam (Creswell & Plano Clark, 2018). Desain ini dipilih karena penelitian tidak hanya ingin mengetahui apakah media efektif, tetapi juga ingin menjelaskan bagaimana dan mengapa media tersebut bekerja dalam konteks pembelajaran berbicara mahasiswa.
-
-### 2. Jenis Penelitian
-
-Secara metodologis, penelitian ini juga merupakan penelitian dan pengembangan (*Research and Development*). Produk yang dikembangkan berupa media web *microlearning* berbasis teknik Feynman. Model pengembangan yang digunakan adalah **ASSURE**, karena model ini menekankan analisis karakteristik pembelajar, pemilihan metode dan media yang sesuai, keterlibatan aktif mahasiswa, serta evaluasi dan revisi yang berkelanjutan (Smaldino et al., 2019).
-
-### 3. Model Pengembangan
-
-Pemilihan model ASSURE dalam penelitian ini dilakukan setelah mempertimbangkan beberapa model pengembangan lain yang lazim digunakan dalam desain pembelajaran. Model Kemp memiliki cakupan yang luas dengan iterasi yang cukup banyak pada setiap tahap, sehingga lebih sesuai untuk proyek pengembangan skala besar dan sistem instruksional yang kompleks (Bajracharya, 2019). Model Dick dan Carey menawarkan langkah yang sistematis untuk merancang pembelajaran, tetapi orientasinya lebih kuat pada desain sistem instruksional secara menyeluruh, sehingga relatif lebih kompleks untuk kebutuhan pengembangan media yang terfokus pada satu produk pembelajaran berbasis web (Dick et al., 2021). Model ADDIE juga ditelaah karena sangat populer dalam penelitian pengembangan. Namun, model ini tidak secara spesifik menonjolkan analisis karakteristik pembelajar sedetail langkah *Analyze Learners* pada ASSURE, dan tidak secara eksplisit menempatkan integrasi teknologi sebagai pusat desain pembelajaran (Molenda, 2003; Rayanto, 2020; Kim & Downey, 2016). Adapun model 4D (*Define, Design, Develop, Disseminate*) dinilai lebih menekankan pengembangan produk secara bertahap, tetapi tidak memberi penekanan sekuat ASSURE pada keterlibatan aktif pembelajar selama proses pembelajaran berlangsung.
-
-Berdasarkan perbandingan tersebut, ASSURE dipandang paling sesuai dengan konteks penelitian ini karena lebih sederhana, langsung operasional, dan relevan untuk pengembangan media pembelajaran berbasis web *microlearning*. Model ini menyediakan alur yang jelas mulai dari analisis karakteristik mahasiswa, perumusan tujuan, pemilihan media dan materi, pemanfaatan media dalam pembelajaran, pelibatan aktif mahasiswa, hingga evaluasi dan revisi. Dengan karakter tersebut, ASSURE dinilai paling mampu menjembatani kebutuhan pedagogis, kebutuhan teknologi, dan kebutuhan evaluasi dalam pengembangan media yang terintegrasi dengan teknik Feynman.
-
-### 4. Desain Uji Efektivitas
-
-Untuk pengujian efektivitas, penelitian ini menggunakan desain kuasi-eksperimen (*quasi-experimental design*) dengan model **pretest-posttest control group** pada kelas yang sudah ada. Desain ini dipilih karena penelitian dilakukan dalam setting perkuliahan yang tidak memungkinkan pengacakan individu mahasiswa ke dalam kelompok eksperimen dan kontrol. Pengacakan dilakukan pada tingkat kelas melalui undian awal bersama dosen pengampu untuk menentukan kelas eksperimen dan kelas kontrol, sehingga perlakuan tetap dapat dibandingkan pada dua kelompok yang relatif sebanding (Cook & Campbell, 1986; Shadish & Luellen, 2012).
-
-### 5. Alur Mixed Methods Sequential Explanatory
-
-**Tabel 3.1 Alur Mixed Methods Sequential Explanatory**
-
-| Fase | Aktivitas Utama | Data yang Dikumpulkan | Output |
-|---|---|---|---|
-| Fase 1: Kuantitatif | Pretest, implementasi media, posttest, dan angket respons | Skor keterampilan berbicara, skor metakognitif, dan skor respons pengguna | Temuan awal tentang efektivitas media |
-| Fase 2: Kualitatif | Wawancara mendalam dan observasi lanjutan pada peserta terpilih | Narasi pengalaman belajar, hambatan, dan strategi penggunaan media | Penjelasan atas hasil kuantitatif |
-| Fase 3: Integrasi | Penggabungan hasil kuantitatif dan kualitatif | Temuan statistik dan tema-tema kualitatif | Joint display dan interpretasi komprehensif |
-
-Dengan demikian, desain penelitian ini memadukan tiga kerangka sekaligus, yaitu ASSURE sebagai model pengembangan produk, kuasi-eksperimen sebagai desain uji efektivitas, dan *mixed methods sequential explanatory* sebagai kerangka integrasi data. Kombinasi ini dipandang paling sesuai untuk menghasilkan media yang valid, praktis, dan efektif, sekaligus memberikan penjelasan yang utuh mengenai mekanisme penggunaannya.
-## C. Subjek Penelitian
-
-Subjek penelitian disesuaikan dengan kebutuhan setiap tahap pengembangan dan pengujian produk. Subjek penelitian dibagi ke dalam validator ahli, peserta uji coba terbatas, peserta uji coba lebih luas, peserta uji lapangan, dan informan kualitatif.
-
-### 1. Validator Ahli
-
-Validator dalam penelitian ini terdiri atas ahli materi dan ahli media. Ahli materi merupakan dosen atau pakar yang memiliki kompetensi pada bidang pembelajaran bahasa, keterampilan berbicara, dan substansi materi yang dikembangkan. Ahli media merupakan dosen atau pakar yang memiliki kompetensi dalam desain media pembelajaran digital, antarmuka, dan pengembangan media berbasis web.
-
-### 2. Peserta Uji Coba Terbatas
-
-Peserta uji coba terbatas berjumlah 10 mahasiswa. Tahap ini digunakan untuk menilai keterpakaian awal, kemudahan penggunaan, dan respons awal mahasiswa terhadap media.
-
-### 3. Peserta Uji Coba Lebih Luas
-
-Peserta uji coba lebih luas berjumlah 25 mahasiswa. Tahap ini digunakan untuk menguji keterterimaan media pada kelompok yang lebih besar sebelum produk digunakan pada uji lapangan.
-
-### 4. Peserta Uji Lapangan
-
-Populasi penelitian adalah seluruh mahasiswa semester 2 tahun akademik 2025 pada Program Studi Pendidikan Bahasa dan Sastra Indonesia yang mengikuti mata kuliah keterampilan berbicara dan terpetakan dalam dua kelas. Berdasarkan data pemetaan kelas, populasi tersebut berjumlah 77 mahasiswa yang terbagi ke dalam dua kelas, yaitu 40 mahasiswa pada kelas eksperimen dan 37 mahasiswa pada kelas kontrol.
-
-Teknik pengambilan sampel pada tahap uji lapangan menggunakan pengacakan pada tingkat kelas atau *cluster random sampling*. Pengacakan tidak dilakukan terhadap individu mahasiswa, melainkan terhadap dua kelas yang tersedia. Penentuan kelas eksperimen dan kelas kontrol dilakukan melalui undian pada awal koordinasi dengan dosen pengampu, sehingga tidak ada pemilihan kelas secara sengaja oleh peneliti. Dengan cara ini, seluruh anggota kelas yang terpilih tetap menjadi subjek penelitian sesuai konteks kuasi-eksperimen.
-
-### 5. Informan Kualitatif
-
-Informan kualitatif dipilih dari mahasiswa dan dosen yang terlibat dalam implementasi media. Pemilihan informan dilakukan untuk memperoleh penjelasan mendalam mengenai pengalaman penggunaan media, hambatan yang muncul, strategi belajar mahasiswa, dan bentuk dukungan media terhadap kemampuan metakognitif serta keterampilan berbicara.
-
-**Tabel 3.4 Subjek Penelitian dan Fungsinya**
-
-| Tahap | Subjek | Jumlah | Fungsi |
-|---|---|---:|---|
-| Validasi produk | Ahli materi dan ahli media | 3 ahli materi dan 3 ahli media | Menilai kelayakan isi, desain pembelajaran, tampilan media, fungsi media, dan kesesuaian prinsip *microlearning* |
-| Uji coba terbatas | Mahasiswa | 10 orang | Menilai keterpakaian awal, kemudahan penggunaan, dan respons awal mahasiswa |
-| Uji coba lebih luas | Mahasiswa | 25 orang | Menguji keterterimaan media pada kelompok yang lebih besar |
-| Uji lapangan | Mahasiswa semester 2 Program Studi Pendidikan Bahasa dan Sastra Indonesia | 77 orang, terdiri atas 40 mahasiswa kelas eksperimen dan 37 mahasiswa kelas kontrol | Menguji efektivitas media melalui desain *pretest-posttest* |
-
-## D. Prosedur Penelitian dan Pengembangan
-
-**Tabel 3.3 Peta Tahap ASSURE dan Luaran Penelitian**
+### Tabel 3.3 Peta Tahap ASSURE dan Luaran Penelitian
 
 | Tahap ASSURE | Aktivitas | Luaran |
 |---|---|---|
@@ -110,9 +60,30 @@ Informan kualitatif dipilih dari mahasiswa dan dosen yang terlibat dalam impleme
 | *Require Learner Participation* | Aktivitas berbicara, refleksi, dan umpan balik | Artefak belajar mahasiswa |
 | *Evaluate and Revise* | Validasi ahli, uji coba, evaluasi, dan revisi | Produk final |
 
+## C. Subjek Penelitian
+
+Subjek penelitian disesuaikan dengan kebutuhan setiap tahap pengembangan dan pengujian produk. Subjek penelitian dibagi ke dalam empat kelompok, yaitu validator ahli, peserta uji coba terbatas, peserta uji coba lebih luas, dan peserta uji lapangan.
+
+### Tabel 3.4 Subjek Penelitian dan Fungsinya
+
+| Tahap | Subjek | Jumlah | Fungsi |
+|---|---|---:|---|
+| Validasi produk | Ahli materi dan ahli media | 3 ahli materi dan 3 ahli media | Menilai kelayakan isi, desain pembelajaran, tampilan media, fungsi media, dan kesesuaian prinsip *microlearning* |
+| Uji coba terbatas | Mahasiswa | 10 orang | Menilai keterpakaian awal, kemudahan penggunaan, dan respons awal mahasiswa |
+| Uji coba lebih luas | Mahasiswa | 25 orang | Menguji keterterimaan media pada kelompok yang lebih besar |
+| Uji lapangan | Mahasiswa semester 2 Program Studi Pendidikan Bahasa dan Sastra Indonesia | 77 orang, terdiri atas 40 mahasiswa kelas eksperimen dan 37 mahasiswa kelas kontrol | Menguji efektivitas media melalui desain *pretest-posttest* |
+
+Populasi penelitian adalah seluruh mahasiswa semester 2 tahun akademik 2025 pada Program Studi Pendidikan Bahasa dan Sastra Indonesia yang mengikuti mata kuliah keterampilan berbicara dan terpetakan dalam dua kelas. Berdasarkan data pemetaan kelas, populasi tersebut berjumlah 77 mahasiswa yang terbagi ke dalam dua kelas, yaitu 40 mahasiswa pada kelas eksperimen dan 37 mahasiswa pada kelas kontrol.
+
+Teknik pengambilan sampel pada tahap uji lapangan menggunakan pengacakan pada tingkat kelas atau *cluster random sampling*. Pengacakan tidak dilakukan terhadap individu mahasiswa, melainkan terhadap dua kelas yang tersedia. Penentuan kelas eksperimen dan kelas kontrol dilakukan melalui undian pada awal koordinasi dengan dosen pengampu, sehingga tidak ada pemilihan kelas secara sengaja oleh peneliti. Dengan cara ini, seluruh anggota kelas yang terpilih tetap menjadi subjek penelitian sesuai konteks kuasi-eksperimen.
+
+Validator dalam penelitian ini terdiri atas ahli materi dan ahli media. Ahli materi merupakan dosen atau pakar yang memiliki kompetensi pada bidang pembelajaran bahasa, keterampilan berbicara, dan substansi materi yang dikembangkan. Ahli media merupakan dosen atau pakar yang memiliki kompetensi dalam desain media pembelajaran digital, antarmuka, dan pengembangan media berbasis web.
+
+## D. Prosedur Penelitian dan Pengembangan
+
 Prosedur penelitian disusun mengikuti enam langkah model ASSURE, yaitu *Analyze Learners*, *State Objectives*, *Select Methods, Media, and Materials*, *Utilize Media and Materials*, *Require Learner Participation*, serta *Evaluate and Revise*. Setiap langkah menghasilkan keluaran yang berbeda, sehingga proses pengembangan media dapat ditelusuri secara sistematis.
 
-**Tabel 3.5 Langkah ASSURE, Data, dan Output**
+### Tabel 3.5 Langkah ASSURE, Data, dan Output
 
 | Langkah | Aktivitas Inti | Data | Output |
 |---|---|---|---|
@@ -156,7 +127,7 @@ Metode yang dipilih adalah pembelajaran berbasis web dengan pendekatan *microlea
 
 Media dikembangkan dalam bentuk platform web yang dapat diakses melalui perangkat komputer maupun gawai. Komponen media meliputi modul singkat, video penjelasan, latihan berbicara, tugas penjelasan ulang, kuis interaktif, rekaman jawaban, dan fitur umpan balik.
 
-**Tabel 3.6 Komponen Produk Akhir**
+### Tabel 3.6 Komponen Produk Akhir
 
 | Komponen | Deskripsi |
 |---|---|
@@ -203,15 +174,15 @@ Evaluasi sumatif dilakukan pada uji lapangan untuk melihat efektivitas media ter
 
 Hasil evaluasi dari validator, mahasiswa, dan dosen digunakan sebagai dasar revisi produk. Revisi dilakukan secara bertahap agar media semakin sesuai dengan kebutuhan pengguna dan tujuan pembelajaran.
 
-## E. Produk yang Dikembangkan
+### 7. Produk Akhir Penelitian
 
 Produk akhir penelitian berupa media web *microlearning* berbasis teknik Feynman yang dapat diakses melalui peramban web pada perangkat komputer maupun gawai. Media ini dirancang untuk memfasilitasi keterampilan berbicara sekaligus memberikan ruang refleksi metakognitif. Dengan demikian, produk akhir tidak hanya berupa media digital, tetapi juga skenario pembelajaran yang terstruktur dan dapat direplikasi.
 
-## F. Teknik dan Instrumen Pengumpulan Data
+## E. Teknik Pengumpulan Data dan Instrumen Penelitian
 
 Data dalam penelitian ini dikumpulkan melalui beberapa teknik, yaitu observasi, wawancara, tes, angket, dan lembar validasi. Setiap teknik dipilih sesuai dengan jenis data yang ingin diperoleh.
 
-**Tabel 3.7 Keterkaitan Fokus Penelitian, Data, Instrumen, dan Analisis**
+### Tabel 3.7 Keterkaitan Fokus Penelitian, Data, Instrumen, dan Analisis
 
 | Fokus Penelitian | Data | Instrumen | Analisis |
 |---|---|---|---|
@@ -249,14 +220,7 @@ Angket respons mahasiswa digunakan pada tahap uji coba dan uji lapangan untuk me
 
 Lembar validasi digunakan untuk memperoleh penilaian dari ahli materi dan ahli media. Instrumen validasi materi menilai kelayakan isi, desain pembelajaran *microlearning*, kesesuaian dengan teknik Feynman, dukungan terhadap kemampuan metakognitif, keterampilan berbicara, serta aspek motivasi dan kebahasaan umum. Instrumen validasi media menilai bentuk media, kualitas media, fungsi media, dan kesesuaian penerapan prinsip *microlearning* dalam produk yang dikembangkan.
 
-
-### 7. Dokumentasi dan Artefak Belajar
-
-Dokumentasi dan artefak belajar digunakan untuk melengkapi data penelitian. Data ini meliputi rekaman tugas berbicara, hasil refleksi mahasiswa, catatan penggunaan media, dokumentasi implementasi, dan bukti revisi produk. Dokumentasi tersebut membantu peneliti menelusuri proses penggunaan media dan menguatkan interpretasi hasil kuantitatif maupun kualitatif.
-
-## G. Validitas dan Reliabilitas Instrumen
-
-### 1. Validitas Isi
+## F. Validitas dan Reliabilitas Instrumen
 
 Validitas instrumen dalam penelitian ini ditempuh melalui dua cara, yaitu validitas isi dan validitas empiris. Validitas isi dilakukan melalui *expert judgment* dari para ahli yang menilai kesesuaian butir instrumen dengan konstruk yang diukur (Fraenkel et al., 2015). Penilaian ahli dianalisis menggunakan koefisien validitas isi Aiken's V agar tingkat kesepakatan ahli terhadap relevansi butir dapat dinyatakan secara kuantitatif (Aiken, 1985; Azwar, 2016). Rumus Aiken's V yang digunakan adalah sebagai berikut.
 
@@ -272,28 +236,11 @@ Keterangan:
 - \(n\) = jumlah ahli atau penilai;
 - \(c\) = jumlah kategori skala penilaian.
 
-Pada penelitian ini, lembar validasi ahli menggunakan skala 1 sampai 4 sehingga \(l_o = 1\) dan \(c = 4\). Butir atau aspek instrumen dinyatakan memiliki validitas isi yang memadai apabila nilai Aiken's V mencapai \(V \geq 0{,}78\). Validitas isi instrumen diperoleh dari penilaian 3 validator ahli materi dan 3 validator ahli media, sehingga perhitungan Aiken's V dapat digunakan untuk membaca tingkat kesepakatan para ahli terhadap relevansi butir, aspek, maupun instrumen secara keseluruhan. 
+Pada penelitian ini, lembar validasi ahli menggunakan skala 1 sampai 4 sehingga \(l_o = 1\) dan \(c = 4\). Butir atau aspek instrumen dinyatakan memiliki validitas isi yang memadai apabila nilai Aiken's V mencapai \(V \geq 0{,}78\). Validitas isi instrumen diperoleh dari penilaian 3 validator ahli materi dan 3 validator ahli media, sehingga perhitungan Aiken's V dapat digunakan untuk membaca tingkat kesepakatan para ahli terhadap relevansi butir, aspek, maupun instrumen secara keseluruhan. Selain validitas isi, validitas empiris dilakukan pada instrumen yang berbentuk angket untuk memastikan bahwa butir-butir pernyataan benar-benar merepresentasikan indikator yang dimaksud.
 
-### 2. Validitas Empiris
+Reliabilitas instrumen dilakukan untuk memastikan konsistensi hasil pengukuran. Angket diuji reliabilitasnya melalui konsistensi internal, misalnya dengan koefisien Alpha Cronbach (Cronbach, 1951). Sementara itu, rubrik keterampilan berbicara diuji melalui kesepakatan antarpenilai (*inter-rater reliability*) agar skor yang diberikan tetap konsisten ketika penilaian dilakukan oleh lebih dari satu penilai (Cohen, 1960). Dengan demikian, hasil pengukuran diharapkan stabil dan dapat dipertanggungjawabkan.
 
-Selain validitas isi, validitas empiris dilakukan pada instrumen yang berbentuk angket untuk memastikan bahwa butir-butir pernyataan benar-benar merepresentasikan indikator yang dimaksud.
-
-
-
-### 3. Reliabilitas Angket
-
-Reliabilitas instrumen dilakukan untuk memastikan konsistensi hasil pengukuran. Angket diuji reliabilitasnya melalui konsistensi internal, misalnya dengan koefisien Alpha Cronbach (Cronbach, 1951). 
-
-### 4. Reliabilitas Rubrik Keterampilan Berbicara
-
-Sementara itu, rubrik keterampilan berbicara diuji melalui kesepakatan antarpenilai (*inter-rater reliability*) agar skor yang diberikan tetap konsisten ketika penilaian dilakukan oleh lebih dari satu penilai (Cohen, 1960). Dengan demikian, hasil pengukuran diharapkan stabil dan dapat dipertanggungjawabkan.
-
-### 5. Keabsahan Data Kualitatif
-
-Keabsahan data kualitatif dijaga melalui triangulasi sumber dan teknik. Data dari wawancara, observasi, masukan validator, dan artefak belajar dibandingkan untuk melihat konsistensi pola temuan. Proses pengodean dilakukan secara hati-hati agar tema yang dihasilkan benar-benar berhubungan dengan pengalaman penggunaan media, kemampuan metakognitif, dan keterampilan berbicara mahasiswa.
-
-
-## H. Teknik Pengolahan dan Analisis Data
+## G. Teknik Analisis Data
 
 Data penelitian dianalisis secara kuantitatif dan kualitatif. Karena penelitian ini menggunakan pendekatan *mixed methods sequential explanatory*, analisis data kuantitatif dilakukan terlebih dahulu, kemudian dilengkapi dengan analisis kualitatif untuk menjelaskan hasil yang muncul dari angka-angka tersebut (Creswell & Plano Clark, 2018).
 
@@ -301,37 +248,19 @@ Data penelitian dianalisis secara kuantitatif dan kualitatif. Karena penelitian 
 
 Analisis data kuantitatif digunakan untuk menguji efektivitas media dan menilai hasil pengembangan produk secara numerik. Tahapan analisis meliputi:
 
-#### a. Analisis Deskriptif
+#### a. Analisis deskriptif
 
 Analisis deskriptif digunakan untuk menggambarkan rata-rata, persentase, dan sebaran skor pada *pretest*, *posttest*, angket metakognitif, serta angket respons mahasiswa.
 
-#### b. Analisis Validasi Ahli
+#### b. Analisis validasi ahli dan respons pengguna
 
-Skor validasi ahli dianalisis dengan dua cara. Pertama, nilai Aiken's V dihitung untuk melihat validitas isi setiap butir, aspek, dan keseluruhan instrumen berdasarkan penilaian 3 validator ahli materi dan 3 validator ahli media. Kedua, skor perolehan dibandingkan dengan skor ideal untuk memperoleh persentase kelayakan produk. Dengan demikian, keputusan kelayakan tidak hanya bertumpu pada persentase skor, tetapi juga pada tingkat kesepakatan para ahli dan catatan kualitatif yang menyertai penilaian.
+Skor validasi ahli dianalisis dengan dua cara. Pertama, nilai Aiken's V dihitung untuk melihat validitas isi setiap butir, aspek, dan keseluruhan instrumen berdasarkan penilaian 3 validator ahli materi dan 3 validator ahli media. Kedua, skor perolehan dibandingkan dengan skor ideal untuk memperoleh persentase kelayakan produk. Dengan demikian, keputusan kelayakan tidak hanya bertumpu pada persentase skor, tetapi juga pada tingkat kesepakatan para ahli dan catatan kualitatif yang menyertai penilaian. Respons pengguna dihitung melalui rata-rata dan persentase dari skor ideal. Hasil analisis tersebut digunakan untuk menentukan kategori kelayakan, kepraktisan, dan keterpakaian media.
 
-#### c. Analisis Respons Pengguna
-
-Respons pengguna dihitung melalui rata-rata dan persentase dari skor ideal. Hasil analisis tersebut digunakan untuk menentukan kategori kelayakan, kepraktisan, dan keterpakaian media.
-
-Skor angket respons mahasiswa dianalisis menggunakan persentase dengan rumus:
-
-\[
-P = \frac{\Sigma R}{N} \times 100\%
-\]
-
-Keterangan:
-
-- \(\Sigma R\) = jumlah skor jawaban responden
-- \(N\) = jumlah skor ideal
-- \(P\) = persentase pencapaian
-
-Hasil persentase digunakan untuk menilai keterterimaan dan kepraktisan media.
-
-#### d. Uji Prasyarat Analisis
+#### c. Uji prasyarat analisis
 
 Sebelum pengujian hipotesis, dilakukan uji prasyarat berupa uji normalitas dan uji homogenitas. Uji normalitas dilakukan untuk mengetahui apakah distribusi data mendekati distribusi normal, sedangkan uji homogenitas dilakukan untuk mengetahui kesamaan varians antara kelompok eksperimen dan kelompok kontrol. Apabila data memenuhi asumsi parametrik, pengujian dilanjutkan dengan uji *t*. Apabila asumsi tidak terpenuhi, analisis dapat dilanjutkan dengan uji nonparametrik yang setara (Maciejewski, 2020; Shadish & Luellen, 2012).
 
-#### e. Uji Efektivitas Produk
+#### d. Uji efektivitas
 
 Uji efektivitas dilakukan melalui beberapa analisis berikut.
 
@@ -348,9 +277,21 @@ N\text{-}gain = \frac{posttest - pretest}{skor\ maksimum - pretest}
 
 Hasil perhitungan kemudian diinterpretasikan untuk melihat apakah media tergolong efektif dalam meningkatkan keterampilan berbicara dan kemampuan metakognitif.
 
-#### f. Hipotesis Statistik
+#### e. Analisis respons mahasiswa
 
-Pengujian hipotesis statistik dilakukan dengan membandingkan nilai signifikansi pada taraf kesalahan 0,05. Jika nilai signifikansi lebih kecil dari 0,05, maka terdapat perbedaan atau hubungan yang bermakna secara statistik sesuai jenis uji yang digunakan. Jika nilai signifikansi lebih besar atau sama dengan 0,05, maka perbedaan atau hubungan tidak dinyatakan bermakna secara statistik.
+Skor angket respons mahasiswa dianalisis menggunakan persentase dengan rumus:
+
+\[
+P = \frac{\Sigma R}{N} \times 100\%
+\]
+
+Keterangan:
+
+- \(\Sigma R\) = jumlah skor jawaban responden
+- \(N\) = jumlah skor ideal
+- \(P\) = persentase pencapaian
+
+Hasil persentase digunakan untuk menilai keterterimaan dan kepraktisan media.
 
 ### 2. Analisis Data Kualitatif
 
@@ -368,8 +309,7 @@ Analisis kualitatif ini membantu menjelaskan mengapa media memberikan dampak ter
 
 Setelah dua jenis data dianalisis, hasilnya diintegrasikan dalam bentuk penjelasan tematik dan *joint display*. Integrasi dilakukan dengan menempatkan temuan kuantitatif sebagai hasil utama, kemudian menjelaskan, menegaskan, atau memperluasnya melalui data kualitatif hasil wawancara dan observasi. Dengan cara ini, penelitian tidak berhenti pada angka peningkatan skor, tetapi juga menjelaskan mekanisme pembelajaran yang terjadi selama penggunaan media serta alasan mengapa media memberi pengaruh tertentu terhadap kemampuan metakognitif dan keterampilan berbicara mahasiswa.
 
-
-## I. Etika Penelitian dan Manajemen Data
+## H. Etika Penelitian dan Manajemen Data
 
 Penelitian ini memperhatikan aspek etika penelitian melalui beberapa langkah berikut.
 
@@ -381,22 +321,13 @@ Penelitian ini memperhatikan aspek etika penelitian melalui beberapa langkah ber
 
 Manajemen data dilakukan dengan pengkodean responden, pemisahan data kuantitatif dan kualitatif, serta pencatatan versi berkas yang digunakan. Pengelolaan ini penting agar proses analisis dapat ditelusuri dan dipertanggungjawabkan.
 
-
-## J. Kriteria Keberhasilan Penelitian
+## I. Kriteria Keberhasilan Penelitian
 
 Penelitian ini dinyatakan berhasil apabila memenuhi tiga kriteria berikut.
 
-### 1. Valid
-
-Media dinyatakan valid apabila memperoleh penilaian layak dari validator ahli yang menilai substansi materi dan kualitas media.
-
-### 2. Praktis
-
-Media dinyatakan praktis apabila mendapatkan respons positif dari mahasiswa dan mudah digunakan dalam pembelajaran.
-
-### 3. Efektif
-
-Media dinyatakan efektif apabila mampu meningkatkan kemampuan metakognitif dan keterampilan berbicara mahasiswa secara bermakna berdasarkan hasil analisis kuantitatif dan didukung oleh temuan kualitatif.
+1. **Valid**, yaitu media memperoleh penilaian layak dari validator ahli yang menilai substansi materi dan kualitas media.
+2. **Praktis**, yaitu media mendapatkan respons positif dari mahasiswa dan mudah digunakan dalam pembelajaran.
+3. **Efektif**, yaitu media mampu meningkatkan kemampuan metakognitif dan keterampilan berbicara mahasiswa secara bermakna berdasarkan hasil analisis kuantitatif dan didukung oleh temuan kualitatif.
 
 Secara operasional, media dinyatakan berhasil apabila hasil penilaian ahli berada minimal pada kategori baik, respons pengguna menunjukkan kategori baik atau sangat baik, serta analisis efektivitas menunjukkan adanya peningkatan yang signifikan dan bermakna secara praktis.
 

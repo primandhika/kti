@@ -26,9 +26,7 @@ Meskipun penelitian tentang *microlearning*, Teknik Feynman, metakognitif, dan k
 
 Berdasarkan celah penelitian tersebut, penelitian ini mengembangkan media pembelajaran berbasis web *microlearning* yang terintegrasi dengan Teknik Feynman. Model penelitian ini secara eksplisit menempatkan kemampuan metakognitif dalam keterampilan berbicara sebagai mediator. Artinya, media web *microlearning* berbasis Teknik Feynman dirancang untuk memperkuat lima dimensi metakognitif-berbicara, yaitu *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*, yang selanjutnya mendukung peningkatan performa berbicara mahasiswa. Kebaruan penelitian ini terletak pada tiga aspek utama. Pertama, pengembangan model konseptual yang mengintegrasikan Teknik Feynman dan metakognitif dalam konteks keterampilan berbicara. Kedua, perancangan media web *microlearning* yang secara sistematis menerapkan tahapan Teknik Feynman, menyediakan latihan berbicara terintegrasi, dan memanfaatkan prinsip CTML sebagai dasar desain multimedia. Ketiga, pengujian empiris model tersebut pada mahasiswa Pendidikan Bahasa Indonesia di perguruan tinggi. Dengan demikian, penelitian ini diharapkan mengisi celah literatur yang ada serta berkontribusi terhadap pengembangan desain pembelajaran digital yang sejalan dengan visi Kampus Berdampak dan prinsip Pembelajaran Mendalam abad ke-21. Oleh karena itu, penelitian ini berjudul "Pengembangan Web Microlearning Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa."
 
-## B. Masalah Penelitian
-
-### 1. Identifikasi Masalah Penelitian
+## B. Identifikasi Masalah Penelitian
 
 Berdasarkan latar belakang yang telah diuraikan, keterampilan berbicara di pendidikan tinggi tidak hanya berkaitan dengan kemampuan teknis berbahasa, tetapi juga melibatkan dimensi kognitif yang lebih dalam, yakni kemampuan metakognitif. Berikut adalah permasalahan yang berhasil diidentifikasi:
 
@@ -44,7 +42,7 @@ Berdasarkan latar belakang yang telah diuraikan, keterampilan berbicara di pendi
 
 6. Belum banyak media web untuk keterampilan berbicara yang secara sistematis mengintegrasikan *microlearning*, Teknik Feynman, dan prinsip CTML untuk mengembangkan kemampuan metakognitif dalam keterampilan berbicara mahasiswa.
 
-### 2. Pembatasan Masalah / Ruang Lingkup Penelitian
+## C. Pembatasan Masalah Penelitian
 
 Penelitian ini dibatasi pada pengembangan dan pengujian media pembelajaran berbasis web *microlearning* yang terintegrasi dengan Teknik Feynman. Variabel dalam penelitian ini mencakup:
 
@@ -56,7 +54,7 @@ Penelitian ini dibatasi pada pengembangan dan pengujian media pembelajaran berba
 
 Model penelitian ini menempatkan kemampuan metakognitif sebagai mediator antara penggunaan media dan peningkatan keterampilan berbicara. Konteks penelitian dibatasi pada mahasiswa Program Studi Pendidikan Bahasa Indonesia di salah satu perguruan tinggi di Indonesia.
 
-### 3. Perumusan Masalah Penelitian
+## D. Perumusan Masalah Penelitian
 
 Berdasarkan identifikasi dan pembatasan masalah, rumusan masalah penelitian ini adalah sebagai berikut:
 
@@ -72,7 +70,7 @@ Berdasarkan identifikasi dan pembatasan masalah, rumusan masalah penelitian ini 
 
 Rumusan masalah tersebut disusun sejalan dengan tahapan kerangka desain ASSURE yang digunakan dalam penelitian ini, mulai dari analisis karakteristik pembelajar (*Analyze Learners*), perumusan tujuan dan perancangan media (*State Objectives*; *Select Methods, Media, and Materials*), pemanfaatan media dan pelibatan aktif mahasiswa (*Utilize Media*; *Require Learner Participation*), hingga evaluasi dan revisi (*Evaluate and Revise*).
 
-## C. Tujuan Penelitian
+## E. Tujuan Penelitian
 
 Sejalan dengan rumusan masalah, penelitian ini bertujuan untuk:
 
@@ -86,7 +84,7 @@ Sejalan dengan rumusan masalah, penelitian ini bertujuan untuk:
 
 5. Menguji efektivitas media web *microlearning* berbasis Teknik Feynman dalam meningkatkan kemampuan metakognitif yang berdampak pada keterampilan berbicara mahasiswa.
 
-## D. Kegunaan Hasil Penelitian
+## F. Kegunaan Hasil Penelitian
 
 Hasil penelitian ini diharapkan memiliki kegunaan baik secara teoretis maupun praktis.
 

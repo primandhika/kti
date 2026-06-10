@@ -326,64 +326,64 @@ Revisi yang dilakukan memperlihatkan bahwa penyempurnaan produk tidak berhenti p
 
 ### 1. Hasil Uji Coba Terbatas
 
-[ ..... ]
+Bagian ini disiapkan untuk memaparkan hasil uji coba terbatas, termasuk respons mahasiswa, kendala awal penggunaan media, serta revisi yang dilakukan setelah uji coba kelompok kecil. Data kuantitatif dan kualitatif pada bagian ini perlu diisi berdasarkan berkas uji coba terbatas yang telah ditetapkan sebagai data final.
 
 ### 2. Hasil Uji Coba Lebih Luas
 
-[ ..... ]
+Bagian ini disiapkan untuk memaparkan hasil uji coba lebih luas, termasuk keterterimaan media, respons pengguna, dan perbaikan produk sebelum uji lapangan. Data pada bagian ini perlu disinkronkan dengan data uji coba lebih luas yang digunakan dalam analisis akhir.
 
 ## E. Hasil Uji Lapangan / Efektivitas Produk
 
 ### 1. Deskripsi Data
 
-[ ..... ]
+Bagian ini disiapkan untuk menyajikan deskripsi data uji lapangan, meliputi data kelompok eksperimen dan kontrol, skor *pretest* dan *posttest*, skor kemampuan metakognitif, serta skor keterampilan berbicara.
 
 ### 2. Uji Prasyarat Analisis
 
-[ ..... ]
+Bagian ini disiapkan untuk menyajikan hasil uji normalitas, homogenitas, dan prasyarat lain yang digunakan sebelum pengujian efektivitas produk.
 
 ### 3. Pengujian Efektivitas Kemampuan Metakognitif
 
-[ ..... ]
+Bagian ini disiapkan untuk memaparkan hasil pengujian efektivitas media terhadap kemampuan metakognitif mahasiswa.
 
 ### 4. Pengujian Efektivitas Keterampilan Berbicara
 
-[ ..... ]
+Bagian ini disiapkan untuk memaparkan hasil pengujian efektivitas media terhadap keterampilan berbicara mahasiswa.
 
 ### 5. Analisis Hubungan Kemampuan Metakognitif dan Keterampilan Berbicara
 
-[ ..... ]
+Bagian ini disiapkan untuk memaparkan hubungan antara kemampuan metakognitif dan keterampilan berbicara berdasarkan data akhir penelitian.
 
 ## F. Temuan Kualitatif
 
-[ ..... ]
+Bagian ini disiapkan untuk memaparkan tema-tema kualitatif yang diperoleh dari wawancara, observasi, refleksi mahasiswa, catatan penggunaan media, dan artefak belajar. Temuan kualitatif digunakan untuk menjelaskan hasil kuantitatif dan memperlihatkan pengalaman mahasiswa selama menggunakan media web *microlearning* berbasis teknik Feynman.
 
 ## G. Integrasi Temuan Kuantitatif dan Kualitatif
 
-[ ..... ]
+Bagian ini disiapkan untuk mengintegrasikan hasil kuantitatif dan kualitatif dalam bentuk narasi integratif dan *joint display*. Integrasi dilakukan agar peningkatan skor, respons pengguna, dan pengalaman belajar dapat dibaca sebagai satu kesatuan temuan.
 
 ## H. Pembahasan Temuan
 
 ### 1. Pembahasan Pengembangan Produk
 
-[ ..... ]
+Bagian ini membahas proses pengembangan produk berdasarkan tahapan ASSURE dan keterkaitannya dengan kebutuhan pembelajaran keterampilan berbicara.
 
 ### 2. Pembahasan Kelayakan Produk
 
-[ ..... ]
+Bagian ini membahas kelayakan produk berdasarkan hasil validasi ahli, respons pengguna, dan revisi produk.
 
 ### 3. Pembahasan Efektivitas Produk
 
-[ ..... ]
+Bagian ini membahas efektivitas media dalam meningkatkan kemampuan metakognitif dan keterampilan berbicara mahasiswa.
 
 ### 4. Pembahasan Integrasi Mixed Methods
 
-[ ..... ]
+Bagian ini membahas bagaimana data kualitatif menjelaskan, menegaskan, atau memperluas temuan kuantitatif.
 
 ### 5. Kebaruan Penelitian
 
-[ ..... ]
+Bagian ini membahas kontribusi baru penelitian dari sisi produk, desain pembelajaran, integrasi teknik Feynman, dan pengembangan kemampuan metakognitif dalam keterampilan berbicara.
 
 ### 6. Keterbatasan Penelitian
 
-[ ..... ]
+Bagian ini membahas batas-batas penelitian, termasuk keterbatasan konteks, subjek, durasi implementasi, instrumen, dan generalisasi hasil.

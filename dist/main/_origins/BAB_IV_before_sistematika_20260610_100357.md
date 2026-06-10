@@ -1,15 +1,8 @@
-# BAB IV
-# TEMUAN DAN PEMBAHASAN
+# BAB IV: HASIL PENELITIAN DAN PEMBAHASAN
 
-Bab ini memaparkan temuan dan pembahasan penelitian pengembangan media web *microlearning* berbasis teknik Feynman untuk meningkatkan kemampuan metakognitif dalam keterampilan berbicara mahasiswa. Penyajian hasil penelitian disusun secara sistematis mengikuti alur penelitian pengembangan dengan model ASSURE yang dipadukan dengan desain *mixed methods sequential explanatory*. Pembahasan dimulai dari latar penelitian, proses pengembangan produk, hasil validasi, uji coba produk, uji lapangan, temuan kualitatif, integrasi temuan, hingga pembahasan yang menghubungkan hasil penelitian dengan kerangka teoretis.
+Bab ini memaparkan hasil penelitian pengembangan media web *microlearning* berbasis teknik Feynman untuk meningkatkan kemampuan metakognitif dalam keterampilan berbicara mahasiswa. Penyajian hasil penelitian disusun secara sistematis mengikuti alur penelitian pengembangan dengan model ASSURE yang dipadukan dengan desain *mixed methods sequential explanatory*. Pembahasan dimulai dari proses pengembangan produk, hasil validasi, uji coba produk, uji lapangan, hingga sintesis temuan dan pembahasan yang menghubungkan hasil penelitian dengan kerangka teoretis.
 
-## A. Latar Penelitian
-
-Penelitian dilaksanakan pada konteks pembelajaran keterampilan berbicara mahasiswa Program Studi Pendidikan Bahasa dan Sastra Indonesia. Latar penelitian ini mencakup kebutuhan mahasiswa terhadap media pembelajaran yang fleksibel, ringkas, interaktif, dan mampu memfasilitasi latihan berbicara serta refleksi metakognitif. Secara metodologis, latar penelitian juga terkait dengan penggunaan kelas yang sudah tersedia sebagai kelompok eksperimen dan kelompok kontrol dalam desain kuasi-eksperimen.
-
-Bagian ini menjadi pengantar untuk membaca hasil pengembangan produk dan hasil uji efektivitas. Dengan menempatkan latar penelitian di awal Bab IV, pembaca dapat memahami bahwa temuan penelitian tidak berdiri sendiri, tetapi lahir dari konteks pembelajaran, karakteristik mahasiswa, dan kebutuhan pengembangan media yang telah dipaparkan pada Bab I sampai Bab III.
-
-## B. Hasil Pengembangan Produk
+## A. Hasil Pengembangan Produk
 
 Pengembangan media web *microlearning* berbasis teknik Feynman dilakukan melalui tahapan model ASSURE yang terdiri dari enam langkah: *Analyze Learners, State Objectives, Select Methods, Media and Materials, Utilize Media, Require Learner Participation*, serta *Evaluate and Revise*. Berikut hasil pelaksanaan setiap tahapan pengembangan.
 
@@ -209,7 +202,7 @@ Secara keseluruhan, produk final yang dihasilkan merupakan media web *microlearn
 
 ---
 
-## C. Hasil Validasi Produk
+## B. Hasil Validasi Produk
 
 Sebelum media diujicobakan kepada mahasiswa, produk terlebih dahulu melalui tahap validasi untuk memastikan bahwa substansi materi dan kualitas media telah layak digunakan dalam pembelajaran. Pada tahap ini, penilaian difokuskan pada dua sisi utama, yaitu substansi materi dan kualitas media. Karena itu, validator yang terlibat terdiri atas 3 ahli materi dan 3 ahli media. Penilaian dilakukan menggunakan skala 1 sampai 4, dengan kriteria 1 = kurang baik, 2 = cukup baik, 3 = baik, dan 4 = sangat baik.
 
@@ -285,7 +278,7 @@ Catatan dan saran ahli media disajikan pada Tabel 4.5.
 
 Secara keseluruhan, validator memandang media ini sudah sangat layak digunakan. Namun, kelayakan tersebut tidak berarti produk telah sepenuhnya final. Beberapa perbaikan tetap diperlukan, khususnya pada aspek teknis, kejelasan instruksi, dan penguatan integrasi fitur agar pengalaman belajar mahasiswa menjadi lebih lancar dan lebih konsisten.
 
-### 3. Rekapitulasi Validasi Produk
+### 3. Rekapitulasi Hasil Validasi
 
 Rekapitulasi hasil validasi produk disajikan pada Tabel 4.6.
 
@@ -301,7 +294,7 @@ Jika kedua hasil validasi dibaca secara bersamaan, tampak bahwa baik substansi m
 
 Secara tertimbang, produk memperoleh skor 517 dari 540 atau 95,74%, dengan nilai Aiken's V gabungan sebesar 0,943. Angka ini menegaskan bahwa media web *microlearning* berbasis teknik Feynman telah memenuhi kelayakan untuk memasuki tahap uji coba. Meski demikian, keputusan tersebut tidak diambil hanya karena persentasenya tinggi, tetapi juga karena catatan para validator menunjukkan bahwa perbaikan yang dibutuhkan bersifat terbatas dan masih berada pada ranah penyempurnaan, bukan perombakan mendasar.
 
-#### Revisi Produk Berdasarkan Masukan Validator
+### 4. Revisi Produk Berdasarkan Masukan Validator
 
 Berdasarkan catatan ahli materi, ahli media, dan masukan seminar kemajuan yang relevan dengan penyempurnaan instrumen, dilakukan beberapa revisi pada produk. Ringkasan revisi disajikan pada Tabel 4.7.
 
@@ -322,68 +315,4 @@ Revisi yang dilakukan memperlihatkan bahwa penyempurnaan produk tidak berhenti p
 
 ---
 
-## D. Hasil Uji Coba Produk
-
-### 1. Hasil Uji Coba Terbatas
-
-[ ..... ]
-
-### 2. Hasil Uji Coba Lebih Luas
-
-[ ..... ]
-
-## E. Hasil Uji Lapangan / Efektivitas Produk
-
-### 1. Deskripsi Data
-
-[ ..... ]
-
-### 2. Uji Prasyarat Analisis
-
-[ ..... ]
-
-### 3. Pengujian Efektivitas Kemampuan Metakognitif
-
-[ ..... ]
-
-### 4. Pengujian Efektivitas Keterampilan Berbicara
-
-[ ..... ]
-
-### 5. Analisis Hubungan Kemampuan Metakognitif dan Keterampilan Berbicara
-
-[ ..... ]
-
-## F. Temuan Kualitatif
-
-[ ..... ]
-
-## G. Integrasi Temuan Kuantitatif dan Kualitatif
-
-[ ..... ]
-
-## H. Pembahasan Temuan
-
-### 1. Pembahasan Pengembangan Produk
-
-[ ..... ]
-
-### 2. Pembahasan Kelayakan Produk
-
-[ ..... ]
-
-### 3. Pembahasan Efektivitas Produk
-
-[ ..... ]
-
-### 4. Pembahasan Integrasi Mixed Methods
-
-[ ..... ]
-
-### 5. Kebaruan Penelitian
-
-[ ..... ]
-
-### 6. Keterbatasan Penelitian
-
-[ ..... ]
+*[Bagian C, D, E, F, G, H, dan I akan dilanjutkan pada Part 3 dan Part 4]*

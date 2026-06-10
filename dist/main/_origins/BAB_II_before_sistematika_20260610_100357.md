@@ -1,8 +1,8 @@
 # BAB II
 
-# TINJAUAN TEORI / KERANGKA TEORETIK
+# KERANGKA TEORITIS
 
-## A. Kajian Teori
+## A. Deskripsi Teori
 
 Dalam bagian ini, akan dibahas teori-teori yang relevan sebagai landasan konseptual untuk mendukung penelitian. Penjelasan teori ini mencakup konsep-konsep kunci yang terkait dengan keterampilan berbicara, kemampuan metakognitif, media pembelajaran berbasis web, microlearning dan teknik Feynman. Setiap teori dijabarkan secara mendalam untuk memberikan pemahaman menyeluruh mengenai variabel-variabel penelitian.
 
@@ -49,7 +49,7 @@ Kelima aspek ini tidak hanya mencerminkan keterampilan teknis berbicara, tetapi 
 
 Dalam tahap evaluasi, keterampilan bicara dalam penelitian ini akan diukur dengan hybrid assesment. Penilaian mengombinasikan evaluasi formatif dan sumatif dengan rasio 60:40 (Fan dan Yan, 2020). Asesmen formatif melalui performance-based tasks dalam konteks autentik memungkinkan mahasiswa untuk menerapkan teknik Feynman dalam menjelaskan konsep dengan bahasa sendiri, sementara asesmen sumatif memberikan validasi terhadap pencapaian komprehensif konstruk keterampilan berbicara.
 
-### 2. Kemampuan Metakognitif dalam Keterampilan Berbicara
+### 2. Kemampuan Metakognitif
 
 Metakognitif merupakan kemampuan yang mencakup pengetahuan dan kontrol atas proses belajar peserta didik (Baker dan Brown, 2016). Menurut Flavell (1979), metakognitif memiliki peran penting dalam memperoleh informasi, membaca, memahami pemecahan masalah dan mengontrol diri. Metakognitif terdiri atas dua aspek utama, yaitu pengetahuan metakognitif (metacognitive knowledge) dan pengalaman metakognitif (metacognitive regulation). Flavell juga menjelaskan metakognitif sebagai kesadaran tentang bagaimana seseorang belajar, kapan seseorang memahami atau tidak memahami sesuatu, serta kemampuan untuk menggunakan informasi yang tersedia guna mencapai tujuan. Hal ini mencakup penilaian terhadap tuntutan kognitif suatu tugas, strategi yang digunakan, serta evaluasi terhadap kemajuan selama dan setelah proses pembelajaran (Hartman, 2001).
 
@@ -316,23 +316,25 @@ Oleh karena itu, CTML digunakan sebagai dasar teoretis untuk mendukung desain da
 
 Penjabaran teori-teori tersebut menjadi landasan dalam memahami hubungan antar variabel dalam penelitian ini, serta menjadi acuan dalam mengembangkan media pembelajaran berbasis web yang mengintegrasikan microlearning dan teknik Feynman untuk meningkatkan keterampilan berbicara mahasiswa.
 
-### 7. Model Pengembangan ASSURE
+### 7. Sintesis Teoretis Antarvariabel
 
-Model ASSURE digunakan sebagai kerangka pengembangan produk karena model ini secara eksplisit menempatkan karakteristik pembelajar, perumusan tujuan, pemilihan metode dan media, pemanfaatan media, partisipasi aktif pembelajar, serta evaluasi dan revisi sebagai satu rangkaian desain pembelajaran. Dalam konteks penelitian ini, ASSURE dipilih karena selaras dengan pengembangan media web *microlearning* yang menuntut analisis kebutuhan pengguna, rancangan materi yang tersegmentasi, integrasi teknologi, serta evaluasi bertahap terhadap kelayakan dan keterpakaian produk.
+Hubungan antarkonsep dalam penelitian ini dapat dijelaskan melalui tiga simpul utama yang saling bertautan, yaitu desain media, proses metakognitif, dan performa berbicara.
 
-Tahapan ASSURE terdiri atas *Analyze Learners, State Objectives, Select Methods, Media, and Materials, Utilize Media and Materials, Require Learner Participation,* serta *Evaluate and Revise*. Keenam tahap tersebut menjadi dasar prosedur pengembangan pada Bab III dan dasar penyajian hasil pengembangan pada Bab IV. Dengan demikian, ASSURE tidak hanya menjadi teori desain, tetapi juga menjadi alur kerja metodologis dalam penelitian ini.
+#### a. Microlearning dan CTML
 
-### 8. Mixed Methods Sequential Explanatory
+Microlearning sejalan dengan CTML karena sama-sama menekankan penyajian informasi yang ringkas, tersegmentasi, dan tidak membebani memori kerja. Media web yang menyajikan materi dalam unit kecil, dilengkapi teks, gambar, dan video, membantu mahasiswa memusatkan perhatian pada satu tujuan belajar dalam satu waktu. Dengan demikian, microlearning bukan hanya bentuk penyajian materi, tetapi juga strategi desain yang mendukung pemrosesan informasi secara lebih efisien.
 
-Desain *mixed methods sequential explanatory* digunakan untuk menggabungkan bukti kuantitatif dan penjelasan kualitatif secara berurutan. Pada tahap awal, data kuantitatif digunakan untuk membaca kelayakan, respons pengguna, dan efektivitas media melalui skor validasi, angket, dan tes. Setelah itu, data kualitatif dari wawancara, observasi, catatan validator, dan artefak belajar digunakan untuk menjelaskan mengapa hasil kuantitatif tertentu muncul serta bagaimana mahasiswa mengalami proses pembelajaran melalui media.
+#### b. Teknik Feynman dan Kemampuan Metakognitif
 
-Dalam penelitian pengembangan produk, desain ini penting karena keberhasilan media tidak cukup dinilai dari peningkatan skor. Peneliti juga perlu memahami pengalaman pengguna, hambatan penggunaan, bentuk partisipasi mahasiswa, dan alasan pedagogis yang menjelaskan keberhasilan atau keterbatasan media. Karena itu, integrasi data kuantitatif dan kualitatif menjadi dasar untuk menyusun interpretasi yang lebih utuh.
+Teknik Feynman mendorong mahasiswa untuk menjelaskan kembali materi dengan bahasa sendiri, menemukan bagian yang belum benar-benar dipahami, lalu memperbaiki penjelasan tersebut. Pada tingkat umum, proses ini memang dapat dibaca sebagai perencanaan, pemantauan, dan evaluasi. Namun, dalam konteks berbicara, proses itu bekerja lebih rinci melalui *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*. Karena itu, teknik Feynman dapat dipahami sebagai strategi belajar reflektif yang bukan hanya membantu pemahaman konsep, tetapi juga memperkuat kesadaran mahasiswa terhadap cara mereka menyusun dan menyampaikan penjelasan.
 
-### 9. Kuasi-Eksperimen dalam Uji Efektivitas Produk
+#### c. Kemampuan Metakognitif dan Keterampilan Berbicara
 
-Uji efektivitas produk dilakukan melalui desain kuasi-eksperimen karena penelitian berlangsung dalam konteks kelas yang sudah terbentuk. Dalam situasi seperti ini, pengacakan individu ke kelompok eksperimen dan kontrol tidak selalu memungkinkan secara administratif maupun pedagogis. Oleh sebab itu, pembandingan dilakukan pada kelas yang relatif sebanding dengan menggunakan desain *pretest-posttest control group*.
+Mahasiswa yang mampu membangun tujuan komunikasi, memilih bahasa yang tepat, menyampaikan penjelasan dengan jelas, memantau respons audiens, dan merefleksikan hasil berbicaranya cenderung menghasilkan performa lisan yang lebih terstruktur dan meyakinkan. Dalam konteks ini, metakognitif tidak dipahami sebagai tambahan yang berdiri di luar berbicara, melainkan sebagai proses yang bekerja di dalam praktik berbicara itu sendiri. Oleh karena itu, peningkatan kemampuan metakognitif diharapkan berdampak langsung pada peningkatan keterampilan berbicara.
 
-Desain kuasi-eksperimen memungkinkan peneliti membandingkan perubahan skor sebelum dan sesudah perlakuan pada kelompok eksperimen dan kelompok kontrol. Dalam penelitian ini, desain tersebut digunakan untuk menguji apakah penggunaan media web *microlearning* berbasis teknik Feynman memberikan peningkatan yang bermakna terhadap kemampuan metakognitif dan keterampilan berbicara mahasiswa.
+#### d. Sintesis Model Penelitian
+
+Berdasarkan ketiga simpul tersebut, model teoretis penelitian ini dapat disarikan sebagai berikut: media web *microlearning* berbasis teknik Feynman dirancang dengan prinsip CTML untuk menciptakan pembelajaran yang tersegmentasi dan multimodal; desain tersebut mendorong mahasiswa menjalani proses metakognitif-berbicara melalui *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*; proses itulah yang kemudian memperkuat kualitas keterampilan berbicara mahasiswa. Dengan demikian, kemampuan metakognitif diposisikan sebagai jembatan konseptual antara penggunaan media dan peningkatan performa berbicara.
 
 ## B. Penelitian yang Relevan
 
@@ -384,7 +386,7 @@ Hasil penelitian-penelitian ini menunjukkan relevansi dan keunggulan dari pendek
 
 Dengan demikian, penelitian ini menawarkan kebaruan dari sisi pendekatan, produk pengembangan dan integrasi prinsip pembelajaran berbasis kognitif.
 
-## C. Kerangka Berpikir / Kerangka Teori
+## C. Kerangka Berpikir
 
 Kerangka berpikir penelitian ini menempatkan kemampuan metakognitif sebagai mediator antara penggunaan media pembelajaran dan peningkatan keterampilan berbicara. Keterampilan berbicara mahasiswa dalam konteks akademik memerlukan lebih dari sekadar kemampuan menyampaikan kata-kata secara lisan. Mahasiswa perlu mampu mengorganisasi gagasan, menyesuaikan penyampaian dengan audiens, memantau performa saat berbicara, dan mengevaluasi hasil komunikasinya. Pada saat yang sama, mereka juga perlu memiliki kemampuan metakognitif agar dapat mengontrol proses berpikir dan belajar secara sadar.
 
@@ -421,22 +423,11 @@ Peningkatan Performa Berbicara
 
 Metakognitif ditempatkan sebagai mediator dalam model ini.
 
-## D. Hipotesis Penelitian / Hipotesis Efektivitas
-
-Berdasarkan kajian teori dan kerangka berpikir, hipotesis utama penelitian ini adalah bahwa penggunaan media web *microlearning* berbasis teknik Feynman efektif meningkatkan kemampuan metakognitif dalam keterampilan berbicara mahasiswa. Secara operasional, hipotesis tersebut dapat dirumuskan sebagai berikut.
-
-1. Terdapat perbedaan kemampuan metakognitif mahasiswa sebelum dan sesudah penggunaan media web *microlearning* berbasis teknik Feynman.
-2. Terdapat perbedaan keterampilan berbicara mahasiswa sebelum dan sesudah penggunaan media web *microlearning* berbasis teknik Feynman.
-3. Peningkatan kemampuan metakognitif dan keterampilan berbicara pada kelompok eksperimen lebih tinggi daripada kelompok kontrol.
-4. Terdapat hubungan positif antara kemampuan metakognitif dan keterampilan berbicara mahasiswa setelah penggunaan media.
-
-Untuk memperjelas konstruk yang diuji dalam hipotesis tersebut, definisi operasional variabel penelitian tetap dipertahankan sebagai penjelas konstruk yang diukur.
-
-### Definisi Operasional Variabel Penelitian
+## D. Definisi Operasional
 
 Definisi operasional dalam penelitian ini ditujukan untuk memberikan kejelasan mengenai konsep-konsep yang digunakan dan bagaimana konsep tersebut diukur dalam konteks penelitian:
 
-#### 1. Keterampilan Berbicara
+### 1. Keterampilan Berbicara
 
 Keterampilan Berbicara adalah kemampuan individu untuk menyampaikan ide, gagasan, atau informasi secara lisan dengan jelas, terstruktur dan efektif, menggunakan intonasi, artikulasi, serta ekspresi yang sesuai untuk mempengaruhi atau memotivasi pendengar. Dalam konteks yang lebih spesifik, keterampilan berbicara yang dimaksud lebih terfokus pada kemampuan untuk mempresentasikan atau menyajikan suatu materi secara lisan di depan audiens, yang menuntut penguasaan komunikasi dua arah maupun satu arah dengan tujuan untuk menginformasikan, meyakinkan, atau menginspirasi pendengar. Pengukuran dilakukan melalui observasi dan penilaian berdasarkan rubrik yang telah divalidasi. Untuk itu keterampilan berbicara perlu diukur secara objektif dan menyeluruh, maka perlu dirumuskan indikator-indikator penilaian yang mencerminkan konstruksi kompetensi yang ingin dicapai.
 
@@ -454,7 +445,7 @@ Keterampilan Berbicara adalah kemampuan individu untuk menyampaikan ide, gagasan
 | Performatif (Lucas dan Stob, 2020) | Penyampaian yang berdampak | Komunikasi yang berpengaruh dan memorable | Penggunaan teknik persuasi yang efektif; Penyampaian yang menarik perhatian; Pesan yang menginspirasi atau memotivasi |
 | Performatif (Lucas dan Stob, 2020) | Responsivitas terhadap reaksi audiens | Adaptasi berdasarkan umpan balik | Merespons pertanyaan dengan tepat; Mengklarifikasi poin yang kurang jelas; Menyesuaikan penyampaian berdasarkan reaksi |
 
-#### 2. Kemampuan Metakognitif
+### 2. Kemampuan Metakognitif
 
 Kemampuan metakognitif dalam penelitian ini merupakan kemampuan mahasiswa untuk menyadari, mengelola, dan menilai proses berpikirnya ketika mempersiapkan, menyusun, menyampaikan, memantau, dan merefleksikan keterampilan berbicara. Secara umum, literatur memang sering memetakan metakognitif ke dalam perencanaan, pemantauan, dan evaluasi. Kerangka itu tetap dipertahankan dalam pembahasan teoretis sebagai pembanding. Namun, untuk kepentingan operasional penelitian, konstruk yang digunakan dibuat lebih dekat dengan praktik berbicara.
 
@@ -485,7 +476,7 @@ Dengan pertimbangan tersebut, kemampuan metakognitif mahasiswa dalam konteks ket
 - Mahasiswa mampu mengidentifikasi kekuatan dan kelemahan performa berbicaranya.
 - Mahasiswa mampu merumuskan perbaikan untuk penampilan berbicara berikutnya.
 
-#### 3. Media Pembelajaran Berbasis Web
+### 3. Media Pembelajaran Berbasis Web
 
 Media Pembelajaran Berbasis Web didefinisikan sebagai media pembelajaran yang memanfaatkan platform berbasis internet, seperti situs web atau aplikasi daring, untuk menyediakan media interaktif yang mendukung pengembangan keterampilan berbicara mahasiswa secara fleksibel, mandiri dan adaptif. Media pembelajaran ini dirancang untuk menampilkan berbagai elemen, seperti teks, audio, video dan modul digital yang memungkinkan mahasiswa untuk mengakses, mempelajari dan merefleksikan materi secara terstruktur kapan saja dan di mana saja.
 
@@ -524,7 +515,7 @@ Setiap aspek penilaian tersebut dirumuskan ke dalam indikator-indikator yang dik
 | 9 | Fungsi Media | Dukungan terhadap pembelajaran aktif dan mandiri; percepatan pemahaman konsep; peningkatan keterampilan berbicara melalui praktik; integrasi teknik Feynman | Ahli media |
 | 10 | Aspek Microlearning | Segmentasi konten; durasi pembelajaran; aksesibilitas lintas perangkat; interaktivitas yang mendukung keterlibatan | Ahli media |
 
-#### 4. Microlearning
+### 4. Microlearning
 
 Microlearning didefinisikan sebagai metode pembelajaran berbasis web yang dirancang untuk menyampaikan materi dalam potongan kecil (bite-sized) yang fokus, terarah dan mudah dipahami. Pendekatan ini mendukung fleksibilitas belajar, memungkinkan mahasiswa untuk mengakses konten kapan saja dan di mana saja melalui perangkat digital. Dengan memanfaatkan elemen multimedia dan integrasi konsep makro, meso dan mikro, microlearning mendukung personalisasi pembelajaran, memfasilitasi refleksi mandiri dan membantu mahasiswa Pendidikan Bahasa Indonesia dalam meningkatkan keterampilan berbicara secara efektif dan efisien.
 
@@ -544,7 +535,7 @@ f) **Fleksibilitas Belajar**: Mahasiswa bisa belajar kapan saja, sesuai waktu da
 
 g) **Personalisasi**: Konten dapat dipelajari sesuai kecepatan dan preferensi masing-masing mahasiswa.
 
-#### 5. Teknik Feynman
+### 5. Teknik Feynman
 
 Teknik Feynman pada penelitian ini merupakan strategi pembelajaran yang diintegrasikan pada media web, di mana mahasiswa diharuskan untuk mempelajari suatu topik dengan menyederhanakan konsep-konsep kompleks ke dalam bahasa yang lebih mudah dipahami dan kemudian menjelaskan kembali materi tersebut kepada audiens (diri sendiri atau orang lain) melalui media berbicara. Proses ini dirancang untuk meningkatkan pemahaman mendalam dan refleksi atas pemikiran mahasiswa yang mendukung pengembangan kemampuan metakognitif dan keterampilan berbicara.
 
@@ -562,7 +553,7 @@ Untuk memastikan bahwa penerapan teknik Feynman dalam media yang akan dikembangk
 
 6) **Keterkaitan dengan Metakognitif**: Strategi ini membantu mahasiswa merancang, memantau dan mengevaluasi proses belajar mereka sendiri melalui aktivitas menjelaskan.
 
-#### 6. *Cognitive Theory of Multimedia Learning* (CTML)
+### 6. *Cognitive Theory of Multimedia Learning* (CTML)
 
 CTML dalam penelitian ini diacu sebagai teori yang menjelaskan bagaimana seorang pembelajar dapat lebih efektif mempelajari sesuatu melalui kombinasi elemen visual dan verbal dibandingkan hanya menggunakan satu jenis elemen saja. CTML beroperasi berdasarkan tiga prinsip utama: (1) adanya dua saluran pemrosesan informasi (visual dan verbal), (2) kapasitas terbatas dari memori kerja dan (3) pentingnya proses aktif untuk memilih, mengorganisasi, serta mengintegrasikan informasi.
 
