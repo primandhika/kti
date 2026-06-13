@@ -174,12 +174,13 @@ Dokumen ini merangkum hasil pemeriksaan kesesuaian antara BAB III (Metode Peneli
 
 | File | Status |
 |------|--------|
-| `uji_coba/small_group_prepost.csv` | ⚠️ Perlu diisi (5 orang) |
-| `uji_coba/small_group_respons.csv` | ⚠️ Perlu diisi |
-| `uji_coba/uji_kepraktisan.csv` | ⚠️ Perlu diisi (10 orang) |
+| `uji_coba/small_group_prepost.csv` | ⚠️ Perlu isi skor (6 orang sudah seed) |
+| `uji_coba/small_group_respons.csv` | ⚠️ Perlu isi respons (6 orang sudah seed) |
+| `uji_coba/large_group_prepost.csv` | ⚠️ Perlu isi skor tahap 2 (10 orang sudah seed) |
+| `uji_coba/large_group_respons.csv` | ⚠️ Perlu isi respons tahap 2 (10 orang sudah seed) |
 
-- [ ] Isi data uji coba terbatas (5 mahasiswa)
-- [ ] Isi data uji kepraktisan (10 mahasiswa)
+- [ ] Isi data uji coba kelompok kecil (6 mahasiswa)
+- [ ] Isi data uji coba terbatas lanjutan (10 mahasiswa)
 
 ---
 

@@ -78,17 +78,17 @@ Gunakan tanda ✅ jika sudah diganti, ❌ jika belum.
 
 ## C. Hasil Uji Coba Produk
 
-### Uji Coba Terbatas (Small Group, n=10)
+### Uji Coba Terbatas Tahap 1 (Small Group, n=6)
 | No | Tabel di BAB IV | File CSV | Status |
 |----|----------------|----------|--------|
 | 1 | Tabel 4.14 Respons Mahasiswa Uji Terbatas | `data/uji_coba/small_group_respons.csv` | ❌ |
 | 2 | Tabel 4.15 Pretest-Posttest Uji Terbatas | `data/uji_coba/small_group_prepost.csv` | ❌ |
 
-### Uji Coba Lebih Luas (Large Group, n=25)
+### Uji Coba Terbatas Tahap 2 (Lanjutan, n=10)
 | No | Tabel di BAB IV | File CSV | Status |
 |----|----------------|----------|--------|
-| 1 | Tabel 4.16 Respons Mahasiswa Uji Lebih Luas | `data/uji_coba/large_group_respons.csv` | ❌ |
-| 2 | Tabel 4.17 Pretest-Posttest Uji Lebih Luas | `data/uji_coba/large_group_prepost.csv` | ❌ |
+| 1 | Tabel 4.16 Respons Mahasiswa Uji Terbatas Lanjutan | `data/uji_coba/large_group_respons.csv` | ❌ |
+| 2 | Tabel 4.17 Pretest-Posttest Uji Terbatas Lanjutan | `data/uji_coba/large_group_prepost.csv` | ❌ |
 
 ---
 

@@ -7,11 +7,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 CHAPTERS = [
-    ("Bab I", "BAB_I.md"),
-    ("Bab II", "BAB_II.md"),
-    ("Bab III", "BAB_III.md"),
-    ("Bab IV", "BAB_IV.md"),
-    ("Bab V", "BAB_V.md"),
+    ("Bab I", "01_BAB_I_PENDAHULUAN.md", "BAB_I.md"),
+    ("Bab II", "01_BAB_II_TINJAUAN_TEORI_KERANGKA_TEORETIK.md", "BAB_II.md"),
+    ("Bab III", "01_BAB_III_METODOLOGI_PENELITIAN.md", "BAB_III.md"),
+    ("Bab IV", "01_BAB_IV_TEMUAN_DAN_PEMBAHASAN.md", "BAB_IV.md"),
+    ("Bab V", "01_BAB_V_KESIMPULAN_IMPLIKASI_DAN_SARAN.md", "BAB_V.md"),
 ]
 
 
@@ -34,9 +34,9 @@ def main() -> int:
     rows: list[tuple[str, int, int, str]] = []
     missing: list[Path] = []
 
-    for chapter, filename in CHAPTERS:
-        main_path = ROOT / "main" / filename
-        reference_path = ROOT / "reference" / "Ika_Yatri" / filename
+    for chapter, main_filename, reference_filename in CHAPTERS:
+        main_path = ROOT / "main" / main_filename
+        reference_path = ROOT / "reference" / "Ika_Yatri" / reference_filename
 
         if not main_path.exists():
             missing.append(main_path)
