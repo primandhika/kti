@@ -1,11 +1,11 @@
 no,id,nim,nama,kelompok,sumber_field_test_id,tampilan,navigasi,multimedia,interaktivitas,materi,teknik_feynman,total,rata_rata,persentase
-1,UCL01,25210079,Putri naesilla lupia Sifa,eksperimen,E20,,,,,,,,,
-2,UCL02,25210016,Risma Ardina,eksperimen,E16,,,,,,,,,
-3,UCL03,25210058,Zahra Bilbina Ramadhani,eksperimen,E08,,,,,,,,,
-4,UCL04,25210073,Nazmi Yulia,eksperimen,E07,,,,,,,,,
-5,UCL05,25210041,Widya Tri Nugroho,eksperimen,E15,,,,,,,,,
-6,UCL06,25210021,Khoerul mufti faikar,kontrol,K09,,,,,,,,,
-7,UCL07,25210088,Nadva Khusifa Lail,kontrol,K21,,,,,,,,,
-8,UCL08,25210033,Abdul Rahman Reyhan Alzaelani,kontrol,K01,,,,,,,,,
-9,UCL09,25210039,chaesar Bintara yudha,kontrol,K04,,,,,,,,,
-10,UCL10,25210013,Moch Kahfi Arasyadin,kontrol,K13,,,,,,,,,
+1,UCL01,25210016,Risma Ardina,eksperimen,E16,4,4,4,4,4,4,24,4.00,100.00
+2,UCL02,25210058,Zahra Bilbina Ramadhani,eksperimen,E08,4,4,4,4,4,4,24,4.00,100.00
+3,UCL03,25210073,Nazmi Yulia,eksperimen,E07,4,4,4,4,4,4,24,4.00,100.00
+4,UCL04,25210041,Widya Tri Nugroho,eksperimen,E15,4,3,4,4,4,3,22,3.67,91.67
+5,UCL05,25210086,Mardian Reza Susanto,eksperimen,E10,4,4,4,4,4,4,24,4.00,100.00
+6,UCL06,25210088,Nadva Khusifa Lail,kontrol,K21,4,4,4,4,4,4,24,4.00,100.00
+7,UCL07,25210032,zihan shalma,kontrol,K37,4,4,4,4,4,3,23,3.83,95.83
+8,UCL08,25210039,chaesar Bintara yudha,kontrol,K04,4,3,3,4,4,3,21,3.50,87.50
+9,UCL09,25210002,Hesel Aziz Mutaqin,kontrol,K07,4,3,3,4,4,4,22,3.67,91.67
+10,UCL10,25210040,Rizqia Dwi Putri,kontrol,K25,4,4,4,4,4,3,23,3.83,95.83

@@ -1,11 +1,11 @@
 no,id,nim,nama,kelompok,sumber_field_test_id,pre_pengorganisasian,pre_kejelasan,pre_ketepatan,pre_strategi,pre_metakognitif,pre_total,post_pengorganisasian,post_kejelasan,post_ketepatan,post_strategi,post_metakognitif,post_total
-1,UCL01,25210079,Putri naesilla lupia Sifa,eksperimen,E20,,,,,,,,,,,,
-2,UCL02,25210016,Risma Ardina,eksperimen,E16,,,,,,,,,,,,
-3,UCL03,25210058,Zahra Bilbina Ramadhani,eksperimen,E08,,,,,,,,,,,,
-4,UCL04,25210073,Nazmi Yulia,eksperimen,E07,,,,,,,,,,,,
-5,UCL05,25210041,Widya Tri Nugroho,eksperimen,E15,,,,,,,,,,,,
-6,UCL06,25210021,Khoerul mufti faikar,kontrol,K09,,,,,,,,,,,,
-7,UCL07,25210088,Nadva Khusifa Lail,kontrol,K21,,,,,,,,,,,,
-8,UCL08,25210033,Abdul Rahman Reyhan Alzaelani,kontrol,K01,,,,,,,,,,,,
-9,UCL09,25210039,chaesar Bintara yudha,kontrol,K04,,,,,,,,,,,,
-10,UCL10,25210013,Moch Kahfi Arasyadin,kontrol,K13,,,,,,,,,,,,
+1,UCL01,25210016,Risma Ardina,eksperimen,E16,10,12,10,12,10,72.00,12,14,14,14,15,92.00
+2,UCL02,25210058,Zahra Bilbina Ramadhani,eksperimen,E08,9,11,10,11,9,66.70,14,13,13,14,14,90.70
+3,UCL03,25210073,Nazmi Yulia,eksperimen,E07,10,10,10,11,10,68.00,13,14,12,15,13,89.30
+4,UCL04,25210041,Widya Tri Nugroho,eksperimen,E15,11,11,11,11,10,72.00,13,14,13,13,14,89.30
+5,UCL05,25210086,Mardian Reza Susanto,eksperimen,E10,12,14,13,14,10,84.00,13,13,13,13,14,88.00
+6,UCL06,25210088,Nadva Khusifa Lail,kontrol,K21,11,11,10,10,11,70.67,13,14,11,14,13,86.70
+7,UCL07,25210032,zihan shalma,kontrol,K37,11,10,11,11,11,72.00,11,14,14,14,12,86.70
+8,UCL08,25210039,chaesar Bintara yudha,kontrol,K04,10,10,10,11,11,69.33,13,14,13,13,10,84.00
+9,UCL09,25210002,Hesel Aziz Mutaqin,kontrol,K07,10,11,11,10,10,69.33,12,14,11,13,13,84.00
+10,UCL10,25210040,Rizqia Dwi Putri,kontrol,K25,11,11,10,11,11,72.00,11,14,11,14,13,84.00

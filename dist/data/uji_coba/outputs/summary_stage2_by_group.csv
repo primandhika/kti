@@ -1,0 +1,3 @@
+tahap/kelompok,n,mean_pre,sd_pre,mean_post,sd_post,mean_gain,sd_gain,ci95_gain,mean_n_gain,kategori_n_gain,d_paired
+eksperimen,5,72.54,6.83,89.86,1.53,17.32,7.83,10.46 - 24.18,0.594,Sedang,2.21
+kontrol,5,70.67,1.34,85.08,1.48,14.41,1.47,13.12 - 15.70,0.491,Sedang,9.80

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Arial" font-size="20" font-weight="700" fill="#111827">Rata-rata Gain Aspek Keterampilan Tahap 2</text>
+<text x="24" y="82" font-family="Arial" font-size="13" fill="#374151">pengorganisasian</text>
+<rect x="220" y="62" width="428.6" height="28" rx="3" fill="#2563eb"/>
+<text x="656.6" y="81" font-family="Arial" font-size="13" fill="#111827">2.00</text>
+<text x="24" y="128" font-family="Arial" font-size="13" fill="#374151">kejelasan</text>
+<rect x="220" y="108" width="578.6" height="28" rx="3" fill="#2563eb"/>
+<text x="806.6" y="127" font-family="Arial" font-size="13" fill="#111827">2.70</text>
+<text x="24" y="174" font-family="Arial" font-size="13" fill="#374151">ketepatan</text>
+<rect x="220" y="154" width="407.1" height="28" rx="3" fill="#2563eb"/>
+<text x="635.1" y="173" font-family="Arial" font-size="13" fill="#111827">1.90</text>
+<text x="24" y="220" font-family="Arial" font-size="13" fill="#374151">strategi</text>
+<rect x="220" y="200" width="535.7" height="28" rx="3" fill="#2563eb"/>
+<text x="763.7" y="219" font-family="Arial" font-size="13" fill="#111827">2.50</text>
+<text x="24" y="266" font-family="Arial" font-size="13" fill="#374151">metakognitif</text>
+<rect x="220" y="246" width="600.0" height="28" rx="3" fill="#2563eb"/>
+<text x="828.0" y="265" font-family="Arial" font-size="13" fill="#111827">2.80</text>
+</svg>

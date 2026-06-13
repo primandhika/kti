@@ -1,0 +1,13 @@
+tahap,tema,indikasi,makna
+Tahap 1,Kendala autentikasi,4 dari 6 responden,Login menjadi hambatan utama dan perlu diperbaiki sebelum skenario lebih luas.
+Tahap 1,Beban video/server,Keluhan video berat dan harus berpindah ke YouTube,Media perlu menyajikan video secara lebih ringan dan terintegrasi.
+Tahap 1,Kedalaman aktivitas Feynman,Konten dinilai masih seperti kuis biasa,"Aktivitas perlu menuntun peserta menjelaskan kembali, bukan hanya menjawab kuis."
+Tahap 2,Keterlaksanaan alur,7 dari 10 lancar; 3 dari 10 mengalami kendala,Alur pembelajaran sudah relatif stabil tetapi masih perlu perbaikan navigasi dan login.
+Tahap 2,Navigasi mobile,2 dari 10 mengalami kendala navigasi,Antarmuka perlu dioptimalkan untuk pola akses mahasiswa yang dominan mobile.
+Tahap 2,Login/lupa password,1 dari 10 mengalami kendala login,Perlu fallback autentikasi agar aktivitas tidak berhenti karena masalah akun.
+Tahap 2,Level gating,Mayoritas menyarankan pembatas untuk naik level,Progression rule dapat meningkatkan tantangan dan menjaga keterurutan belajar.
+Tahap 2,Sistem poin,Mahasiswa sangat menyukai poin ketika memberi feedback,Gamifikasi ringan mendukung keterlibatan dan motivasi partisipatif.
+Tahap 2,Video microlearning,Sekitar 85% sangat baik; sisanya biasa saja,"Video ringkas diterima baik, tetapi variasi kualitas pengalaman tetap perlu dicermati."
+Tahap 2,Kode masuk case sensitive,Banyak kendala masuk pada fitur uji,Validasi input perlu dibuat lebih toleran atau instruksi teknis dibuat lebih eksplisit.
+Tahap 2,Observasi gestur saat tes,Saran promotor,Modul pre/post perlu memfasilitasi observasi gestur sebagai bagian konstruk keterampilan berbicara.
+Tahap 2,Log analitik,Saran kopromotor,Data log dapat menjadi temuan penggunaan dan memperkuat evaluasi proses.

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="264" viewBox="0 0 900 264">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Arial" font-size="20" font-weight="700" fill="#111827">Rata-rata Pretest dan Posttest Tahap 2</text>
+<text x="24" y="82" font-family="Arial" font-size="13" fill="#374151">eksperimen pre</text>
+<rect x="220" y="62" width="484.4" height="28" rx="3" fill="#2563eb"/>
+<text x="712.4" y="81" font-family="Arial" font-size="13" fill="#111827">72.54</text>
+<text x="24" y="128" font-family="Arial" font-size="13" fill="#374151">eksperimen post</text>
+<rect x="220" y="108" width="600.0" height="28" rx="3" fill="#2563eb"/>
+<text x="828.0" y="127" font-family="Arial" font-size="13" fill="#111827">89.86</text>
+<text x="24" y="174" font-family="Arial" font-size="13" fill="#374151">kontrol pre</text>
+<rect x="220" y="154" width="471.9" height="28" rx="3" fill="#2563eb"/>
+<text x="699.9" y="173" font-family="Arial" font-size="13" fill="#111827">70.67</text>
+<text x="24" y="220" font-family="Arial" font-size="13" fill="#374151">kontrol post</text>
+<rect x="220" y="200" width="568.1" height="28" rx="3" fill="#2563eb"/>
+<text x="796.1" y="219" font-family="Arial" font-size="13" fill="#111827">85.08</text>
+</svg>

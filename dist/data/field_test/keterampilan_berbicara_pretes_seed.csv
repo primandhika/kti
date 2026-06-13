@@ -1,0 +1,78 @@
+id,nim,nama,kelompok,topik_pre,pre_pengorganisasian,pre_kejelasan,pre_ketepatan,pre_strategi,pre_metakognitif,pre_total,pre_nilai_akhir,pre_diksi,pre_gramatikal,pre_retorika,pre_artikulasi_sub,pre_intonasi,pre_kecepatan,pre_urutan,pre_transisi,pre_simpulan,pre_bahasa,pre_contoh,pre_formalitas,pre_persuasi,pre_perhatian,pre_inspirasi,pre_metode,pre_penilai,is_seed
+E01,25210027,Dira Laura Sanifiyanti,eksperimen,Hobi dan Gaya Hidup,11,11,10,10,10,69.33,69.33,4,3,3,4,4,3,4,4,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+E02,25210082,Rianti Khoirunnisa,eksperimen,Hobi dan Gaya Hidup,9,13,9,11,11,70.70,70.70,3,3,3,5,4,4,3,3,3,5,3,3,3,5,3,Rubrik,Aurelia Sakti Yani,0
+E03,25210050,Reifa Nazwa Shakira,eksperimen,Budaya dan Seni,9,12,10,12,11,72.00,72.00,4,3,3,5,4,3,3,3,3,5,4,3,3,5,3,Rubrik,Aurelia Sakti Yani,0
+E04,25210066,Jihan Shafira,eksperimen,Teknologi dan Digitalisasi,9,10,9,11,9,64.00,64.00,3,3,3,4,3,3,3,3,3,4,4,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E05,25210064,Anisha Delaneira Novelianda,eksperimen,Budaya dan Seni,10,11,11,10,10,69.33,69.33,4,4,3,4,4,3,4,3,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+E06,25210053,Mochamad Rifki Al Malik,eksperimen,Teknologi dan Digitalisasi,10,10,11,11,11,70.67,70.67,4,4,3,4,3,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E07,25210073,Nazmi Yulia,eksperimen,Kesehatan Mental dan Fisik,10,10,10,11,10,68.00,68.00,4,3,3,3,4,3,3,3,4,4,4,3,3,4,3,Rubrik,Aurelia Sakti Yani,0
+E08,25210058,Zahra Bilbina Ramadhani,eksperimen,Hobi dan Gaya Hidup,9,11,10,11,9,66.70,66.70,4,3,3,4,4,3,3,3,3,4,4,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E09,25210061,Nur Ainun Nadhifah Gumilar,eksperimen,Kesehatan Mental dan Fisik,11,10,10,11,11,70.67,70.67,4,3,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E10,25210086,Mardian Reza Susanto,eksperimen,Hobi dan Gaya Hidup,12,14,13,14,10,84.00,84.00,5,4,4,5,5,4,5,3,4,5,5,4,3,3,4,Rubrik,Aurelia Sakti Yani,0
+E11,25210047,Lismaya Aulia Zakian,eksperimen,Hobi dan Gaya Hidup,14,15,13,14,12,90.70,90.70,5,4,4,5,5,5,5,5,4,5,5,4,3,5,4,Rubrik,Aurelia Sakti Yani,0
+E12,25210060,Nur Sifa Awaliah,eksperimen,Lingkungan dan Keberlanjutan,11,11,10,10,11,70.67,70.67,4,3,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E13,25210048,Lena Septiana,eksperimen,Hobi dan Gaya Hidup,10,7,9,11,11,64.00,64.00,3,3,3,3,2,2,3,3,4,4,4,3,3,5,3,Rubrik,Aurelia Sakti Yani,0
+E14,25210049,Hadi Wikarsa,eksperimen,Hobi dan Gaya Hidup,10,13,9,13,11,74.70,74.70,3,3,3,4,5,4,3,4,3,5,5,3,3,5,3,Rubrik,Aurelia Sakti Yani,0
+E15,25210041,Widya Tri Nugroho,eksperimen,Hobi dan Gaya Hidup,11,11,11,11,10,72.00,72.00,4,4,3,4,4,3,4,4,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+E16,25210016,Risma Ardina,eksperimen,Budaya dan Seni,10,12,10,12,10,72.00,72.00,4,3,3,5,4,3,3,3,4,5,4,3,3,4,3,Rubrik,Aurelia Sakti Yani,0
+E17,25210077,Niwati Halawa,eksperimen,Budaya dan Seni,10,11,11,11,11,72.00,72.00,4,4,3,4,4,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E18,25210103,Revalina,eksperimen,Kesehatan Mental dan Fisik,6,12,10,13,14,73.30,73.30,4,3,3,5,4,3,3,3,0,5,5,3,5,5,4,Rubrik,Aurelia Sakti Yani,0
+E19,25210091,Nurwanti,eksperimen,Hobi dan Gaya Hidup,8,11,7,9,10,60.00,60.00,3,2,2,4,4,3,2,3,3,3,3,3,3,4,3,Rubrik,Aurelia Sakti Yani,0
+E20,25210079,Putri naesilla lupia Sifa,eksperimen,Hobi dan Gaya Hidup,9,13,10,12,9,70.70,70.70,4,3,3,4,5,4,3,3,3,5,4,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E21,25210084,Fitriah Nur Oktaviani,eksperimen,Teknologi dan Digitalisasi,11,10,11,11,11,72.00,72.00,4,4,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E22,25210087,Novelia Andara Putri,eksperimen,Hobi dan Gaya Hidup,9,13,10,12,8,69.30,69.30,4,3,3,5,4,4,3,3,3,5,4,3,2,3,3,Rubrik,Aurelia Sakti Yani,0
+E23,25210080,Amellia Triwulandari,eksperimen,Hobi dan Gaya Hidup,11,12,10,13,9,73.30,73.30,4,3,3,5,4,3,3,3,5,5,5,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E24,25210052,Andini suci ayu trisna,eksperimen,Kesehatan Mental dan Fisik,11,11,10,11,11,72.00,72.00,4,3,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E25,25210097,Bagus Agri Ramdhani,eksperimen,Hobi dan Gaya Hidup,9,12,10,12,11,72.00,72.00,4,3,3,4,4,4,3,3,3,5,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,0
+E26,25210081,M Akmal,eksperimen,Hobi dan Gaya Hidup,10,12,10,12,9,70.70,70.70,4,3,3,4,4,4,3,3,4,5,4,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E27,25210069,M RIVALDI RAMADHAN,eksperimen,Hobi dan Gaya Hidup,9,10,7,9,9,58.70,58.70,3,2,2,4,3,3,3,3,3,3,3,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E28,25210068,Moch Raihan Wijaya,eksperimen,Lingkungan dan Keberlanjutan,11,11,11,10,11,72.00,72.00,4,4,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E29,25210085,Muhamad Usman,eksperimen,Hobi dan Gaya Hidup,11,11,11,11,10,72.00,72.00,4,4,3,4,4,3,4,4,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+E30,25210056,Muhammad Wildan Nurdin,eksperimen,Budaya dan Seni,11,11,11,11,11,73.33,73.33,4,4,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E31,25210063,Muhammad Yusril Albarrabbani,eksperimen,Hobi dan Gaya Hidup,10,10,10,10,10,66.70,66.70,4,3,3,4,3,3,3,3,4,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,0
+E32,25210095,Nahdiatul aidah,eksperimen,Sosial dan Kemasyarakatan,9,9,10,12,9,65.30,65.30,4,3,3,3,3,3,3,3,3,5,4,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E33,25220007,NIWATI HALAWA,eksperimen,Teknologi dan Digitalisasi,11,11,11,11,11,73.33,73.33,4,4,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E34,25210096,Rafi Nurdiansyah,eksperimen,Hobi dan Gaya Hidup,9,13,11,11,10,72.00,72.00,4,3,4,5,4,4,3,3,3,4,4,3,3,4,3,Rubrik,Aurelia Sakti Yani,0
+E35,25210023,Rostianiputri,eksperimen,Kesehatan Mental dan Fisik,11,11,11,11,11,73.33,73.33,4,4,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E36,25210092,Sabrina Humaira,eksperimen,Hobi dan Gaya Hidup,9,10,9,9,9,61.30,61.30,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,Rubrik,Aurelia Sakti Yani,0
+E37,25210072,Sandrina Nurpadilah,eksperimen,Lingkungan dan Keberlanjutan,11,11,11,11,11,73.33,73.33,4,4,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E38,25210057,Siti Nurhani Rahmayanti,eksperimen,Hobi dan Gaya Hidup,12,11,11,11,11,74.67,74.67,4,4,3,4,4,3,4,4,4,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E39,25210074,Syatifa Yasmin,eksperimen,Budaya dan Seni,11,12,11,11,11,74.67,74.67,4,4,3,4,4,4,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+E40,25210075,Tania Nurlaila,eksperimen,Lingkungan dan Keberlanjutan,10,9,9,11,12,68.00,68.00,3,3,3,3,3,3,3,3,4,4,4,3,5,4,3,Rubrik,Aurelia Sakti Yani,0
+K01,25210033,Abdul Rahman Reyhan Alzaelani,kontrol,Teknologi dan Digitalisasi,11,11,10,10,10,69.33,69.33,4,3,3,4,4,3,4,4,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K02,25210035,Afdil Miftahussudur,kontrol,Kesehatan Mental dan Fisik,10,11,11,10,10,69.33,69.33,4,4,3,4,4,3,4,3,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K03,25210030,Alma Nazwa Agustina,kontrol,Lingkungan dan Keberlanjutan,10,10,11,11,10,69.33,69.33,4,4,3,4,3,3,4,3,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K04,25210039,chaesar Bintara yudha,kontrol,Hobi dan Gaya Hidup,10,10,10,11,11,69.33,69.33,4,3,3,4,3,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K05,25210018,Dandi Putra Septiana,kontrol,Budaya dan Seni,11,10,10,10,11,69.33,69.33,4,3,3,4,3,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K06,25210038,Dinar Alifa Diyanti,kontrol,Teknologi dan Digitalisasi,11,11,10,10,10,69.33,69.33,4,3,3,4,4,3,4,4,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K07,25210002,Hesel Aziz Mutaqin,kontrol,Kesehatan Mental dan Fisik,10,11,11,10,10,69.33,69.33,4,4,3,4,4,3,4,3,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K08,25210006,Irmayanti,kontrol,Lingkungan dan Keberlanjutan,10,10,11,11,11,70.67,70.67,4,4,3,4,3,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K09,25210021,Khoerul mufti faikar,kontrol,Hobi dan Gaya Hidup,11,10,10,11,11,70.67,70.67,4,3,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K10,25210019,Lisna Yulianti,kontrol,Budaya dan Seni,11,11,10,10,11,70.67,70.67,4,3,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K11,25210059,M ZULFAN RIZQULLAH,kontrol,Teknologi dan Digitalisasi,11,11,11,10,10,70.67,70.67,4,4,3,4,4,3,4,4,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K12,25210017,Merliyansya,kontrol,Kesehatan Mental dan Fisik,10,11,11,11,10,70.67,70.67,4,4,3,4,4,3,4,3,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K13,25210013,Moch Kahfi Arasyadin,kontrol,Lingkungan dan Keberlanjutan,10,10,11,11,11,70.67,70.67,4,4,3,4,3,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K14,25210007,Muhamad Raihan A,kontrol,Hobi dan Gaya Hidup,11,10,10,11,11,70.67,70.67,4,3,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K15,25210008,Muhamad Sabi As Shiddiq,kontrol,Budaya dan Seni,11,11,10,10,11,70.67,70.67,4,3,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K16,25210043,Muhammad faiz nuralim,kontrol,Teknologi dan Digitalisasi,11,11,11,10,10,70.67,70.67,4,4,3,4,4,3,4,4,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K17,25210101,Muhammad zidan alfarizi,kontrol,Kesehatan Mental dan Fisik,10,11,11,11,10,70.67,70.67,4,4,3,4,4,3,4,3,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K18,25210099,Muhammad Zulfiqar,kontrol,Lingkungan dan Keberlanjutan,10,10,11,11,11,70.67,70.67,4,4,3,4,3,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K19,25210012,Mutia aulia r,kontrol,Hobi dan Gaya Hidup,11,10,10,11,11,70.67,70.67,4,3,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K20,25210054,Nabila Nuraini,kontrol,Hobi dan Gaya Hidup,12,11,9,12,13,76.00,76.00,3,3,3,4,4,3,5,3,4,3,5,4,5,4,4,Rubrik,Aurelia Sakti Yani,0
+K21,25210088,Nadva Khusifa Lail,kontrol,Budaya dan Seni,11,11,10,10,11,70.67,70.67,4,3,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K22,25210026,Reva intan aurellia,kontrol,Teknologi dan Digitalisasi,11,11,11,10,10,70.67,70.67,4,4,3,4,4,3,4,4,3,4,3,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K23,25210028,Revalina putri R W,kontrol,Kesehatan Mental dan Fisik,10,11,11,11,10,70.67,70.67,4,4,3,4,4,3,4,3,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K24,25210020,Rina karlina,kontrol,Lingkungan dan Keberlanjutan,10,10,11,11,11,70.67,70.67,4,4,3,4,3,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K25,25210040,Rizqia Dwi Putri,kontrol,Hobi dan Gaya Hidup,11,11,10,11,11,72.00,72.00,4,3,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K26,25210024,Septia Sapitri,kontrol,Budaya dan Seni,11,11,11,10,11,72.00,72.00,4,4,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K27,25210025,Siria ayu,kontrol,Teknologi dan Digitalisasi,11,11,11,11,10,72.00,72.00,4,4,3,4,4,3,4,4,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K28,25210001,Siti Fauziah,kontrol,Hobi dan Gaya Hidup,12,11,11,13,11,77.30,77.30,4,3,4,4,4,3,4,3,5,5,5,3,4,3,4,Rubrik,Aurelia Sakti Yani,0
+K29,25210004,Siti Khumaeso,kontrol,Kesehatan Mental dan Fisik,10,11,11,11,11,72.00,72.00,4,4,3,4,4,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K30,25210034,Syahdan Azkia Wardani,kontrol,Lingkungan dan Keberlanjutan,11,10,11,11,11,72.00,72.00,4,4,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K31,25210051,Syahdan Naufal Dhia Mulyandi,kontrol,Hobi dan Gaya Hidup,11,11,10,11,11,72.00,72.00,4,3,3,4,4,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K32,25200029,syahla widhi Oktovia,kontrol,Budaya dan Seni,11,11,11,10,11,72.00,72.00,4,4,3,4,4,3,4,4,3,4,3,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K33,25210037,Syifa Dewi Lestari,kontrol,Hobi dan Gaya Hidup,10,11,9,11,11,69.30,69.30,3,3,3,4,4,3,4,3,3,4,4,3,3,4,4,Rubrik,Aurelia Sakti Yani,0
+K34,25210015,Sylva Amelia Putri Ramdhani,kontrol,Hobi dan Gaya Hidup,12,11,10,12,12,76.00,76.00,3,3,4,5,3,3,3,4,5,4,5,3,5,3,4,Rubrik,Aurelia Sakti Yani,0
+K35,25210010,Tarisya Sukma Oktaviani,kontrol,Teknologi dan Digitalisasi,11,11,11,11,10,72.00,72.00,4,4,3,4,4,3,4,4,3,4,4,3,4,3,3,Rubrik,Aurelia Sakti Yani,1
+K36,25210036,Widya putri alrasyid,kontrol,Kesehatan Mental dan Fisik,10,11,11,11,11,72.00,72.00,4,4,3,4,4,3,4,3,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
+K37,25210032,zihan shalma,kontrol,Lingkungan dan Keberlanjutan,11,10,11,11,11,72.00,72.00,4,4,3,4,3,3,4,4,3,4,4,3,4,4,3,Rubrik,Aurelia Sakti Yani,1
