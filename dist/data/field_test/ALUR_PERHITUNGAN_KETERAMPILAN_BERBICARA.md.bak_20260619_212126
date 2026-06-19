@@ -1,0 +1,363 @@
+# Alur Perhitungan Analisis Keterampilan Berbicara
+
+## 1. Tujuan analisis
+
+Analisis digunakan untuk menjawab pertanyaan berikut:
+
+1. Apakah skor keterampilan berbicara berubah dari pretes ke postes pada setiap kelompok?
+2. Apakah peningkatan kelompok eksperimen lebih besar daripada kelompok kontrol?
+3. Apakah perbedaan postes tetap terlihat setelah skor awal dikendalikan?
+4. Pada aspek keterampilan berbicara mana perbedaan peningkatan terjadi?
+
+Desain penelitian adalah kuasi-eksperimen pretes–postes dengan kelompok kontrol:
+
+| Kelompok | n |
+|---|---:|
+| Eksperimen | 40 |
+| Kontrol | 37 |
+| Total | 77 |
+
+## 2. Sumber data
+
+Analisis membaca dua berkas:
+
+- `keterampilan_berbicara_pretes.csv`
+- `keterampilan_berbicara_postes.csv`
+
+Pasangan pengukuran dihubungkan menggunakan kolom `id`. Nama dan NIM tidak digunakan dalam perhitungan maupun ditampilkan dalam output notebook.
+
+Lima aspek skor utama adalah:
+
+1. pengorganisasian;
+2. kejelasan;
+3. ketepatan;
+4. strategi;
+5. metakognitif.
+
+Setiap aspek memiliki skor maksimum 15. Skor akhir skala 0–100 dihitung dengan:
+
+```text
+skor akhir = (jumlah lima aspek / 75) × 100
+```
+
+## 3. Validasi sebelum analisis
+
+Notebook menghentikan proses jika ditemukan:
+
+- ID duplikat;
+- mahasiswa tanpa pasangan pretes atau postes;
+- label kelompok yang berubah;
+- kelompok selain `eksperimen` atau `kontrol`;
+- skor aspek di luar rentang 0–15;
+- skor akhir yang tidak sesuai dengan agregasi lima aspek.
+
+Toleransi selisih agregasi adalah 0,05 poin untuk mengakomodasi pembulatan desimal.
+
+Hasil validasi dataset terakhir:
+
+```text
+Pretes  : 77 baris
+Postes  : 77 baris
+Pasangan: 77 mahasiswa
+Status  : valid
+```
+
+## 4. Statistik deskriptif
+
+Untuk setiap kombinasi kelompok dan fase dihitung:
+
+- jumlah data (`n`);
+- rerata;
+- simpangan baku;
+- median;
+- kuartil pertama dan ketiga;
+- minimum dan maksimum.
+
+Gain individual dihitung sebagai:
+
+```text
+gain_i = postes_i − pretes_i
+```
+
+Ringkasan skor total terbaru:
+
+| Kelompok | Pretes, mean ± SD | Postes, mean ± SD | Gain, mean ± SD |
+|---|---:|---:|---:|
+| Eksperimen | 70,84 ± 5,55 | 82,70 ± 5,18 | 11,86 ± 6,71 |
+| Kontrol | 71,21 ± 1,84 | 79,46 ± 3,41 | 8,25 ± 3,69 |
+
+## 5. Reliabilitas internal rubrik
+
+Alpha Cronbach dihitung dari 15 butir rubrik, bukan dari lima subtotal aspek.
+
+Rumusnya:
+
+```text
+α = k/(k−1) × [1 − (Σ varians butir / varians skor total)]
+```
+
+dengan `k = 15` butir.
+
+| Kelompok | Pretes | Postes |
+|---|---:|---:|
+| Eksperimen | 0,781 | 0,684 |
+| Kontrol | −0,083 | 0,439 |
+
+Alpha kelompok kontrol yang rendah harus diperiksa pada level butir, rubrik, rentang skor, dan konsistensi penilaian. Alpha negatif menunjukkan kovariansi antarbutir yang secara keseluruhan bermasalah; hal ini tidak boleh diabaikan hanya karena hasil inferensial signifikan.
+
+## 6. Pemeriksaan distribusi dan varians
+
+### 6.1 Normalitas
+
+Normalitas diperiksa menggunakan skewness, excess kurtosis, dan Jarque–Bera:
+
+```text
+JB = n/6 × [skewness² + excess_kurtosis²/4]
+```
+
+Hipotesis nol Jarque–Bera adalah data mengikuti distribusi normal. Nilai `p < 0,05` menunjukkan penyimpangan yang terdeteksi dari normalitas.
+
+Normalitas diperiksa pada:
+
+- pretes eksperimen dan kontrol;
+- postes eksperimen dan kontrol;
+- gain eksperimen dan kontrol;
+- residual ANCOVA.
+
+Hasil utama:
+
+- postes eksperimen tidak menolak normalitas (`p = 0,785`);
+- distribusi lain masih menunjukkan penyimpangan pada taraf 0,05;
+- residual ANCOVA berada dekat batas (`p = 0,052`).
+
+Uji normalitas tidak digunakan sebagai sakelar otomatis untuk memilih uji. Dengan n sekitar 40 per kelompok, bentuk distribusi, outlier, heteroskedastisitas, dan ketahanan hasil tetap diperiksa bersama-sama.
+
+### 6.2 Homogenitas varians
+
+Brown–Forsythe digunakan dengan cara:
+
+1. menghitung median setiap kelompok;
+2. menghitung deviasi absolut setiap skor dari median kelompok;
+3. membandingkan rerata deviasi absolut antarkelompok.
+
+Hasil:
+
+| Variabel | p Brown–Forsythe | Keputusan |
+|---|---:|---|
+| Pretes | 0,0025 | Varians berbeda |
+| Gain | 0,0003 | Varians berbeda |
+| Residual ANCOVA | 0,0101 | Heteroskedastisitas terdeteksi |
+
+Karena varians tidak homogen, perbandingan gain memakai Welch dan ANCOVA memakai standard error HC3.
+
+### 6.3 Kesetaraan skor awal
+
+Skor pretes dibandingkan menggunakan Welch:
+
+```text
+selisih eksperimen − kontrol = −0,37
+95% CI = [−2,24; 1,50]
+p = 0,692
+Hedges g = −0,087
+```
+
+Tidak ditemukan perbedaan rerata awal yang berarti. Namun, varians awal antarkelompok tetap berbeda.
+
+## 7. Perubahan dalam setiap kelompok
+
+Paired t-test bekerja pada skor selisih individual:
+
+```text
+d_i = postes_i − pretes_i
+t = mean(d) / [SD(d)/√n]
+df = n − 1
+```
+
+Effect size dalam kelompok dihitung dengan Cohen's dz:
+
+```text
+dz = mean(d) / SD(d)
+```
+
+Hasil:
+
+| Kelompok | Mean gain | 95% CI | p | Cohen's dz |
+|---|---:|---:|---:|---:|
+| Eksperimen | 11,86 | [9,72; 14,01] | <0,001 | 1,768 |
+| Kontrol | 8,25 | [7,02; 9,48] | <0,001 | 2,235 |
+
+Kedua kelompok meningkat. Signifikansi di dalam kelompok tidak membuktikan efektivitas intervensi karena kelompok kontrol juga meningkat. Efek intervensi dinilai dari perbedaan peningkatan antarkelompok.
+
+## 8. Difference-in-differences menggunakan Welch
+
+Estimasi utama perbedaan perubahan dihitung dengan:
+
+```text
+DiD = mean(gain eksperimen) − mean(gain kontrol)
+```
+
+Standard error Welch:
+
+```text
+SE = √(s²_eksperimen/n_eksperimen + s²_kontrol/n_kontrol)
+```
+
+Derajat kebebasan menggunakan pendekatan Welch–Satterthwaite. Pendekatan ini dipilih karena varians gain tidak homogen.
+
+Hasil:
+
+```text
+DiD       = 3,61 poin
+95% CI    = [1,17; 6,06]
+t(61,56)  = 2,955
+p         = 0,00443
+Hedges g  = 0,653
+```
+
+Hedges g menggunakan simpangan baku gabungan yang dikoreksi terhadap bias sampel kecil. Nilai 0,653 menunjukkan perbedaan peningkatan berukuran sedang.
+
+## 9. ANCOVA dengan standard error HC3
+
+ANCOVA mengestimasi perbedaan postes setelah mengendalikan skor awal:
+
+```text
+postes_i = β0 + β1(kelompok_i) + β2(pretes_i) + ε_i
+```
+
+Pengkodean kelompok:
+
+```text
+eksperimen = 1
+kontrol    = 0
+```
+
+Dengan demikian, `β1` adalah selisih postes tersesuaikan antara kelompok eksperimen dan kontrol.
+
+### 9.1 Homogenitas kemiringan
+
+Asumsi kemiringan diperiksa dengan model interaksi:
+
+```text
+postes = β0 + β1(kelompok) + β2(pretes) + β3(kelompok × pretes) + ε
+```
+
+Hasil interaksi:
+
+```text
+p = 0,996
+```
+
+Tidak terdapat bukti bahwa hubungan pretes–postes memiliki kemiringan berbeda antarkelompok.
+
+### 9.2 Koreksi HC3
+
+Residual ANCOVA menunjukkan heteroskedastisitas. Oleh karena itu, interval kepercayaan dan p-value dihitung menggunakan standard error HC3.
+
+Secara ringkas, HC3 memberikan bobot lebih besar pada residual dari observasi dengan leverage tinggi:
+
+```text
+residual terkoreksi_i = residual_i / (1 − leverage_i)
+```
+
+Hasil ANCOVA-HC3:
+
+```text
+efek kelompok tersesuaikan = 3,32 poin
+95% CI                     = [1,29; 5,34]
+t(74)                      = 3,258
+p                          = 0,00169
+partial eta²               = 0,125
+```
+
+Partial eta squared dihitung dengan:
+
+```text
+partial eta² = t² / (t² + df)
+```
+
+## 10. Analisis lima aspek
+
+DiD Welch dihitung terpisah untuk setiap aspek. Karena ada lima pengujian, p-value disesuaikan menggunakan prosedur Holm:
+
+1. urutkan p-value dari terkecil ke terbesar;
+2. kalikan dengan jumlah hipotesis yang masih diuji;
+3. jaga agar p-value tersesuaikan tidak menurun pada urutan berikutnya.
+
+Hasil setelah koreksi Holm:
+
+| Aspek | DiD | 95% CI | p Holm | Hedges g |
+|---|---:|---:|---:|---:|
+| Pengorganisasian | 1,048 | [0,389; 1,707] | 0,007 | 0,702 |
+| Kejelasan | −0,178 | [−0,840; 0,485] | 1,000 | −0,119 |
+| Ketepatan | 1,006 | [0,423; 1,589] | 0,004 | 0,770 |
+| Strategi | −0,218 | [−0,861; 0,426] | 1,000 | −0,151 |
+| Metakognitif | 1,052 | [0,488; 1,616] | 0,002 | 0,830 |
+
+Perbedaan peningkatan terdeteksi pada pengorganisasian, ketepatan, dan metakognitif. Analisis aspek bersifat sekunder terhadap skor total.
+
+## 11. Uji permutasi sebagai pemeriksaan ketahanan
+
+Uji permutasi digunakan karena distribusi gain tidak normal dan variansnya berbeda.
+
+Prosedurnya:
+
+1. hitung DiD aktual;
+2. gabungkan seluruh gain;
+3. acak label kelompok dengan ukuran kelompok tetap 40 dan 37;
+4. hitung DiD hasil pengacakan;
+5. ulangi 50.000 kali;
+6. hitung proporsi nilai absolut DiD acak yang minimal sebesar DiD aktual.
+
+Dengan koreksi satu pada pembilang dan penyebut:
+
+```text
+p = (jumlah hasil ekstrem + 1) / (jumlah permutasi + 1)
+```
+
+Hasil:
+
+```text
+DiD aktual    = 3,612
+permutasi     = 50.000
+p dua arah    = 0,00448
+```
+
+Hasil permutasi konsisten dengan Welch dan ANCOVA-HC3.
+
+## 12. Urutan pengambilan keputusan
+
+```text
+Validasi data
+    ↓
+Deskriptif dan audit nilai ekstrem
+    ↓
+Reliabilitas rubrik
+    ↓
+Normalitas dan heteroskedastisitas
+    ↓
+Perubahan dalam kelompok
+    ↓
+DiD Welch + effect size + 95% CI
+    ↓
+ANCOVA-HC3 + uji interaksi
+    ↓
+Uji permutasi
+    ↓
+Analisis aspek dengan Holm
+    ↓
+Kesimpulan berdasarkan konsistensi seluruh estimasi
+```
+
+Kesimpulan tidak ditentukan hanya dari satu p-value. Bukti dianggap lebih kuat karena:
+
+- arah efek konsisten;
+- interval kepercayaan DiD dan ANCOVA tidak mencakup nol;
+- Welch, permutasi, dan ANCOVA-HC3 memberikan keputusan yang sama;
+- effect size dilaporkan bersama signifikansi statistik.
+
+## 13. Kesimpulan perhitungan
+
+Setelah koreksi input E33 berdasarkan sumber asli, kelompok eksperimen memperoleh peningkatan rata-rata 3,61 poin lebih tinggi daripada kelompok kontrol. Hasil signifikan pada Welch (`p = 0,00443`), uji permutasi (`p = 0,00448`), dan ANCOVA-HC3 (`p = 0,00169`). Besar efek DiD berada pada kategori sedang (`Hedges g = 0,653`).
+
+Interpretasi kausal tetap harus dibatasi oleh desain kuasi-eksperimen, kemungkinan efek kelas/dosen, serta reliabilitas internal kelompok kontrol yang rendah.
+

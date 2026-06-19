@@ -1,7 +1,7 @@
-no,id,nim,nama,tampilan,navigasi,multimedia,interaktivitas,materi,teknik_feynman,total,rata_rata,persentase
-1,UCS01,24210091,Ines Astria Oktavia,3,2,2,3,3,2,15,2.50,62.50
-2,UCS02,24210081,Resa Novianti,4,3,2,3,3,2,17,2.83,70.83
-3,UCS03,24210059,Fitriyani Oktavia Sari,3,2,3,3,3,2,16,2.67,66.67
-4,UCS04,24210055,Stevanus Saro Harefa,3,2,2,3,2,2,14,2.33,58.33
-5,UCS05,24210037,Nisa Fitria,4,3,3,3,3,3,19,3.17,79.17
-6,UCS06,24210014,Vania Marsyanda Salsabila,3,2,2,2,3,2,14,2.33,58.33
+no,id,nim,nama,kualitas_isi_skor,kualitas_isi_persentase,kemudahan_penggunaan_skor,kemudahan_penggunaan_persentase,interaktivitas_skor,interaktivitas_persentase,dampak_keterampilan_berbicara_skor,dampak_keterampilan_berbicara_persentase,dampak_metakognitif_skor,dampak_metakognitif_persentase,karakteristik_microlearning_skor,karakteristik_microlearning_persentase,penerapan_teknik_feynman_skor,penerapan_teknik_feynman_persentase,total,rata_rata,persentase,kategori
+1,UCS01,24210080,Silvia Nurul Khotimah,7,87.50,6,75.00,7,87.50,6,75.00,6,75.00,12,75.00,12,75.00,56,3.11,77.78,Positif
+2,UCS02,24210056,Wini Yuniar Pusparani,6,75.00,6,75.00,6,75.00,6,75.00,6,75.00,11,68.75,11,68.75,52,2.89,72.22,Positif
+3,UCS03,24210070,Selva Fitria Oktaviani,8,100.00,6,75.00,8,100.00,6,75.00,6,75.00,13,81.25,14,87.50,61,3.39,84.72,Sangat Positif
+4,UCS04,24210055,Stevanus Saro Harefa,6,75.00,6,75.00,6,75.00,7,87.50,6,75.00,10,62.50,13,81.25,54,3.00,75.00,Positif
+5,UCS05,24210037,Nisa Fitria,7,87.50,6,75.00,7,87.50,6,75.00,6,75.00,13,81.25,15,93.75,60,3.33,83.33,Sangat Positif
+6,UCS06,24210014,Vania Marsyanda Salsabila,8,100.00,6,75.00,8,100.00,6,75.00,6,75.00,14,87.50,13,81.25,61,3.39,84.72,Sangat Positif

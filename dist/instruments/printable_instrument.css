@@ -1,0 +1,237 @@
+@page {
+  size: A4;
+  margin: 24mm 22mm 24mm 22mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #111;
+  font-family: "Liberation Serif", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.35;
+}
+
+h1 {
+  font-size: 15.5pt;
+  line-height: 1.25;
+  margin: 0 0 4mm;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  break-after: avoid;
+  font-size: 12pt;
+  margin: 8mm 0 3mm;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 3mm;
+}
+
+.subtitle {
+  margin: 0 0 7mm;
+  text-align: center;
+}
+
+.trial-badge {
+  border: 1.2pt solid #111;
+  font-size: 12pt;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 auto 3mm;
+  padding: 2mm 8mm;
+  text-align: center;
+  width: max-content;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.identity {
+  margin: 1mm 0 5mm;
+}
+
+.identity td {
+  border: 0;
+  padding: 1.5mm 0;
+  vertical-align: bottom;
+}
+
+.identity td:nth-child(1) {
+  width: 42mm;
+}
+
+.identity td:nth-child(2) {
+  text-align: center;
+  width: 5mm;
+}
+
+.identity td:nth-child(3) {
+  border-bottom: 0.7pt dotted #555;
+  width: auto;
+}
+
+.grid {
+  margin: 2mm 0 5mm;
+  table-layout: fixed;
+}
+
+.grid th,
+.grid td {
+  border: 0.8pt solid #222;
+  padding: 2.2mm 2.4mm;
+  vertical-align: middle;
+}
+
+.grid th {
+  font-weight: 700;
+  text-align: center;
+}
+
+.kisi th:nth-child(1),
+.kisi td:nth-child(1) {
+  text-align: center;
+  width: 9mm;
+}
+
+.kisi th:nth-child(2),
+.kisi td:nth-child(2) {
+  width: 38mm;
+}
+
+.kisi th:nth-child(4),
+.kisi td:nth-child(4) {
+  text-align: center;
+  width: 28mm;
+}
+
+.rating {
+  font-size: 10.2pt;
+  line-height: 1.26;
+}
+
+.rating th:nth-child(1),
+.rating td:nth-child(1) {
+  text-align: center;
+  width: 9mm;
+}
+
+.rating th:nth-child(2),
+.rating td:nth-child(2) {
+  width: auto;
+}
+
+.rating th:nth-child(n + 3),
+.rating td:nth-child(n + 3) {
+  text-align: center;
+  width: 13mm;
+}
+
+.rating .mark {
+  height: 9mm;
+}
+
+.page-break {
+  break-before: page;
+}
+
+.question-block {
+  break-inside: avoid;
+  margin: 0 0 6mm;
+}
+
+.options {
+  margin: 1mm 0 3mm;
+}
+
+.options.two-col {
+  column-gap: 10mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2.2mm;
+}
+
+.options div {
+  min-height: 6.5mm;
+  padding-left: 8mm;
+  position: relative;
+}
+
+.checkbox {
+  border: 0.9pt solid #111;
+  display: inline-block;
+  height: 4.2mm;
+  left: 0;
+  position: absolute;
+  top: 0.8mm;
+  width: 4.2mm;
+}
+
+.short-line {
+  border-bottom: 0.7pt dotted #555;
+  display: inline-block;
+  min-width: 36mm;
+  transform: translateY(-0.5mm);
+}
+
+.answer-label {
+  margin-top: 2mm;
+}
+
+.write-lines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 8.2mm,
+    #666 8.2mm,
+    #666 8.45mm,
+    transparent 8.45mm,
+    transparent 10mm
+  );
+  width: 100%;
+}
+
+.write-lines.three {
+  height: 30mm;
+}
+
+.write-lines.four {
+  height: 32mm;
+}
+
+.recommendation {
+  margin-bottom: 4mm;
+}
+
+.signature-block {
+  break-inside: avoid;
+  margin-left: auto;
+  margin-top: 4mm;
+  width: 72mm;
+}
+
+.date-line {
+  margin-bottom: 3mm;
+}
+
+.date-line span {
+  border-bottom: 0.7pt dotted #555;
+  display: inline-block;
+  width: 36mm;
+}
+
+.signature-space {
+  height: 28mm;
+}
+
+.signature-name,
+.name-line {
+  text-align: center;
+}

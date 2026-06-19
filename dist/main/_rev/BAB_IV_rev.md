@@ -31,25 +31,33 @@
 
 ---
 
-### Part 3 (Seksi C-D) -- Belum dikerjakan
-**Cakupan:**
-- C. Hasil Uji Coba Produk
-  - C.1 Uji Coba Terbatas (Small Group, n=10): tujuan, respons, pretest-posttest, perbaikan
-  - C.2 Uji Coba Lebih Luas (Large Group, n=25): tujuan, respons, pretest-posttest, perbaikan
+### Part 3 (Seksi C-D) -- Sedang dikerjakan
+**Status terbaru, 19 Juni 2026:**
+- ✅ Seksi C. Hasil Uji Coba Produk sudah ditulis di `main/01_BAB_IV_TEMUAN_DAN_PEMBAHASAN.md`
+- ✅ Tambahan awal Seksi F. Temuan Kualitatif sudah masuk, khususnya subbagian respons dosen berbasis `data/kualitatif/wawancara_dosen.csv`
+- ✅ Revisi mutu 19 Juni 2026: bagian uji coba dan respons dosen diperkuat dengan rujukan ke `reference/Ika_Yatri/BAB_IV.md`, penambahan tabel koding temuan kualitatif, dan perluasan sitasi termasuk beberapa rujukan lokal
+- ✅ Sinkronisasi 19 Juni 2026: BAB IV diselaraskan dengan BAB III dan notebook analisis keterampilan berbicara, khususnya pada pembacaan aspek kelima rubrik berbicara sebagai `dampak penyampaian`, bukan skor angket metakognitif
+- ✅ Seksi E. Hasil Uji Lapangan / Efektivitas Produk sudah ditulis: deskripsi data, uji prasyarat, efektivitas metakognitif (dengan catatan keterbatasan data), efektivitas keterampilan berbicara, dan analisis hubungan eksploratif
+- Cakupan yang sudah masuk: tujuan tiap tahap, tabel respons, tabel pretest-posttest, interpretasi, revisi produk, pembahasan dengan sitasi, tabel koding temuan kualitatif pada uji coba, sintesis hasil wawancara dosen, serta Seksi E uji lapangan
+- Data yang dipakai saat ini:
+  - Uji coba terbatas tahap pertama: `small_group_respons.csv` + `small_group_prepost.csv` (n=6)
+  - Uji coba lebih luas: `large_group_respons.csv` + `large_group_prepost.csv` (n=10)
+- Tabel yang ditambahkan: Tabel 4.8 sampai Tabel 4.11
+- Catatan kehati-hatian: folder `data/uji_coba/` masih menyimpan `CATATAN_SEED.md`, sehingga asal-usul final sebagian data uji coba perlu dikonfirmasi lagi bila nanti akan diposisikan sebagai data empiris final tanpa catatan
+
+**Yang belum dikerjakan pada Part 3:**
 - D. Hasil Uji Lapangan (Field Test)
   - D.1 Temuan Kuantitatif: deskriptif, normalitas, homogenitas, paired t-test, independent t-test, per-aspek berbicara, metakognitif, per-dimensi
   - D.2 Temuan Kualitatif: 5 tema wawancara, observasi, angket respons
   - D.3 Integrasi: Joint Display (dengan kolom Teori Pendukung)
 
-**CSV yang akan digunakan:**
-- `data/uji_coba/small_group_respons.csv` + `small_group_prepost.csv`
-- `data/uji_coba/large_group_respons.csv` + `large_group_prepost.csv`
-- `data/field_test/keterampilan_berbicara.csv`
-- `data/field_test/metakognitif.csv`
-- `data/field_test/respons_mahasiswa.csv`
+**CSV yang akan digunakan berikutnya:**
+- `data/field_test/[v]keterampilan_berbicara.csv`
+- `data/field_test/[v]metakognitif.csv`
+- `data/field_test/[v]respons_mahasiswa.csv`
 - `data/kualitatif/wawancara.csv` + `observasi.csv`
 
-**Masukan yang akan dijawab:** Promotor E, F (parsial); Kopromotor E, G, H
+**Masukan yang sudah mulai dijawab:** Kopromotor E, G, H; penguatan sitasi pembanding untuk hasil uji coba
 
 ---
 

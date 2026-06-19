@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Arial" font-size="20" font-weight="700" fill="#111827">Persentase Respons per 7 Aspek Tahap 1</text>
+<text x="24" y="82" font-family="Arial" font-size="13" fill="#374151">Kualitas Isi</text>
+<rect x="280" y="62" width="530.0" height="28" rx="3" fill="#2563eb"/>
+<text x="818.0" y="81" font-family="Arial" font-size="13" fill="#111827">87.50</text>
+<text x="24" y="128" font-family="Arial" font-size="13" fill="#374151">Kemudahan Penggunaan</text>
+<rect x="280" y="108" width="454.3" height="28" rx="3" fill="#2563eb"/>
+<text x="742.3" y="127" font-family="Arial" font-size="13" fill="#111827">75.00</text>
+<text x="24" y="174" font-family="Arial" font-size="13" fill="#374151">Interaktivitas</text>
+<rect x="280" y="154" width="530.0" height="28" rx="3" fill="#2563eb"/>
+<text x="818.0" y="173" font-family="Arial" font-size="13" fill="#111827">87.50</text>
+<text x="24" y="220" font-family="Arial" font-size="13" fill="#374151">Dampak Keterampilan Berbicara</text>
+<rect x="280" y="200" width="466.9" height="28" rx="3" fill="#2563eb"/>
+<text x="754.9" y="219" font-family="Arial" font-size="13" fill="#111827">77.08</text>
+<text x="24" y="266" font-family="Arial" font-size="13" fill="#374151">Dampak Metakognitif</text>
+<rect x="280" y="246" width="454.3" height="28" rx="3" fill="#2563eb"/>
+<text x="742.3" y="265" font-family="Arial" font-size="13" fill="#111827">75.00</text>
+<text x="24" y="312" font-family="Arial" font-size="13" fill="#374151">Karakteristik Microlearning</text>
+<rect x="280" y="292" width="460.6" height="28" rx="3" fill="#2563eb"/>
+<text x="748.6" y="311" font-family="Arial" font-size="13" fill="#111827">76.04</text>
+<text x="24" y="358" font-family="Arial" font-size="13" fill="#374151">Penerapan Teknik Feynman</text>
+<rect x="280" y="338" width="492.1" height="28" rx="3" fill="#2563eb"/>
+<text x="780.1" y="357" font-family="Arial" font-size="13" fill="#111827">81.25</text>
+</svg>

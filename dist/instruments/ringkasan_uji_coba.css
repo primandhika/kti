@@ -1,0 +1,96 @@
+@page {
+  size: A4 landscape;
+  margin: 14mm 15mm;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  color: #111;
+  font-family: "Liberation Serif", "Times New Roman", serif;
+  font-size: 9.7pt;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 14pt;
+  margin: 0 0 2mm;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  break-after: avoid;
+  font-size: 10.8pt;
+  margin: 3.8mm 0 1.5mm;
+  text-transform: uppercase;
+}
+
+p { margin: 0 0 2.2mm; }
+
+.subtitle, .badge { text-align: center; }
+
+.badge {
+  border: 1pt solid #111;
+  font-weight: 700;
+  margin: 0 auto 2mm;
+  padding: 1.6mm 7mm;
+  width: max-content;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1.5mm 0 3mm;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th, td {
+  border: 0.8pt solid #222;
+  padding: 1.35mm 1.7mm;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: 700;
+  text-align: center;
+}
+
+.identity th:nth-child(1), .identity td:nth-child(1) { width: 43mm; }
+.identity th:nth-child(2), .identity td:nth-child(2) { width: auto; }
+
+.student { font-size: 8.8pt; }
+.student th:nth-child(1), .student td:nth-child(1) { width: 8mm; text-align: center; }
+.student th:nth-child(2), .student td:nth-child(2) { width: 15mm; text-align: center; }
+.student th:nth-child(3), .student td:nth-child(3) { width: 44mm; }
+.student th:nth-child(n+4), .student td:nth-child(n+4) { text-align: center; }
+.student th:nth-child(10), .student td:nth-child(10) { width: 18mm; }
+.student th:nth-child(11), .student td:nth-child(11) { width: 22mm; }
+.student th:nth-child(12), .student td:nth-child(12) { width: 25mm; }
+
+.aspect th:nth-child(1), .aspect td:nth-child(1) { width: 52mm; }
+.aspect th:nth-child(n+2), .aspect td:nth-child(n+2) { text-align: center; }
+
+.summary th:nth-child(1), .summary td:nth-child(1) { width: 58mm; }
+
+.copy-note {
+  border: 0.8pt solid #222;
+  padding: 2.2mm;
+  text-align: justify;
+}
+
+.checks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5mm;
+  margin-top: 2mm;
+}
+
+.box {
+  border: 0.9pt solid #111;
+  display: inline-block;
+  height: 4mm;
+  margin-right: 2mm;
+  transform: translateY(0.7mm);
+  width: 4mm;
+}

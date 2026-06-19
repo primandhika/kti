@@ -1,0 +1,8 @@
+tahap,aspek,nomor_butir,mean_skor,skor_maksimal,persentase,kategori
+Tahap 1,Kualitas Isi,1-2,7.00,8,87.50,Sangat Positif
+Tahap 1,Kemudahan Penggunaan,3-4,6.00,8,75.00,Positif
+Tahap 1,Interaktivitas,5-6,7.00,8,87.50,Sangat Positif
+Tahap 1,Dampak Keterampilan Berbicara,7-8,6.17,8,77.08,Positif
+Tahap 1,Dampak Metakognitif,9-10,6.00,8,75.00,Positif
+Tahap 1,Karakteristik Microlearning,11-14,12.17,16,76.04,Positif
+Tahap 1,Penerapan Teknik Feynman,15-18,13.00,16,81.25,Sangat Positif

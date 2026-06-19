@@ -2,7 +2,7 @@
 
 ## Uji Coba Terbatas Tahap 1
 
-Uji coba terbatas tahap 1 dilakukan kepada 6 mahasiswa untuk memperoleh gambaran awal mengenai kelayakan media, kemudahan alur penggunaan, dan respons mahasiswa terhadap media web microlearning terintegrasi Teknik Feynman. Berdasarkan hasil pengolahan data, rerata respons mahasiswa pada tahap ini sebesar 65.97% dan termasuk kategori Cukup. Hasil pretest-posttest juga menunjukkan adanya peningkatan, yaitu dari rerata 62.22 pada pretest menjadi 69.32 pada posttest.
+Uji coba terbatas tahap 1 dilakukan kepada 6 mahasiswa untuk memperoleh gambaran awal mengenai kelayakan media, kemudahan alur penggunaan, dan respons mahasiswa terhadap media web microlearning terintegrasi Teknik Feynman. Berdasarkan hasil pengolahan data, rerata respons mahasiswa pada tahap ini sebesar 79.63% dan termasuk kategori Baik. Hasil pretest-posttest juga menunjukkan adanya peningkatan, yaitu dari rerata 62.22 pada pretest menjadi 69.32 pada posttest.
 
 Berdasarkan hasil tersebut, media pada tahap awal dapat dinyatakan sudah dapat digunakan, tetapi masih memerlukan revisi. Catatan mahasiswa menunjukkan bahwa kendala utama terdapat pada login, video yang terasa berat ketika digunakan bersamaan, serta aktivitas yang masih terasa seperti kuis biasa dan belum sepenuhnya mengarahkan mahasiswa untuk menjelaskan kembali materi. Oleh karena itu, revisi setelah tahap 1 difokuskan pada perbaikan bug login, penyediaan alternatif autentikasi, penyematan video agar tidak perlu berpindah ke YouTube, serta penambahan ragam evaluasi dan latihan rekam untuk memperkuat penerapan Teknik Feynman.
 

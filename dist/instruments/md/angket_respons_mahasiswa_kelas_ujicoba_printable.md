@@ -1,0 +1,162 @@
+# Angket Respons Mahasiswa terhadap Media
+
+<div class="trial-badge">KELAS UJICOBA</div>
+
+<p class="subtitle">Media Web Microlearning Berbasis Teknik Feynman untuk Keterampilan Berbicara</p>
+
+## Identitas Responden
+
+<table class="identity">
+  <tr><td>Nama</td><td>:</td><td></td></tr>
+  <tr><td>NIM</td><td>:</td><td></td></tr>
+  <tr><td>Semester</td><td>:</td><td></td></tr>
+  <tr><td>Program Studi</td><td>:</td><td></td></tr>
+  <tr><td>Mata Kuliah</td><td>:</td><td></td></tr>
+  <tr><td>Kelas Ujicoba</td><td>:</td><td></td></tr>
+  <tr><td>Tanggal Pengisian</td><td>:</td><td></td></tr>
+  <tr><td>Perangkat yang Digunakan</td><td>:</td><td></td></tr>
+</table>
+
+## Tujuan
+
+Instrumen ini digunakan untuk memperoleh respons mahasiswa pada kelas ujicoba setelah menggunakan media web microlearning berbasis Teknik Feynman. Respons mahasiswa digunakan untuk menilai kualitas isi, kemudahan penggunaan, interaktivitas, dampak terhadap keterampilan berbicara, dampak terhadap kemampuan metakognitif, karakteristik microlearning, dan penerapan Teknik Feynman dalam media.
+
+## Petunjuk Pengisian
+
+1. Angket ini diisi setelah Anda menggunakan media pembelajaran web microlearning.
+2. Bacalah setiap pernyataan dengan cermat.
+3. Berilah tanda centang pada kolom yang sesuai dengan pendapat Anda.
+4. Gunakan skala: STS = Sangat Tidak Setuju, TS = Tidak Setuju, S = Setuju, SS = Sangat Setuju.
+5. Jawablah dengan jujur berdasarkan pengalaman Anda menggunakan media.
+6. Tidak ada jawaban benar atau salah.
+
+## Kisi-Kisi Angket
+
+<table class="grid kisi">
+  <thead>
+    <tr><th>No.</th><th>Aspek</th><th>Indikator</th><th>Nomor Butir</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Kualitas isi</td><td>Materi mudah dipahami dan sesuai kebutuhan belajar</td><td>1, 2</td></tr>
+    <tr><td>2</td><td>Kemudahan penggunaan</td><td>Media mudah diakses dan digunakan</td><td>3, 4</td></tr>
+    <tr><td>3</td><td>Interaktivitas</td><td>Media mendorong keterlibatan aktif mahasiswa</td><td>5, 6</td></tr>
+    <tr><td>4</td><td>Dampak terhadap keterampilan berbicara</td><td>Media membantu meningkatkan keterampilan berbicara</td><td>7, 8</td></tr>
+    <tr><td>5</td><td>Dampak terhadap metakognitif</td><td>Media membantu meningkatkan kemampuan metakognitif</td><td>9, 10</td></tr>
+    <tr><td>6</td><td>Karakteristik microlearning</td><td>Durasi, segmentasi materi, dan aksesibilitas media</td><td>11, 12, 13, 14</td></tr>
+    <tr><td>7</td><td>Penerapan Teknik Feynman</td><td>Penyederhanaan konsep, pengulangan, identifikasi kesenjangan pemahaman, dan refleksi</td><td>15, 16, 17, 18</td></tr>
+  </tbody>
+</table>
+
+## Pernyataan Angket
+
+<table class="grid rating">
+  <thead>
+    <tr><th>No.</th><th>Pernyataan</th><th>STS</th><th>TS</th><th>S</th><th>SS</th></tr>
+  </thead>
+  <tbody>
+  <tr><td class="num">1</td><td class="statement">Materi dalam media pembelajaran ini mudah dipahami dan sesuai dengan tingkat kemampuan saya.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">2</td><td class="statement">Isi materi dalam media ini relevan dengan kebutuhan belajar keterampilan berbicara saya.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">3</td><td class="statement">Media pembelajaran web microlearning ini sulit diakses dan digunakan.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">4</td><td class="statement">Navigasi dan fitur-fitur dalam media ini mudah dipahami dan dioperasikan.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">5</td><td class="statement">Media ini mendorong saya untuk terlibat aktif dalam proses pembelajaran.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">6</td><td class="statement">Fitur-fitur interaktif dalam media ini membuat pembelajaran menjadi lebih menarik.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">7</td><td class="statement">Media ini kurang membantu meningkatkan kemampuan saya dalam berbicara.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">8</td><td class="statement">Setelah menggunakan media ini, saya merasa lebih percaya diri saat berbicara.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">9</td><td class="statement">Media ini membantu saya lebih sadar akan proses berpikir dan belajar saya sendiri.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">10</td><td class="statement">Media ini meningkatkan kemampuan saya untuk merencanakan, memantau, dan mengevaluasi pembelajaran saya.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">11</td><td class="statement">Durasi setiap modul pembelajaran tidak sesuai dan ada yang terlalu panjang atau terlalu pendek.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">12</td><td class="statement">Materi tersegmentasi dengan baik dalam unit-unit kecil yang mudah dipelajari.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">13</td><td class="statement">Saya dapat mengakses media ini kapan saja dan di mana saja dengan mudah.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">14</td><td class="statement">Format microlearning membuat saya sulit fokus pada materi yang sedang dipelajari.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">15</td><td class="statement">Media ini membantu saya menjelaskan konsep dengan bahasa yang lebih sederhana.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">16</td><td class="statement">Teknik penyederhanaan dan pengulangan dalam media ini meningkatkan pemahaman saya terhadap materi.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">17</td><td class="statement">Saya tidak bisa mengidentifikasi bagian materi yang belum saya pahami dengan baik.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  <tr><td class="num">18</td><td class="statement">Media ini mendorong saya untuk merefleksikan pemahaman saya sendiri.</td><td class="mark"></td><td class="mark"></td><td class="mark"></td><td class="mark"></td></tr>
+  </tbody>
+</table>
+
+<div class="page-break"></div>
+
+## Evaluasi Kualitatif
+
+<div class="question-block">
+  <p><strong>1. Aspek yang paling Anda sukai dari media pembelajaran ini:</strong></p>
+  <div class="options two-col">
+    <div><span class="checkbox"></span> Kemudahan penggunaan</div>
+    <div><span class="checkbox"></span> Kualitas materi</div>
+    <div><span class="checkbox"></span> Fitur interaktif</div>
+    <div><span class="checkbox"></span> Durasi yang singkat atau format microlearning</div>
+    <div><span class="checkbox"></span> Teknik Feynman</div>
+    <div><span class="checkbox"></span> Lainnya: <span class="short-line"></span></div>
+  </div>
+  <p class="answer-label">Alasan:</p>
+  <div class="write-lines three"></div>
+</div>
+
+<div class="question-block">
+  <p><strong>2. Aspek yang perlu diperbaiki dari media pembelajaran ini:</strong></p>
+  <div class="options two-col">
+    <div><span class="checkbox"></span> Navigasi media</div>
+    <div><span class="checkbox"></span> Kualitas materi</div>
+    <div><span class="checkbox"></span> Fitur interaktif</div>
+    <div><span class="checkbox"></span> Durasi pembelajaran</div>
+    <div><span class="checkbox"></span> Teknik Feynman</div>
+    <div><span class="checkbox"></span> Lainnya: <span class="short-line"></span></div>
+  </div>
+  <p class="answer-label">Alasan:</p>
+  <div class="write-lines three"></div>
+</div>
+
+<div class="question-block">
+  <p><strong>3. Manfaat yang paling Anda rasakan setelah menggunakan media ini:</strong></p>
+  <div class="options two-col">
+    <div><span class="checkbox"></span> Peningkatan keterampilan berbicara</div>
+    <div><span class="checkbox"></span> Peningkatan kepercayaan diri</div>
+    <div><span class="checkbox"></span> Pemahaman materi yang lebih baik</div>
+    <div><span class="checkbox"></span> Kesadaran metakognitif</div>
+    <div><span class="checkbox"></span> Motivasi belajar</div>
+    <div><span class="checkbox"></span> Lainnya: <span class="short-line"></span></div>
+  </div>
+</div>
+
+<div class="question-block">
+  <p><strong>4. Kendala yang Anda hadapi saat menggunakan media ini:</strong></p>
+  <div class="options two-col">
+    <div><span class="checkbox"></span> Koneksi internet</div>
+    <div><span class="checkbox"></span> Kesulitan navigasi</div>
+    <div><span class="checkbox"></span> Materi terlalu sulit</div>
+    <div><span class="checkbox"></span> Durasi terlalu pendek atau terlalu panjang</div>
+    <div><span class="checkbox"></span> Fitur tidak berfungsi</div>
+    <div><span class="checkbox"></span> Tidak ada kendala</div>
+    <div><span class="checkbox"></span> Lainnya: <span class="short-line"></span></div>
+  </div>
+</div>
+
+## Saran dan Komentar
+
+<div class="question-block">
+  <p class="answer-label">Saran untuk perbaikan media pembelajaran:</p>
+  <div class="write-lines four"></div>
+</div>
+
+<div class="question-block">
+  <p class="answer-label">Komentar tambahan:</p>
+  <div class="write-lines four"></div>
+</div>
+
+<div class="question-block recommendation">
+  <p><strong>Apakah Anda merekomendasikan media ini kepada teman-teman?</strong></p>
+  <div class="options two-col">
+    <div><span class="checkbox"></span> Sangat merekomendasikan</div>
+    <div><span class="checkbox"></span> Merekomendasikan</div>
+    <div><span class="checkbox"></span> Kurang merekomendasikan</div>
+    <div><span class="checkbox"></span> Tidak merekomendasikan</div>
+  </div>
+</div>
+
+<div class="signature-block">
+  <div class="date-line">Tempat dan tanggal: <span></span></div>
+  <div class="signature-space"></div>
+  <div class="signature-name">Nama dan tanda tangan responden</div>
+  <div class="name-line">(....................................................)</div>
+</div>
