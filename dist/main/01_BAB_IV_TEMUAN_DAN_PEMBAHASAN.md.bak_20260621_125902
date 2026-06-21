@@ -115,7 +115,7 @@ Keempat aktivitas ini dirancang untuk mengasah keterampilan berbicara sekaligus 
 
 Evaluasi dilakukan secara formatif dan sumatif untuk mengukur efektivitas media pembelajaran dan menjadi dasar perbaikan produk.
 
-**Evaluasi formatif** dilaksanakan secara terintegrasi selama proses pengembangan dan implementasi, meliputi: (1) validasi oleh ahli materi dan ahli media; (2) uji coba terbatas tahap pertama (*small group*) pada 6 mahasiswa; serta (3) uji coba lebih luas pada 10 mahasiswa sebagai simulasi penggunaan yang lebih utuh sebelum uji lapangan. Hasil evaluasi formatif digunakan untuk merevisi dan menyempurnakan produk sebelum diuji pada skala yang lebih besar.
+**Evaluasi formatif** dilaksanakan secara terintegrasi selama proses pengembangan dan implementasi, meliputi: (1) validasi oleh ahli materi dan ahli media; (2) uji coba terbatas (*small group*) pada 10 mahasiswa; serta (3) uji coba lebih luas (*large group*) pada 25 mahasiswa. Hasil evaluasi formatif digunakan untuk merevisi dan menyempurnakan produk sebelum diuji pada skala yang lebih besar.
 
 **Evaluasi sumatif** dilaksanakan melalui uji lapangan (*field test*) dengan desain kuasi-eksperimen yang melibatkan kelompok eksperimen dan kelompok kontrol. Evaluasi ini mencakup analisis hasil *pretest* dan *posttest* keterampilan berbicara, angket kemampuan metakognitif, wawancara mendalam, serta observasi aktivitas mahasiswa. Hasil evaluasi sumatif menjadi bukti empiris efektivitas media yang dikembangkan.
 
@@ -129,7 +129,7 @@ Berikut deskripsi komponen produk final beserta tampilannya.
 
 Halaman login menyediakan akses bagi mahasiswa yang telah terdaftar untuk masuk ke dalam platform. Fitur registrasi memungkinkan mahasiswa baru untuk membuat akun dengan mengisi data diri yang diperlukan.
 
-![](../img/gambar_4_01_halaman_login_registrasi.png)
+*[Ilustrasi 4.1: Halaman Login]*
 
 Gambar 4.1 Tampilan Halaman Login Media Web Microlearning
 
@@ -137,7 +137,7 @@ Gambar 4.1 Tampilan Halaman Login Media Web Microlearning
 
 Dashboard utama menampilkan ringkasan progres belajar mahasiswa, daftar modul yang tersedia, serta notifikasi terkait tugas dan umpan balik. Desain dashboard mengutamakan kesederhanaan navigasi agar mahasiswa dapat langsung mengakses modul yang dibutuhkan.
 
-![](../img/gambar_4_02_dashboard_utama.png)
+*[Ilustrasi 4.2: Dashboard Utama]*
 
 Gambar 4.2 Tampilan Dashboard Utama
 
@@ -145,7 +145,7 @@ Gambar 4.2 Tampilan Dashboard Utama
 
 Setiap modul disajikan dalam format *bite-sized* dengan durasi 5 hingga 7 menit. Halaman modul memuat teks penjelasan, gambar ilustrasi, dan tautan ke video pembelajaran. Di akhir setiap modul terdapat ringkasan konsep utama yang perlu dipahami mahasiswa.
 
-![](../img/gambar_4_03_halaman_modul_microlearning.png)
+*[Ilustrasi 4.3: Halaman Modul Microlearning]*
 
 Gambar 4.3 Tampilan Halaman Modul Microlearning
 
@@ -153,7 +153,7 @@ Gambar 4.3 Tampilan Halaman Modul Microlearning
 
 Video pembelajaran menyajikan penjelasan materi dengan contoh penerapan teknik Feynman. Video dirancang dengan memperhatikan prinsip *Multimedia Principle* dan *Contiguity Principle* dalam CTML (Mayer, 2014), yaitu menggabungkan narasi verbal dan elemen visual secara berdekatan untuk meminimalkan beban kognitif.
 
-![](../img/gambar_4_04_halaman_video_pembelajaran.png)
+*[Ilustrasi 4.4: Halaman Video Pembelajaran]*
 
 Gambar 4.4 Tampilan Halaman Video Pembelajaran
 
@@ -161,7 +161,7 @@ Gambar 4.4 Tampilan Halaman Video Pembelajaran
 
 Halaman ini merupakan inti dari media yang dikembangkan. Mahasiswa dipandu melalui empat langkah teknik Feynman: (1) memilih konsep, (2) menjelaskan dengan bahasa sendiri, (3) mengidentifikasi bagian yang belum dipahami, dan (4) menyederhanakan penjelasan. Panduan ini disajikan secara visual dengan langkah-langkah yang jelas.
 
-![](../img/gambar_4_05_aktivitas_teknik_feynman.png)
+*[Ilustrasi 4.5: Aktivitas Teknik Feynman]*
 
 Gambar 4.5 Tampilan Halaman Aktivitas Teknik Feynman
 
@@ -169,7 +169,7 @@ Gambar 4.5 Tampilan Halaman Aktivitas Teknik Feynman
 
 Fitur perekaman memungkinkan mahasiswa merekam penjelasan lisan mereka secara langsung melalui platform web. Rekaman tersimpan di profil mahasiswa dan dapat diakses kembali untuk keperluan evaluasi diri maupun penilaian oleh dosen.
 
-![](../img/gambar_4_06_fitur_perekaman_berbicara.png)
+*[Ilustrasi 4.6: Fitur Perekaman Berbicara]*
 
 Gambar 4.6 Tampilan Fitur Perekaman Berbicara
 
@@ -177,7 +177,7 @@ Gambar 4.6 Tampilan Fitur Perekaman Berbicara
 
 Setelah menyelesaikan tugas berbicara, mahasiswa diarahkan untuk mengisi lembar refleksi yang mencakup pertanyaan metakognitif: aspek apa yang paling menantang, strategi apa yang digunakan, dan apa yang perlu diperbaiki. Fitur *playback* juga tersedia agar mahasiswa dapat mendengarkan kembali rekaman mereka.
 
-![](../img/gambar_4_07_fitur_refleksi_evaluasi_diri.png)
+*[Ilustrasi 4.7: Fitur Refleksi]*
 
 Gambar 4.7 Tampilan Fitur Refleksi dan Evaluasi Diri
 
@@ -185,7 +185,7 @@ Gambar 4.7 Tampilan Fitur Refleksi dan Evaluasi Diri
 
 Platform menyediakan kuis interaktif di akhir setiap modul untuk menguji pemahaman konsep. Umpan balik otomatis diberikan setelah mahasiswa menyelesaikan kuis, sementara umpan balik terhadap tugas berbicara diberikan oleh dosen melalui kolom komentar.
 
-![](../img/gambar_4_08_fitur_umpan_balik_kuis.png)
+*[Ilustrasi 4.8: Fitur Umpan Balik]*
 
 Gambar 4.8 Tampilan Fitur Umpan Balik dan Kuis
 
@@ -193,7 +193,7 @@ Gambar 4.8 Tampilan Fitur Umpan Balik dan Kuis
 
 Media dirancang dengan prinsip *responsive design* sehingga tampilan menyesuaikan ukuran layar perangkat yang digunakan, baik komputer, tablet, maupun telepon pintar. Hal ini memastikan mahasiswa dapat mengakses media dengan nyaman dari berbagai perangkat.
 
-![](../img/gambar_4_09_tampilan_responsif_mobile.png)
+*[Ilustrasi 4.9: Tampilan Mobile]*
 
 Gambar 4.9 Tampilan Responsif pada Perangkat Mobile
 
@@ -201,7 +201,7 @@ Gambar 4.9 Tampilan Responsif pada Perangkat Mobile
 
 Panel admin memungkinkan dosen untuk mengelola modul, memantau progres mahasiswa, menilai rekaman tugas berbicara menggunakan rubrik yang telah disediakan, serta memberikan umpan balik individual.
 
-![](../img/gambar_4_10_panel_admin_dosen.png)
+*[Ilustrasi 4.10: Panel Admin]*
 
 Gambar 4.10 Tampilan Panel Admin/Dosen
 
@@ -343,7 +343,7 @@ Uji coba terbatas tahap pertama melibatkan 6 mahasiswa. Fokusnya diarahkan pada 
 | 7 | Penerapan teknik Feynman | 81,25 | Sangat baik |
 |  | **Rerata keseluruhan** | **79,63** | **Baik** |
 
-Tabel 4.8 menunjukkan bahwa respons mahasiswa pada tahap pertama berada pada kategori baik dengan rerata 79,63%. Aspek yang paling kuat adalah kualitas isi dan interaktivitas, masing-masing mencapai 87,50%. Temuan ini menunjukkan bahwa dari sisi substansi dan daya tarik awal, media sudah mampu diterima mahasiswa. Hasil tersebut sejalan dengan Susilana et al. (2022a), Barus dan Bontisesari (2023), serta Conde-Caballero et al. (2024) yang menunjukkan bahwa *microlearning* lebih mudah diterima ketika materi disajikan singkat, terfokus, dan dekat dengan pola konsumsi media digital mahasiswa. Dalam konteks mahasiswa Pendidikan Bahasa Indonesia, kecenderungan ini juga selaras dengan temuan Primandhika et al. (2025) bahwa mahasiswa menunjukkan preferensi yang kuat terhadap media belajar digital yang fleksibel, visual, dan mudah diakses.
+Tabel 4.8 menunjukkan bahwa respons mahasiswa pada tahap pertama berada pada kategori baik dengan rerata 79,63%. Aspek yang paling kuat adalah kualitas isi dan interaktivitas, masing-masing mencapai 87,50%. Temuan ini menunjukkan bahwa dari sisi substansi dan daya tarik awal, media sudah mampu diterima mahasiswa. Hasil tersebut sejalan dengan pandangan Hug et al. (2005), Susilana et al. (2022a), dan Nugraha et al. (2021) bahwa *microlearning* cenderung lebih mudah diterima ketika materi disajikan singkat, terfokus, dan dekat dengan kebiasaan belajar digital mahasiswa. Dalam konteks mahasiswa Pendidikan Bahasa Indonesia, kecenderungan ini juga selaras dengan temuan Primandhika et al. (2025) bahwa mahasiswa menunjukkan preferensi yang kuat terhadap media belajar digital yang fleksibel, visual, dan mudah diakses.
 
 Meskipun demikian, aspek kemudahan penggunaan, dampak metakognitif, dan karakteristik *microlearning* masih berada pada kisaran 75,00% sampai 76,04%. Temuan kualitatif menunjukkan bahwa kendala utama pada tahap ini terletak pada proses login, perpindahan antarseksi yang belum lancar, ukuran tombol fitur interaktif yang masih kecil, serta akses video yang terasa berat ketika digunakan secara bersamaan. Beberapa mahasiswa juga menilai bahwa aktivitas awal masih terasa seperti kuis biasa dan belum sepenuhnya mendorong mereka menjelaskan kembali materi dengan bahasa sendiri. Catatan ini penting karena kekuatan teknik Feynman justru terletak pada aktivitas menjelaskan ulang sebagai sarana menguji pemahaman dan membangun regulasi diri dalam belajar (Reyes et al., 2021a).
 
@@ -382,7 +382,7 @@ Ringkasan respons mahasiswa pada uji coba lebih luas disajikan pada Tabel 4.10.
 | 6 | Penerapan teknik Feynman | 90,00 | Sangat baik |
 |  | **Rerata keseluruhan** | **96,25** | **Sangat baik** |
 
-Tabel 4.10 menunjukkan adanya peningkatan yang sangat jelas dibandingkan tahap sebelumnya. Seluruh aspek berada pada kategori sangat baik, dengan rerata keseluruhan mencapai 96,25%. Tampilan, interaktivitas, dan materi masing-masing memperoleh 100,00%, sedangkan navigasi meningkat menjadi 92,50%. Hasil ini menunjukkan bahwa revisi setelah uji coba tahap pertama memberi dampak nyata terhadap pengalaman penggunaan mahasiswa. Temuan tersebut sejalan dengan kajian Susilana et al. (2022a) dan Barus serta Bontisesari (2023) yang menegaskan bahwa strategi *microlearning* menjadi lebih efektif ketika akses materi, fokus konten, dan fleksibilitas penggunaan dapat dipertahankan secara konsisten. Dari sisi latihan berbicara berbasis digital, hasil ini juga sejalan dengan Goh dan Liu (2023) yang menunjukkan bahwa integrasi materi, latihan, dan refleksi perlu disusun secara jelas agar perkembangan performa lisan lebih terarah.
+Tabel 4.10 menunjukkan adanya peningkatan yang sangat jelas dibandingkan tahap sebelumnya. Seluruh aspek berada pada kategori sangat baik, dengan rerata keseluruhan mencapai 96,25%. Tampilan, interaktivitas, dan materi masing-masing memperoleh 100,00%, sedangkan navigasi meningkat menjadi 92,50%. Hasil ini menunjukkan bahwa revisi setelah uji coba tahap pertama memberi dampak nyata terhadap pengalaman penggunaan mahasiswa. Temuan tersebut sejalan dengan kajian Susilana et al. (2022a) dan Nugraha et al. (2021) yang menegaskan bahwa strategi *microlearning* menjadi lebih efektif ketika akses materi, fokus konten, dan fleksibilitas penggunaan dapat dipertahankan secara konsisten. Dari sisi media berbasis web, hasil ini juga sejalan dengan Setyawan dan Nawangsari (2021) yang menunjukkan bahwa modul berbasis website dapat mendukung latihan berbicara ketika materi, latihan, dan akses pengguna diintegrasikan secara jelas.
 
 Walaupun hasil respons sangat tinggi, masih ditemukan beberapa catatan penggunaan. Secara umum, 7 dari 10 mahasiswa dapat mengikuti alur pembelajaran dari awal sampai akhir tanpa kendala berarti, sedangkan 3 mahasiswa masih mengalami hambatan, yaitu dua kendala navigasi dan satu kendala login karena lupa kata sandi. Selain itu, mahasiswa menyarankan adanya pembatas atau prasyarat untuk naik level agar proses belajar terasa lebih menantang. Pada fitur uji, hambatan juga masih muncul karena kode masuk bersifat *case sensitive*. Dengan demikian, perbaikan teknis pada tahap ini sudah memperkecil masalah utama, tetapi belum menghilangkan seluruh friksi penggunaan.
 
@@ -413,7 +413,7 @@ Untuk menjaga keterlacakan analisis, respons terbuka mahasiswa pada tahap uji co
 | 3 | Uji coba tahap pertama | teknik menjelaskan ulang belum dipahami, aktivitas terasa seperti kuis biasa | Kebutuhan penguatan scaffolding teknik Feynman | Dua mahasiswa menyatakan belum memahami teknik "sederhanakan dan ulangi" | Ditambahkan contoh, latihan rekam, dan ragam evaluasi yang lebih eksplisit mengarahkan mahasiswa menjelaskan ulang |
 | 4 | Uji coba lebih luas | alur lebih lancar, poin memotivasi, perlu syarat naik level, *case sensitive* pada modul uji | Penyempurnaan alur dan gamifikasi | Tujuh dari sepuluh mahasiswa mengikuti alur tanpa kendala berarti; tiga mahasiswa masih mengalami hambatan teknis | Navigasi *mobile* diperbaiki, ditambahkan pembatas antarbagian, dan disediakan alternatif pengumpulan link rekaman |
 
-Tabel 4.12 memperlihatkan bahwa data kualitatif pada tahap uji coba tidak hanya berfungsi sebagai pelengkap narasi, tetapi benar-benar menjadi dasar revisi produk. Pola ini sejalan dengan karakter penelitian pengembangan, yaitu setiap umpan balik pengguna diperlakukan sebagai masukan untuk menyempurnakan produk sebelum diuji pada konteks yang lebih luas. Dari sisi substansi, temuan mahasiswa menguatkan bahwa media yang singkat, fleksibel, dan terfokus lebih sesuai dengan kebiasaan belajar digital mahasiswa Indonesia (Primandhika et al., 2025; Susilana et al., 2022a), sedangkan dari sisi keterampilan berbicara, kebutuhan akan contoh, latihan rekam, dan pengarahan menjelaskan ulang menunjukkan bahwa performa berbicara yang baik tetap memerlukan perencanaan, pengorganisasian gagasan, dan refleksi diri (Paterson, 2022; Goh & Liu, 2023).
+Tabel 4.12 memperlihatkan bahwa data kualitatif pada tahap uji coba tidak hanya berfungsi sebagai pelengkap narasi, tetapi benar-benar menjadi dasar revisi produk. Pola ini sejalan dengan karakter penelitian pengembangan, yaitu setiap umpan balik pengguna diperlakukan sebagai masukan untuk menyempurnakan produk sebelum diuji pada konteks yang lebih luas. Dari sisi substansi, temuan mahasiswa menguatkan bahwa media yang singkat, fleksibel, dan terfokus lebih sesuai dengan kebiasaan belajar digital mahasiswa Indonesia (Primandhika et al., 2025; Nugraha et al., 2021), sedangkan dari sisi keterampilan berbicara, kebutuhan akan contoh, latihan rekam, dan pengarahan menjelaskan ulang menunjukkan bahwa performa berbicara yang baik tetap memerlukan perencanaan, pengorganisasian gagasan, dan refleksi diri (Ilham & Wijiati, 2020; Paterson, 2022).
 
 ## E. Hasil Uji Lapangan / Efektivitas Produk
 
@@ -421,7 +421,7 @@ Tabel 4.12 memperlihatkan bahwa data kualitatif pada tahap uji coba tidak hanya 
 
 Uji lapangan dilakukan untuk menilai efektivitas media web *microlearning* berbasis teknik Feynman pada konteks pembelajaran nyata. Sesuai desain kuasi-eksperimen, subjek penelitian terdiri atas 40 mahasiswa pada kelas eksperimen dan 37 mahasiswa pada kelas kontrol, sehingga total partisipan berjumlah 77 mahasiswa. Data kuantitatif pada tahap ini mencakup skor keterampilan berbicara, skor kemampuan metakognitif, dan respons mahasiswa terhadap penggunaan media.
 
-Berdasarkan rekapitulasi data final, baik instrumen keterampilan berbicara maupun angket kemampuan metakognitif tersedia lengkap dalam pasangan *pretest-posttest* untuk seluruh 77 mahasiswa. Sementara itu, angket respons mahasiswa terhadap media dikumpulkan dari 40 mahasiswa kelas eksperimen karena kelompok inilah yang menggunakan media secara penuh selama perlakuan. Dengan demikian, uji lapangan dalam penelitian ini dapat dibaca melalui dua konstruk hasil utama, yaitu keterampilan berbicara dan kemampuan metakognitif, lalu diperkaya dengan data respons pengguna dan temuan kualitatif.
+Namun, kelengkapan data pada setiap instrumen tidak sama. Data keterampilan berbicara tersedia lengkap untuk seluruh pasangan *pretest-posttest*, sedangkan data kemampuan metakognitif tidak lengkap, terutama pada pengukuran awal. Karena itu, pembacaan efektivitas kuantitatif pada uji lapangan terutama bertumpu pada data keterampilan berbicara yang lengkap, sementara data metakognitif dibaca secara lebih hati-hati dan dilengkapi melalui temuan kualitatif. Pola seperti ini tetap sejalan dengan desain *mixed methods sequential explanatory*, yaitu ketika data kuantitatif pada satu konstruk tidak cukup kuat, penjelasan diperdalam melalui sumber data lain yang relevan (Creswell & Plano Clark, 2018).
 
 **Tabel 4.14** Ketersediaan Data Uji Lapangan
 
@@ -429,11 +429,11 @@ Berdasarkan rekapitulasi data final, baik instrumen keterampilan berbicara maupu
 |---|---|---:|---:|---:|---|
 | 1 | Keterampilan berbicara *pretest* | 40 | 37 | 77 | Digunakan untuk analisis deskriptif, uji prasyarat, uji beda, *N-gain*, dan *effect size* |
 | 2 | Keterampilan berbicara *posttest* | 40 | 37 | 77 | Tersedia lengkap sebagai pasangan *pretest-posttest* |
-| 3 | Metakognitif *pretest* | 40 | 37 | 77 | Digunakan untuk analisis deskriptif, uji beda berpasangan, dan *N-gain* |
-| 4 | Metakognitif *posttest* | 40 | 37 | 77 | Tersedia lengkap sebagai pasangan *pretest-posttest* |
+| 3 | Metakognitif *pretest* | 1 | 6 | 7 | Terlalu terbatas untuk dijadikan dasar utama uji efektivitas |
+| 4 | Metakognitif *posttest* | 38 | 21 | 59 | Digunakan secara deskriptif dan eksploratif |
 | 5 | Respons mahasiswa terhadap media | 40 | - | 40 | Digunakan sebagai data pendukung keterterimaan media pada kelas eksperimen |
 
-Tabel 4.14 menunjukkan bahwa uji lapangan memiliki basis data kuantitatif yang cukup utuh pada dua konstruk utama penelitian. Karena itu, efektivitas media dalam penelitian ini dapat ditelaah tidak hanya dari sisi performa berbicara, tetapi juga dari perubahan kemampuan metakognitif mahasiswa. Pada saat yang sama, data respons mahasiswa dan wawancara dosen tetap diperlukan untuk menjelaskan bagaimana peningkatan itu terjadi dalam praktik pembelajaran.
+Tabel 4.14 menunjukkan bahwa kekuatan utama data uji lapangan terletak pada skor keterampilan berbicara, karena tersedia lengkap untuk 77 mahasiswa. Sebaliknya, data kemampuan metakognitif memperlihatkan ketimpangan yang cukup besar antara *pretest* dan *posttest*. Oleh sebab itu, pada bagian ini hasil kuantitatif mengenai keterampilan berbicara dapat dibaca lebih tegas, sedangkan hasil kuantitatif metakognitif harus diposisikan secara lebih terbatas agar tidak melampaui kekuatan data yang tersedia.
 
 ### 2. Uji Prasyarat Analisis
 
@@ -453,24 +453,23 @@ Berdasarkan Tabel 4.15, skor awal kedua kelompok dapat dianggap relatif sebandin
 
 ### 3. Pengujian Efektivitas Kemampuan Metakognitif
 
-Berbeda dari pembacaan awal yang masih bersifat parsial, rekapitulasi data final menunjukkan bahwa konstruk kemampuan metakognitif memiliki pasangan data *pretest-posttest* lengkap untuk seluruh 77 mahasiswa, terdiri atas 40 mahasiswa kelompok eksperimen dan 37 mahasiswa kelompok kontrol. Dengan demikian, efektivitas media pada konstruk ini dapat diuji secara deskriptif maupun inferensial, sama seperti pada keterampilan berbicara.
+Pada konstruk kemampuan metakognitif, data yang tersedia belum cukup kuat untuk mendukung pengujian efektivitas secara inferensial seperti pada keterampilan berbicara. Hanya 7 mahasiswa yang memiliki pasangan data *pretest-posttest* lengkap, terdiri atas 1 mahasiswa kelompok eksperimen dan 6 mahasiswa kelompok kontrol. Kondisi ini membuat uji perubahan dalam kelompok maupun perbandingan peningkatan antarkelompok tidak layak dijadikan dasar utama kesimpulan efektivitas. Dalam desain kuasi-eksperimen, perbandingan perubahan mensyaratkan pasangan pengukuran yang memadai pada kedua kelompok; ketika syarat itu tidak terpenuhi, interpretasi harus dibatasi secara tegas (Maciejewski, 2020; Shadish & Luellen, 2012).
 
-**Tabel 4.16** Statistik Deskriptif Kemampuan Metakognitif pada Uji Lapangan
+**Tabel 4.16** Ketersediaan dan Ringkasan Data Kemampuan Metakognitif
 
-| Kelompok | *Pretest* (mean ± SD) | *Posttest* (mean ± SD) | Gain (mean ± SD) | Mean *N-gain* | Kategori *N-gain* |
-|---|---:|---:|---:|---:|---|
-| Eksperimen | 26,40 ± 8,30 | 50,95 ± 9,43 | 24,55 ± 11,53 | 0,648 | Sedang |
-| Kontrol | 31,89 ± 11,99 | 48,35 ± 7,45 | 16,46 ± 10,19 | 0,400 | Sedang |
+| Kelompok | Data *pretest-posttest* lengkap | Data *posttest* tersedia | Rerata *posttest* | Persentase dari skor maksimum |
+|---|---:|---:|---:|---:|
+| Eksperimen | 1 | 38 | 51,32 | 80,19% |
+| Kontrol | 6 | 21 | 53,52 | 83,62% |
+| **Total** | **7** | **59** | - | - |
 
-Tabel 4.16 menunjukkan bahwa kedua kelompok sama-sama mengalami peningkatan kemampuan metakognitif, tetapi kelompok eksperimen memperlihatkan kenaikan yang lebih besar. Rerata skor kelompok eksperimen meningkat dari 26,40 menjadi 50,95, sedangkan kelompok kontrol meningkat dari 31,89 menjadi 48,35. Dari sisi gain absolut, kelompok eksperimen bertambah 24,55 poin, sementara kelompok kontrol bertambah 16,46 poin. Jika dibaca melalui *N-gain*, kedua kelompok berada pada kategori sedang, tetapi kelompok eksperimen tetap menunjukkan nilai yang lebih tinggi.
+Tabel 4.16 memperlihatkan bahwa data *posttest* metakognitif tersedia lebih banyak daripada data *pretest*. Secara deskriptif, baik kelompok eksperimen maupun kelompok kontrol menunjukkan skor *posttest* yang relatif tinggi. Akan tetapi, karena tidak tersedia pasangan pengukuran awal yang memadai, angka-angka tersebut tidak dapat langsung dibaca sebagai bukti peningkatan akibat intervensi. Dengan kata lain, data metakognitif pada uji lapangan saat ini lebih layak diposisikan sebagai indikator kecenderungan hasil akhir, bukan sebagai landasan tunggal untuk menyatakan efektivitas kuantitatif media.
 
-Secara inferensial, uji *paired sample t-test* menunjukkan bahwa peningkatan dalam kelompok eksperimen signifikan dengan `t = 13,465`, `p < 0,001`, dan Cohen's `dz = 2,129`. Kelompok kontrol juga mengalami peningkatan signifikan dengan `t = 9,829`, `p < 0,001`, dan Cohen's `dz = 1,616`. Akan tetapi, seperti pada konstruk keterampilan berbicara, bukti yang lebih penting terletak pada perbandingan peningkatan antarkelompok. Hasil uji Welch pada *N-gain* menunjukkan selisih rerata `0,2477`, dengan 95% CI `[0,0724; 0,4231]`, `p = 0,00649`, dan Hedges `g = 0,653`. Dengan demikian, peningkatan kemampuan metakognitif pada kelompok eksperimen lebih besar daripada kelompok kontrol dengan efek sedang.
-
-Jika dilihat per dimensi, peningkatan pada kelompok eksperimen paling menonjol tampak pada dimensi **perencanaan** dan **evaluasi**, disusul **pemantauan** dan dimensi **integratif**. Pola ini menunjukkan bahwa media tidak hanya membantu mahasiswa menyadari pentingnya menyiapkan isi sebelum berbicara, tetapi juga mendorong mereka menilai kembali kualitas penjelasan setelah latihan. Temuan ini penting karena kemampuan metakognitif dalam penelitian ini memang diharapkan berkembang melalui siklus mempelajari materi singkat, menjelaskan ulang, mendengarkan kembali rekaman, lalu memperbaiki performa pada percobaan berikutnya.
+Meskipun demikian, keterbatasan kuantitatif ini tidak berarti kemampuan metakognitif diabaikan. Dalam penelitian ini, konstruk metakognitif tetap dibaca melalui triangulasi dengan wawancara dosen, observasi, dan artefak refleksi mahasiswa. Dengan demikian, pembahasan tentang metakognitif pada bagian selanjutnya tetap dapat dikembangkan, tetapi tidak dengan klaim statistik yang melebihi kecukupan data yang tersedia.
 
 ### 4. Pengujian Efektivitas Keterampilan Berbicara
 
-Sejalan dengan data metakognitif, data keterampilan berbicara juga tersedia lengkap untuk seluruh 77 mahasiswa. Karena itu, pengujian efektivitas produk pada uji lapangan dapat dibaca secara paralel pada dua konstruk hasil utama penelitian. Statistik deskriptif menunjukkan bahwa kedua kelompok mengalami peningkatan skor dari *pretest* ke *posttest*, tetapi kelompok eksperimen memperlihatkan kenaikan yang lebih besar.
+Berbeda dengan data metakognitif, data keterampilan berbicara tersedia lengkap untuk seluruh 77 mahasiswa. Karena itu, pengujian efektivitas produk pada uji lapangan terutama bertumpu pada konstruk ini. Statistik deskriptif menunjukkan bahwa kedua kelompok mengalami peningkatan skor dari *pretest* ke *posttest*, tetapi kelompok eksperimen memperlihatkan kenaikan yang lebih besar.
 
 **Tabel 4.17** Statistik Deskriptif Keterampilan Berbicara pada Uji Lapangan
 
@@ -479,7 +478,7 @@ Sejalan dengan data metakognitif, data keterampilan berbicara juga tersedia leng
 | Eksperimen | 70,84 ± 5,55 | 82,70 ± 5,18 | 11,86 ± 6,71 | 0,375 | Sedang |
 | Kontrol | 71,21 ± 1,84 | 79,46 ± 3,41 | 8,25 ± 3,69 | 0,284 | Rendah |
 
-Tabel 4.17 menunjukkan bahwa rerata *pretest* kedua kelompok relatif berdekatan, tetapi setelah perlakuan rerata *posttest* kelompok eksperimen naik lebih besar daripada kelompok kontrol. Selisih gain rata-rata antara kedua kelompok mencapai 3,61 poin. Jika dibaca melalui *N-gain*, kelompok eksperimen berada pada kategori sedang, sedangkan kelompok kontrol berada pada kategori rendah. Temuan ini memperlihatkan bahwa penggunaan media tidak hanya diikuti oleh peningkatan skor, tetapi juga oleh kualitas peningkatan yang lebih baik pada kelompok yang memperoleh intervensi secara penuh. Dalam konteks pembelajaran berbicara, hasil ini sejalan dengan Goh dan Liu (2023) yang menekankan bahwa performa lisan berkembang lebih baik ketika mahasiswa memperoleh ruang latihan yang terstruktur, reflektif, dan berulang.
+Tabel 4.17 menunjukkan bahwa rerata *pretest* kedua kelompok relatif berdekatan, tetapi setelah perlakuan rerata *posttest* kelompok eksperimen naik lebih besar daripada kelompok kontrol. Selisih gain rata-rata antara kedua kelompok mencapai 3,61 poin. Jika dibaca melalui *N-gain*, kelompok eksperimen berada pada kategori sedang, sedangkan kelompok kontrol berada pada kategori rendah. Temuan ini memperlihatkan bahwa penggunaan media tidak hanya diikuti oleh peningkatan skor, tetapi juga oleh kualitas peningkatan yang lebih baik pada kelompok yang memperoleh intervensi secara penuh. Dalam konteks pembelajaran berbicara, hasil ini sejalan dengan temuan Setyawan dan Nawangsari (2021) bahwa media berbasis website dapat mendukung peningkatan performa berbicara ketika digunakan secara terstruktur dan disertai aktivitas latihan yang jelas.
 
 Untuk menguji apakah peningkatan tersebut bermakna, dilakukan uji perubahan dalam setiap kelompok dan perbandingan gain antarkelompok. Hasilnya disajikan pada Tabel 4.18.
 
@@ -491,7 +490,7 @@ Untuk menguji apakah peningkatan tersebut bermakna, dilakukan uji perubahan dala
 | *Paired sample t-test* kelompok kontrol | mean gain = `8,25`; 95% CI `[7,02; 9,48]`; `p < 0,001`; Cohen's `dz = 2,235` | Kelompok kontrol juga meningkat |
 | Perbandingan gain antarkelompok (Welch) | selisih gain = `3,61`; 95% CI `[1,17; 6,06]`; `p = 0,00443`; Hedges `g = 0,653` | Peningkatan kelompok eksperimen lebih besar daripada kelompok kontrol dengan efek sedang |
 
-Tabel 4.18 memperlihatkan bahwa kedua kelompok sama-sama mengalami peningkatan, tetapi peningkatan dalam kelompok saja tidak cukup untuk menyatakan bahwa intervensi lebih efektif. Bukti yang lebih relevan justru terletak pada perbandingan gain antarkelompok. Hasil Welch menunjukkan bahwa kelompok eksperimen meningkat 3,61 poin lebih tinggi dibandingkan kelompok kontrol, dengan *effect size* sedang. Dengan demikian, temuan kuantitatif pada konstruk keterampilan berbicara mendukung bahwa media web *microlearning* berbasis teknik Feynman memberi kontribusi yang lebih kuat dibandingkan pembelajaran reguler. Hasil ini sejalan dengan Paterson (2022) yang menekankan pentingnya refleksi dan pemantauan diri dalam peningkatan performa lisan, serta dengan Goh dan Liu (2023) yang menempatkan perencanaan, latihan, dan evaluasi diri sebagai bagian inti dari pengembangan berbicara.
+Tabel 4.18 memperlihatkan bahwa kedua kelompok sama-sama mengalami peningkatan, tetapi peningkatan dalam kelompok saja tidak cukup untuk menyatakan bahwa intervensi lebih efektif. Bukti yang lebih relevan justru terletak pada perbandingan gain antarkelompok. Hasil Welch menunjukkan bahwa kelompok eksperimen meningkat 3,61 poin lebih tinggi dibandingkan kelompok kontrol, dengan *effect size* sedang. Dengan demikian, temuan kuantitatif pada konstruk keterampilan berbicara mendukung bahwa media web *microlearning* berbasis teknik Feynman memberi kontribusi yang lebih kuat dibandingkan pembelajaran reguler. Hasil ini sejalan dengan pandangan Ilham dan Wijiati (2020) bahwa keterampilan berbicara berkembang melalui latihan performatif yang terstruktur, serta dengan Paterson (2022) yang menekankan pentingnya refleksi dan pemantauan diri dalam peningkatan performa lisan.
 
 Untuk melihat letak perubahan yang paling menonjol, dilakukan analisis sekunder pada lima aspek rubrik keterampilan berbicara. Hasilnya disajikan pada Tabel 4.19.
 
@@ -507,23 +506,23 @@ Untuk melihat letak perubahan yang paling menonjol, dilakukan analisis sekunder 
 
 Berdasarkan Tabel 4.19, perbedaan peningkatan yang paling jelas tampak pada aspek pengorganisasian, ketepatan, dan dampak penyampaian. Tiga aspek ini menunjukkan bahwa media tidak hanya membantu mahasiswa berbicara lebih banyak, tetapi juga membantu mereka menata isi, menyampaikan dengan lebih tepat, dan menghasilkan penyampaian yang lebih berdampak. Sementara itu, aspek kejelasan dan strategi belum menunjukkan keunggulan gain yang konsisten dibandingkan kelompok kontrol. Temuan ini mengisyaratkan bahwa media paling kuat bekerja pada bagian penataan ide dan kualitas penyampaian akhir, sedangkan aspek kejelasan spontan dan strategi komunikasi kemungkinan masih membutuhkan durasi latihan yang lebih panjang.
 
-Secara keseluruhan, hasil uji lapangan menunjukkan bahwa media memberi keuntungan kuantitatif yang nyata pada konstruk keterampilan berbicara. Hal ini juga sesuai dengan desain produk yang secara langsung memberikan latihan rekam, penjelasan ulang, umpan balik, dan refleksi yang terkait erat dengan unjuk kerja berbicara mahasiswa (Paterson, 2022; Goh & Liu, 2023).
+Secara keseluruhan, hasil uji lapangan menunjukkan bahwa efektivitas kuantitatif media lebih kuat dan lebih dapat dipertanggungjawabkan pada konstruk keterampilan berbicara. Hal ini juga sesuai dengan desain produk yang memang secara langsung memberikan latihan rekam, penjelasan ulang, umpan balik, dan refleksi yang terkait erat dengan unjuk kerja berbicara mahasiswa (Setyawan & Nawangsari, 2021; Paterson, 2022).
 
 ### 5. Analisis Hubungan Kemampuan Metakognitif dan Keterampilan Berbicara
 
-Analisis hubungan antara kemampuan metakognitif dan keterampilan berbicara dilakukan secara eksploratif pada skor *posttest* seluruh peserta uji lapangan. Karena kedua instrumen tersedia lengkap untuk 77 mahasiswa, analisis ini tidak lagi dibatasi oleh masalah overlap data. Meski demikian, pembacaan tetap diarahkan secara hati-hati, sebab korelasi pada penelitian ini tidak dimaksudkan untuk membuktikan hubungan kausal, melainkan hanya untuk melihat ada tidaknya pola keterkaitan kuantitatif pada hasil akhir.
+Analisis hubungan antara kemampuan metakognitif dan keterampilan berbicara dilakukan secara eksploratif pada data *posttest* yang saling beririsan. Dari 77 peserta uji lapangan, hanya 59 mahasiswa yang memiliki skor *posttest* metakognitif dan skor *posttest* keterampilan berbicara secara bersamaan. Karena data *pretest* metakognitif tidak lengkap, analisis hubungan pada bagian ini tidak diarahkan untuk menarik simpulan kausal, melainkan hanya untuk melihat apakah terdapat pola kuantitatif yang tampak pada data akhir yang tersedia.
 
 **Tabel 4.20** Analisis Eksploratif Hubungan *Posttest* Metakognitif dan Keterampilan Berbicara
 
 | Kelompok data | `n` | Koefisien Pearson | Koefisien Spearman | Interpretasi umum |
 |---|---:|---:|---:|---|
-| Seluruh data | 77 | 0,151 | 0,043 | Hubungan sangat lemah |
-| Kelompok eksperimen | 40 | -0,007 | -0,098 | Hampir tidak menunjukkan hubungan linear |
-| Kelompok kontrol | 37 | 0,342 | 0,103 | Hubungan lemah dan tidak konsisten |
+| Seluruh data overlap | 59 | -0,075 | -0,191 | Tidak menunjukkan hubungan linear yang jelas |
+| Kelompok eksperimen | 38 | -0,016 | -0,098 | Hubungan sangat lemah |
+| Kelompok kontrol | 21 | -0,217 | -0,179 | Hubungan lemah dan tidak stabil |
 
-Tabel 4.20 menunjukkan bahwa hubungan kuantitatif antara skor *posttest* metakognitif dan keterampilan berbicara cenderung lemah. Pada keseluruhan data, koefisien Pearson hanya mencapai 0,151. Pada kelompok eksperimen, hubungan bahkan nyaris tidak tampak, sedangkan pada kelompok kontrol muncul kecenderungan positif yang lemah. Pola ini menunjukkan bahwa peningkatan kedua konstruk tidak selalu bergerak secara linear pada tingkat individu.
+Tabel 4.20 menunjukkan bahwa pada data *posttest* yang tersedia tidak tampak pola hubungan kuantitatif yang kuat antara skor metakognitif dan skor keterampilan berbicara. Koefisien korelasi, baik Pearson maupun Spearman, berada pada kisaran yang lemah. Akan tetapi, hasil ini tidak dapat langsung dibaca sebagai tidak adanya hubungan konseptual antara metakognitif dan keterampilan berbicara. Ketiadaan pola yang jelas lebih mungkin dipengaruhi oleh keterbatasan data, terutama ketimpangan ketersediaan skor *pretest-posttest* metakognitif, selektivitas pada data *posttest* yang terekam, serta perbedaan kekuatan pengukuran antara instrumen angket dan asesmen performa.
 
-Temuan tersebut tidak berarti kemampuan metakognitif tidak penting bagi keterampilan berbicara. Sebaliknya, hasil ini lebih menunjukkan bahwa hubungan keduanya dalam penelitian ini kemungkinan bekerja melalui mekanisme yang lebih kompleks daripada sekadar korelasi skor akhir. Mahasiswa dapat memperlihatkan perilaku metakognitif yang kuat, seperti membuat kerangka, memantau tempo, atau merevisi rekaman, tetapi kekuatan perilaku itu tidak selalu langsung terkonversi menjadi hubungan numerik yang tinggi pada satu titik pengukuran. Karena itu, penjelasan mengenai keterkaitan antara keduanya perlu dibaca bersama temuan kualitatif yang menggambarkan proses belajar mahasiswa secara lebih rinci. Secara teoritis, posisi ini tetap sejalan dengan Goh dan Liu (2023) yang menempatkan perencanaan, pemantauan, dan evaluasi diri sebagai penyangga performa berbicara, meskipun manifestasinya tidak selalu muncul sebagai korelasi sederhana pada data hasil akhir.
+Dengan demikian, pada penelitian ini analisis hubungan kuantitatif antara kemampuan metakognitif dan keterampilan berbicara harus diposisikan sebagai temuan eksploratif yang belum konklusif. Secara teoritis, hubungan keduanya tetap masuk akal karena perencanaan, pemantauan, dan evaluasi diri merupakan bagian penting dari performa berbicara yang baik (Goh & Liu, 2023; Zhang et al., 2021). Namun, pada data lapangan yang tersedia, hubungan tersebut belum muncul secara kuat dalam bentuk korelasi numerik. Oleh karena itu, penjelasan tentang hubungan keduanya akan diperdalam kembali melalui temuan kualitatif pada bagian berikutnya.
 
 ## F. Temuan Kualitatif
 
@@ -549,11 +548,11 @@ Pada kelas eksperimen, dosen menilai keterlibatan mahasiswa tergolong tinggi. Se
 
 Pada kelas kontrol, keterlibatan mahasiswa terhadap media bersifat lebih terbatas karena penggunaan media tidak diwajibkan sebagai bagian dari perlakuan utama. Meski demikian, sebagian kecil mahasiswa tetap mencoba media untuk mempersiapkan diri menghadapi pretest dan posttest. Dosen kelas kontrol menyatakan bahwa *"mahasiswa di kelas kontrol tidak diwajibkan menggunakan media, tetapi ada sedikit mahasiswa yang memanfaatkan media ini karena ingin bersiap."* Temuan ini menunjukkan bahwa media memiliki nilai instrumental sebagai sarana persiapan, tetapi efeknya pada kelas kontrol tidak dapat dibaca sebagai keterpakaian penuh.
 
-Dari sisi efektivitas terhadap keterampilan berbicara, dosen kelas eksperimen memandang media cukup membantu mahasiswa belajar secara rutin dan bertahap. Kehadiran latihan antarseksi, poin, dan tuntutan penyelesaian modul dinilai mendorong mahasiswa untuk terus mencoba. Akan tetapi, dosen juga mencatat bahwa pada fase-fase akhir sebagian mahasiswa mulai mengalami kejenuhan sehingga serapan materi tidak selalu optimal. Penilaian ini sejalan dengan Goh dan Liu (2023) yang menunjukkan pentingnya latihan berbicara yang terstruktur dan reflektif, serta dengan Susilana et al. (2022a) yang menekankan bahwa desain *microlearning* perlu dijaga tetap fokus agar beban belajar tidak meningkat secara tidak perlu.
+Dari sisi efektivitas terhadap keterampilan berbicara, dosen kelas eksperimen memandang media cukup membantu mahasiswa belajar secara rutin dan bertahap. Kehadiran latihan antarseksi, poin, dan tuntutan penyelesaian modul dinilai mendorong mahasiswa untuk terus mencoba. Akan tetapi, dosen juga mencatat bahwa pada fase-fase akhir sebagian mahasiswa mulai mengalami kejenuhan sehingga serapan materi tidak selalu optimal. Penilaian ini sejalan dengan Setyawan dan Nawangsari (2021) yang menunjukkan bahwa media berbasis website dapat mendukung peningkatan keterampilan berbicara ketika latihan diberikan secara terstruktur, serta dengan Nugraha et al. (2021) yang menekankan pentingnya pengelolaan desain *microlearning* agar tetap efektif dan tidak membebani pengguna.
 
 Pandangan dosen kelas kontrol juga menunjukkan arah yang serupa, meskipun dalam intensitas yang lebih terbatas. Dari sekitar 4 sampai 5 mahasiswa yang mencoba media, satu mahasiswa dinilai menunjukkan progres yang cukup baik dan tampak lebih siap ketika tes berbicara. Kutipan dosen kelas kontrol menegaskan hal ini, yaitu *"Dari sekitar 4-5 yang mencoba, satu mahasiswa menunjukkan progres yang cukup baik, yaitu jadi lebih siap ketika tes."* Temuan ini mengisyaratkan bahwa media berpotensi membantu performa berbicara, tetapi dampaknya pada kelas kontrol belum dapat terbaca kuat karena penggunaan media tidak berlangsung secara sistematis pada seluruh peserta.
 
-Pada aspek kemampuan metakognitif, dosen kelas eksperimen menilai bahwa beberapa mahasiswa mulai menunjukkan perubahan pada tahap perencanaan sebelum berbicara. Mahasiswa tidak lagi sepenuhnya berbicara secara spontan, tetapi mulai menyiapkan isi, memperhatikan hasil latihan, dan memahami bahwa performa berbicara memerlukan persiapan. Dosen menyatakan, *"Mereka yang mencoba perlahan mulai mengerti pola, setiap bicara mesti ada perencanaan dulu."* Temuan ini menunjukkan adanya penguatan kesadaran metakognitif, terutama pada dimensi perencanaan. Secara substantif, hasil ini selaras dengan Paterson (2022) dan Sabnani serta Goh (2022) yang menekankan bahwa performa berbicara yang lebih baik ditopang oleh kebiasaan merencanakan, memantau, dan mengevaluasi ujaran secara sadar.
+Pada aspek kemampuan metakognitif, dosen kelas eksperimen menilai bahwa beberapa mahasiswa mulai menunjukkan perubahan pada tahap perencanaan sebelum berbicara. Mahasiswa tidak lagi sepenuhnya berbicara secara spontan, tetapi mulai menyiapkan isi, memperhatikan hasil latihan, dan memahami bahwa performa berbicara memerlukan persiapan. Dosen menyatakan, *"Mereka yang mencoba perlahan mulai mengerti pola, setiap bicara mesti ada perencanaan dulu."* Temuan ini menunjukkan adanya penguatan kesadaran metakognitif, terutama pada dimensi perencanaan. Secara substantif, hasil ini selaras dengan Paterson (2022) serta pandangan Ilham dan Wijiati (2020) bahwa keterampilan berbicara yang baik tidak hanya ditentukan oleh kelancaran verbal, tetapi juga oleh kemampuan merencanakan isi, mengorganisasi gagasan, dan mengevaluasi performa secara sadar.
 
 Pada kelas kontrol, dosen juga melihat adanya peningkatan kesiapan pada sebagian mahasiswa yang mencoba media, terutama karena mereka menyadari bahwa media menuntut perhatian pada lebih banyak aspek penilaian. Meski begitu, kebebasan sumber belajar di kelas kontrol menyebabkan persiapan mahasiswa menjadi kurang seragam. Bahkan, dosen mengamati bahwa sebagian mahasiswa cenderung mengandalkan hasil *generate* AI ketika menghadapi tes berbicara. Dengan demikian, data dosen memperlihatkan bahwa media dapat membantu munculnya kesadaran persiapan dan refleksi, tetapi dampaknya lebih kuat ketika penggunaannya terintegrasi secara konsisten dalam pembelajaran.
 
@@ -563,99 +562,32 @@ Saran pengembangan dari kedua dosen memperlihatkan arah perbaikan yang cukup jel
 
 Berdasarkan keseluruhan hasil wawancara, dapat disimpulkan bahwa dosen memandang media web *microlearning* berbasis teknik Feynman sebagai sarana yang potensial untuk mendukung keterlibatan mahasiswa, memperbaiki kesiapan berbicara, dan memunculkan unsur perencanaan dalam proses belajar. Akan tetapi, efektivitas implementasinya sangat dipengaruhi oleh stabilitas teknis, konsistensi integrasi dalam pembelajaran, kemudahan akses melalui perangkat bergerak, serta beban kerja dosen pada proses penilaian dan umpan balik. Temuan ini penting karena memberikan sudut pandang pelaksana pembelajaran yang melengkapi penilaian mahasiswa terhadap kepraktisan media.
 
-### 2. Respons Mahasiswa dan Perubahan Strategi Belajar
-
-Wawancara mahasiswa memperlihatkan bahwa perubahan yang terjadi tidak hanya tampak pada hasil skor, tetapi juga pada cara mahasiswa memahami proses berbicara mereka sendiri. Beberapa mahasiswa mulai menyadari bahwa berbicara yang baik memerlukan kerangka, bukan sekadar keberanian tampil. Mahasiswa lain menekankan manfaat *playback*, pengulangan rekaman, dan umpan balik sebagai sarana untuk memeriksa kelemahan yang sebelumnya tidak mereka sadari.
-
-Pada dimensi **perencanaan**, kecenderungan yang paling sering muncul adalah kebiasaan menyusun poin utama sebelum berbicara. Seorang mahasiswa menyatakan bahwa setelah menggunakan media, ia tidak lagi langsung berbicara, tetapi mulai membuat kerangka terlebih dahulu. Temuan ini menunjukkan bahwa teknik Feynman dalam media tidak hanya mendorong penguasaan isi, tetapi juga membentuk kebiasaan menata alur penjelasan sebelum tampil.
-
-Pada dimensi **pemantauan** dan **evaluasi**, beberapa mahasiswa menyebut bahwa mereka mulai peka terhadap tempo, intonasi, jeda, dan urutan penyampaian. Fitur *playback* memberi kesempatan bagi mahasiswa untuk mendengar kembali penjelasan mereka sendiri, lalu membandingkannya dengan contoh atau dengan target performa yang diharapkan. Dalam konteks ini, rekaman tidak hanya menjadi alat dokumentasi tugas, tetapi juga menjadi sarana refleksi performa.
-
-Wawancara mahasiswa juga menunjukkan perubahan pada aspek afektif. Sejumlah mahasiswa merasa lebih tenang dan lebih percaya diri karena dapat berlatih berulang kali sebelum tampil. Mahasiswa lain menilai bahwa durasi *microlearning* yang singkat membuat mereka tidak cepat jenuh dan lebih mudah mengulang materi ketika ada bagian yang belum dipahami. Temuan ini menguatkan bahwa fleksibilitas akses dan singkatnya unit materi bukan hanya memudahkan belajar, tetapi juga membantu menjaga kesiapan psikologis mahasiswa saat berbicara.
-
-Meskipun demikian, perubahan tersebut tidak sepenuhnya merata. Ada mahasiswa yang masih merasa kesulitan menerjemahkan pemahaman konseptual ke dalam praktik berbicara yang runtut. Pola ini penting karena menjelaskan mengapa korelasi skor akhir metakognitif dan keterampilan berbicara tidak muncul kuat secara linear. Dengan kata lain, perkembangan strategi belajar memang tampak, tetapi kedalaman internalisasi pada tiap mahasiswa masih berbeda-beda.
-
-### 3. Temuan Observasi Implementasi Media
-
-Hasil observasi selama implementasi juga mendukung pembacaan di atas. Pada delapan sesi penggunaan media, sekitar 87% mahasiswa menggunakan media sesuai waktu yang ditentukan, 82% menyelesaikan seluruh modul, dan 78% mengakses fitur interaktif secara aktif. Dari sisi penerapan teknik Feynman, sekitar 82% mahasiswa sudah mampu menjelaskan ulang materi dengan bahasa sendiri, meskipun pada konsep yang lebih kompleks sebagian mahasiswa masih memerlukan bimbingan tambahan.
-
-Observasi juga menunjukkan bahwa fitur rekaman, refleksi, dan revisi dipakai secara luas. Seluruh mahasiswa yang diamati menggunakan fitur rekaman dan mengisi lembar refleksi, walaupun kedalaman refleksinya tidak selalu sama. Mahasiswa juga cenderung merespons umpan balik dengan melakukan revisi pada bagian yang dianggap masih lemah. Temuan ini memperkuat bahwa mekanisme kerja media bukan hanya terletak pada penyampaian materi, tetapi pada siklus praktik, refleksi, dan perbaikan yang berulang.
-
 ## G. Integrasi Temuan Kuantitatif dan Kualitatif
 
-Integrasi temuan dilakukan untuk menjawab pertanyaan utama penelitian secara lebih utuh, yaitu bukan hanya apakah media efektif, tetapi juga bagaimana media tersebut bekerja dalam konteks pembelajaran nyata. Pada tahap ini, data kuantitatif dari uji lapangan dibaca bersama data kualitatif dari wawancara dosen, catatan observasi, dan kutipan pengalaman mahasiswa. Pola integrasi yang muncul memperlihatkan bahwa temuan statistik tidak berdiri sendiri, melainkan dijelaskan oleh mekanisme penggunaan media yang tampak selama implementasi.
-
-**Tabel 4.22** Joint Display Integrasi Temuan Kuantitatif dan Kualitatif
-
-| Fokus | Temuan kuantitatif | Temuan kualitatif | Makna integratif |
-|---|---|---|---|
-| Kepraktisan dan keterterimaan media | Respons uji coba meningkat dari 79,63% pada tahap pertama menjadi 96,25% pada tahap berikutnya. Pada uji lapangan, respons mahasiswa kelas eksperimen mencapai rerata 73,75% dan berada pada kategori tinggi. | Dosen kelas eksperimen menilai sekitar 85% mahasiswa dapat memanfaatkan media dengan baik, tetapi login, perangkat ganda, dan akses *mobile* masih menjadi hambatan. | Media pada dasarnya diterima dan dapat digunakan, tetapi kepraktisannya meningkat setelah revisi teknis dilakukan. Dengan kata lain, kualitas pengalaman belajar sangat dipengaruhi oleh stabilitas akses. |
-| Kemampuan metakognitif | Kelompok eksperimen meningkat dari 26,40 menjadi 50,95, dengan *N-gain* 0,648. Kelompok kontrol meningkat dari 31,89 menjadi 48,35, dengan *N-gain* 0,400. Selisih peningkatan antarkelompok signifikan dengan efek sedang. | Dosen melihat mahasiswa mulai menyiapkan isi sebelum berbicara. Mahasiswa juga melaporkan mulai membuat kerangka, memantau tempo dan intonasi, serta menilai kembali hasil rekaman. | Peningkatan metakognitif tidak hanya tampak pada skor, tetapi juga pada perilaku belajar yang lebih reflektif, terutama pada perencanaan, pemantauan, dan evaluasi diri. |
-| Keterampilan berbicara | Gain kelompok eksperimen sebesar 11,86 lebih tinggi daripada kontrol 8,25. Perbedaan gain antarkelompok signifikan, dengan keunggulan utama pada pengorganisasian, ketepatan, dan dampak penyampaian. | Mahasiswa menyatakan lebih siap, lebih terstruktur, dan lebih percaya diri setelah berlatih melalui rekaman, *playback*, dan umpan balik. Dosen juga melihat mahasiswa eksperimen lebih rutin berlatih. | Media bekerja bukan hanya dengan menambah paparan materi, tetapi dengan menciptakan siklus latihan, penjelasan ulang, revisi, dan refleksi yang langsung terkait dengan performa berbicara. |
-| Tantangan implementasi | Aspek kemudahan penggunaan dan aksesibilitas masih lebih rendah daripada kualitas konten dan keterlibatan. | Kendala yang paling sering muncul meliputi lupa kata sandi, kebutuhan tempat tenang untuk merekam, akses fitur dosen dari ponsel, dan beban memberi umpan balik. | Efektivitas media tidak hanya ditentukan oleh kualitas pedagogis, tetapi juga oleh kesiapan teknis, desain antarmuka, dan efisiensi sistem penilaian. |
-
-Tabel 4.22 menunjukkan bahwa temuan kuantitatif dan kualitatif bergerak ke arah yang saling menguatkan. Peningkatan skor metakognitif dan keterampilan berbicara pada kelompok eksperimen tidak muncul secara acak, tetapi didukung oleh indikasi perilaku belajar yang lebih terencana, lebih sadar proses, dan lebih reflektif. Dalam hal ini, media tidak hanya berfungsi sebagai wadah penyajian materi, melainkan sebagai lingkungan belajar yang menuntun mahasiswa melewati tahapan memahami, menjelaskan ulang, merekam, mendengarkan kembali, dan memperbaiki performanya.
-
-Akan tetapi, integrasi data juga menunjukkan bahwa tidak semua temuan bergerak secara linear. Korelasi skor *posttest* metakognitif dan keterampilan berbicara cenderung lemah, sementara data wawancara justru memperlihatkan proses metakognitif yang cukup jelas. Artinya, hubungan keduanya pada penelitian ini lebih tampak sebagai mekanisme proses daripada sebagai hubungan numerik sederhana. Mahasiswa dapat menunjukkan perilaku metakognitif yang berkembang, tetapi bentuk perkembangannya tidak selalu muncul sebagai koefisien korelasi yang tinggi pada satu titik pengukuran.
-
-Dengan demikian, integrasi temuan mengarah pada satu kesimpulan utama. Media web *microlearning* berbasis teknik Feynman bekerja secara paling kuat ketika tiga unsur hadir secara bersamaan, yaitu materi yang ringkas dan fokus, latihan menjelaskan ulang yang berulang, serta ruang refleksi yang membuat mahasiswa menyadari kualitas performa mereka sendiri. Dari titik inilah peningkatan metakognitif dan keterampilan berbicara dapat dipahami secara lebih masuk akal.
+[ ..... ]
 
 ## H. Pembahasan Temuan
 
 ### 1. Pembahasan Pengembangan Produk
 
-Temuan penelitian menunjukkan bahwa model ASSURE cukup tepat digunakan untuk mengembangkan media web *microlearning* berbasis teknik Feynman pada konteks mahasiswa Pendidikan Bahasa dan Sastra Indonesia. Ketepatan ini tampak sejak tahap *analyze learners*, ketika kebutuhan mahasiswa tidak hanya berkaitan dengan akses media digital, tetapi juga dengan kebutuhan akan latihan berbicara yang singkat, fleksibel, dan terarah. Hasil ini selaras dengan Primandhika et al. (2025) yang menunjukkan bahwa mahasiswa Pendidikan Bahasa Indonesia cenderung menyukai media digital yang mudah diakses, visual, dan tidak terlalu membebani durasi belajar. Di sisi lain, Susilana et al. (2022a) serta Barus dan Bontisesari (2023) menegaskan bahwa *microlearning* menjadi lebih bermakna ketika materi disajikan dalam unit kecil yang fokus dan langsung berhubungan dengan tugas belajar.
-
-Dalam penelitian ini, prinsip tersebut tidak berhenti pada pemecahan materi menjadi unit pendek. Teknik Feynman kemudian diposisikan sebagai jembatan agar materi singkat itu tidak hanya dikonsumsi, tetapi diproses kembali oleh mahasiswa melalui penjelasan ulang dengan bahasa sendiri. Kombinasi ini penting, sebab kelemahan umum pembelajaran digital bukan terletak pada kurangnya konten, melainkan pada kurangnya aktivitas yang memaksa mahasiswa mengolah kembali apa yang telah dipelajari. Karena itu, integrasi teknik Feynman dengan *microlearning* memberi nilai tambah yang substantif, yaitu mengubah konsumsi materi menjadi latihan menjelaskan, memeriksa pemahaman, dan memperbaiki penjelasan.
-
-Dari sisi desain pembelajaran, hasil pengembangan ini juga sejalan dengan *Cognitive Theory of Multimedia Learning*. Mayer dan Fiorella (2024) serta Noetel et al. (2022) menekankan bahwa pembelajaran multimedia bekerja lebih baik ketika materi disusun ringkas, fokus, dan tidak membebani memori kerja dengan unsur yang tidak relevan. Pola tersebut tampak pada produk yang dikembangkan, khususnya pada segmentasi materi, penggunaan video singkat, latihan rekam, dan fitur refleksi. Dengan kata lain, kekuatan pengembangan produk ini bukan hanya pada keputusan menggunakan media web, tetapi pada cara media itu dirancang agar selaras dengan karakter mahasiswa dan tujuan pembelajaran berbicara.
+[ ..... ]
 
 ### 2. Pembahasan Kelayakan Produk
 
-Hasil validasi menunjukkan bahwa produk berada pada kategori sangat valid, baik dari sisi materi maupun media. Capaian ini penting karena menandakan bahwa kualitas produk tidak hanya dinilai dari tampilan luarnya, tetapi juga dari kesesuaian isi, alur pembelajaran, dukungan terhadap teknik Feynman, dan potensi pengembangan metakognitif. Dalam pengembangan media pembelajaran, validitas seperti ini menjadi titik awal yang menentukan, sebab produk yang menarik tetapi tidak presisi secara pedagogis justru berisiko menghasilkan aktivitas yang sibuk tetapi miskin makna belajar.
-
-Catatan para validator juga menunjukkan bahwa kelayakan produk dalam penelitian ini bukan hasil yang datang tanpa revisi. Justru, beberapa bagian yang paling penting, seperti pemecahan materi, kejelasan navigasi, ukuran tombol perekaman, dan responsivitas *mobile*, muncul sebagai hasil penyempurnaan bertahap. Pola ini sejalan dengan Noetel et al. (2022) dan Mayer serta Fiorella (2024) yang menekankan bahwa kualitas media pembelajaran sangat dipengaruhi oleh keselarasan antara desain informasi, kemudahan interaksi, dan tujuan belajar. Dengan demikian, validitas tinggi pada produk ini lebih tepat dibaca sebagai hasil dari proses revisi yang serius, bukan sekadar skor penilaian yang tinggi.
-
-Selain itu, hasil uji coba memperlihatkan bahwa kelayakan akademik dan kelayakan penggunaan bergerak bersama. Produk dinilai layak oleh ahli, kemudian keterterimaannya meningkat setelah revisi dilakukan. Hal ini penting, sebab pada konteks pendidikan tinggi digital, masalah penggunaan sering kali menjadi pembeda antara media yang secara konsep baik dan media yang benar-benar dipakai mahasiswa. Dalam hal ini, temuan penelitian juga bersesuaian dengan Halim et al. (2024) yang menunjukkan bahwa desain digital yang efektif harus memperhatikan pengalaman pengguna, kejelasan alur, dan hambatan implementasi di lapangan.
+[ ..... ]
 
 ### 3. Pembahasan Efektivitas Produk
 
-Hasil uji lapangan memperlihatkan bahwa kelompok eksperimen menunjukkan peningkatan yang lebih kuat daripada kelompok kontrol, baik pada kemampuan metakognitif maupun keterampilan berbicara. Pada konstruk metakognitif, kelompok eksperimen menunjukkan peningkatan yang lebih besar, dengan efek sedang. Peningkatan paling menonjol tampak pada dimensi perencanaan dan evaluasi. Temuan ini memperlihatkan bahwa mahasiswa tidak hanya belajar memahami materi, tetapi juga mulai mengubah cara mereka menyiapkan penjelasan dan menilai ulang performanya sendiri. Meskipun rerata skor awal kelompok eksperimen lebih rendah daripada kelompok kontrol, pola gain dan *N-gain* tetap menunjukkan akselerasi peningkatan yang lebih kuat pada kelompok eksperimen. Pola tersebut sejalan dengan Paterson (2022) dan Sabnani serta Goh (2022) yang menegaskan bahwa refleksi terarah dapat membantu pembelajar berbicara mengembangkan kebiasaan merencanakan, memantau, dan mengevaluasi ujaran secara lebih sadar.
-
-Pada konstruk keterampilan berbicara, kelompok eksperimen juga menunjukkan gain yang lebih tinggi daripada kelompok kontrol. Kesimpulan ini lebih kuat karena rerata awal kedua kelompok relatif berdekatan dan perbedaan peningkatannya juga didukung oleh uji Welch pada skor gain. Aspek yang meningkat paling jelas adalah pengorganisasian, ketepatan, dan dampak penyampaian. Temuan ini menunjukkan bahwa media paling kuat bekerja pada kemampuan mahasiswa menata isi, memilih bentuk penyampaian yang lebih tepat, dan menghasilkan performa yang lebih meyakinkan. Arah temuan ini sejalan dengan Goh dan Liu (2023), yang menempatkan struktur gagasan, kesiapan berbicara, dan evaluasi diri sebagai unsur penting dalam pengembangan performa lisan. Dalam konteks pembelajaran digital, hasil ini juga sejalan dengan Mingyan et al. (2025) yang menunjukkan bahwa latihan berbicara berbasis aplikasi memberi hasil lebih baik ketika mahasiswa memperoleh kesempatan berlatih secara mandiri di luar sesi tatap muka.
-
-Menariknya, peningkatan keterampilan berbicara dalam penelitian ini tidak terutama tampak pada aspek kejelasan dan strategi. Temuan ini menunjukkan bahwa tidak semua komponen performa lisan merespons intervensi dengan kecepatan yang sama. Aspek kejelasan spontan dan strategi komunikasi kemungkinan memerlukan waktu latihan yang lebih panjang, umpan balik yang lebih rinci, dan frekuensi praktik yang lebih tinggi. Karena itu, media yang dikembangkan dapat dikatakan efektif, tetapi efektivitasnya lebih kuat pada penataan isi dan kualitas penyampaian akhir daripada pada seluruh aspek berbicara secara merata.
-
-Jika dibaca bersama, dua konstruk hasil utama tersebut memperlihatkan satu hal penting. Media tidak hanya meningkatkan hasil akhir, tetapi juga membantu membangun proses belajar yang lebih sadar. Inilah titik yang membedakan peningkatan biasa dengan peningkatan yang lebih pedagogis, karena mahasiswa tidak hanya berbicara lebih baik, tetapi juga mulai memahami bagaimana cara memperbaiki cara berbicaranya.
+[ ..... ]
 
 ### 4. Pembahasan Integrasi Mixed Methods
 
-Desain *mixed methods sequential explanatory* dalam penelitian ini terbukti membantu menjelaskan temuan secara lebih kaya. Data kuantitatif menunjukkan bahwa kelompok eksperimen mengalami peningkatan yang lebih kuat, tetapi data kualitatif menjelaskan mengapa peningkatan itu dapat terjadi. Mahasiswa tidak hanya membaca materi, melainkan membuat kerangka, merekam penjelasan, mendengarkan kembali hasilnya, menerima umpan balik, lalu mencoba memperbaiki performa pada kesempatan berikutnya. Mekanisme inilah yang tidak selalu terlihat hanya dari tabel angka.
-
-Dalam konteks ini, temuan penelitian memperlihatkan bahwa hubungan antara metakognitif dan keterampilan berbicara bersifat lebih prosesual daripada linear. Korelasi skor akhir keduanya memang lemah, tetapi wawancara mahasiswa dan dosen justru menunjukkan adanya pola yang kuat pada level perilaku, terutama pada kebiasaan merencanakan, memantau, dan mengevaluasi. Temuan seperti ini sesuai dengan logika *mixed methods*, yaitu ketika data numerik memberi arah umum, sedangkan data kualitatif membantu menjelaskan mekanisme, konteks, dan alasan kemunculan temuan tersebut (Creswell & Plano Clark, 2018).
-
-Secara substantif, integrasi data dalam penelitian ini mendukung pandangan Paterson (2022) dan Goh serta Liu (2023) bahwa peningkatan performa berbicara tidak cukup dijelaskan hanya oleh banyaknya latihan, tetapi juga oleh kualitas refleksi selama latihan itu berlangsung. Karena itu, kekuatan media yang dikembangkan bukan hanya pada penyediaan latihan rekam, tetapi pada keberhasilannya menjadikan latihan itu sebagai ruang refleksi. Pada titik inilah data kuantitatif dan kualitatif saling melengkapi dengan cukup kuat.
+[ ..... ]
 
 ### 5. Kebaruan Penelitian
 
-Kebaruan penelitian ini terletak pada beberapa titik yang saling berkaitan. Pertama, penelitian ini tidak hanya mengembangkan media *microlearning*, tetapi mengintegrasikannya secara eksplisit dengan teknik Feynman untuk konteks keterampilan berbicara mahasiswa. Studi *microlearning* mutakhir umumnya menekankan aksesibilitas, fokus konten, dan kenyamanan belajar digital, seperti pada Susilana et al. (2022a), Barus dan Bontisesari (2023), serta Conde-Caballero et al. (2024). Sementara itu, studi tentang metakognitif berbicara lebih sering menyoroti refleksi, kesadaran diri, atau strategi berbicara tanpa mengikatnya secara langsung ke dalam satu sistem media yang operasional (Paterson, 2022; Goh & Liu, 2023). Penelitian ini berada pada irisan keduanya.
-
-Kedua, kebaruan penelitian ini juga terletak pada desain aktivitas belajarnya. Produk yang dikembangkan tidak berhenti pada penyajian materi singkat, tetapi memasukkan siklus memahami, menjelaskan ulang, merekam, mendengarkan kembali, dan memperbaiki penjelasan. Siklus ini membuat teknik Feynman tidak berhenti sebagai slogan pedagogis, tetapi hadir sebagai aktivitas yang benar-benar dialami mahasiswa di dalam platform. Dalam konteks pembelajaran bahasa Indonesia di perguruan tinggi, bentuk integrasi seperti ini belum banyak dilaporkan secara utuh dalam rujukan pembanding yang digunakan pada penelitian ini.
-
-Ketiga, penelitian ini menghadirkan kontribusi pada konteks lokal Indonesia. Temuan Primandhika et al. (2025) menunjukkan preferensi mahasiswa Indonesia terhadap media digital yang fleksibel, tetapi studi tersebut belum bergerak sampai ke pengembangan produk yang diuji pada kemampuan berbicara dan metakognitif secara bersamaan. Penelitian ini melangkah lebih jauh dengan menunjukkan bahwa preferensi media digital dapat diterjemahkan menjadi desain pembelajaran yang valid, praktis, dan lebih efektif daripada pembelajaran reguler pada konteks kelas nyata.
-
-Dengan demikian, kebaruan utama penelitian ini bukan hanya terletak pada jenis medianya, melainkan pada integrasi antara desain *microlearning*, teknik Feynman, latihan berbicara, refleksi metakognitif, dan pembuktian efektivitasnya melalui desain *mixed methods sequential explanatory*.
+[ ..... ]
 
 ### 6. Keterbatasan Penelitian
 
-Meskipun hasil penelitian menunjukkan kecenderungan yang positif, beberapa keterbatasan tetap perlu dicatat secara terbuka. Pertama, penelitian dilakukan pada satu program studi dengan dua kelas yang sudah ada, sehingga generalisasi hasil perlu dilakukan secara hati-hati. Desain kuasi-eksperimen memang cukup memadai untuk membandingkan dua kelompok pada konteks nyata, tetapi tetap belum sekuat eksperimen acak dalam mengendalikan seluruh pengaruh luar.
-
-Kedua, implementasi media masih dipengaruhi oleh kondisi teknis, seperti login, kestabilan akses, penggunaan perangkat bersama, kebutuhan tempat tenang untuk merekam, dan kenyamanan akses dosen melalui ponsel. Temuan ini menunjukkan bahwa efektivitas media digital tidak pernah sepenuhnya bergantung pada desain pedagogis saja, tetapi juga pada kesiapan infrastruktur dan pengalaman penggunaan. Hal ini sejalan dengan Handayani dan Fauzi (2023) serta Halim et al. (2024) yang menegaskan bahwa hambatan akses dan *usability* tetap menjadi faktor penting dalam keberhasilan pembelajaran digital di pendidikan tinggi.
-
-Ketiga, tidak semua aspek keterampilan berbicara meningkat secara sama kuat. Aspek kejelasan dan strategi belum menunjukkan keunggulan gain yang setegas pengorganisasian, ketepatan, dan dampak penyampaian. Hal ini mengisyaratkan bahwa sebagian komponen performa berbicara mungkin memerlukan intervensi yang lebih panjang, umpan balik yang lebih detail, atau dukungan latihan sinkron yang lebih intensif.
-
-Keempat, hubungan kuantitatif antara skor metakognitif dan skor keterampilan berbicara cenderung lemah. Karena itu, temuan penelitian ini lebih kuat ketika dibaca sebagai bukti bahwa media membantu membangun proses belajar yang reflektif dan mendukung peningkatan performa, bukan sebagai bukti bahwa kedua konstruk selalu berkorelasi tinggi pada tingkat skor individual.
-
-Kelima, pada konstruk metakognitif rerata skor awal kelompok eksperimen berada di bawah kelompok kontrol. Walaupun pola gain dan *N-gain* tetap menunjukkan peningkatan yang lebih kuat pada kelompok eksperimen, pembacaan hasil pada konstruk ini tetap perlu ditempatkan secara hati-hati dalam konteks skor awal yang tidak sepenuhnya seimbang.
-
-Atas dasar keterbatasan tersebut, penelitian lanjutan dapat diarahkan pada implementasi lintas kelas atau lintas perguruan tinggi, durasi penggunaan yang lebih panjang, penguatan analitik penggunaan media, serta penyempurnaan fitur umpan balik otomatis agar beban dosen berkurang dan kualitas refleksi mahasiswa tetap terjaga.
+[ ..... ]

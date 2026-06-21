@@ -1,0 +1,63 @@
+# BAB V
+# KESIMPULAN, IMPLIKASI, DAN SARAN
+
+## A. Kesimpulan
+
+Berdasarkan rumusan masalah, hasil penelitian, dan pembahasan pada BAB IV, penelitian ini menghasilkan lima kesimpulan utama yang secara langsung menjawab pertanyaan penelitian.
+
+1. Karakteristik dan kebutuhan belajar mahasiswa Pendidikan Bahasa dan Sastra Indonesia menunjukkan bahwa pembelajaran keterampilan berbicara memerlukan media yang fleksibel, ringkas, interaktif, dan memungkinkan latihan mandiri secara berulang. Mahasiswa cenderung memiliki preferensi belajar visual dan kinestetik, akrab dengan akses digital, tetapi masih menghadapi kendala pada aspek perencanaan isi, pemantauan kejelasan penjelasan, dan evaluasi performa berbicara setelah tampil. Selain itu, keterbatasan media inovatif, rendahnya kemampuan metakognitif, dan kecemasan berbicara memperlihatkan bahwa kebutuhan mahasiswa bukan hanya pada penyediaan materi, melainkan pada lingkungan belajar yang memberi ruang untuk berlatih, merekam, meninjau ulang, dan merefleksikan performa berbicara secara sadar.
+
+2. Rancangan media web *microlearning* berbasis teknik Feynman yang dikembangkan dalam penelitian ini disusun melalui model ASSURE, mulai dari tahap *Analyze Learners* sampai *Evaluate and Revise*. Produk dirancang dalam bentuk platform web yang memuat modul singkat, video pembelajaran, aktivitas teknik Feynman, fitur perekaman berbicara, kuis, umpan balik, refleksi diri, serta panel dosen untuk pemantauan dan penilaian. Rancangan tersebut menunjukkan bahwa pendekatan *microlearning*, teknik Feynman, dan prinsip *Cognitive Theory of Multimedia Learning* dapat diintegrasikan secara sistematis untuk membangun pembelajaran berbicara yang lebih terarah, lebih reflektif, dan lebih sesuai dengan karakter mahasiswa sebagai pembelajar digital.
+
+3. Proses pengembangan dan implementasi media berlangsung secara bertahap, iteratif, dan berbasis revisi. Setelah desain awal disusun, produk melalui validasi ahli, uji coba terbatas pada 6 mahasiswa, uji coba lebih luas pada 10 mahasiswa, lalu uji lapangan pada 77 mahasiswa yang terdiri atas 40 mahasiswa kelas eksperimen dan 37 mahasiswa kelas kontrol. Pada tahap uji coba terbatas pertama, respons mahasiswa mencapai rerata 79,63% dengan kategori baik, sedangkan skor keterampilan berbicara meningkat dari 62,22 pada *pretest* menjadi 69,32 pada *posttest*. Setelah revisi dilakukan, uji coba lebih luas menunjukkan respons mahasiswa meningkat menjadi 96,25% dengan kategori sangat baik. Pada tahap ini, rerata skor gabungan juga meningkat dari 71,60 menjadi 87,47 dengan *N-gain* 0,543. Temuan tersebut menunjukkan bahwa proses pengembangan tidak berhenti pada pembuatan produk, tetapi bergerak melalui siklus evaluasi, perbaikan teknis, dan penyempurnaan pedagogis sampai media cukup stabil untuk diuji pada konteks pembelajaran nyata.
+
+4. Kelayakan media berada pada kategori sangat valid dan praktis untuk digunakan. Validasi ahli materi menghasilkan persentase 97,50% dengan nilai Aiken's V 0,967, sedangkan validasi ahli media menghasilkan persentase 92,22% dengan nilai Aiken's V 0,896. Secara tertimbang, produk memperoleh persentase 95,74% dengan nilai Aiken's V gabungan 0,943, sehingga dinyatakan layak diujicobakan dengan revisi terbatas. Dari sisi pengguna, respons mahasiswa meningkat dari kategori baik pada uji coba awal menjadi kategori sangat baik setelah revisi. Dengan demikian, media yang dikembangkan telah memenuhi kelayakan isi, desain pembelajaran, fungsi media, dan keterterimaan pengguna, meskipun beberapa aspek teknis seperti stabilitas akses, kemudahan penggunaan melalui perangkat bergerak, dan efisiensi alur umpan balik dosen masih memerlukan penyempurnaan lanjutan.
+
+5. Media web *microlearning* berbasis teknik Feynman terbukti lebih efektif daripada pembelajaran reguler dalam meningkatkan kemampuan metakognitif dan keterampilan berbicara mahasiswa, tetapi hubungan antara keduanya lebih tepat dipahami sebagai mekanisme proses daripada korelasi linear yang kuat pada skor akhir. Pada kemampuan metakognitif, kelompok eksperimen meningkat dari 26,40 ± 8,30 menjadi 50,95 ± 9,43 dengan *N-gain* 0,648, sedangkan kelompok kontrol meningkat dari 31,89 ± 11,99 menjadi 48,35 ± 7,45 dengan *N-gain* 0,400. Uji *paired sample t-test* menunjukkan peningkatan signifikan pada kelompok eksperimen (`t = 13,465`; `p < 0,001`; Cohen's `dz = 2,129`), dan uji Welch pada *N-gain* menunjukkan bahwa peningkatan kelompok eksperimen lebih tinggi secara signifikan daripada kelompok kontrol dengan selisih rerata 0,2477; 95% CI [0,0724; 0,4231]; `p = 0,00649`; Hedges `g = 0,653`. Pada keterampilan berbicara, kelompok eksperimen meningkat dari 70,84 ± 5,55 menjadi 82,70 ± 5,18 dengan *N-gain* 0,375, sedangkan kelompok kontrol meningkat dari 71,21 ± 1,84 menjadi 79,46 ± 3,41 dengan *N-gain* 0,284. Uji *paired sample t-test* pada kelompok eksperimen juga menunjukkan peningkatan signifikan dengan rerata gain 11,86; 95% CI [9,72; 14,01]; `p < 0,001`; Cohen's `dz = 1,768`, sedangkan perbandingan gain antarkelompok melalui uji Welch menunjukkan selisih 3,61; 95% CI [1,17; 6,06]; `p = 0,00443`; Hedges `g = 0,653`. Keunggulan peningkatan terutama tampak pada aspek pengorganisasian, ketepatan, dan dampak penyampaian. Namun, analisis eksploratif hubungan skor *posttest* metakognitif dan keterampilan berbicara menunjukkan korelasi yang lemah, yaitu Pearson 0,151 pada seluruh data dan hampir tidak tampak pada kelompok eksperimen. Karena itu, dampak kemampuan metakognitif terhadap keterampilan berbicara dalam penelitian ini lebih tepat dimaknai melalui temuan prosesual yang terlihat pada kebiasaan mahasiswa membuat kerangka, memantau tempo dan kejelasan, menggunakan *playback*, serta merevisi penjelasan setelah menerima umpan balik.
+
+## B. Implikasi
+
+### 1. Implikasi Teoretis
+
+Penelitian ini memperkuat pandangan bahwa keterampilan berbicara di perguruan tinggi tidak cukup dipahami sebagai performa linguistik akhir, tetapi harus dibaca sebagai proses kognitif-reflektif yang melibatkan kemampuan metakognitif. Integrasi *microlearning* dan teknik Feynman memperlihatkan bahwa pembelajaran berbicara dapat dirancang bukan hanya untuk mendorong mahasiswa tampil, tetapi juga untuk membentuk kebiasaan memahami, menjelaskan ulang, memantau, dan mengevaluasi performanya sendiri.
+
+Temuan penelitian ini juga memberi penegasan teoretis bahwa peningkatan kemampuan metakognitif dan keterampilan berbicara tidak selalu tampil sebagai korelasi linear yang kuat pada skor akhir. Dalam konteks penelitian ini, hubungan keduanya justru lebih jelas terlihat pada proses belajar mahasiswa. Artinya, kontribusi kemampuan metakognitif terhadap keterampilan berbicara lebih tepat dipahami sebagai mekanisme pedagogis yang bekerja melalui perencanaan, pemantauan, dan evaluasi diri selama latihan berbicara, bukan semata-mata melalui hubungan statistik sederhana pada satu titik pengukuran.
+
+### 2. Implikasi Praktis
+
+Secara praktis, hasil penelitian ini menunjukkan bahwa media web *microlearning* berbasis teknik Feynman dapat digunakan sebagai alternatif pembelajaran keterampilan berbicara yang lebih terstruktur dan reflektif. Media ini memungkinkan mahasiswa belajar dalam unit yang singkat, mengulang materi sesuai kebutuhan, merekam performa berbicara, lalu memperbaiki penjelasan berdasarkan umpan balik dan refleksi diri. Dengan cara demikian, pembelajaran berbicara tidak lagi hanya bergantung pada sesi tampil di kelas, tetapi dapat diperluas ke ruang latihan mandiri yang tetap terarah.
+
+Bagi dosen, temuan ini menegaskan bahwa peningkatan keterampilan berbicara akan lebih kuat jika mahasiswa tidak hanya diminta tampil, tetapi juga diarahkan melalui tahapan persiapan isi, latihan, pemantauan, dan evaluasi pascaperforma. Bagi program studi dan institusi, hasil penelitian ini memberi dasar bahwa pengembangan media berbasis web yang dirancang secara pedagogis lebih menjanjikan daripada penggunaan media digital yang sekadar menjadi tempat menyimpan materi atau tugas.
+
+### 3. Implikasi Metodologis
+
+Penelitian ini menunjukkan bahwa desain *mixed methods sequential explanatory* tepat digunakan untuk menelaah produk pembelajaran digital yang menuntut dua hal sekaligus, yaitu bukti efektivitas dan penjelasan mekanisme kerja. Data kuantitatif dalam penelitian ini mampu menunjukkan perbedaan peningkatan hasil belajar antarkelompok, sedangkan data kualitatif menjelaskan mengapa dan bagaimana perbedaan itu muncul selama implementasi. Tanpa data kualitatif, hubungan antara kemampuan metakognitif dan keterampilan berbicara pada penelitian ini mungkin akan dibaca terlalu sederhana karena korelasi skor akhirnya cenderung lemah.
+
+Selain itu, penerapan model ASSURE memberi implikasi metodologis bahwa pengembangan media pembelajaran sebaiknya diposisikan sebagai proses iteratif. Validasi ahli, uji coba terbatas, uji coba lebih luas, dan uji lapangan terbukti penting untuk memastikan bahwa produk tidak hanya baik secara konsep, tetapi juga cukup stabil, layak, dan efektif ketika digunakan dalam konteks pembelajaran nyata.
+
+## C. Saran
+
+### 1. Saran bagi Dosen
+
+Dosen pengampu mata kuliah keterampilan berbicara disarankan memanfaatkan media ini sebagai bagian dari strategi pembelajaran yang terintegrasi, bukan sekadar sebagai pelengkap tugas. Penggunaan media akan lebih optimal jika dosen menegaskan alur belajar sejak awal, membimbing mahasiswa menyusun kerangka sebelum berbicara, mengarahkan penggunaan fitur rekam dan *playback*, serta memberikan umpan balik yang lebih terfokus pada aspek yang dalam penelitian ini masih belum menunjukkan keunggulan peningkatan yang konsisten, terutama kejelasan spontan dan strategi komunikasi.
+
+### 2. Saran bagi Mahasiswa
+
+Mahasiswa disarankan menggunakan media ini secara aktif dan berulang, bukan hanya untuk memenuhi kewajiban tugas. Mahasiswa perlu membiasakan diri menyiapkan poin utama sebelum berbicara, merekam penjelasan dengan sungguh-sungguh, meninjau ulang hasil rekamannya, lalu melakukan perbaikan pada percobaan berikutnya. Kebiasaan tersebut penting karena hasil penelitian menunjukkan bahwa peningkatan tidak hanya muncul dari paparan materi, tetapi dari latihan reflektif yang dilakukan secara sadar dan berkelanjutan.
+
+### 3. Saran bagi Program Studi / Institusi
+
+Program studi dan institusi disarankan memberi dukungan yang lebih kuat terhadap implementasi media pembelajaran digital berbasis web, terutama melalui penyediaan jaringan yang stabil, fasilitas perangkat yang memadai, ruang yang mendukung aktivitas rekam, serta pendampingan teknis bagi dosen dan mahasiswa. Jika media seperti ini akan digunakan lebih luas, institusi juga perlu mempertimbangkan integrasi dengan sistem pembelajaran yang sudah ada agar pemantauan progres, penilaian, dan umpan balik dapat berjalan lebih efisien.
+
+### 4. Saran bagi Peneliti Selanjutnya
+
+Peneliti selanjutnya disarankan menguji media ini pada konteks yang lebih luas, baik lintas kelas, lintas program studi, maupun lintas perguruan tinggi, agar daya jangkau temuannya semakin kuat. Penelitian lanjutan juga perlu mempertimbangkan durasi implementasi yang lebih panjang untuk melihat apakah aspek kejelasan dan strategi komunikasi dapat berkembang lebih optimal. Selain itu, studi berikutnya dapat diarahkan pada pengembangan fitur umpan balik otomatis, analitik penggunaan media, dan pengujian model hubungan yang lebih ketat antara kemampuan metakognitif dan keterampilan berbicara, misalnya melalui desain longitudinal atau analisis mediasi yang lebih formal.
+
+## D. Rekomendasi
+
+Berdasarkan hasil penelitian ini, rekomendasi operasional yang dapat diajukan adalah sebagai berikut.
+
+1. Media web *microlearning* berbasis teknik Feynman layak digunakan sebagai salah satu alternatif media pembelajaran keterampilan berbicara pada mahasiswa Pendidikan Bahasa dan Sastra Indonesia.
+2. Implementasi media sebaiknya dilakukan secara terintegrasi dalam alur perkuliahan, sehingga mahasiswa tidak hanya mengakses materi, tetapi juga menjalani siklus memahami, menjelaskan ulang, merekam, merefleksikan, dan memperbaiki performa secara konsisten.
+3. Pengembangan lanjutan perlu memprioritaskan penyempurnaan *usability*, terutama pada stabilitas akses, kemudahan penggunaan melalui perangkat bergerak, dan efisiensi alur penilaian serta umpan balik dosen.
+4. Apabila media ini akan diadopsi secara lebih luas, diperlukan dukungan kelembagaan agar pemanfaatannya tidak hanya bergantung pada inisiatif dosen perorangan, tetapi menjadi bagian dari strategi penguatan pembelajaran bahasa yang lebih sistematis.

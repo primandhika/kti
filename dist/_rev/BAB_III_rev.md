@@ -67,3 +67,9 @@ Tanggal revisi: 2026-06-02
 - Memperbarui subjek penelitian dan teknik sampling berdasarkan `data/QN_pemetaan_kelas.csv`, sehingga jumlah uji lapangan menjadi 77 mahasiswa: 40 eksperimen dan 37 kontrol.
 - Memperbaiki bagian validator dari 1+1 menjadi 3 ahli materi dan 3 ahli media sesuai file validasi terbaru.
 - Memperbarui uraian validitas isi, analisis validasi, uji prasyarat, uji efektivitas, *effect size*, dan integrasi *mixed methods* agar selaras dengan konfirmasi revisi.
+
+## Pembaruan 2026-06-21
+- Menyelaraskan kembali BAB III dengan data final BAB IV pada konstruk kemampuan metakognitif.
+- Merevisi subbagian angket metakognitif agar tidak lagi berhenti pada istilah umum *awareness, evaluation,* dan *regulation*, tetapi secara operasional mengikuti empat dimensi yang dipakai pada data final, yaitu *planning*, *monitoring*, *evaluation*, dan dimensi integratif yang terkait dengan langkah teknik Feynman.
+- Menegaskan bahwa pembacaan metakognitif dalam penelitian ini dikaitkan langsung dengan aktivitas berbicara, penjelasan ulang, dan refleksi performa.
+- Memperbaiki konsistensi jumlah peserta uji coba agar selaras dengan data final BAB IV, yaitu 6 mahasiswa pada uji coba terbatas tahap pertama dan 10 mahasiswa pada uji coba lebih luas.

@@ -63,3 +63,29 @@ Menyesuaikan Seksi B (Hasil Validasi Produk) pada `main/BAB_IV.md` dengan data a
   - validasi media: 166/180 = 92,22% ; Aiken's V = 0,896
   - total tertimbang: 517/540 = 95,74% ; Aiken's V gabungan = 0,943
 - Memperbaiki narasi pengantar validasi agar konsisten dengan fakta bahwa penilaian dilakukan oleh 3 ahli materi dan 3 ahli media, bukan lagi 1 validator per instrumen.
+
+## Pembaruan 2026-06-21
+- Melanjutkan penyelesaian BAB IV dengan fokus pada Seksi E sampai H, sekaligus mengecek keselarasan dengan BAB III dan aturan terbaru di `PROJEK.md`.
+- Memperbaiki Seksi E.1 karena data final uji lapangan menunjukkan pasangan data lengkap untuk 77 mahasiswa pada dua konstruk utama, yaitu keterampilan berbicara dan kemampuan metakognitif.
+- Menulis ulang Seksi E.3 agar hasil efektivitas kemampuan metakognitif tidak lagi dibaca sebagai data parsial, tetapi sebagai hasil uji yang lengkap, termasuk statistik deskriptif, *N-gain*, *paired t-test*, dan uji Welch antarkelompok.
+- Menyesuaikan Seksi E.4 dan E.5 agar konsisten dengan data final, termasuk perumusan ulang analisis hubungan metakognitif dan keterampilan berbicara.
+- Menyelesaikan Seksi G (integrasi temuan) dengan *joint display* yang menggabungkan temuan kuantitatif, observasi, wawancara dosen, dan pengalaman mahasiswa.
+- Menyelesaikan Seksi H yang semula masih placeholder, mencakup pembahasan pengembangan produk, kelayakan, efektivitas, integrasi *mixed methods*, kebaruan, dan keterbatasan penelitian.
+- Membersihkan bagian pembahasan agar literatur pembanding yang dipakai mengikuti aturan kebaruan, yaitu dominan tahun 2022 ke atas, sambil mempertahankan rujukan teoritis/fondasional yang memang masih diperlukan.
+- Menambahkan penyesuaian kecil pada BAB III agar operasionalisasi dimensi metakognitif selaras dengan data final di BAB IV.
+- Mengganti placeholder ilustrasi produk pada deskripsi media dengan tautan gambar aktual dari folder `img/` untuk 10 tampilan utama produk.
+- Memperbaiki inkonsistensi jumlah peserta evaluasi formatif pada BAB IV agar selaras dengan data final uji coba, yaitu 6 mahasiswa pada tahap pertama dan 10 mahasiswa pada tahap lebih luas.
+- Backup file kerja disimpan pada:
+  - `main/01_BAB_IV_TEMUAN_DAN_PEMBAHASAN.md.bak_20260621_125902`
+  - `main/01_BAB_III_METODOLOGI_PENELITIAN.md.bak_20260621_125902`
+
+## Audit logika/argumen Seksi H — 2026-06-21
+- Membaca ulang khusus Seksi H untuk memburu inkonsistensi argumen, klaim yang terlalu jauh dari data, dan sitasi yang tidak selaras dengan daftar pustaka.
+- Memperbaiki sitasi `Park et al. (2022)` menjadi `Noetel et al. (2022)` agar konsisten dengan entri yang benar pada daftar pustaka.
+- Memperhalus argumen efektivitas agar lebih defensibel untuk desain kuasi-eksperimen, terutama dengan mengganti formulasi kausal yang terlalu keras menjadi pembacaan peningkatan antarkelompok.
+- Menambahkan nuansa analitis pada pembahasan metakognitif bahwa skor awal kelompok eksperimen lebih rendah daripada kontrol, sehingga pembacaan hasil tetap perlu hati-hati meskipun gain dan *N-gain* lebih tinggi.
+- Memperjelas alasan mengapa kesimpulan pada keterampilan berbicara lebih kuat, yaitu karena rerata awal kedua kelompok relatif berdekatan dan perbedaan gain didukung uji Welch.
+- Melembutkan klaim kebaruan agar tidak melampaui bukti pembanding yang benar-benar digunakan dalam naskah.
+- Menambahkan dua subbagian baru pada Seksi F, yaitu respons mahasiswa/perubahan strategi belajar dan temuan observasi implementasi media, agar argumen pada Seksi G dan H benar-benar ditopang oleh data kualitatif yang sudah tersedia.
+- Backup tambahan sebelum audit ini disimpan di:
+  - `main/01_BAB_IV_TEMUAN_DAN_PEMBAHASAN.md.bak_20260621_131756`
