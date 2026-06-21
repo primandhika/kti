@@ -11,7 +11,7 @@ Penelitian dilaksanakan di Program Studi Pendidikan Bahasa dan Sastra Indonesia,
 
 ### 2. Waktu Penelitian
 
-Waktu penelitian mengikuti tahapan model ASSURE dan kebutuhan uji produk. Secara khusus, pelaksanaan eksperimen lapangan berlangsung pada 7 November 2025 sampai dengan 10 Januari 2026. Adapun rangkaian penelitian secara keseluruhan, mulai dari analisis kebutuhan sampai analisis data, dilakukan secara bertahap sejak tahap awal pengembangan hingga penyusunan hasil penelitian.
+Waktu penelitian mengikuti tahapan model ASSURE dan kebutuhan uji produk. Secara khusus, pelaksanaan uji lapangan berlangsung pada 22 sampai dengan 27 Desember 2025. Pada tahap ini, *posttest* kelas eksperimen dilaksanakan pada 26 Desember 2025, sedangkan *posttest* kelas kontrol dilaksanakan pada 27 Desember 2025. Adapun rangkaian penelitian secara keseluruhan, mulai dari analisis kebutuhan sampai penyusunan hasil penelitian, dilakukan secara bertahap sesuai urutan pengembangan, validasi, uji coba, uji lapangan, dan analisis data.
 
 **Tabel 3.2 Jadwal Penelitian**
 
@@ -21,15 +21,15 @@ Waktu penelitian mengikuti tahapan model ASSURE dan kebutuhan uji produk. Secara
 | Perumusan tujuan pembelajaran | April 2025 | Penyusunan tujuan pembelajaran berbasis prinsip ABCD |
 | Perancangan dan pengembangan produk | Mei-November 2025 | Penyusunan materi, desain web *microlearning*, dan integrasi teknik Feynman |
 | Validasi ahli | 28 November 2025-2 Desember 2025 | Validasi ahli materi dan ahli media |
-| Revisi tahap I | 12 Desember 2025 | Penyempurnaan produk berdasarkan masukan validator |
-| Uji coba terbatas | 12 Desember 2025 | Uji keterpakaian awal pada kelompok kecil |
-| Revisi tahap II | pertengahan Desember 2025 | Perbaikan berdasarkan hasil uji coba terbatas |
-| Uji coba lebih luas | akhir Desember 2025 | Uji keterterimaan pada kelompok yang lebih besar |
-| Revisi tahap III | awal Januari 2026 | Penyempurnaan sebelum uji lapangan |
-| Uji lapangan | 7 November 2025-10 Januari 2026 | Pelaksanaan *pretest*, perlakuan, dan *posttest* pada kelas eksperimen dan kontrol |
+| Revisi tahap I | 3-7 Desember 2025 | Penyempurnaan produk berdasarkan masukan validator |
+| Uji coba terbatas | 8 Desember 2025 | Uji keterpakaian awal pada kelompok kecil |
+| Revisi tahap II | 9-13 Desember 2025 | Perbaikan berdasarkan hasil uji coba terbatas |
+| Uji coba lebih luas | 15-17 Desember 2025 | Uji keterterimaan pada kelompok yang lebih besar |
+| Revisi tahap III | 18-20 Desember 2025 | Penyempurnaan produk sebelum uji lapangan |
+| Uji lapangan | 22-27 Desember 2025 | Pelaksanaan *pretest*, perlakuan, dan *posttest*; *posttest* kelas eksperimen pada 26 Desember 2025 dan kelas kontrol pada 27 Desember 2025 |
 | Wawancara kualitatif | 25 Februari 2026 | Pendalaman temuan kuantitatif |
-| Analisis data | Juni 2026 | Analisis kuantitatif, kualitatif, dan integrasi hasil |
-| Penyusunan laporan | Juni 2026 | Finalisasi hasil penelitian dalam disertasi |
+| Analisis data | Maret-April 2026 | Analisis kuantitatif, kualitatif, dan integrasi hasil |
+| Penyusunan laporan | April-Mei 2026 | Finalisasi hasil penelitian dalam disertasi |
 
 ## B. Metode dan Desain Penelitian
 
@@ -239,7 +239,7 @@ Rubrik ini disusun agar penilaian lebih objektif dan konsisten. Skor *pretest* d
 
 ### 4. Angket Kemampuan Metakognitif
 
-Angket metakognitif digunakan untuk mengukur kesadaran dan pengelolaan diri mahasiswa sebelum, selama, dan setelah berbicara. Dalam landasan teoretis, pembacaan metakognitif umum memang dapat ditelusuri melalui kerangka seperti *awareness, evaluation,* dan *regulation* (Flavell, 1979; Hartman, 2001; Magiera & Zawojewski, 2011). Namun, dalam penelitian ini, konstruk tersebut dioperasionalkan secara lebih kontekstual ke dalam empat dimensi yang sesuai dengan aktivitas berbicara berbantuan media, yaitu **perencanaan** (*planning*), **pemantauan** (*monitoring*), **evaluasi** (*evaluation*), dan **integratif**, yakni kemampuan menggabungkan langkah memahami, menyederhanakan, lalu menjelaskan ulang sebagaimana ditekankan dalam teknik Feynman. Dengan demikian, hasil angket dibaca dalam kaitannya dengan bagaimana mahasiswa membangun gagasan, merumuskan penjelasan, menyampaikan ujaran, memantau performa, merefleksikan hasil berbicara, dan menghubungkan kembali pemahamannya ke dalam penjelasan yang lebih sederhana (Goh & Liu, 2023; Sabnani & Goh, 2022). Instrumen ini diberikan sebelum dan sesudah perlakuan untuk melihat perubahan kesadaran reflektif mahasiswa selama proses berbicara.
+Angket metakognitif digunakan untuk mengukur kesadaran dan pengelolaan diri mahasiswa sebelum, selama, dan setelah berbicara. Dalam landasan teoretis, metakognitif umum memang dapat ditelusuri melalui kerangka seperti *awareness, evaluation,* dan *regulation* (Flavell, 1979; Hartman, 2001; Magiera & Zawojewski, 2011). Namun, dalam penelitian ini konstruk operasionalnya ditetapkan secara konsisten ke dalam lima dimensi kemampuan metakognitif dalam keterampilan berbicara, yaitu **conceptualisation**, **formulation**, **articulation**, **self-monitoring**, dan **self-evaluation**. Kelima dimensi ini digunakan untuk membaca bagaimana mahasiswa membangun gagasan, merumuskan penjelasan, menyampaikan ujaran, memantau performa, dan merefleksikan hasil berbicara selama menggunakan media berbasis teknik Feynman. Dengan demikian, kerangka tiga aspek pada literatur umum tetap berfungsi sebagai landasan teoretis, sedangkan pengukuran dalam penelitian ini mengikuti konstruk lima dimensi yang sesuai dengan konteks instrumen dan performa berbicara. Instrumen ini diberikan sebelum dan sesudah perlakuan untuk melihat perubahan kesadaran reflektif mahasiswa selama proses berbicara.
 
 ### 5. Angket Respons Mahasiswa
 
