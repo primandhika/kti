@@ -2,7 +2,7 @@
 
 **Naskah:** *Pengembangan Web Microlearning Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa*  
 **Penulis:** Restu Bias Primandhika  
-**Mode tinjauan:** promotor galak, fokus pada inkonsistensi, kejanggalan, risiko sanggahan penguji, dan prioritas revisi.
+**Mode tinjauan:** promotor, fokus pada inkonsistensi, kejanggalan, risiko sanggahan penguji, dan prioritas revisi.
 
 ## Verdict umum
 
