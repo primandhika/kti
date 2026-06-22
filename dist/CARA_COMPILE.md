@@ -179,7 +179,8 @@ Compiler berhenti dengan error jika salah satu dokumen utama wajib tidak ada.
 
 ## 8. Format Markdown yang dikenali
 
-Gunakan hierarki berikut:
+Gunakan hierarki berikut. Untuk konversi satu bab, jalankan `./compile.sh --target docx --single PATH --name NAMA --output-dir outputs`. Dua baris pembuka menjadi satu Heading 1; `## A.` menjadi Heading 2; `### 1.` menjadi Heading 3; dan `#### a.` menjadi Heading 4. Label dipertahankan sebagai teks heading.
+
 
 ```markdown
 # BAB I

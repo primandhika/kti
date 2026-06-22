@@ -132,14 +132,29 @@ def marker(value: str) -> str:
     return f"\n\n{MARKER_PREFIX}{value}\n\n"
 
 
-def build_combined(paths: list[Path]) -> str:
+def normalize_single_chapter_heading(text: str) -> str:
+    """Merge the opening chapter number and title into one two-line Heading 1."""
+    return re.sub(
+        r"\A# (BAB [IVXLCDM]+)\n# ([^\n]+)",
+        r"# \1 `<w:br/>`{=openxml} \2",
+        text,
+        count=1,
+    )
+
+
+def build_combined(paths: list[Path], *, standalone: bool = False) -> str:
     chunks: list[str] = []
     for index, path in enumerate(paths):
         name = path.name
         text = path.read_text(encoding="utf-8").strip() + "\n"
         text = resolve_illustrations(text)
+        if standalone and name in CHAPTERS:
+            text = normalize_single_chapter_heading(text)
 
-        if name == BIBLIOGRAPHY:
+        if standalone and name in CHAPTERS:
+            boundary = ""
+            style = "STYLE_BODY"
+        elif name == BIBLIOGRAPHY:
             text = normalize_bibliography(text)
             boundary = "SECTION_BODY_TO_REGULAR"
             style = "STYLE_BIBLIOGRAPHY"
@@ -187,6 +202,17 @@ def set_attr(element: etree._Element, **attrs: str) -> None:
         element.set(qn(W, key), str(value))
 
 
+def sort_rpr(rpr: etree._Element) -> None:
+    order = ["rStyle", "rFonts", "b", "bCs", "i", "iCs", "caps", "smallCaps", "strike", "dstrike", "outline", "shadow", "emboss", "imprint", "noProof", "snapToGrid", "color", "spacing", "w", "kern", "position", "sz", "szCs", "highlight", "u", "effect", "bdr", "shd", "fitText", "vertAlign", "rtl", "cs", "em", "lang", "eastAsianLayout", "specVanish", "oMath"]
+    def get_index(tag: str) -> int:
+        local = tag.split("}")[-1]
+        try: return order.index(local)
+        except ValueError: return 999
+    children = list(rpr)
+    children.sort(key=lambda c: get_index(c.tag))
+    for c in children:
+        rpr.append(c)
+
 def style_by_id(styles: etree._Element, style_id: str) -> etree._Element | None:
     return styles.find(f"w:style[@w:styleId='{style_id}']", NS)
 
@@ -206,6 +232,7 @@ def set_run_format(style: etree._Element, size: int, *, bold: bool = False) -> N
         etree.SubElement(rpr, qn(W, "b"))
     elif not bold and b is not None:
         rpr.remove(b)
+    sort_rpr(rpr)
 
 
 def set_paragraph_format(
@@ -392,6 +419,7 @@ def force_run_font(container: etree._Element, size_half_points: str = "24") -> N
         set_attr(fonts, ascii="Times New Roman", hAnsi="Times New Roman", eastAsia="Times New Roman", cs="Times New Roman")
         set_attr(child(rpr, "sz"), val=size_half_points)
         set_attr(child(rpr, "szCs"), val=size_half_points)
+        sort_rpr(rpr)
 
 
 def patch_document(raw_docx: Path, output: Path) -> None:
@@ -517,7 +545,7 @@ def patch_document(raw_docx: Path, output: Path) -> None:
             target.writestr(name, data)
 
 
-def validate_docx(path: Path) -> None:
+def validate_docx(path: Path, *, minimum_sections: int = 3) -> None:
     with zipfile.ZipFile(path) as archive:
         required = {"word/document.xml", "word/styles.xml", "word/header-compiler.xml", "word/footer-front-compiler.xml"}
         missing = required - set(archive.namelist())
@@ -525,7 +553,7 @@ def validate_docx(path: Path) -> None:
             raise RuntimeError(f"DOCX validation failed; missing: {sorted(missing)}")
         document = etree.fromstring(archive.read("word/document.xml"))
         sects = document.xpath("//w:sectPr", namespaces=NS)
-        if len(sects) < 3:
+        if len(sects) < minimum_sections:
             raise RuntimeError(f"DOCX validation failed; only {len(sects)} section(s)")
         for sect in sects:
             size = sect.find("w:pgSz", NS)
@@ -577,6 +605,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--without-appendices", action="store_true")
     parser.add_argument("--keep-intermediate", action="store_true")
     parser.add_argument("--soffice", help="Explicit LibreOffice/soffice binary")
+    parser.add_argument("--single", type=Path, help="Compile one Markdown chapter with dissertation heading hierarchy")
     return parser.parse_args()
 
 
@@ -588,7 +617,13 @@ def main() -> int:
     if args.target in {"pdf", "both"}:
         soffice = require_tool("libreoffice", args.soffice or ("/snap/bin/libreoffice" if Path("/snap/bin/libreoffice").exists() else None))
 
-    sources = validate_manifest(not args.without_appendices)
+    if args.single:
+        single = args.single if args.single.is_absolute() else ROOT / args.single
+        if not single.is_file():
+            raise RuntimeError(f"Single input was not found: {single}")
+        sources = [single]
+    else:
+        sources = validate_manifest(not args.without_appendices)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     final_docx = args.output_dir / f"{args.name}.docx"
 
@@ -599,7 +634,7 @@ def main() -> int:
         reference = tmp / "reference.docx"
         raw_docx = tmp / "raw.docx"
 
-        combined.write_text(build_combined(sources), encoding="utf-8")
+        combined.write_text(build_combined(sources, standalone=bool(args.single)), encoding="utf-8")
         with base_reference.open("wb") as stream:
             completed = subprocess.run([pandoc, "--print-default-data-file", "reference.docx"], cwd=ROOT, stdout=stream)
         if completed.returncode:
@@ -620,7 +655,7 @@ def main() -> int:
             str(raw_docx),
         ])
         patch_document(raw_docx, final_docx)
-        validate_docx(final_docx)
+        validate_docx(final_docx, minimum_sections=1 if args.single else 3)
 
         if args.keep_intermediate:
             shutil.copy2(combined, args.output_dir / f"{args.name}.combined.md")
