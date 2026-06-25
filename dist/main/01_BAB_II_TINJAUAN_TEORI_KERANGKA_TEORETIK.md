@@ -4,13 +4,13 @@
 
 ## A. Kajian Teori
 
-Dalam bagian ini, akan dibahas teori-teori yang relevan sebagai landasan konseptual untuk mendukung penelitian. Penjelasan teori ini mencakup konsep-konsep kunci yang terkait dengan keterampilan berbicara, kemampuan metakognitif, media pembelajaran berbasis web, microlearning dan teknik Feynman. Setiap teori dijabarkan secara mendalam untuk memberikan pemahaman menyeluruh mengenai variabel-variabel penelitian.
+Dalam bagian ini, akan dibahas teori-teori yang relevan sebagai landasan konseptual untuk mendukung penelitian. Penjelasan teori ini mencakup konsep-konsep kunci yang terkait dengan keterampilan berbicara, kemampuan metakognitif, media pembelajaran berbasis web, *microlearning* dan teknik Feynman. Setiap teori dijabarkan secara mendalam untuk memberikan pemahaman menyeluruh mengenai variabel-variabel penelitian.
 
 ### 1. Keterampilan Berbicara
 
 Berbicara adalah salah satu keterampilan berbahasa yang sering digunakan dalam aktivitas sehari-hari. Banyak orang cenderung memilih berbicara sebagai cara berkomunikasi, karena dianggap lebih efektif dibandingkan metode lainnya. Dalam kehidupan sehari-hari, berbicara memiliki peranan yang sangat penting. Selain sebagai sarana komunikasi, keterampilan berbicara juga melibatkan dimensi kognitif dan metakognitif. Beberapa ahli memberikan definisi yang beragam mengenai keterampilan berbicara.
 
-Goh dan Liu (2023) menekankan bahwa pembelajar tidak hanya perlu mengelola pengucapan dan tata bahasa, tetapi juga keterampilan berpikir tentang bagaimana seorang pembelajar belajar dan berbicara. Metakognitif membantu pembelajar merencanakan, memantau dan mengevaluasi performa berbicara mereka, baik dalam konteks sosial maupun akademik. Dalam kerangka pengembangan keterampilan berbicara, Goh dan Liu (2023) menjelaskan bahwa proses berbicara melibatkan tiga tahapan utama: conceptualisation (perencanaan ide), formulation (perumusan bahasa) dan articulation (pengucapan). Setiap tahapan membutuhkan pengelolaan kognitif dan metakognitif, agar pesan yang disampaikan jelas, efektif dan disesuaikan dengan kebutuhan audiens.
+Goh dan Liu (2023) menekankan bahwa pembelajar tidak hanya perlu mengelola pengucapan dan tata bahasa, tetapi juga keterampilan berpikir tentang bagaimana seorang pembelajar belajar dan berbicara. Metakognitif membantu pembelajar merencanakan, memantau dan mengevaluasi performa berbicara mereka, baik dalam konteks sosial maupun akademik. Dalam kerangka pengembangan keterampilan berbicara, Goh dan Liu (2023) menjelaskan bahwa proses berbicara melibatkan tiga tahapan utama: *conceptualisation* (perencanaan ide), *formulation* (perumusan bahasa) dan *articulation* (pengucapan). Setiap tahapan membutuhkan pengelolaan kognitif dan metakognitif, agar pesan yang disampaikan jelas, efektif dan disesuaikan dengan kebutuhan audiens.
 
 Sementara itu, Ilham dan Wijiati (2020) mengatakan berbicara adalah proses penyampaian ide, pikiran dan perasaan seseorang kepada orang lain dengan menggunakan bahasa lisan, sehingga makna yang dimaksud dapat dipahami dengan baik. Dalam konteks pembelajaran bahasa Indonesia, keterampilan berbicara memegang peranan penting baik bagi guru maupun siswa. Guru sebagai fasilitator perlu mengajarkan siswa untuk menggunakan bahasa Indonesia secara aktif dan lancar, tidak hanya untuk komunikasi sehari-hari tetapi juga untuk pengembangan akademik. Ilham dan Wijiati (2020) juga menegaskan bahwa banyak siswa di Indonesia masih menghadapi tantangan dalam berbicara menggunakan bahasa Indonesia secara baik dan benar. Salah satu penyebabnya adalah rasa malu dan kurangnya kepercayaan diri. Oleh karena itu, diperlukan upaya dari guru untuk menumbuhkan minat dan motivasi siswa dalam berbicara melalui berbagai kegiatan yang menarik dan relevan, seperti berpidato, berpuisi, atau berdiskusi.
 
@@ -41,11 +41,11 @@ Menurut Lucas dan Stob (2020), keterampilan berbicara dalam konteks formal terse
 
 Berdasarkan kelima definisi yang dikemukakan, keterampilan berbicara dapat disimpulkan sebagai kemampuan kompleks yang mengintegrasikan dimensi kognitif, metakognitif dan performatif dalam menyampaikan ide, gagasan, atau informasi secara lisan dengan jelas, terstruktur dan efektif. Dalam konteks penelitian ini, konstruk keterampilan berbicara yang diadopsi mengintegrasikan kerangka teoretis dari Goh dan Liu (2023) dan Lucas dan Stob (2020) karena kedua pendekatan ini secara komplementer menawarkan perspektif yang holistik tentang keterampilan berbicara yang selaras dengan tujuan pengembangan kemampuan metakognitif mahasiswa.
 
-Pemilihan konstruk Goh dan Liu (2023) didasarkan pada penekanannya terhadap proses kognitif dan metakognitif yang terjadi dalam berbicara, yang mencakup tiga tahapan sistematis: (1) conceptualisation (perencanaan ide), (2) formulation (perumusan bahasa) dan (3) articulation (pengucapan) serta komponen metakognitif berupa self-monitoring dan self-evaluation. Pendekatan ini sangat relevan dengan teknik Feynman yang mengharuskan pembicara untuk memahami, menyederhanakan dan menjelaskan kembali konsep dengan bahasa sendiri. Sementara itu, konstruk Lucas dan Stob (2020) digunakan sebagai fondasi praktis dalam konteks komunikasi formal yang mencakup kemampuan mengorganisasi ide secara logis, menyesuaikan pesan untuk audiens, menyusun presentasi yang berdampak dan beradaptasi dengan umpan balik audiens.
+Pemilihan konstruk Goh dan Liu (2023) didasarkan pada penekanannya terhadap proses kognitif dan metakognitif yang terjadi dalam berbicara, yang mencakup tiga tahapan sistematis: (1) *conceptualisation* (perencanaan ide), (2) *formulation* (perumusan bahasa) dan (3) *articulation* (pengucapan) serta komponen metakognitif berupa *self-monitoring* dan *self-evaluation*. Pendekatan ini sangat relevan dengan teknik Feynman yang mengharuskan pembicara untuk memahami, menyederhanakan dan menjelaskan kembali konsep dengan bahasa sendiri. Sementara itu, konstruk Lucas dan Stob (2020) digunakan sebagai fondasi praktis dalam konteks komunikasi formal yang mencakup kemampuan mengorganisasi ide secara logis, menyesuaikan pesan untuk audiens, menyusun presentasi yang berdampak dan beradaptasi dengan umpan balik audiens.
 
 Secara operasional, keterampilan berbicara dalam penelitian ini mencakup lima aspek utama yang terintegrasi: (1) perencanaan strategis yang melibatkan kemampuan menentukan tujuan komunikasi dan merancang strategi penyampaian berdasarkan karakteristik audiens; (2) organisasi konten yang mencakup penyusunan ide secara logis, koheren dan pemilihan informasi berdasarkan prioritas; (3) penyampaian adaptif yang meliputi penggunaan intonasi, gestur, artikulasi yang jelas, serta pemantauan efektivitas penyampaian secara real-time; (4) interaksi responsif yang mencakup kemampuan merespons pertanyaan, memberikan klarifikasi dan menyesuaikan strategi berdasarkan reaksi audiens; dan (5) refleksi evaluatif yang melibatkan penilaian terhadap keberhasilan komunikasi dan identifikasi area perbaikan untuk pengembangan selanjutnya.
 
-Kelima aspek ini tidak hanya mencerminkan keterampilan teknis berbicara, tetapi juga mengintegrasikan kemampuan metakognitif yang memungkinkan mahasiswa untuk secara sadar merencanakan, memantau dan mengevaluasi proses berbicara mereka, sehingga mendukung pembelajaran yang reflektif dan berkelanjutan melalui penerapan teknik Feynman dalam media pembelajaran berbasis web microlearning.
+Kelima aspek ini tidak hanya mencerminkan keterampilan teknis berbicara, tetapi juga mengintegrasikan kemampuan metakognitif yang memungkinkan mahasiswa untuk secara sadar merencanakan, memantau dan mengevaluasi proses berbicara mereka, sehingga mendukung pembelajaran yang reflektif dan berkelanjutan melalui penerapan teknik Feynman dalam media pembelajaran berbasis web *microlearning*.
 
 Dalam tahap evaluasi, keterampilan bicara dalam penelitian ini akan diukur dengan hybrid assesment. Penilaian mengombinasikan evaluasi formatif dan sumatif dengan rasio 60:40 (Fan dan Yan, 2020). Asesmen formatif melalui performance-based tasks dalam konteks autentik memungkinkan mahasiswa untuk menerapkan teknik Feynman dalam menjelaskan konsep dengan bahasa sendiri, sementara asesmen sumatif memberikan validasi terhadap pencapaian komprehensif konstruk keterampilan berbicara.
 
@@ -81,9 +81,9 @@ Pada tahap ini, seseorang memanfaatkan sumber daya kognitif untuk merencanakan l
 | Evaluation | Pertimbangan mahasiswa terhadap proses berpikir dan keterampilan berbicaranya, meliputi: (1) Keefektifan penyampaian ide dan struktur pembicaraan. (2) Keefektifan strategi berbicara yang digunakan dalam menyesuaikan pesan dengan audiens. (3) Evaluasi terhadap kejelasan pesan yang disampaikan dan umpan balik dari audiens. (4) Penilaian terhadap tingkat kesulitan materi atau topik yang disampaikan. |
 | Regulation | Kesadaran mahasiswa dalam mengatur strategi berbicara, meliputi: (1) Merencanakan struktur pembicaraan dan tujuan utama yang ingin dicapai. (2) Menyusun langkah-langkah untuk menyampaikan ide, termasuk pembukaan, isi dan penutup pembicaraan. (3) Memilih strategi berbicara yang paling sesuai, seperti penggunaan intonasi, gestur dan contoh untuk mendukung penyampaian pesan. |
 
-Indikator tersebut diadaptasi dari Magiera dan Zawojewski (2011) dengan penyesuaian pada konteks keterampilan berbicara mahasiswa Pendidikan Bahasa Indonesia.
+Indikator tersebut diadaptasi dari Magiera dan Zawojewski (2011) dengan penyesuaian pada konteks keterampilan berbicara mahasiswa Pendidikan Bahasa dan Sastra Indonesia.
 
-Berdasarkan berbagai sumber tersebut, metakognitif dalam konteks penelitian ini dipahami sebagai kemampuan mahasiswa untuk mengelola proses berpikirnya ketika menyiapkan, menyusun, menyampaikan, memantau, dan merefleksikan performa berbicara. Kerangka umum seperti perencanaan-pemantauan-evaluasi atau *awareness-evaluation-regulation* tetap penting untuk dibahas sebagai pijakan teoretis. Akan tetapi, karena penelitian ini berfokus pada performa lisan, konstruk operasionalnya tidak berhenti pada tiga tahap umum tersebut. Penelitian ini mengarahkannya ke lima dimensi yang lebih dekat dengan praktik berbicara, yaitu *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*. Kelima dimensi ini dipilih karena lebih mampu menggambarkan bagaimana mahasiswa membangun gagasan, memilih bahasa, menyampaikan penjelasan, memantau kejelasan komunikasi, dan menilai kembali hasil berbicaranya.
+Berdasarkan berbagai sumber tersebut, metakognitif dalam konteks penelitian ini dipahami sebagai kemampuan mahasiswa untuk mengelola proses berpikirnya ketika menyiapkan, menyusun, menyampaikan, memantau, dan merefleksikan performa berbicara. Kerangka umum seperti perencanaan-pemantauan-evaluasi atau *awareness-evaluation-regulation* tetap penting untuk dibahas sebagai pijakan teoretis. Akan tetapi, karena penelitian ini berfokus pada performa lisan, konstruk operasionalnya tidak berhenti pada tiga tahap umum tersebut. Penelitian ini mengarahkannya ke lima dimensi yang lebih dekat dengan praktik berbicara, yaitu *conceptualisation, *formulation*, *articulation*, *self-monitoring*,* dan *self-evaluation*. Kelima dimensi ini dipilih karena lebih mampu menggambarkan bagaimana mahasiswa membangun gagasan, memilih bahasa, menyampaikan penjelasan, memantau kejelasan komunikasi, dan menilai kembali hasil berbicaranya.
 
 ### 3. Media Pembelajaran Berbasis Web
 
@@ -93,7 +93,7 @@ Menurut Azmi et al. (2020), pembelajaran berbasis web dilakukan melalui situs (w
 
 Setyawan dan Nawangsari (2021) menunjukkan bahwa pengembangan media pembelajaran berbasis web, seperti e-modul berbicara yang terintegrasi dengan aplikasi Zoom, sangat efektif dalam meningkatkan keterampilan berbicara peserta didik. Penelitian tersebut menggunakan pendekatan research & development (R&D) dan mengidentifikasi bahwa e-modul berbasis web ini memiliki tingkat kelayakan yang tinggi, dengan validasi ahli mencapai 92%. E-modul memungkinkan siswa untuk belajar secara mandiri dengan kecepatan dan urutan pembelajaran yang sesuai dengan kebutuhan mereka, serta memberikan kebebasan dalam mengakses sumber informasi terkait pembelajaran.
 
-Dengan pengembangan sistem manajemen pembelajaran berbasis web pada pertengahan tahun 1990-an, komunikasi tekstual, meskipun telah didigitalkan, sempat menjadi media komunikasi utama untuk pembelajaran berbasis internet. Internet sendiri dipandang sebagai media yang sangat kuat karena melalui kombinasi alat dan media, ia dapat mencakup semua karakteristik dan dimensi media pendidikan. Bates (2015) menekankan bahwa perangkat yang terhubung ke internet, seperti: personal computer (PC), smartphone dan sebagainya, memungkinkan siapa saja untuk belajar kapan saja dan di mana saja.
+Dengan pengembangan sistem manajemen pembelajaran berbasis web pada pertengahan tahun 1990-an, komunikasi tekstual, meskipun telah didigitalkan, sempat menjadi media komunikasi utama untuk pembelajaran berbasis internet. Internet sendiri dipandang sebagai media yang sangat kuat karena melalui kombinasi alat dan media, ia dapat mencakup semua karakteristik dan dimensi media pendidikan. Bates (2015) menekankan bahwa perangkat yang terhubung ke internet, seperti: personal computer (PC), *smartphone* dan sebagainya, memungkinkan siapa saja untuk belajar kapan saja dan di mana saja.
 
 Lebih lanjut, Bates menyoroti pentingnya memahami karakteristik unik (affordances) dari berbagai media pembelajaran. Setiap media, teks, audio, video, komputasi dan media sosial, memiliki kekuatan pedagogis yang khas dan tidak dapat digantikan sepenuhnya oleh media lain. Seperti contohnya, teks memiliki kekuatan dalam menyajikan informasi secara linear dan mendalam; audio efektif dalam menyampaikan nuansa dan ekspresi suara; video unggul dalam menunjukkan proses dan dinamika visual; komputasi menyediakan interaktivitas dan simulasi kompleks; sedangkan media sosial memungkinkan kolaborasi dan komunikasi dua arah secara real-time. Memahami karakteristik ini penting agar pemilihan media dalam desain pembelajaran benar-benar sesuai dengan tujuan belajar yang ingin dicapai, termasuk dalam pembelajaran berbasis web.
 
@@ -129,15 +129,15 @@ Sebagai salah satu bentuk web-based learning, pembelajaran berbasis web juga mem
 
 Sejalan dengan itu, Chapelle (2006), dalam konsepnya tentang multimedia courseware, menjelaskan bahwa yang memadukan teks, audio, gambar dan video memiliki pengaruh signifikan terhadap peningkatan keterampilan berbahasa, termasuk keterampilan berbicara, seperti yang terlihat dalam konteks pembelajaran bahasa asing. Dalam konteks ini, media yang dikembangkan tidak hanya menjadi saluran informasi, tetapi juga alat strategis untuk meningkatkan produksi linguistik melalui multimodalitas yang disesuaikan secara pedagogis.
 
-Dalam era pendidikan digital saat ini, media berbasis web juga mencerminkan sinergi antara pembelajaran daring, tatap muka dan pembelajaran fleksibel (Bates, 2015). Hal ini menempatkan media microlearning tidak hanya sebagai alat pembelajaran mandiri, tetapi juga sebagai komponen integral dalam ekosistem blended-learning. Peran media ini dapat difungsikan sebagai penunjang pembelajaran tatap muka, pengayaan mandiri, atau bahkan sebagai bagian dari sistem pembelajaran adaptif dan personal.
+Dalam era pendidikan digital saat ini, media berbasis web juga mencerminkan sinergi antara pembelajaran daring, tatap muka dan pembelajaran fleksibel (Bates, 2015). Hal ini menempatkan media *microlearning* tidak hanya sebagai alat pembelajaran mandiri, tetapi juga sebagai komponen integral dalam ekosistem blended-learning. Peran media ini dapat difungsikan sebagai penunjang pembelajaran tatap muka, pengayaan mandiri, atau bahkan sebagai bagian dari sistem pembelajaran adaptif dan personal.
 
-### 4. Microlearning
+### 4. *Microlearning*
 
-Konsep microlearning berakar pada prinsip just-in-time learning yang pertama kali dijelaskan secara sistematis oleh Theo Hug (Hug dan Hug, 2007) dalam Didactics of Microlearning, yang menekankan bahwa pembelajaran dapat lebih efektif ketika materi disajikan dalam unit-unit kecil, spesifik dan langsung dapat diterapkan dalam konteks nyata. Microlearning bukan sekadar pemendekan durasi pembelajaran, tetapi merupakan pendekatan pedagogis yang mengandalkan penyampaian konten yang ringkas, fokus dan relevan terhadap kebutuhan pembelajar pada saat tertentu. Pendekatan ini menekankan pada keterhubungan antara konteks pembelajaran dengan elemen media digital, seperti multimedia dan aplikasi daring, yang mendukung pembelajaran terarah, singkat dan adaptif. Hal ini berbeda dengan metode pembelajaran konvensional yang cenderung membutuhkan sesi belajar yang panjang dan lebih terstruktur.
+Konsep *microlearning* berakar pada prinsip just-in-time learning yang pertama kali dijelaskan secara sistematis oleh Theo Hug (Hug dan Hug, 2007) dalam Didactics of *Microlearning*, yang menekankan bahwa pembelajaran dapat lebih efektif ketika materi disajikan dalam unit-unit kecil, spesifik dan langsung dapat diterapkan dalam konteks nyata. *Microlearning* bukan sekadar pemendekan durasi pembelajaran, tetapi merupakan pendekatan pedagogis yang mengandalkan penyampaian konten yang ringkas, fokus dan relevan terhadap kebutuhan pembelajar pada saat tertentu. Pendekatan ini menekankan pada keterhubungan antara konteks pembelajaran dengan elemen media digital, seperti multimedia dan aplikasi daring, yang mendukung pembelajaran terarah, singkat dan adaptif. Hal ini berbeda dengan metode pembelajaran konvensional yang cenderung membutuhkan sesi belajar yang panjang dan lebih terstruktur.
 
-Berdasarkan pendekatan meso-mikro-makro dalam desain pembelajaran (Hug dan Friesen, 2007), microlearning didesain untuk menyesuaikan skala materi dengan konteks pengguna dan alat digital. Karakteristik khas dari pendekatan ini mencakup:
+Berdasarkan pendekatan meso-mikro-makro dalam desain pembelajaran (Hug dan Friesen, 2007), *microlearning* didesain untuk menyesuaikan skala materi dengan konteks pengguna dan alat digital. Karakteristik khas dari pendekatan ini mencakup:
 
-1) Singkat dan terfokus: materi bersifat bite-sized
+1) Singkat dan terfokus: materi bersifat *bite-sized*
 
 2) Multimodal, sehingga menyajikan tidak hanya sekadar teks tapi juga audio dan video
 
@@ -147,7 +147,7 @@ Berdasarkan pendekatan meso-mikro-makro dalam desain pembelajaran (Hug dan Fries
 
 5) Personalizable atau menyesuaikan dengan profil dan progres belajar pengguna.
 
-Meskipun memiliki berbagai keunggulan dalam fleksibilitas, efisiensi dan kesesuaian dengan karakteristik pembelajar digital, pendekatan microlearning tidak lepas dari sejumlah keterbatasan sebagai berikut (Hug, 2007; Nugraha et al., 2021):
+Meskipun memiliki berbagai keunggulan dalam fleksibilitas, efisiensi dan kesesuaian dengan karakteristik pembelajar digital, pendekatan *microlearning* tidak lepas dari sejumlah keterbatasan sebagai berikut (Hug, 2007; Nugraha et al., 2021):
 
 1) Terfragmentasi: materi yang terlalu pendek dapat menyebabkan pemahaman tidak utuh jika tidak disusun secara terintegrasi
 
@@ -155,29 +155,29 @@ Meskipun memiliki berbagai keunggulan dalam fleksibilitas, efisiensi dan kesesua
 
 3) Bergantung pada motivasi: keberhasilan belajar sangat ditentukan oleh inisiatif dan kedisiplinan individu
 
-4) Rentan distraksi digital: penggunaan perangkat mobile dapat terganggu oleh notifikasi dan multitasking
+4) Rentan distraksi digital: penggunaan perangkat *mobile* dapat terganggu oleh notifikasi dan multitasking
 
 5) Minim interaksi sosial: lebih menekankan pembelajaran mandiri sehingga kurang mendukung diskusi atau kerja kelompok
 
-Dalam implementasinya, microlearning mengutamakan fleksibilitas, di mana konten pembelajaran dapat diakses kapan saja dan di mana saja melalui perangkat digital. Karena mengintegrasikan konsep makro, meso dan mikro, materi pembelajaran microlearning harus relevan, terstruktur dan dapat disesuaikan dengan kondisi serta hasil belajar yang diinginkan.
+Dalam implementasinya, *microlearning* mengutamakan fleksibilitas, di mana konten pembelajaran dapat diakses kapan saja dan di mana saja melalui perangkat digital. Karena mengintegrasikan konsep makro, meso dan mikro, materi pembelajaran *microlearning* harus relevan, terstruktur dan dapat disesuaikan dengan kondisi serta hasil belajar yang diinginkan.
 
-Sehingga, adapun pemahaman lainnya terkait microlearning, menurut Nugraha et al. (2021):
+Sehingga, adapun pemahaman lainnya terkait *microlearning*, menurut Nugraha et al. (2021):
 
-1. Durasi Pendek dan Terfokus, yaitu konten pembelajaran disajikan dalam bentuk potongan kecil (bite-sized) yang fokus pada satu topik atau tujuan pembelajaran tertentu.
+1. Durasi Pendek dan Terfokus, yaitu konten pembelajaran disajikan dalam bentuk potongan kecil (*bite-sized*) yang fokus pada satu topik atau tujuan pembelajaran tertentu.
 
-2. Konten Multimedia, yaitu microlearning menggunakan elemen multimedia seperti video pendek, gambar dan audio untuk meningkatkan daya tarik dan keterlibatan peserta didik.
+2. Konten Multimedia, yaitu *microlearning* menggunakan elemen multimedia seperti video pendek, gambar dan audio untuk meningkatkan daya tarik dan keterlibatan peserta didik.
 
-3. Akses melalui Perangkat Digital, yaitu microlearning dirancang untuk diakses melalui perangkat digital seperti ponsel pintar, tablet, atau komputer, memungkinkan fleksibilitas dan pembelajaran mandiri.
+3. Akses melalui Perangkat Digital, yaitu *microlearning* dirancang untuk diakses melalui perangkat digital seperti ponsel pintar, tablet, atau komputer, memungkinkan fleksibilitas dan pembelajaran mandiri.
 
 4. Adanya Latihan Berulang, yaitu metode ini mendukung pengulangan materi dan latihan untuk memperkuat pemahaman dan daya ingat peserta didik.
 
-5. Adaptif, yaitu konten microlearning dapat disesuaikan dengan kebutuhan, minat dan tingkat pengetahuan setiap peserta, sehingga memberikan pengalaman belajar yang berdiferensiasi.
+5. Adaptif, yaitu konten *microlearning* dapat disesuaikan dengan kebutuhan, minat dan tingkat pengetahuan setiap peserta, sehingga memberikan pengalaman belajar yang berdiferensiasi.
 
-Karakteristik yang singkat dan terfokus dari microlearning memungkinkan peserta didik untuk belajar di waktu luang atau saat membutuhkan informasi secara cepat. Pendekatan ini juga memberikan fleksibilitas kepada peserta untuk memilih materi yang sesuai dengan kebutuhan dan minat masing-masing pembelajar. Selain itu, penggunaan multimedia interaktif dalam microlearning dapat meningkatkan keterlibatan dan daya ingat peserta terhadap materi yang dipelajari. Microlearning telah banyak diterapkan dalam berbagai konteks, termasuk pelatihan karyawan, pendidikan jarak jauh dan situasi yang membutuhkan akses cepat ke informasi penting. Metode ini terbukti efektif sebagai alternatif pembelajaran yang relevan di era digital saat ini (Susilana et al., 2022).
+Karakteristik yang singkat dan terfokus dari *microlearning* memungkinkan peserta didik untuk belajar di waktu luang atau saat membutuhkan informasi secara cepat. Pendekatan ini juga memberikan fleksibilitas kepada peserta untuk memilih materi yang sesuai dengan kebutuhan dan minat masing-masing pembelajar. Selain itu, penggunaan multimedia interaktif dalam *microlearning* dapat meningkatkan keterlibatan dan daya ingat peserta terhadap materi yang dipelajari. *Microlearning* telah banyak diterapkan dalam berbagai konteks, termasuk pelatihan karyawan, pendidikan jarak jauh dan situasi yang membutuhkan akses cepat ke informasi penting. Metode ini terbukti efektif sebagai alternatif pembelajaran yang relevan di era digital saat ini (Susilana et al., 2022).
 
-Berdasarkan sumber di atas, microlearning dalam konteks penelitian ini dapat didefinisikan sebagai metode pembelajaran berbasis web yang dirancang untuk menyampaikan materi dalam potongan kecil (bite-sized) yang fokus, terarah dan mudah dipahami. Pendekatan ini mendukung fleksibilitas belajar, memungkinkan mahasiswa untuk mengakses konten kapan saja dan di mana saja melalui perangkat digital. Dengan memanfaatkan elemen multimedia dan integrasi konsep makro, meso dan mikro, microlearning mendukung personalisasi pembelajaran, memfasilitasi refleksi mandiri dan membantu mahasiswa Pendidikan Bahasa Indonesia dalam meningkatkan keterampilan berbicara secara efektif dan efisien.
+Berdasarkan sumber di atas, *microlearning* dalam konteks penelitian ini dapat didefinisikan sebagai metode pembelajaran berbasis web yang dirancang untuk menyampaikan materi dalam potongan kecil (*bite-sized*) yang fokus, terarah dan mudah dipahami. Pendekatan ini mendukung fleksibilitas belajar, memungkinkan mahasiswa untuk mengakses konten kapan saja dan di mana saja melalui perangkat digital. Dengan memanfaatkan elemen multimedia dan integrasi konsep makro, meso dan mikro, *microlearning* mendukung personalisasi pembelajaran, memfasilitasi refleksi mandiri dan membantu mahasiswa Pendidikan Bahasa dan Sastra Indonesia dalam meningkatkan keterampilan berbicara secara efektif dan efisien.
 
-Lebih lanjut, dalam konteks keterampilan berbicara, microlearning dapat sangat relevan karena:
+Lebih lanjut, dalam konteks keterampilan berbicara, *microlearning* dapat sangat relevan karena:
 
 a. Menyediakan latihan berbicara dalam durasi singkat, sehingga mengurangi kecemasan (anxiety) mahasiswa saat memulai.
 
@@ -187,17 +187,17 @@ c. Mendukung pembelajaran mandiri dan praktik reflektif, di mahasiswa dapat mema
 
 d. Menyesuaikan gaya belajar para digital natives yang lebih menyukai interaksi singkat, visual dan interaktif.
 
-Dalam CTML (Mayer, 2012) yang akan dijelaskan pada bagian berikutnya, ada tiga asumsi dasar yaitu dual channel, limited capacity dan active processing yang menjadi dasar efektivitas microlearning:
+Dalam CTML (Mayer, 2012) yang akan dijelaskan pada bagian berikutnya, ada tiga asumsi dasar yaitu dual channel, limited capacity dan active processing yang menjadi dasar efektivitas *microlearning*:
 
-a. Dual channel: microlearning memanfaatkan saluran visual (gambar/video) dan verbal (teks/narasi),
+a. Dual channel: *microlearning* memanfaatkan saluran visual (gambar/video) dan verbal (teks/narasi),
 
 b. Limited capacity: konten ringkas menghindari kelebihan beban kognitif,
 
 c. Active processing: segmen kecil mendorong pemrosesan aktif dan mandiri.
 
-Berdasarkan interelasi di atas, microlearning merupakan pendekatan pembelajaran berbasis potongan konten kecil yang efektif, fleksibel dan adaptif terhadap kebutuhan generasi digital. Dalam konteks pengembangan keterampilan berbicara, pendekatan ini memberikan ruang bagi mahasiswa untuk berlatih secara berulang dan reflektif dalam durasi pendek, serta menguasai subkompetensi berbicara secara bertahap.
+Berdasarkan interelasi di atas, *microlearning* merupakan pendekatan pembelajaran berbasis potongan konten kecil yang efektif, fleksibel dan adaptif terhadap kebutuhan generasi digital. Dalam konteks pengembangan keterampilan berbicara, pendekatan ini memberikan ruang bagi mahasiswa untuk berlatih secara berulang dan reflektif dalam durasi pendek, serta menguasai subkompetensi berbicara secara bertahap.
 
-Karakteristik microlearning yang multimodal dan mandiri tersebut sangat mendukung pengembangan keterampilan metakognitif, seperti perencanaan, pemantauan dan evaluasi saat berbicara. Selanjutnya, efektivitas microlearning sebagai media belajar akan semakin maksimal ketika dirancang berdasarkan prinsip-prinsip CTML, yang menekankan pembelajaran aktif dan terstruktur secara kognitif.
+Karakteristik *microlearning* yang multimodal dan mandiri tersebut sangat mendukung pengembangan keterampilan metakognitif, seperti perencanaan, pemantauan dan evaluasi saat berbicara. Selanjutnya, efektivitas *microlearning* sebagai media belajar akan semakin maksimal ketika dirancang berdasarkan prinsip-prinsip CTML, yang menekankan pembelajaran aktif dan terstruktur secara kognitif.
 
 ### 5. Teknik Feynman
 
@@ -233,7 +233,7 @@ d. **Minim umpan balik jika dilakukan secara individual**: Teknik ini paling efe
 
 e. **Bisa menimbulkan tekanan performa**: Bagi mahasiswa yang belum percaya diri, diminta menjelaskan secara verbal dapat meningkatkan kecemasan, terutama jika langsung dievaluasi tanpa latihan bertahap.
 
-Oleh karena itu, dalam penelitian ini, teknik Feynman diintegrasikan dalam media microlearning berbasis web yang dirancang dengan tahapan bertahap, pendampingan dan kolaboratif untuk meminimalisasi keterbatasan tersebut.
+Oleh karena itu, dalam penelitian ini, teknik Feynman diintegrasikan dalam media *microlearning* berbasis web yang dirancang dengan tahapan bertahap, pendampingan dan kolaboratif untuk meminimalisasi keterbatasan tersebut.
 
 Jadi, dalam konteks penelitian ini Teknik Feynman adalah strategi pembelajaran yang diterapkan pada media web dan mengharuskan mahasiswa untuk mempelajari suatu topik dengan menyederhanakan konsep-konsep kompleks ke dalam bahasa yang lebih mudah dipahami dan kemudian menjelaskan kembali materi tersebut kepada pembelajar (diri sendiri atau orang lain) melalui media berbicara. Proses ini dirancang untuk meningkatkan pemahaman mendalam dan refleksi atas pemikiran mereka sendiri, yang mendukung pengembangan kemampuan metakognitif dan keterampilan berbicara.
 
@@ -257,7 +257,7 @@ Teknik Feynman tidak hanya melatih keterampilan berpikir tingkat tinggi melalui 
 
 Kegiatan menjelaskan dalam Teknik Feynman menciptakan kesempatan bagi pembelajar untuk menjadi role model sekaligus mengamati model lain (rekan sebaya atau instruktur). Proses ini mendukung tiga aspek utama pembelajaran sosial: attention (memperhatikan model saat berbicara), retention (mengingat cara menyampaikan ide) dan reproduction (mencoba meniru penyampaian dengan cara sendiri), yang semuanya mendukung terbentuknya keterampilan berbicara secara bertahap.
 
-Selain itu, melalui feedback sosial, pembelajar juga mengembangkan self-efficacy, yang menjadi faktor penting dalam kepercayaan diri untuk berbicara di depan umum (Bandura, 1977). Dengan demikian, integrasi Teknik Feynman ke dalam microlearning berbasis web tidak hanya mendukung keterampilan berbicara dan memaksimalkan efektivitas desain multimedia melalui keterlibatan kognitif dan verbal yang mendalam, tetapi juga merefleksikan prinsip Social Learning Theory, di mana pembelajaran berlangsung melalui pengamatan, peniruan dan interaksi sosial. Proses menjelaskan kembali dalam teknik ini menciptakan ruang untuk observational learning dan penguatan self-efficacy, yang sangat penting dalam pengembangan kepercayaan diri dan performa berbicara mahasiswa.
+Selain itu, melalui feedback sosial, pembelajar juga mengembangkan self-efficacy, yang menjadi faktor penting dalam kepercayaan diri untuk berbicara di depan umum (Bandura, 1977). Dengan demikian, integrasi Teknik Feynman ke dalam *microlearning* berbasis web tidak hanya mendukung keterampilan berbicara dan memaksimalkan efektivitas desain multimedia melalui keterlibatan kognitif dan verbal yang mendalam, tetapi juga merefleksikan prinsip Social Learning Theory, di mana pembelajaran berlangsung melalui pengamatan, peniruan dan interaksi sosial. Proses menjelaskan kembali dalam teknik ini menciptakan ruang untuk observational learning dan penguatan self-efficacy, yang sangat penting dalam pengembangan kepercayaan diri dan performa berbicara mahasiswa.
 
 Maka dari itu, penjelasan lebih lanjut tentang CTML akan memperkuat landasan teoritis integrasi ini.
 
@@ -285,11 +285,11 @@ e. **Redundancy Principle**: Menyajikan narasi audio bersamaan dengan teks yang 
 
 f. **Coherence Principle**: Materi yang tidak relevan atau bersifat dekoratif harus dihindari agar tidak mengganggu fokus belajar.
 
-Meskipun CTML telah memberikan kontribusi signifikan dalam desain pembelajaran multimedia, terdapat beberapa keterbatasan yang perlu dipertimbangkan dalam pengembangan media web microlearning ini. Keterbatasan tersebut dirangkum dalam beberapa temuan berikut:
+Meskipun CTML telah memberikan kontribusi signifikan dalam desain pembelajaran multimedia, terdapat beberapa keterbatasan yang perlu dipertimbangkan dalam pengembangan media web *microlearning* ini. Keterbatasan tersebut dirangkum dalam beberapa temuan berikut:
 
 a. **Pemisahan Visual-Verbal Terlalu Kaku**: CTML menganggap visual dan verbal diproses di dua saluran terpisah, tapi ini bisa terlalu menyederhanakan proses kognitif dan membuka kemungkinan penjelasan yang berbeda atau bertentangan terhadap hasil empiris. Seperti dikatakan, "different and contradicting possibilities to explain some empirical results" (Schnotz dan Kürschner, 2007, p. 458). Karena itu, media ini menggabungkan teks dan video dengan cara yang lebih fleksibel, agar sesuai dengan cara kerja otak yang saling tumpang tindih.
 
-b. **Efek Multimedia Tidak Selalu Kuat**: Analisis terhadap 51 studi menunjukkan bahwa efek multimedia cenderung kecil hingga sedang (Hedges's g = 0.32), tanpa pengaruh berarti pada waktu respons (Noetel et al., 2022). Oleh karena itu, media web microlearning ini disusun bertahap sesuai tingkat kesulitan untuk memaksimalkan manfaatnya.
+b. **Efek Multimedia Tidak Selalu Kuat**: Analisis terhadap 51 studi menunjukkan bahwa efek multimedia cenderung kecil hingga sedang (Hedges's g = 0.32), tanpa pengaruh berarti pada waktu respons (Noetel et al., 2022). Oleh karena itu, media web *microlearning* ini disusun bertahap sesuai tingkat kesulitan untuk memaksimalkan manfaatnya.
 
 c. **Perbedaan Individu Tidak Dijelaskan CTML**: Faktor seperti kapasitas memori kerja dan pengetahuan awal sangat memengaruhi hasil belajar, namun tidak bisa dijelaskan sepenuhnya oleh prinsip CTML (De Jong, 2010). Maka, media ini dilengkapi fitur adaptif dan personalisasi untuk menyesuaikan dengan kebutuhan masing-masing mahasiswa.
 
@@ -297,14 +297,14 @@ d. **Teori Tidak Menjamin Praktik**: Sebuah studi terhadap 2.247 guru menunjukka
 
 e. **Konteks Budaya Berpengaruh**: Efektivitas pembelajaran multimedia berbeda-beda tergantung latar budaya. Pelajar dari budaya kolektivis memproses informasi tidak sama dengan pelajar dari budaya individualis (Castro-Alonso et al., 2019). Maka dari itu, media ini disesuaikan dengan budaya Indonesia melalui contoh-contoh yang dekat dengan keseharian pengguna.
 
-Keterbatasan-keterbatasan ini tidak mengurangi nilai CTML sebagai kerangka teoretis, namun menekankan pentingnya adaptasi kontekstual dalam penerapannya untuk mencapai efektivitas pembelajaran yang optimal. Secara keseluruhan aspek tersebut menjadi dasar bagi pengembangan media web microlearning. Integrasinya dengan media yang akan dikembangkan dipaparkan dalam tabel berikut:
+Keterbatasan-keterbatasan ini tidak mengurangi nilai CTML sebagai kerangka teoretis, namun menekankan pentingnya adaptasi kontekstual dalam penerapannya untuk mencapai efektivitas pembelajaran yang optimal. Secara keseluruhan aspek tersebut menjadi dasar bagi pengembangan media web *microlearning*. Integrasinya dengan media yang akan dikembangkan dipaparkan dalam tabel berikut:
 
 **Tabel 2.2 Integrasi Aspek CTML dan Wireframe Media Web**
 
 | No | Aspek | Deskripsi | Integrasi |
 |---|---|---|---|
 | 1 | Dual-Channel Processing | Informasi diproses melalui saluran visual dan verbal secara terpisah tetapi simultan. | Setiap unit materi yang dipilih berisi video narasi (audio) dan teks kunci (verbal) di bawahnya. |
-| 2 | Limited Capacity | Kapasitas otak dalam memproses informasi terbatas; desain harus menghindari kelebihan beban. | Pada bagian pembelajaran terbatas (dengan pewaktu), materi dibagi modular/bite-sized pada halaman belajar agar tidak membebani pengguna. |
+| 2 | Limited Capacity | Kapasitas otak dalam memproses informasi terbatas; desain harus menghindari kelebihan beban. | Pada bagian pembelajaran terbatas (dengan pewaktu), materi dibagi modular/*bite-sized* pada halaman belajar agar tidak membebani pengguna. |
 | 3 | Active Processing | Pembelajar secara aktif dalam memilih, mengatur dan mengintegrasikan informasi. | Di setiap akhir laman belajar, terdapat latihan reflektif, seperti menulis/menjelaskan ulang, kuis dan menjelaskan kembali materi. Bagian ini juga mengintegrasi teknik feynman sebagai cara belajar. |
 | 4 | Multimedia Principle | Kombinasi teks dan gambar lebih efektif dibandingkan hanya teks atau gambar saja. | Materi terdiri dari teks penjelas + video interaktif dalam setiap unit topik pembelajaran. Pengguna dapat mengulanginya kembali dengan video alternatifnya (jika tersedia) apabila masih perlu belajar. |
 | 5 | Contiguity Principle | Informasi yang terkait (verbal dan visual) disajikan secara berdekatan dalam sebuah ruang-interval waktu. | Beberapa kata kunci dan teks utama disusun tepat di atas/berdekatan dengan video untuk menghindari pemisahan konteks. |
@@ -312,9 +312,9 @@ Keterbatasan-keterbatasan ini tidak mengurangi nilai CTML sebagai kerangka teore
 | 7 | Redundancy Principle | Menghindari penyajian informasi yang sama dalam berbagai bentuk untuk mengurangi beban kognitif. | Teks tidak menduplikasi narasi, hanya menyediakan poin-poin ringkas/kata kunci. Selain itu, pada saat pembelajaran tampilan dibuat minimalis tanpa elemen web yang tidak perlu, seperti tautan/link atau branding. |
 | 8 | Coherence Principle | Menghindari informasi tambahan yang tidak relevan agar pembelajar fokus pada materi utama. | Jikapun ada konten tambahan, itu bersifat mendukung pembelajaran dan inti materi. |
 
-Oleh karena itu, CTML digunakan sebagai dasar teoretis untuk mendukung desain dan implementasi media web microlearning yang terintegrasi dengan teknik Feynman. CTML menekankan bagaimana pembelajaran yang efektif dapat terjadi melalui penggabungan elemen visual dan verbal yang dirancang untuk mengoptimalkan kapasitas kognitif pembelajar.
+Oleh karena itu, CTML digunakan sebagai dasar teoretis untuk mendukung desain dan implementasi media web *microlearning* yang terintegrasi dengan teknik Feynman. CTML menekankan bagaimana pembelajaran yang efektif dapat terjadi melalui penggabungan elemen visual dan verbal yang dirancang untuk mengoptimalkan kapasitas kognitif pembelajar.
 
-Penjabaran teori-teori tersebut menjadi landasan dalam memahami hubungan antar variabel dalam penelitian ini, serta menjadi acuan dalam mengembangkan media pembelajaran berbasis web yang mengintegrasikan microlearning dan teknik Feynman untuk meningkatkan keterampilan berbicara mahasiswa.
+Penjabaran teori-teori tersebut menjadi landasan dalam memahami hubungan antar variabel dalam penelitian ini, serta menjadi acuan dalam mengembangkan media pembelajaran berbasis web yang mengintegrasikan *microlearning* dan teknik Feynman untuk meningkatkan keterampilan berbicara mahasiswa.
 
 ### 7. Model Pengembangan ASSURE
 
@@ -322,7 +322,7 @@ Model ASSURE digunakan sebagai kerangka pengembangan produk karena model ini sec
 
 Tahapan ASSURE terdiri atas *Analyze Learners, State Objectives, Select Methods, Media, and Materials, Utilize Media and Materials, Require Learner Participation,* serta *Evaluate and Revise*. Keenam tahap tersebut menjadi dasar prosedur pengembangan pada Bab III dan dasar penyajian hasil pengembangan pada Bab IV. Dengan demikian, ASSURE tidak hanya menjadi teori desain, tetapi juga menjadi alur kerja metodologis dalam penelitian ini.
 
-### 8. Mixed Methods Sequential Explanatory
+### 8. *Mixed Methods* *Sequential Explanatory*
 
 Desain *mixed methods sequential explanatory* digunakan untuk menggabungkan bukti kuantitatif dan penjelasan kualitatif secara berurutan. Pada tahap awal, data kuantitatif digunakan untuk membaca kelayakan, respons pengguna, dan efektivitas media melalui skor validasi, angket, dan tes. Setelah itu, data kualitatif dari wawancara, observasi, catatan validator, dan artefak belajar digunakan untuk menjelaskan mengapa hasil kuantitatif tertentu muncul serta bagaimana mahasiswa mengalami proses pembelajaran melalui media.
 
@@ -330,67 +330,67 @@ Dalam penelitian pengembangan produk, desain ini penting karena keberhasilan med
 
 ### 9. Kuasi-Eksperimen dalam Uji Efektivitas Produk
 
-Uji efektivitas produk dilakukan melalui desain kuasi-eksperimen karena penelitian berlangsung dalam konteks kelas yang sudah terbentuk. Dalam situasi seperti ini, pengacakan individu ke kelompok eksperimen dan kontrol tidak selalu memungkinkan secara administratif maupun pedagogis. Oleh sebab itu, pembandingan dilakukan pada kelas yang relatif sebanding dengan menggunakan desain *pretest-posttest control group*.
+Uji efektivitas produk dilakukan melalui desain kuasi-eksperimen karena penelitian berlangsung dalam konteks kelas yang sudah terbentuk. Dalam situasi seperti ini, pengacakan individu ke kelompok eksperimen dan kontrol tidak selalu memungkinkan secara administratif maupun pedagogis. Oleh sebab itu, pembandingan dilakukan pada kelas yang relatif sebanding dengan menggunakan desain *pretest-*posttest* control group*.
 
 Desain kuasi-eksperimen memungkinkan peneliti membandingkan perubahan skor sebelum dan sesudah perlakuan pada kelompok eksperimen dan kelompok kontrol. Dalam penelitian ini, desain tersebut digunakan untuk menguji apakah penggunaan media web *microlearning* berbasis teknik Feynman memberikan peningkatan yang bermakna terhadap kemampuan metakognitif dan keterampilan berbicara mahasiswa.
 
 ## B. Penelitian yang Relevan
 
-Penelitian yang relevan dipaparkan pada bagian ini untuk memberikan perspektif baru, memperkuat dasar argumen, serta mendukung kesimpulan penelitian. Dengan menelaah berbagai studi sebelumnya terkait microlearning, teknik Feynman, metakognitif, serta keterampilan berbicara dalam pembelajaran bahasa, peneliti berupaya menunjukkan keterhubungan antar konsep, mengidentifikasi celah penelitian yang dapat dieksplorasi lebih lanjut, serta membuktikan kembali hasil temuan terdahulu.
+Penelitian yang relevan dipaparkan pada bagian ini untuk memberikan perspektif baru, memperkuat dasar argumen, serta mendukung kesimpulan penelitian. Dengan menelaah berbagai studi sebelumnya terkait *microlearning*, teknik Feynman, metakognitif, serta keterampilan berbicara dalam pembelajaran bahasa, peneliti berupaya menunjukkan keterhubungan antar konsep, mengidentifikasi celah penelitian yang dapat dieksplorasi lebih lanjut, serta membuktikan kembali hasil temuan terdahulu.
 
-Data literatur diperoleh dari database Google Scholar dan Scopus dengan rentang tahun 2015-2025 menggunakan kata kunci pencarian "microlearning", "Feynman technique", "metacognitive skills", "speaking skills" dan "Indonesian language education". Berdasarkan pencarian tersebut, diperoleh sebanyak 800 dokumen relevan. Data kemudian diekstraksi dan dianalisis menggunakan perangkat lunak VOSviewer untuk memetakan hubungan tematik antar penelitian.
+Data literatur diperoleh dari database Google Scholar dan Scopus dengan rentang tahun 2015-2025 menggunakan kata kunci pencarian "*microlearning*", "Feynman technique", "metacognitive skills", "speaking skills" dan "Indonesian language education". Berdasarkan pencarian tersebut, diperoleh sebanyak 800 dokumen relevan. Data kemudian diekstraksi dan dianalisis menggunakan perangkat lunak VOSviewer untuk memetakan hubungan tematik antar penelitian.
 
 Berdasarkan hasil pemetaan tersebut, diperoleh tiga bentuk visualisasi, yaitu:
 
 **Gambar 2.1 Visualisasi Network**
 
-Visualisasi bibliometrik ini di atas merupakan hasil analisis terhadap 800 dokumen dari Google Scholar dan Scopus (2015-2025), menggunakan kata kunci seperti "microlearning", "Feynman technique", "metacognitive skills", "speaking skills" dan "Indonesian language education". Analisis dilakukan dengan VOSviewer dan menghasilkan enam klaster tematik utama yang saling terhubung:
+Visualisasi bibliometrik ini di atas merupakan hasil analisis terhadap 800 dokumen dari Google Scholar dan Scopus (2015-2025), menggunakan kata kunci seperti "*microlearning*", "Feynman technique", "metacognitive skills", "speaking skills" dan "Indonesian language education". Analisis dilakukan dengan VOSviewer dan menghasilkan enam klaster tematik utama yang saling terhubung:
 
-a. **Microlearning (biru tua)** - Klaster ini merupakan pusat dari jaringan, menandakan bahwa topik microlearning menjadi benang merah dominan dalam berbagai studi. Kata kunci seperti education, implementation dan higher education memperkuat posisi microlearning sebagai pendekatan strategis dalam pembelajaran digital dan berbasis teknologi.
+a. **Microlearning (biru tua)** - Klaster ini merupakan pusat dari jaringan, menandakan bahwa topik *microlearning* menjadi benang merah dominan dalam berbagai studi. Kata kunci seperti education, implementation dan higher education memperkuat posisi *microlearning* sebagai pendekatan strategis dalam pembelajaran digital dan berbasis teknologi.
 
-b. **Web (ungu)** - Terhubung erat dengan microlearning, klaster ini menampilkan kata kunci seperti web application, design dan e-learning, yang menunjukkan bahwa medium teknologi memainkan peran krusial dalam pengembangan strategi microlearning.
+b. **Web (ungu)** - Terhubung erat dengan *microlearning*, klaster ini menampilkan kata kunci seperti web application, design dan e-learning, yang menunjukkan bahwa medium teknologi memainkan peran krusial dalam pengembangan strategi *microlearning*.
 
-c. **Metacognitive Development (merah)** - Klaster ini menonjolkan aspek regulasi diri dan refleksi melalui kata kunci seperti metacognitive judgment, experience, reflection dan self-efficacy. Meski penting, klaster ini cenderung terpisah dari pusat (microlearning), menunjukkan bahwa aspek metakognitif masih belum sepenuhnya terintegrasi dalam pendekatan microlearning berbasis teknologi.
+c. **Metacognitive Development (merah)** - Klaster ini menonjolkan aspek regulasi diri dan refleksi melalui kata kunci seperti metacognitive judgment, experience, reflection dan self-efficacy. Meski penting, klaster ini cenderung terpisah dari pusat (*microlearning*), menunjukkan bahwa aspek metakognitif masih belum sepenuhnya terintegrasi dalam pendekatan *microlearning* berbasis teknologi.
 
-d. **Language Learning (hijau)** - Terdiri dari kata kunci seperti English language, Arabic dan EFL learner, klaster ini menyoroti konteks pembelajaran bahasa yang menggunakan pendekatan microlearning, meskipun konektivitasnya ke klaster utama masih relatif lemah.
+d. **Language Learning (hijau)** - Terdiri dari kata kunci seperti English language, Arabic dan EFL learner, klaster ini menyoroti konteks pembelajaran bahasa yang menggunakan pendekatan *microlearning*, meskipun konektivitasnya ke klaster utama masih relatif lemah.
 
 e. **Speaking Skills & Metacognitive Skills in Education (oranye)** - Klaster ini berisi topik seperti university student, anxiety dan digital storytelling, memperlihatkan irisan antara kemampuan berbicara dan aspek afektif serta metakognitif dalam lingkungan pendidikan tinggi.
 
-f. **Education & Implementation (biru muda)** - Klaster pendukung yang memperlihatkan keterkaitan antara konsep strategis microlearning dengan proses implementasinya dalam berbagai konteks pendidikan.
+f. **Education & Implementation (biru muda)** - Klaster pendukung yang memperlihatkan keterkaitan antara konsep strategis *microlearning* dengan proses implementasinya dalam berbagai konteks pendidikan.
 
 Untuk memperkuat pemetaan tematik tersebut sekaligus memberikan dasar argumentasi, berikut adalah penelitian-penelitian sebelumnya yang berkaitan. Kajian ini bertujuan untuk memberikan perspektif baru, mengidentifikasi celah yang masih terbuka, serta mendukung temuan yang telah dihasilkan dari analisis bibliometrik di atas.
 
-Pertama, penelitian yang dilakukan oleh Mingyan et al. (2025) menunjukkan bagaimana penggunaan aplikasi mobile berbasis kecerdasan buatan (AI), yakni Liulishuo, dapat meningkatkan keterampilan berbicara mahasiswa EFL di Tiongkok. Menggunakan desain kuasi-eksperimental selama 10 minggu, kelompok eksperimen diberikan akses terhadap aplikasi Liulishuo, sedangkan kelompok kontrol hanya menggunakan WeChat. Hasil menunjukkan bahwa kelompok eksperimen mengalami peningkatan signifikan dalam kelancaran berbicara dan pelafalan. Namun, aspek kosa kata dan tata bahasa belum menunjukkan perbedaan signifikan secara statistik. Penelitian ini memberikan kontribusi penting bahwa penggunaan teknologi berbasis AI yang menyajikan latihan berbicara interaktif dan umpan balik otomatis dapat memfasilitasi keterampilan berbicara mahasiswa dalam konteks pembelajaran bahasa asing.
+Pertama, penelitian yang dilakukan oleh Mingyan et al. (2025) menunjukkan bagaimana penggunaan aplikasi *mobile* berbasis kecerdasan buatan (AI), yakni Liulishuo, dapat meningkatkan keterampilan berbicara mahasiswa EFL di Tiongkok. Menggunakan desain kuasi-eksperimental selama 10 minggu, kelompok eksperimen diberikan akses terhadap aplikasi Liulishuo, sedangkan kelompok kontrol hanya menggunakan WeChat. Hasil menunjukkan bahwa kelompok eksperimen mengalami peningkatan signifikan dalam kelancaran berbicara dan pelafalan. Namun, aspek kosa kata dan tata bahasa belum menunjukkan perbedaan signifikan secara statistik. Penelitian ini memberikan kontribusi penting bahwa penggunaan teknologi berbasis AI yang menyajikan latihan berbicara interaktif dan umpan balik otomatis dapat memfasilitasi keterampilan berbicara mahasiswa dalam konteks pembelajaran bahasa asing.
 
-Sementara itu, Li (2024) melakukan studi meta-analisis terhadap 20 penelitian kuasi-eksperimental dan eksperimental yang menggunakan pendekatan Mobile-Assisted Language Learning (MALL). Penelitian ini menunjukkan bahwa pendekatan MALL secara signifikan meningkatkan keterampilan berbicara mahasiswa, terutama bila dilakukan dalam jangka waktu panjang dan menggunakan strategi interaktif seperti pembelajaran berbasis gim atau metode pembelajaran terbalik (flipped learning). Penelitian ini juga menyebutkan bahwa strategi pembelajaran yang bersifat pasif atau hanya berbasis tugas (task-based) cenderung kurang efektif. Hasil temuan ini menegaskan bahwa desain pembelajaran digital perlu mempertimbangkan elemen interaktivitas dan motivasi pembelajar sebagai faktor penting dalam keberhasilan peningkatan keterampilan berbicara (Li, 2024).
+Sementara itu, Li (2024) melakukan studi meta-analisis terhadap 20 penelitian kuasi-eksperimental dan eksperimental yang menggunakan pendekatan *Mobile*-Assisted Language Learning (MALL). Penelitian ini menunjukkan bahwa pendekatan MALL secara signifikan meningkatkan keterampilan berbicara mahasiswa, terutama bila dilakukan dalam jangka waktu panjang dan menggunakan strategi interaktif seperti pembelajaran berbasis gim atau metode pembelajaran terbalik (flipped learning). Penelitian ini juga menyebutkan bahwa strategi pembelajaran yang bersifat pasif atau hanya berbasis tugas (task-based) cenderung kurang efektif. Hasil temuan ini menegaskan bahwa desain pembelajaran digital perlu mempertimbangkan elemen interaktivitas dan motivasi pembelajar sebagai faktor penting dalam keberhasilan peningkatan keterampilan berbicara (Li, 2024).
 
-Li (2024) juga meneliti efek teknologi MALL terhadap performa berbicara dalam konteks pembelajaran bahasa Inggris sebagai bahasa asing (EFL). Melalui analisis terhadap 932 partisipan dari berbagai studi, ditemukan bahwa faktor-faktor seperti durasi intervensi dan pendekatan instruksional memiliki pengaruh terhadap efektivitas MALL. Penelitian ini secara eksplisit menunjukkan bahwa pembelajaran berbasis teknologi yang dilakukan secara sistematis mampu menurunkan kecemasan bicara (speaking anxiety) dan meningkatkan kepercayaan diri pembelajar. Namun demikian, peneliti juga mencatat tantangan dalam mempertahankan motivasi serta kemungkinan distraksi digital sebagai hal yang perlu diantisipasi dalam desain pembelajaran berbasis mobile.
+Li (2024) juga meneliti efek teknologi MALL terhadap performa berbicara dalam konteks pembelajaran bahasa Inggris sebagai bahasa asing (EFL). Melalui analisis terhadap 932 partisipan dari berbagai studi, ditemukan bahwa faktor-faktor seperti durasi intervensi dan pendekatan instruksional memiliki pengaruh terhadap efektivitas MALL. Penelitian ini secara eksplisit menunjukkan bahwa pembelajaran berbasis teknologi yang dilakukan secara sistematis mampu menurunkan kecemasan bicara (speaking anxiety) dan meningkatkan kepercayaan diri pembelajar. Namun demikian, peneliti juga mencatat tantangan dalam mempertahankan motivasi serta kemungkinan distraksi digital sebagai hal yang perlu diantisipasi dalam desain pembelajaran berbasis *mobile*.
 
 Selain pengembangan, adapun kajian terkait pemanfaatan media oleh Habibi et al. (2022) yang mengkaji efektivitas penggunaan media boneka tangan dalam meningkatkan keterampilan berbicara anak di jenjang usia dini. Penelitian tindakan kelas ini menunjukkan peningkatan hasil belajar dari rata-rata 61,9% menjadi 85,9% setelah intervensi. Meskipun konteks dan jenjang pendidikan berbeda, temuan ini menekankan bahwa media pembelajaran yang dirancang untuk menarik atensi dan mendorong interaksi verbal mampu memberikan hasil yang signifikan terhadap keterampilan berbicara. Namun, pendekatan yang digunakan masih berbasis media konvensional dan belum mengintegrasikan unsur digital atau strategi berpikir tingkat tinggi seperti metakognitif.
 
-Berbeda dari penelitian-penelitian sebelumnya, disertasi ini mengusulkan pendekatan baru berupa pengembangan media pembelajaran berbasis web microlearning course yang secara khusus dirancang untuk meningkatkan keterampilan berbicara dan kemampuan metakognitif mahasiswa calon guru bahasa Indonesia. Tidak hanya menggunakan teknologi digital sebagai media, penelitian ini juga mengintegrasikan teknik Feynman, strategi belajar yang menekankan pada kemampuan menjelaskan ulang materi dengan bahasa sendiri sebagai indikator pemahaman yang mendalam. Dengan menggabungkan microlearning yang berbasis prinsip-prinsip personalization, segmentation dan scaffolding kognitif dari teori Cognitive Theory of Multimedia Learning (CTML) (Mayer, 2009), serta strategi berpikir reflektif melalui teknik Feynman, penelitian ini tidak hanya menawarkan inovasi dari sisi produk, tetapi juga dari pendekatan kognitif dan pedagogis yang belum banyak dieksplorasi dalam studi-studi sebelumnya.
+Berbeda dari penelitian-penelitian sebelumnya, disertasi ini mengusulkan pendekatan baru berupa pengembangan media pembelajaran berbasis web *microlearning* course yang secara khusus dirancang untuk meningkatkan keterampilan berbicara dan kemampuan metakognitif mahasiswa calon guru bahasa Indonesia. Tidak hanya menggunakan teknologi digital sebagai media, penelitian ini juga mengintegrasikan teknik Feynman, strategi belajar yang menekankan pada kemampuan menjelaskan ulang materi dengan bahasa sendiri sebagai indikator pemahaman yang mendalam. Dengan menggabungkan *microlearning* yang berbasis prinsip-prinsip personalization, segmentation dan scaffolding kognitif dari teori Cognitive Theory of Multimedia Learning (CTML) (Mayer, 2009), serta strategi berpikir reflektif melalui teknik Feynman, penelitian ini tidak hanya menawarkan inovasi dari sisi produk, tetapi juga dari pendekatan kognitif dan pedagogis yang belum banyak dieksplorasi dalam studi-studi sebelumnya.
 
 Pada Cognitive Theory of Multimedia Learning (CTML) ada beberapa temuan yang menguatkan pentingnya pengintegrasian media pembelajaran digital dengan metakognitif. Beberapa di antaranya adalah Baddeley's Working Memory Model (2008), Paivio's Dual Coding Theory Clark dan Paivio (1991) dan Sweller's Cognitive Load Theory (Low dan Sweller, 2014). Secara keseluruhan teori-teori tersebut mempercayai bahwa kombinasi informasi visual dan verbal dalam pembelajaran multimedia meningkatkan efektivitas belajar dengan cara yang saling melengkapi.
 
 Baddeley's model menjelaskan bahwa memori kerja manusia memiliki dua subsistem utama, yaitu phonological loop untuk informasi verbal dan visuospatial sketchpad untuk informasi visual, sehingga memanfaatkan kedua subsistem ini dapat mengurangi beban kerja memori dan meningkatkan kapasitas belajar (Gerjets et al., 2007; Rummer dan Schweppe, 2019). Paivio's Dual Coding Theory menegaskan bahwa otak manusia memproses dan menyimpan informasi dalam dua sistem memori semantik yang terpisah, untuk gambar dan kata-kata, sehingga integrasi kedua saluran penerimaan ini memperkuat representasi mental dan efektivitas pembelajaran (Lin et al., 2016). Selanjutnya, Sweller's Cognitive Load Theory menekankan pentingnya desain instruksional yang menyinkronkan elemen visual dan verbal untuk meminimalkan beban kognitif yang tidak relevan (extraneous load) dan memaksimalkan beban kognitif yang relevan (germane load), guna mendukung proses pembelajaran yang optimal (Mayer dan Moreno, 2016).
 
-Hasil penelitian-penelitian ini menunjukkan relevansi dan keunggulan dari pendekatan berbasis teknologi, metakognitif, microlearning dan teknik Feynman dalam meningkatkan keterampilan berbicara mahasiswa. Berdasarkan hasil kajian literatur dan analisis visualisasi dengan VOSviewer tersebut, ditemukan bahwa:
+Hasil penelitian-penelitian ini menunjukkan relevansi dan keunggulan dari pendekatan berbasis teknologi, metakognitif, *microlearning* dan teknik Feynman dalam meningkatkan keterampilan berbicara mahasiswa. Berdasarkan hasil kajian literatur dan analisis visualisasi dengan VOSviewer tersebut, ditemukan bahwa:
 
-1. Belum banyak penelitian yang secara eksplisit mengembangkan media pembelajaran berbasis web microlearning untuk meningkatkan keterampilan berbicara mahasiswa.
+1. Belum banyak penelitian yang secara eksplisit mengembangkan media pembelajaran berbasis web *microlearning* untuk meningkatkan keterampilan berbicara mahasiswa.
 
 2. Integrasi Teknik Feynman sebagai metode refleksi metakognitif dalam pembelajaran keterampilan berbicara mahasiswa pendidikan Bahasa Indonesia masih sangat minim dieksplorasi.
 
-3. Penelitian ini juga menggabungkan prinsip-prinsip Cognitive Theory of Multimedia Learning (CTML) dengan desain berbasis teknologi web, menggabungkan personalization, segmentation dan scaffolding kognitif untuk memfasilitasi pembelajaran mandiri berbasis microlearning.
+3. Penelitian ini juga menggabungkan prinsip-prinsip Cognitive Theory of Multimedia Learning (CTML) dengan desain berbasis teknologi web, menggabungkan personalization, segmentation dan scaffolding kognitif untuk memfasilitasi pembelajaran mandiri berbasis *microlearning*.
 
 Dengan demikian, penelitian ini menawarkan kebaruan dari sisi pendekatan, produk pengembangan dan integrasi prinsip pembelajaran berbasis kognitif.
 
 ## C. Kerangka Berpikir / Kerangka Teori
 
-Kerangka berpikir penelitian ini menempatkan kemampuan metakognitif sebagai mediator antara penggunaan media pembelajaran dan peningkatan keterampilan berbicara. Keterampilan berbicara mahasiswa dalam konteks akademik memerlukan lebih dari sekadar kemampuan menyampaikan kata-kata secara lisan. Mahasiswa perlu mampu mengorganisasi gagasan, menyesuaikan penyampaian dengan audiens, memantau performa saat berbicara, dan mengevaluasi hasil komunikasinya. Pada saat yang sama, mereka juga perlu memiliki kemampuan metakognitif agar dapat mengontrol proses berpikir dan belajar secara sadar.
+Kerangka berpikir penelitian ini menempatkan kemampuan metakognitif sebagai konstruk proses yang menjembatani antara penggunaan media pembelajaran dan peningkatan keterampilan berbicara. Keterampilan berbicara mahasiswa dalam konteks akademik memerlukan lebih dari sekadar kemampuan menyampaikan kata-kata secara lisan. Mahasiswa perlu mampu mengorganisasi gagasan, menyesuaikan penyampaian dengan audiens, memantau performa saat berbicara, dan mengevaluasi hasil komunikasinya. Pada saat yang sama, mereka juga perlu memiliki kemampuan metakognitif agar dapat mengontrol proses berpikir dan belajar secara sadar.
 
-Hubungan antara media pembelajaran berbasis web microlearning dengan keterampilan berbicara mahasiswa terletak pada fleksibilitas penyajian materi dan potensi interaktivitas yang disesuaikan dengan gaya belajar mahasiswa. Media ini tidak hanya menyajikan konten secara bertahap dan terfokus, tetapi juga memungkinkan penyisipan elemen multimodal (teks, audio, video) yang dirancang sesuai dengan affordances-nya. Hal ini mendukung pengembangan proses kognitif seperti konseptualisasi dan formulasi, serta memungkinkan mahasiswa untuk melakukan evaluasi diri dan refleksi terhadap performa berbicara mahasiswa. Dalam konteks blended learning, media microlearning juga memperluas ruang belajar ke luar kelas dan mendukung model pembelajaran fleksibel.
+Hubungan antara media pembelajaran berbasis web *microlearning* dengan keterampilan berbicara mahasiswa terletak pada fleksibilitas penyajian materi dan potensi interaktivitas yang disesuaikan dengan gaya belajar mahasiswa. Media ini tidak hanya menyajikan konten secara bertahap dan terfokus, tetapi juga memungkinkan penyisipan elemen multimodal (teks, audio, video) yang dirancang sesuai dengan affordances-nya. Hal ini mendukung pengembangan proses kognitif seperti konseptualisasi dan formulasi, serta memungkinkan mahasiswa untuk melakukan evaluasi diri dan refleksi terhadap performa berbicara mahasiswa. Dalam konteks blended learning, media *microlearning* juga memperluas ruang belajar ke luar kelas dan mendukung model pembelajaran fleksibel.
 
-Teknik Feynman memiliki relevansi langsung dengan pengembangan keterampilan berbicara karena mendorong mahasiswa memahami konsep, menyederhanakannya, lalu menjelaskan ulang dengan bahasa sendiri. Dalam proses itu, mahasiswa tidak hanya belajar isi materi, tetapi juga belajar membangun gagasan, memilih cara penyampaian, menyampaikan penjelasan, memantau kejelasannya, dan merefleksikan hasilnya. Itulah sebabnya teknik ini selaras dengan pengembangan dimensi *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*.
+Teknik Feynman memiliki relevansi langsung dengan pengembangan keterampilan berbicara karena mendorong mahasiswa memahami konsep, menyederhanakannya, lalu menjelaskan ulang dengan bahasa sendiri. Dalam proses itu, mahasiswa tidak hanya belajar isi materi, tetapi juga belajar membangun gagasan, memilih cara penyampaian, menyampaikan penjelasan, memantau kejelasannya, dan merefleksikan hasilnya. Itulah sebabnya teknik ini selaras dengan pengembangan dimensi *conceptualisation, *formulation*, *articulation*, *self-monitoring*,* dan *self-evaluation*.
 
 Keterampilan berbicara yang efektif bukan hanya hasil dari penguasaan linguistik dan teknik penyampaian, tetapi juga dari kesadaran diri terhadap proses berpikir yang menyertainya. Oleh karena itu, penggabungan antara media *microlearning*, pendekatan Feynman, dan penguatan dimensi metakognitif menghasilkan sinergi pedagogis yang saling melengkapi. *Microlearning* menyediakan struktur belajar modular dan responsif, teknik Feynman memperkuat elaborasi dan produksi linguistik, sementara pendekatan metakognitif membantu mahasiswa mengelola proses berbicara secara sadar dan reflektif. Kombinasi ketiganya diprediksi mampu meningkatkan keterampilan berbicara secara lebih utuh dan berkelanjutan.
 
@@ -408,18 +408,18 @@ Secara keseluruhan, alur berpikir penelitian ini dapat dijelaskan sebagai beriku
 ```
 Karakteristik Mahasiswa
         ↓
-Web Microlearning Berbasis Teknik Feynman
+Web *Microlearning* Berbasis Teknik Feynman
         ↓
 Kemampuan Metakognitif dalam Keterampilan Berbicara
-(Conceptualisation, Formulation, Articulation,
-Self-monitoring, Self-evaluation)
+(*Conceptualisation*, *Formulation*, *Articulation*,
+*Self-monitoring*, *Self-evaluation*)
         ↓
 Keterampilan Berbicara
         ↓
 Peningkatan Performa Berbicara
 ```
 
-Metakognitif ditempatkan sebagai mediator dalam model ini.
+Metakognitif ditempatkan sebagai variabel proses dalam model ini.
 
 ## D. Hipotesis Penelitian / Hipotesis Efektivitas
 
@@ -444,11 +444,11 @@ Keterampilan Berbicara adalah kemampuan individu untuk menyampaikan ide, gagasan
 
 | Dimensi | Aspek | Deskripsi | Indikator Penilaian |
 |---|---|---|---|
-| Kognitif-Metakognitif (Goh dan Liu, 2023) | Conceptualisation | Perencanaan ide dan tujuan komunikasi | Menentukan tujuan komunikasi yang jelas; Memilih topik dan subtopik yang relevan; Merencanakan struktur pembicaraan |
-| Kognitif-Metakognitif (Goh dan Liu, 2023) | Formulation | Perumusan bahasa dan strategi penyampaian | Memilih kosakata yang tepat dan variatif; Menyusun kalimat yang gramatikal; Menentukan strategi retorika yang sesuai |
-| Kognitif-Metakognitif (Goh dan Liu, 2023) | Articulation | Pengucapan dan penyampaian aktual | Artikulasi yang jelas dan mudah dipahami; Intonasi yang bervariasi dan ekspresif; Kecepatan bicara yang tepat |
-| Kognitif-Metakognitif (Goh dan Liu, 2023) | Self-monitoring | Pemantauan diri selama berbicara | Kesadaran terhadap kejelasan penyampaian; Memantau respons audiens; Melakukan perbaikan saat berbicara |
-| Kognitif-Metakognitif (Goh dan Liu, 2023) | Self-evaluation | Evaluasi diri pasca berbicara | Menilai pencapaian tujuan komunikasi; Mengidentifikasi kekuatan dan kelemahan; Merencanakan perbaikan untuk masa depan |
+| Kognitif-Metakognitif (Goh dan Liu, 2023) | *Conceptualisation* | Perencanaan ide dan tujuan komunikasi | Menentukan tujuan komunikasi yang jelas; Memilih topik dan subtopik yang relevan; Merencanakan struktur pembicaraan |
+| Kognitif-Metakognitif (Goh dan Liu, 2023) | *Formulation* | Perumusan bahasa dan strategi penyampaian | Memilih kosakata yang tepat dan variatif; Menyusun kalimat yang gramatikal; Menentukan strategi retorika yang sesuai |
+| Kognitif-Metakognitif (Goh dan Liu, 2023) | *Articulation* | Pengucapan dan penyampaian aktual | Artikulasi yang jelas dan mudah dipahami; Intonasi yang bervariasi dan ekspresif; Kecepatan bicara yang tepat |
+| Kognitif-Metakognitif (Goh dan Liu, 2023) | *Self-monitoring* | Pemantauan diri selama berbicara | Kesadaran terhadap kejelasan penyampaian; Memantau respons audiens; Melakukan perbaikan saat berbicara |
+| Kognitif-Metakognitif (Goh dan Liu, 2023) | *Self-evaluation* | Evaluasi diri pasca berbicara | Menilai pencapaian tujuan komunikasi; Mengidentifikasi kekuatan dan kelemahan; Merencanakan perbaikan untuk masa depan |
 | Performatif (Lucas dan Stob, 2020) | Pengorganisasian ide secara logis | Penyusunan ide yang sistematis dan runtut | Urutan penyampaian yang logis; Transisi antar ide yang jelas; Kesimpulan yang koheren |
 | Performatif (Lucas dan Stob, 2020) | Penyesuaian pesan untuk audiens | Adaptasi komunikasi sesuai karakteristik pendengar | Penggunaan bahasa sesuai tingkat audiens; Pemilihan contoh yang relevan; Penyesuaian tingkat formalitas |
 | Performatif (Lucas dan Stob, 2020) | Penyampaian yang berdampak | Komunikasi yang berpengaruh dan memorable | Penggunaan teknik persuasi yang efektif; Penyampaian yang menarik perhatian; Pesan yang menginspirasi atau memotivasi |
@@ -489,7 +489,7 @@ Dengan pertimbangan tersebut, kemampuan metakognitif mahasiswa dalam konteks ket
 
 Media Pembelajaran Berbasis Web didefinisikan sebagai media pembelajaran yang memanfaatkan platform berbasis internet, seperti situs web atau aplikasi daring, untuk menyediakan media interaktif yang mendukung pengembangan keterampilan berbicara mahasiswa secara fleksibel, mandiri dan adaptif. Media pembelajaran ini dirancang untuk menampilkan berbagai elemen, seperti teks, audio, video dan modul digital yang memungkinkan mahasiswa untuk mengakses, mempelajari dan merefleksikan materi secara terstruktur kapan saja dan di mana saja.
 
-Untuk memastikan bahwa media pembelajaran berbasis web yang dikembangkan layak digunakan dalam proses pembelajaran, dilakukan proses validasi kelayakan produk melalui penilaian ahli materi dan ahli media. Validasi materi difokuskan pada kesesuaian isi, rancangan microlearning, integrasi teknik Feynman, dukungan terhadap kemampuan metakognitif, relevansi terhadap keterampilan berbicara, serta aspek motivasi dan kebahasaan umum. Sementara itu, validasi media difokuskan pada bentuk media, kualitas teknis, fungsi pembelajaran, dan kesesuaian implementasi prinsip microlearning.
+Untuk memastikan bahwa media pembelajaran berbasis web yang dikembangkan layak digunakan dalam proses pembelajaran, dilakukan proses validasi kelayakan produk melalui penilaian ahli materi dan ahli media. Validasi materi difokuskan pada kesesuaian isi, rancangan *microlearning*, integrasi teknik Feynman, dukungan terhadap kemampuan metakognitif, relevansi terhadap keterampilan berbicara, serta aspek motivasi dan kebahasaan umum. Sementara itu, validasi media difokuskan pada bentuk media, kualitas teknis, fungsi pembelajaran, dan kesesuaian implementasi prinsip *microlearning*.
 
 Selain itu, evaluasi media pembelajaran juga mempertimbangkan prinsip-prinsip desain dari Computer-Assisted Language Learning (CALL) atau pembelajaran bahasa berbasis komputer, seperti yang dikemukakan oleh Jamieson et al. (2004) dengan tiga elemen utama:
 
@@ -514,21 +514,21 @@ Setiap aspek penilaian tersebut dirumuskan ke dalam indikator-indikator yang dik
 | No | Aspek yang Dinilai | Indikator Pokok | Penilai |
 |---|---|---|---|
 | 1 | Kelayakan Isi Materi | Kesesuaian materi dengan kompetensi keterampilan berbicara; keakuratan konsep dan teori; kedalaman dan kelengkapan materi; kesesuaian dengan kurikulum; relevansi dengan kebutuhan mahasiswa; keaktualan materi | Ahli materi |
-| 2 | Desain Pembelajaran Microlearning | Segmentasi materi dalam format *bite-sized*; sistematika penyajian runtut; kemudahan dipahami; durasi modul tepat; keterpaduan antarmodul; fleksibilitas akses belajar mandiri | Ahli materi |
+| 2 | Desain Pembelajaran *Microlearning* | Segmentasi materi dalam format *bite-sized*; sistematika penyajian runtut; kemudahan dipahami; durasi modul tepat; keterpaduan antarmodul; fleksibilitas akses belajar mandiri | Ahli materi |
 | 3 | Kesesuaian dengan Teknik Feynman | Kesesuaian dengan prinsip teknik Feynman; dukungan terhadap penjelasan dengan bahasa sederhana; tersedianya contoh dan latihan; kesesuaian dengan filosofi *learning by teaching*; dukungan identifikasi kesenjangan pemahaman | Ahli materi |
-| 4 | Pengembangan Kemampuan Metakognitif | Dukungan terhadap *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*; panduan refleksi dan *self-assessment*; aktivitas yang mendorong kesadaran metakognitif | Ahli materi |
+| 4 | Pengembangan Kemampuan Metakognitif | Dukungan terhadap *conceptualisation, *formulation*, *articulation*, *self-monitoring*,* dan *self-evaluation*; panduan refleksi dan *self-assessment*; aktivitas yang mendorong kesadaran metakognitif | Ahli materi |
 | 5 | Keterampilan Berbicara | Kesesuaian dengan pengorganisasian ide; pengembangan kejelasan penyampaian; ketepatan bahasa; strategi komunikasi; tersedianya contoh dan model berbicara yang baik | Ahli materi |
 | 6 | Aspek Motivasi dan Kebahasaan Umum | Kemampuan materi memotivasi mahasiswa; daya tarik dan *engagement*; kontekstualitas materi dengan kehidupan mahasiswa | Ahli materi |
 | 7 | Bentuk Media | Desain antarmuka menarik dan profesional; navigasi sederhana; tata letak konsisten; tipografi mudah dibaca | Ahli media |
 | 8 | Kualitas Media | Stabilitas media saat digunakan; kemudahan penggunaan; relevansi konten dengan tujuan pembelajaran keterampilan berbicara | Ahli media |
 | 9 | Fungsi Media | Dukungan terhadap pembelajaran aktif dan mandiri; percepatan pemahaman konsep; peningkatan keterampilan berbicara melalui praktik; integrasi teknik Feynman | Ahli media |
-| 10 | Aspek Microlearning | Segmentasi konten; durasi pembelajaran; aksesibilitas lintas perangkat; interaktivitas yang mendukung keterlibatan | Ahli media |
+| 10 | Aspek *Microlearning* | Segmentasi konten; durasi pembelajaran; aksesibilitas lintas perangkat; interaktivitas yang mendukung keterlibatan | Ahli media |
 
-#### 4. Microlearning
+#### 4. *Microlearning*
 
-Microlearning didefinisikan sebagai metode pembelajaran berbasis web yang dirancang untuk menyampaikan materi dalam potongan kecil (bite-sized) yang fokus, terarah dan mudah dipahami. Pendekatan ini mendukung fleksibilitas belajar, memungkinkan mahasiswa untuk mengakses konten kapan saja dan di mana saja melalui perangkat digital. Dengan memanfaatkan elemen multimedia dan integrasi konsep makro, meso dan mikro, microlearning mendukung personalisasi pembelajaran, memfasilitasi refleksi mandiri dan membantu mahasiswa Pendidikan Bahasa Indonesia dalam meningkatkan keterampilan berbicara secara efektif dan efisien.
+*Microlearning* didefinisikan sebagai metode pembelajaran berbasis web yang dirancang untuk menyampaikan materi dalam potongan kecil (*bite-sized*) yang fokus, terarah dan mudah dipahami. Pendekatan ini mendukung fleksibilitas belajar, memungkinkan mahasiswa untuk mengakses konten kapan saja dan di mana saja melalui perangkat digital. Dengan memanfaatkan elemen multimedia dan integrasi konsep makro, meso dan mikro, *microlearning* mendukung personalisasi pembelajaran, memfasilitasi refleksi mandiri dan membantu mahasiswa Pendidikan Bahasa dan Sastra Indonesia dalam meningkatkan keterampilan berbicara secara efektif dan efisien.
 
-Aspek microlearning yang dikembangkan pada media pembelajaran berbasis web ini mengacu pada prinsip-prinsip pedagogis dan teknologis yang mendukung keterampilan berbicara. Acuan tersebut secara rinci adalah sebagai berikut:
+Aspek *microlearning* yang dikembangkan pada media pembelajaran berbasis web ini mengacu pada prinsip-prinsip pedagogis dan teknologis yang mendukung keterampilan berbicara. Acuan tersebut secara rinci adalah sebagai berikut:
 
 a) **Struktur Konten**: Materi disajikan dalam unit kecil dan fokus, dengan satu tujuan belajar per segmen.
 
@@ -566,4 +566,4 @@ Untuk memastikan bahwa penerapan teknik Feynman dalam media yang akan dikembangk
 
 CTML dalam penelitian ini diacu sebagai teori yang menjelaskan bagaimana seorang pembelajar dapat lebih efektif mempelajari sesuatu melalui kombinasi elemen visual dan verbal dibandingkan hanya menggunakan satu jenis elemen saja. CTML beroperasi berdasarkan tiga prinsip utama: (1) adanya dua saluran pemrosesan informasi (visual dan verbal), (2) kapasitas terbatas dari memori kerja dan (3) pentingnya proses aktif untuk memilih, mengorganisasi, serta mengintegrasikan informasi.
 
-Dalam konteks pengukurannya di penelitian ini, implementasi CTML dievaluasi dengan melihat efektivitas pembelajaran multimedia yang dirancang sesuai prinsip-prinsip ini, seperti peningkatan skor retensi informasi, kemampuan transfer pengetahuan, atau pengurangan beban kognitif pada mahasiswa. Misalnya, pembelajaran yang memadukan narasi verbal dengan visual (dari video microlearning) yang kemudian diukur melalui peningkatan pemahaman konsep dibandingkan dengan metode berbasis teks saja.
+Dalam konteks pengukurannya di penelitian ini, implementasi CTML dievaluasi dengan melihat efektivitas pembelajaran multimedia yang dirancang sesuai prinsip-prinsip ini, seperti peningkatan skor retensi informasi, kemampuan transfer pengetahuan, atau pengurangan beban kognitif pada mahasiswa. Misalnya, pembelajaran yang memadukan narasi verbal dengan visual (dari video *microlearning*) yang kemudian diukur melalui peningkatan pemahaman konsep dibandingkan dengan metode berbasis teks saja.

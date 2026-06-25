@@ -1,8 +1,12 @@
-# Daftar Isi
+# DAFTAR ISI
 
 Kata Pengantar
 
 Daftar Isi
+
+Daftar Tabel
+
+Daftar Gambar
 
 BAB I. Pendahuluan
 
@@ -11,12 +15,12 @@ BAB I. Pendahuluan
 - C. Tujuan Penelitian
 - D. Kegunaan Hasil Penelitian
 
-BAB II. Tinjauan Teori / Kerangka Teoretik
+BAB II. Tinjauan Teori dan Kerangka Teoretik
 
 - A. Kajian Teori
 - B. Penelitian yang Relevan
-- C. Kerangka Berpikir / Kerangka Teori
-- D. Hipotesis Penelitian / Hipotesis Efektivitas
+- C. Kerangka Berpikir
+- D. Hipotesis Penelitian
 
 BAB III. Metodologi Penelitian
 
@@ -37,7 +41,7 @@ BAB IV. Temuan dan Pembahasan
 - B. Hasil Pengembangan Produk
 - C. Hasil Validasi Produk
 - D. Hasil Uji Coba Produk
-- E. Hasil Uji Lapangan / Efektivitas Produk
+- E. Hasil Uji Lapangan
 - F. Temuan Kualitatif
 - G. Integrasi Temuan Kuantitatif dan Kualitatif
 - H. Pembahasan Temuan

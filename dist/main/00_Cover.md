@@ -1,15 +1,35 @@
-# Pengembangan Web Microlearning Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa
+# PENGEMBANGAN WEB MICROLEARNING BERBASIS TEKNIK FEYNMAN UNTUK MENINGKATKAN KEMAMPUAN METAKOGNITIF DALAM KETERAMPILAN BERBICARA MAHASISWA
 
-DISERTASI
+&nbsp;
 
-Restu Bias Primandhika
+&nbsp;
 
-NIM 2409108009
+**DISERTASI**
 
-Program Studi Doktor Pendidikan Bahasa Indonesia
+&nbsp;
 
-Sekolah Pascasarjana
+&nbsp;
 
-Universitas Muhammadiyah Prof. Dr. Hamka
+![](../img/image-000.png)
 
-2026
+&nbsp;
+
+&nbsp;
+
+**RESTU BIAS PRIMANDHIKA**
+
+**NIM 2409108009**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**PROGRAM STUDI DOKTOR PENDIDIKAN BAHASA INDONESIA**
+
+**SEKOLAH PASCASARJANA**
+
+**UNIVERSITAS MUHAMMADIYAH PROF. DR. HAMKA**
+
+**2026**

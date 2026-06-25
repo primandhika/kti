@@ -1,28 +1,23 @@
-# Lembar Persetujuan
+# LEMBAR PERSETUJUAN
 
-**Pengembangan Web Microlearning Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa**
+**PENGEMBANGAN WEB MICROLEARNING BERBASIS TEKNIK FEYNMAN UNTUK MENINGKATKAN KEMAMPUAN METAKOGNITIF DALAM KETERAMPILAN BERBICARA MAHASISWA**
 
-DISERTASI
+**DISERTASI**
 
-Oleh
+Oleh  
+**RESTU BIAS PRIMANDHIKA**  
+**NIM 2409108009**
 
-Restu Bias Primandhika
-
-NIM 2409108009
-
-Hasil penelitian disertasi disetujui untuk disampaikan dalam seminar kemajuan.
+Hasil penelitian disertasi disetujui untuk dipertahankan dalam Ujian Disertasi.
 
 | Nama Pembimbing | Tanda Tangan | Tanggal |
 | --- | --- | --- |
-| Prof. Dr. Nani Solihati, M.Pd. Promotor | ............................. | 12/05/2026 |
-| Siti Zulaiha, MA., Ph.D. Kopromotor | ............................. | 12/05/2026 |
+| Prof. Dr. Nani Solihati, M.Pd.<br>Promotor | ............................. | 12/08/2026 |
+| Siti Zulaiha, MA., Ph.D.<br>Kopromotor | ............................. | 12/08/2026 |
 
-Mengetahui
+Mengetahui  
+Ketua Program Studi Doktor Pendidikan Bahasa dan Sastra Indonesia  
+Sekolah Pascasarjana  
+Universitas Muhammadiyah Prof. DR. HAMKA  
 
-Ketua Program Studi Doktor Pendidikan Bahasa Indonesia
-
-Sekolah Pascasarjana
-
-Universitas Muhammadiyah Prof. Dr. HAMKA
-
-Dr. Wini Tarmini, M.Hum.
+**Dr. Wini Tarmini, M.Hum.**

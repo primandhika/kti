@@ -22,9 +22,9 @@ Di sisi lain, observasi awal dan telaah teori pada Bab II menunjukkan bahwa medi
 
 Agar Teknik Feynman dapat diimplementasikan secara efektif dan sesuai dengan karakteristik mahasiswa sebagai pembelajar digital, dibutuhkan wahana yang tepat. Dalam hal ini, pendekatan *microlearning*, yaitu penyajian materi dalam format singkat, fokus, dan mudah diakses kapan saja melalui perangkat berbasis web (Hug et al., 2005), menawarkan format yang sangat sesuai. Pendekatan ini telah terbukti meningkatkan efisiensi pembelajaran dan retensi informasi dengan memecah topik kompleks menjadi bagian-bagian kecil yang lebih terkelola (Barus & Bontisesari, 2023; Halim et al., 2024). Format ini juga sejalan dengan kebiasaan belajar generasi digital yang terbiasa mengakses informasi dalam potongan singkat melalui media sosial seperti TikTok, YouTube Shorts, dan Instagram (Conde-Caballero et al., 2024; Khlaif et al., 2021). Media pembelajaran berbasis web yang mengadopsi konsep *microlearning* memberikan fleksibilitas bagi mahasiswa untuk berlatih secara mandiri dan kontekstual, sekaligus memperkuat aspek refleksi diri yang penting untuk pengembangan keterampilan metakognitif (Goh & Liu, 2023; Rahmiati & Rasyid, 2024; Susilana et al., 2022a). Pendekatan *microlearning* berbasis web ini juga bersinggungan dengan semangat Pembelajaran Mendalam yang menghendaki pergeseran dari pembelajaran permukaan menuju pembelajaran yang berorientasi pada pemaknaan, keterhubungan konsep, dan refleksi proses belajar (Handayani & Fauzi, 2023).
 
-Meskipun penelitian tentang *microlearning*, Teknik Feynman, metakognitif, dan keterampilan berbicara telah berkembang masing-masing, keempat komponen tersebut masih diteliti secara terpisah. Berdasarkan analisis bibliometrik yang dipaparkan pada Bab II, belum ditemukan penelitian yang secara khusus mengintegrasikan keempat komponen tersebut dalam satu kerangka penelitian, terlebih dalam konteks mahasiswa Pendidikan Bahasa Indonesia. Secara lebih spesifik, terdapat tiga celah penelitian yang menjadi landasan studi ini. Pertama, celah teoretis: belum terdapat model konseptual yang menjelaskan bagaimana Teknik Feynman meningkatkan kemampuan metakognitif yang kemudian berdampak pada keterampilan berbicara. Kedua, celah desain: belum terdapat media web *microlearning* yang secara sistematis mengintegrasikan tahapan Teknik Feynman untuk melatih metakognitif melalui aktivitas berbicara. Ketiga, celah empiris: belum tersedia bukti empiris mengenai efektivitas integrasi tersebut pada mahasiswa Pendidikan Bahasa Indonesia di perguruan tinggi.
+Meskipun penelitian tentang *microlearning*, Teknik Feynman, metakognitif, dan keterampilan berbicara telah berkembang masing-masing, keempat komponen tersebut masih diteliti secara terpisah. Berdasarkan analisis bibliometrik yang dipaparkan pada Bab II, belum ditemukan penelitian yang secara khusus mengintegrasikan keempat komponen tersebut dalam satu kerangka penelitian, terlebih dalam konteks mahasiswa Pendidikan Bahasa dan Sastra Indonesia. Secara lebih spesifik, terdapat tiga celah penelitian yang menjadi landasan studi ini. Pertama, celah teoretis: belum terdapat model konseptual yang menjelaskan bagaimana Teknik Feynman dapat meningkatkan kemampuan metakognitif dan keterampilan berbicara secara bersamaan. Kedua, celah desain: belum terdapat media web *microlearning* yang secara sistematis mengintegrasikan tahapan Teknik Feynman untuk melatih metakognitif melalui aktivitas berbicara. Ketiga, celah empiris: belum tersedia bukti empiris mengenai efektivitas integrasi tersebut pada mahasiswa Pendidikan Bahasa dan Sastra Indonesia di perguruan tinggi.
 
-Berdasarkan celah penelitian tersebut, penelitian ini mengembangkan media pembelajaran berbasis web *microlearning* yang terintegrasi dengan Teknik Feynman. Model penelitian ini secara eksplisit menempatkan kemampuan metakognitif dalam keterampilan berbicara sebagai mediator. Artinya, media web *microlearning* berbasis Teknik Feynman dirancang untuk memperkuat lima dimensi metakognitif-berbicara, yaitu *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*, yang selanjutnya mendukung peningkatan performa berbicara mahasiswa. Kebaruan penelitian ini terletak pada tiga aspek utama. Pertama, pengembangan model konseptual yang mengintegrasikan Teknik Feynman dan metakognitif dalam konteks keterampilan berbicara. Kedua, perancangan media web *microlearning* yang secara sistematis menerapkan tahapan Teknik Feynman, menyediakan latihan berbicara terintegrasi, dan memanfaatkan prinsip CTML sebagai dasar desain multimedia. Ketiga, pengujian empiris model tersebut pada mahasiswa Pendidikan Bahasa Indonesia di perguruan tinggi. Dengan demikian, penelitian ini diharapkan mengisi celah literatur yang ada serta berkontribusi terhadap pengembangan desain pembelajaran digital yang sejalan dengan visi Kampus Berdampak dan prinsip Pembelajaran Mendalam abad ke-21. Oleh karena itu, penelitian ini berjudul "Pengembangan Web Microlearning Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa."
+Berdasarkan celah penelitian tersebut, penelitian ini mengembangkan media pembelajaran berbasis web *microlearning* yang terintegrasi dengan Teknik Feynman. Dalam model penelitian ini, kemampuan metakognitif dalam keterampilan berbicara diposisikan sebagai konstruk proses yang menjelaskan bagaimana mahasiswa merencanakan, memantau, dan mengevaluasi latihan berbicara selama menggunakan media. Artinya, media web *microlearning* berbasis Teknik Feynman dirancang untuk memperkuat lima dimensi metakognitif-berbicara, yaitu *conceptualisation, *formulation*, *articulation*, *self-monitoring*,* dan *self-evaluation*, yang selanjutnya mendukung peningkatan performa berbicara mahasiswa. Kebaruan penelitian ini terletak pada tiga aspek utama. Pertama, pengembangan model konseptual yang mengintegrasikan Teknik Feynman dan metakognitif dalam konteks keterampilan berbicara. Kedua, perancangan media web *microlearning* yang secara sistematis menerapkan tahapan Teknik Feynman, menyediakan latihan berbicara terintegrasi, dan memanfaatkan prinsip CTML sebagai dasar desain multimedia. Ketiga, pengujian empiris model tersebut pada mahasiswa Pendidikan Bahasa dan Sastra Indonesia di perguruan tinggi. Dengan demikian, penelitian ini diharapkan mengisi celah literatur yang ada serta berkontribusi terhadap pengembangan desain pembelajaran digital yang sejalan dengan visi Kampus Berdampak dan prinsip Pembelajaran Mendalam abad ke-21. Oleh karena itu, penelitian ini berjudul "Pengembangan Web *Microlearning* Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa."
 
 ## B. Masalah Penelitian
 
@@ -32,9 +32,9 @@ Berdasarkan celah penelitian tersebut, penelitian ini mengembangkan media pembel
 
 Berdasarkan latar belakang yang telah diuraikan, keterampilan berbicara di pendidikan tinggi tidak hanya berkaitan dengan kemampuan teknis berbahasa, tetapi juga melibatkan dimensi kognitif yang lebih dalam, yakni kemampuan metakognitif. Berikut adalah permasalahan yang berhasil diidentifikasi:
 
-1. Keterampilan berbicara mahasiswa Pendidikan Bahasa Indonesia belum memenuhi standar yang diharapkan, yang terlihat dari kelemahan dalam mengorganisasi ide, menyampaikan argumentasi secara jelas, serta menerapkan strategi komunikasi yang efektif dalam konteks akademik.
+1. Keterampilan berbicara mahasiswa Pendidikan Bahasa dan Sastra Indonesia belum memenuhi standar yang diharapkan, yang terlihat dari kelemahan dalam mengorganisasi ide, menyampaikan argumentasi secara jelas, serta menerapkan strategi komunikasi yang efektif dalam konteks akademik.
 
-2. Kemampuan metakognitif dalam keterampilan berbicara mahasiswa masih lemah, terutama pada dimensi merangkai konsep (*conceptualisation*), merumuskan gagasan (*formulation*),  mengutarakan dengan jelas (*articulation*), meninjau kembali diri sendiri (self-monitoring), dan serta mengevaluasi diri (*self-evaluation*).
+2. Kemampuan metakognitif dalam keterampilan berbicara mahasiswa masih lemah, terutama pada dimensi merangkai konsep (*conceptualisation*), merumuskan gagasan (*formulation*),  mengutarakan dengan jelas (*articulation*), meninjau kembali diri sendiri (*self-monitoring*), dan serta mengevaluasi diri (*self-evaluation*).
 
 3. Adanya kesenjangan antara pemahaman kognitif yang dimiliki mahasiswa dan kemampuannya mengomunikasikan pemahaman tersebut secara lisan, yang diperparah oleh ketergantungan pada teknologi AI generatif yang menggeser praktik berbicara menjadi aktivitas membaca ulang teks.
 
@@ -50,17 +50,17 @@ Penelitian ini dibatasi pada pengembangan dan pengujian media pembelajaran berba
 
 1. Variabel bebas: media pembelajaran berbasis web *microlearning* yang mengintegrasikan tahapan Teknik Feynman sebagai strategi pembelajaran.
 
-2. Variabel mediator: kemampuan metakognitif dalam keterampilan berbicara mahasiswa, yang mencakup *conceptualisation, formulation, articulation, self-monitoring,* dan *self-evaluation*.
+2. Variabel proses: kemampuan metakognitif dalam keterampilan berbicara mahasiswa, yang mencakup *conceptualisation, *formulation*, *articulation*, *self-monitoring*,* dan *self-evaluation*.
 
 3. Variabel terikat: keterampilan berbicara mahasiswa pada performa lisan akademik, yang dibatasi pada pengorganisasian ide, kejelasan penyampaian, dan strategi komunikasi sesuai konteks audiens.
 
-Model penelitian ini menempatkan kemampuan metakognitif sebagai mediator antara penggunaan media dan peningkatan keterampilan berbicara. Konteks penelitian dibatasi pada mahasiswa Program Studi Pendidikan Bahasa Indonesia di salah satu perguruan tinggi di Indonesia.
+Model penelitian ini menempatkan kemampuan metakognitif sebagai konstruk proses yang menyertai penggunaan media dan mendukung peningkatan keterampilan berbicara. Konteks penelitian dibatasi pada mahasiswa Program Studi Pendidikan Bahasa dan Sastra Indonesia di salah satu perguruan tinggi di Indonesia.
 
 ### 3. Perumusan Masalah Penelitian
 
 Berdasarkan identifikasi dan pembatasan masalah, rumusan masalah penelitian ini adalah sebagai berikut:
 
-1. Bagaimana karakteristik dan kebutuhan belajar mahasiswa Pendidikan Bahasa Indonesia dalam pengembangan keterampilan berbicara berbasis metakognitif?
+1. Bagaimana karakteristik dan kebutuhan belajar mahasiswa Pendidikan Bahasa dan Sastra Indonesia dalam pengembangan keterampilan berbicara berbasis metakognitif?
 
 2. Bagaimana rancangan media web *microlearning* berbasis Teknik Feynman yang sesuai untuk meningkatkan kemampuan metakognitif dalam keterampilan berbicara mahasiswa?
 
@@ -68,7 +68,7 @@ Berdasarkan identifikasi dan pembatasan masalah, rumusan masalah penelitian ini 
 
 4. Bagaimana kelayakan media web *microlearning* berbasis Teknik Feynman berdasarkan penilaian ahli dan respons pengguna?
 
-5. Bagaimana efektivitas media web *microlearning* berbasis Teknik Feynman dalam meningkatkan kemampuan metakognitif yang berdampak pada keterampilan berbicara mahasiswa?
+5. Bagaimana efektivitas media web *microlearning* berbasis Teknik Feynman dalam meningkatkan kemampuan metakognitif dan keterampilan berbicara mahasiswa?
 
 Rumusan masalah tersebut disusun sejalan dengan tahapan kerangka desain ASSURE yang digunakan dalam penelitian ini, mulai dari analisis karakteristik pembelajar (*Analyze Learners*), perumusan tujuan dan perancangan media (*State Objectives*; *Select Methods, Media, and Materials*), pemanfaatan media dan pelibatan aktif mahasiswa (*Utilize Media*; *Require Learner Participation*), hingga evaluasi dan revisi (*Evaluate and Revise*).
 
@@ -76,7 +76,7 @@ Rumusan masalah tersebut disusun sejalan dengan tahapan kerangka desain ASSURE y
 
 Sejalan dengan rumusan masalah, penelitian ini bertujuan untuk:
 
-1. Menganalisis karakteristik dan kebutuhan belajar mahasiswa Pendidikan Bahasa Indonesia dalam pengembangan keterampilan berbicara berbasis metakognitif.
+1. Menganalisis karakteristik dan kebutuhan belajar mahasiswa Pendidikan Bahasa dan Sastra Indonesia dalam pengembangan keterampilan berbicara berbasis metakognitif.
 
 2. Merancang media web *microlearning* berbasis Teknik Feynman yang sesuai untuk meningkatkan kemampuan metakognitif dalam keterampilan berbicara mahasiswa.
 
@@ -84,7 +84,7 @@ Sejalan dengan rumusan masalah, penelitian ini bertujuan untuk:
 
 4. Menguji kelayakan media web *microlearning* berbasis Teknik Feynman berdasarkan penilaian ahli dan respons pengguna.
 
-5. Menguji efektivitas media web *microlearning* berbasis Teknik Feynman dalam meningkatkan kemampuan metakognitif yang berdampak pada keterampilan berbicara mahasiswa.
+5. Menguji efektivitas media web *microlearning* berbasis Teknik Feynman terhadap peningkatan kemampuan metakognitif dan keterampilan berbicara mahasiswa.
 
 ## D. Kegunaan Hasil Penelitian
 
@@ -92,7 +92,7 @@ Hasil penelitian ini diharapkan memiliki kegunaan baik secara teoretis maupun pr
 
 ### 1. Kegunaan Teoretis
 
-Penelitian ini memberikan kontribusi pada pengembangan teori dalam bidang pendidikan bahasa, khususnya dalam tiga aspek. Pertama, pada aspek produk, penelitian ini menghasilkan media web *microlearning* berbasis Teknik Feynman yang secara sistematis mengintegrasikan tahapan refleksi metakognitif ke dalam latihan keterampilan berbicara. Kedua, pada aspek model konseptual, penelitian ini menawarkan model yang menempatkan kemampuan metakognitif sebagai mediator antara penggunaan media dan peningkatan keterampilan berbicara. Ketiga, pada aspek model desain, penelitian ini menghasilkan panduan implementasi pembelajaran berbasis kerangka ASSURE yang dapat menjadi acuan bagi pengembangan media serupa di masa mendatang.
+Penelitian ini memberikan kontribusi pada pengembangan teori dalam bidang pendidikan bahasa, khususnya dalam tiga aspek. Pertama, pada aspek produk, penelitian ini menghasilkan media web *microlearning* berbasis Teknik Feynman yang secara sistematis mengintegrasikan tahapan refleksi metakognitif ke dalam latihan keterampilan berbicara. Kedua, pada aspek model konseptual, penelitian ini menawarkan model integratif yang menempatkan kemampuan metakognitif sebagai konstruk proses yang menjelaskan bagaimana mahasiswa membangun keterampilan berbicara melalui aktivitas belajar berbasis teknik Feynman. Ketiga, pada aspek model desain, penelitian ini menghasilkan panduan implementasi pembelajaran berbasis kerangka ASSURE yang dapat menjadi acuan bagi pengembangan media serupa di masa mendatang.
 
 ### 2. Kegunaan Praktis
 
@@ -102,4 +102,4 @@ b. Bagi Mahasiswa: mahasiswa dapat memanfaatkan media pembelajaran ini untuk mel
 
 c. Bagi Institusi Pendidikan: hasil penelitian ini dapat menjadi rekomendasi bagi institusi pendidikan tinggi dalam mengintegrasikan teknologi pembelajaran berbasis web sebagai bagian dari upaya peningkatan kualitas pembelajaran, khususnya yang sejalan dengan visi Kampus Berdampak dan prinsip Pembelajaran Mendalam.
 
-d. Bagi Peneliti Selanjutnya: penelitian ini dapat menjadi referensi bagi peneliti lain yang ingin mengembangkan media pembelajaran berbasis teknologi, mengeksplorasi lebih lanjut peran metakognitif sebagai mediator dalam pembelajaran keterampilan berbahasa, atau menerapkan model serupa dalam konteks mata kuliah dan jenjang pendidikan yang berbeda.
+d. Bagi Peneliti Selanjutnya: penelitian ini dapat menjadi referensi bagi peneliti lain yang ingin mengembangkan media pembelajaran berbasis teknologi, mengeksplorasi lebih lanjut peran metakognitif sebagai konstruk proses dalam pembelajaran keterampilan berbahasa, atau menerapkan model serupa dalam konteks mata kuliah dan jenjang pendidikan yang berbeda.
