@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surat Keterangan Telah Meneliti</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 20mm 18mm 20mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f1f3f5;
+      color: #111;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12pt;
+      line-height: 1.45;
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 12px;
+      background: #20242a;
+    }
+
+    .toolbar button {
+      border: 0;
+      border-radius: 4px;
+      padding: 9px 14px;
+      background: #fff;
+      color: #111;
+      font: 600 14px Arial, sans-serif;
+      cursor: pointer;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 18px auto;
+      padding: 18mm 20mm;
+      background: #fff;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
+    }
+
+    .letterhead {
+      display: grid;
+      grid-template-columns: 25mm 1fr;
+      gap: 8mm;
+      align-items: center;
+      padding-bottom: 4mm;
+      border-bottom: 3px double #111;
+    }
+
+    .logo {
+      width: 24mm;
+      height: auto;
+    }
+
+    .institution {
+      text-align: center;
+      line-height: 1.25;
+    }
+
+    .institution .name {
+      font-size: 15pt;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .institution .program {
+      margin-top: 1mm;
+      font-size: 12pt;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .institution .address {
+      margin-top: 1.5mm;
+      font-size: 9.5pt;
+    }
+
+    .title {
+      margin: 15mm 0 7mm;
+      text-align: center;
+      line-height: 1.25;
+    }
+
+    .title h1 {
+      margin: 0;
+      font-size: 14pt;
+      text-decoration: underline;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .title .number {
+      margin-top: 1mm;
+    }
+
+    p {
+      margin: 0 0 4.5mm;
+      text-align: justify;
+    }
+
+    .identity {
+      width: 100%;
+      margin: 2mm 0 5mm;
+      border-collapse: collapse;
+    }
+
+    .identity td {
+      vertical-align: top;
+      padding: 0.8mm 0;
+    }
+
+    .identity td:first-child {
+      width: 40mm;
+    }
+
+    .identity td:nth-child(2) {
+      width: 5mm;
+      text-align: center;
+    }
+
+    .signature {
+      width: 72mm;
+      margin: 12mm 0 0 auto;
+      text-align: left;
+    }
+
+    .signature .place-date {
+      margin-bottom: 2mm;
+    }
+
+    .signature img {
+      display: block;
+      width: 43mm;
+      height: auto;
+      margin: 2mm 0 0 4mm;
+    }
+
+    .signature .name {
+      margin-top: -1mm;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .note {
+      margin-top: 10mm;
+      font-size: 9.5pt;
+      color: #444;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .toolbar {
+        display: none;
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button type="button" onclick="window.print()">Cetak A4</button>
+  </div>
+
+  <main class="page">
+    <header class="letterhead">
+      <img class="logo" src="logo.png" alt="Logo IKIP Siliwangi">
+      <div class="institution">
+        <div class="name">Institut Keguruan dan Ilmu Pendidikan (IKIP) Siliwangi</div>
+        <div class="program">Program Studi Pendidikan Bahasa dan Sastra Indonesia</div>
+        <div class="address">
+          Jl. Terusan Jenderal Sudirman, Cimahi 40526. Telp. (022) 6658680, 6629735, Fax. (022) 6629913<br>
+          email: info@ikipsiliwangi.ac.id, website: ikipsiliwangi.ac.id
+        </div>
+      </div>
+    </header>
+
+    <section class="title" aria-label="Judul surat">
+      <h1>Surat Keterangan Telah Meneliti</h1>
+      <div class="number">Nomor: ........../Prodi-PBSI/III/2026</div>
+    </section>
+
+    <p>Yang bertanda tangan di bawah ini:</p>
+
+    <table class="identity" aria-label="Identitas penanda tangan">
+      <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td>Dr. Diena San Fauziya, M.Pd.</td>
+      </tr>
+      <tr>
+        <td>Jabatan</td>
+        <td>:</td>
+        <td>Ketua Program Studi Pendidikan Bahasa dan Sastra Indonesia</td>
+      </tr>
+      <tr>
+        <td>Instansi</td>
+        <td>:</td>
+        <td>IKIP Siliwangi</td>
+      </tr>
+    </table>
+
+    <p>Dengan ini menerangkan bahwa:</p>
+
+    <table class="identity" aria-label="Identitas peneliti">
+      <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td>Restu Bias Primandhika</td>
+      </tr>
+      <tr>
+        <td>NIM</td>
+        <td>:</td>
+        <td>2409108009</td>
+      </tr>
+      <tr>
+        <td>Program Studi</td>
+        <td>:</td>
+        <td>Doktor Pendidikan Bahasa Indonesia, Sekolah Pascasarjana, Universitas Muhammadiyah Prof. Dr. HAMKA</td>
+      </tr>
+      <tr>
+        <td>Judul Penelitian</td>
+        <td>:</td>
+        <td>Pengembangan Web Microlearning Berbasis Teknik Feynman untuk Meningkatkan Kemampuan Metakognitif dalam Keterampilan Berbicara Mahasiswa</td>
+      </tr>
+    </table>
+
+    <p>
+      Telah melaksanakan penelitian di Program Studi Pendidikan Bahasa dan Sastra Indonesia IKIP Siliwangi
+      pada kelas A1 PBSI 2025 dan A2 PBSI 2025. Kegiatan penelitian tersebut dilaksanakan untuk kebutuhan
+      penyusunan disertasi dan pengumpulan data terkait pengembangan serta pengujian media pembelajaran
+      berbasis web microlearning dalam pembelajaran keterampilan berbicara.
+    </p>
+
+    <p>
+      Demikian surat keterangan ini dibuat dengan sebenarnya untuk digunakan sebagaimana mestinya.
+    </p>
+
+    <section class="signature" aria-label="Tanda tangan">
+      <div class="place-date">Cimahi, 9 Maret 2026</div>
+      <div>Ketua Program Studi,</div>
+      <img src="ttd Diena.png" alt="Tanda tangan Dr. Diena San Fauziya, M.Pd.">
+      <div class="name">Dr. Diena San Fauziya, M.Pd.</div>
+    </section>
+
+    <p class="note">
+      Dokumen ini disiapkan sebagai lampiran bukti penelitian dan diformat untuk pencetakan ukuran A4.
+    </p>
+  </main>
+</body>
+</html>
