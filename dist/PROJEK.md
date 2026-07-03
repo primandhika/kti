@@ -30,3 +30,4 @@
 - jika ada pertanyaan atau hal yang perlu dikonsultasikan, tanyakan dulu SEBELUM mengeksekusi. jangan mulai mengerjakan sambil bertanya.
 - setiap selesai revisi, buat catatan revisi dalam file .md di /_rev (contoh: /_rev/BAB_I_rev.md)
 - gunakan bahasa yang sopan dan wajar, jangan sok akrab. 
+

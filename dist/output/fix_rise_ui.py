@@ -1,0 +1,222 @@
+#!/usr/bin/env python3
+"""
+Fix RISE UI v2:
+- Dimensi lebih kecil agar tidak di-scale down berlebihan
+- Margin memadai
+- Font Inria Serif
+- Teks tidak terpotong
+"""
+
+import json
+from pathlib import Path
+
+nb_path = Path("presentation_hasil.ipynb")
+with open(nb_path) as f:
+    nb = json.load(f)
+
+# ── 1. RISE config ────────────────────────────────────────────────────────────
+nb["metadata"]["rise"] = {
+    "autolaunch": False,
+    "center": True,
+    "controls": True,
+    "enable_chalkboard": True,
+    "footer": "<div class='rise-footer'>Disertasi — BAB IV Temuan dan Pembahasan &nbsp;|&nbsp; Sekolah Pascasarjana UHAMKA</div>",
+    "header": "<div class='rise-header'>Web Microlearning Berbasis Teknik Feynman</div>",
+    "width": 1100,
+    "height": 700,
+    "margin": 0.12,
+    "minScale": 0.6,
+    "maxScale": 1.4,
+    "progress": True,
+    "scroll": True,
+    "show_buttons_on_startup": False,
+    "slideNumber": "c/t",
+    "start_slideshow_at": "selected",
+    "theme": "serif",
+    "transition": "fade",
+    "transitionSpeed": "fast",
+}
+print("✓ RISE config fixed.")
+
+# ── 2. CSS ────────────────────────────────────────────────────────────────────
+css_source = [
+    '<style>\n',
+    '/* ═══ Google Fonts: Inria Serif ═══ */\n',
+    '@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");\n',
+    '\n',
+    '/* ═══ Global ═══ */\n',
+    '.reveal,\n',
+    '.reveal .slides,\n',
+    '.reveal .slides section {\n',
+    '  font-family: "Inria Serif", "Georgia", "Times New Roman", serif !important;\n',
+    '}\n',
+    '.reveal {\n',
+    '  font-size: 26px !important;\n',
+    '  color: #1e293b !important;\n',
+    '}\n',
+    '.reveal .slides {\n',
+    '  text-align: left !important;\n',
+    '}\n',
+    '.reveal .slides section {\n',
+    '  padding: 24px 36px 30px 36px !important;\n',
+    '  box-sizing: border-box !important;\n',
+    '  overflow-y: auto !important;\n',
+    '}\n',
+    '\n',
+    '/* ═══ Headings ═══ */\n',
+    '.reveal h1 {\n',
+    '  font-size: 1.45em !important;\n',
+    '  font-weight: 700 !important;\n',
+    '  color: #003882 !important;\n',
+    '  border-bottom: 2.5px solid #003882;\n',
+    '  padding-bottom: 6px;\n',
+    '  margin-bottom: 14px !important;\n',
+    '}\n',
+    '.reveal h2 {\n',
+    '  font-size: 1.15em !important;\n',
+    '  font-weight: 700 !important;\n',
+    '  color: #0f4c8a !important;\n',
+    '  margin-bottom: 10px !important;\n',
+    '}\n',
+    '.reveal h3 {\n',
+    '  font-size: 0.95em !important;\n',
+    '  font-weight: 700 !important;\n',
+    '  color: #334155 !important;\n',
+    '  margin-bottom: 8px !important;\n',
+    '}\n',
+    '\n',
+    '/* ═══ Paragraphs & Lists ═══ */\n',
+    '.reveal p,\n',
+    '.reveal li {\n',
+    '  font-size: 0.82em !important;\n',
+    '  line-height: 1.6 !important;\n',
+    '  color: #334155 !important;\n',
+    '}\n',
+    '.reveal strong { color: #0f172a !important; }\n',
+    '\n',
+    '/* ═══ Tables ═══ */\n',
+    '.reveal table {\n',
+    '  width: 100% !important;\n',
+    '  border-collapse: collapse !important;\n',
+    '  font-size: 0.72em !important;\n',
+    '  margin: 8px 0 !important;\n',
+    '}\n',
+    '.reveal table thead th {\n',
+    '  background: #003882 !important;\n',
+    '  color: #fff !important;\n',
+    '  font-weight: 700 !important;\n',
+    '  padding: 6px 8px !important;\n',
+    '  text-align: center !important;\n',
+    '  border: 1px solid #002a60 !important;\n',
+    '}\n',
+    '.reveal table tbody td {\n',
+    '  padding: 5px 8px !important;\n',
+    '  border: 1px solid #cbd5e1 !important;\n',
+    '  text-align: center !important;\n',
+    '}\n',
+    '.reveal table tbody tr:nth-child(even) { background: #f1f5f9 !important; }\n',
+    '.reveal table tbody tr:hover { background: #e2e8f0 !important; }\n',
+    '.reveal table tbody td:first-child {\n',
+    '  text-align: left !important;\n',
+    '  font-weight: 600 !important;\n',
+    '}\n',
+    '\n',
+    '/* ═══ Code blocks ═══ */\n',
+    '.reveal pre {\n',
+    '  background: #f8fafc !important;\n',
+    '  border: 1px solid #e2e8f0 !important;\n',
+    '  border-radius: 5px !important;\n',
+    '  padding: 10px 14px !important;\n',
+    '  font-size: 0.72em !important;\n',
+    '  box-shadow: none !important;\n',
+    '}\n',
+    '\n',
+    '/* ═══ Blockquotes ═══ */\n',
+    '.reveal blockquote {\n',
+    '  background: #eff6ff !important;\n',
+    '  border-left: 3.5px solid #003882 !important;\n',
+    '  padding: 8px 14px !important;\n',
+    '  margin: 10px 0 !important;\n',
+    '  font-size: 0.78em !important;\n',
+    '  font-style: normal !important;\n',
+    '  border-radius: 0 5px 5px 0;\n',
+    '}\n',
+    '.reveal blockquote p { color: #1e40af !important; margin: 0 !important; }\n',
+    '\n',
+    '/* ═══ Images ═══ */\n',
+    '.reveal img {\n',
+    '  max-width: 100% !important;\n',
+    '  height: auto !important;\n',
+    '}\n',
+    '\n',
+    '/* ═══ Header & Footer bars ═══ */\n',
+    '.rise-header {\n',
+    '  position: fixed;\n',
+    '  top: 0; left: 0; right: 0;\n',
+    '  background: linear-gradient(135deg, #003882, #0f4c8a);\n',
+    '  color: #fff;\n',
+    '  font-family: "Inria Serif", serif;\n',
+    '  font-size: 13px;\n',
+    '  font-weight: 400;\n',
+    '  padding: 4px 20px;\n',
+    '  letter-spacing: 0.03em;\n',
+    '  z-index: 999;\n',
+    '}\n',
+    '.rise-footer {\n',
+    '  position: fixed;\n',
+    '  bottom: 0; left: 0; right: 0;\n',
+    '  background: #f1f5f9;\n',
+    '  color: #64748b;\n',
+    '  font-family: "Inria Serif", serif;\n',
+    '  font-size: 11px;\n',
+    '  padding: 3px 20px;\n',
+    '  text-align: center;\n',
+    '  z-index: 999;\n',
+    '  border-top: 1px solid #e2e8f0;\n',
+    '}\n',
+    '\n',
+    '/* ═══ Hide code input ═══ */\n',
+    '.reveal .jp-InputArea,\n',
+    '.reveal .input_area,\n',
+    '.reveal .jp-Cell-inputWrapper { display: none !important; }\n',
+    '\n',
+    '/* ═══ Chart output ═══ */\n',
+    '.reveal .jp-OutputArea-output img,\n',
+    '.reveal .output_png img {\n',
+    '  max-width: 100% !important;\n',
+    '  max-height: 68vh !important;\n',
+    '  margin: 0 auto !important;\n',
+    '  display: block !important;\n',
+    '}\n',
+    '\n',
+    '/* ═══ HR ═══ */\n',
+    '.reveal hr { border: none !important; border-top: 2px solid #e2e8f0 !important; margin: 12px 0 !important; }\n',
+    '\n',
+    '/* ═══ Slide number ═══ */\n',
+    '.reveal .slide-number { font-size: 12px !important; color: #94a3b8 !important; background: transparent !important; }\n',
+    '\n',
+    '</style>\n',
+]
+
+# ── 3. Inject CSS cell ────────────────────────────────────────────────────────
+cells = nb["cells"]
+css_cell = {
+    "cell_type": "markdown",
+    "id": "rise-custom-css",
+    "metadata": {"slideshow": {"slide_type": "skip"}, "tags": ["rise-css"]},
+    "source": css_source,
+}
+
+idx = next((i for i, c in enumerate(cells) if c.get("id") == "rise-custom-css"), None)
+if idx is not None:
+    cells[idx] = css_cell
+    print(f"✓ CSS cell replaced at index {idx}.")
+else:
+    cells.insert(0, css_cell)
+    print("✓ CSS cell inserted at index 0.")
+
+# ── 4. Save ───────────────────────────────────────────────────────────────────
+with open(nb_path, "w") as f:
+    json.dump(nb, f, ensure_ascii=False, indent=1)
+
+print(f"\n✅ Done. Total cells: {len(cells)}")
