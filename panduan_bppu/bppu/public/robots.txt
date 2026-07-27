@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /pengelola/
+Disallow: /mitra/
+Disallow: /member/terms-conditions
+Disallow: /member/register
+Disallow: /member/verify-email
+Disallow: /api/
+Disallow: /buyer/
+Disallow: /build/
+
+# Allow public pages
+Allow: /
+Allow: /berita/
+Allow: /kantin/self-order
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Sitemap
+Sitemap: https://bppu.ikipsiliwangi.ac.id/sitemap.xml

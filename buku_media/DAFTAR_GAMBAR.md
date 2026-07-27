@@ -1,0 +1,22 @@
+# Daftar Gambar
+
+- **Gambar 1.1** Perbandingan Pengalaman Belajar dengan Penggunaan Media yang Berbeda
+- **Gambar 1.2** Media sebagai Bagian dari Sistem Pembelajaran
+- **Gambar 1.3** Rentang Pengalaman dari Konkret ke Abstrak
+- **Gambar 1.4** Prinsip Pemeriksaan Media Pembelajaran
+- **Gambar 2.1** Ekosistem Media Digital untuk Pembelajaran
+- **Gambar 2.2** Alur Penggunaan AI yang Bertanggung Jawab dalam Pembelajaran
+- **Gambar 3.1** Analisis Kebutuhan sebagai Dasar Perencanaan Media
+- **Gambar 3.2** Alur Perencanaan Mundur dari Tujuan ke Media
+- **Gambar 3.3** Contoh Sederhana Storyboard Media Pembelajaran
+- **Gambar 4.1** Perbedaan antara Media yang Ramai dan Media yang Terarah
+- **Gambar 4.2** Perbandingan Desain Multimedia yang Membebani dan yang Membantu Belajar
+- **Gambar 4.3** Alur Uji Kelayakan dan Revisi Media
+- **Gambar 5.1** Hubungan Media dan Keterampilan Berbahasa
+- **Gambar 5.2** Alur Pembelajaran Keterampilan Berbahasa Terpadu
+- **Gambar 6.1** Alur Dasar Pengalaman Belajar Sastra
+- **Gambar 6.2** Contoh Alur Pengalaman Belajar Sastra yang Bermakna
+- **Gambar 7.1** Alur Dasar Studio Kreasi Media Digital
+- **Gambar 8.1** Alur Dasar Perancangan Media Interaktif Tanpa Kode
+- **Gambar 9.1** Alur Dasar Studio AI dan Vibe Coding untuk Media Pembelajaran
+- **Gambar 10.1** Alur Implementasi, Uji Penggunaan, dan Portofolio Media

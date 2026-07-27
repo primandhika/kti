@@ -6,6 +6,8 @@
 - Hak Cipta
 - Pengantar
 - Daftar Isi
+- Daftar Gambar
+- Daftar Tabel
 - Cara Menggunakan Buku
 
 ## BAB 1 Konsep Dasar Media Pembelajaran

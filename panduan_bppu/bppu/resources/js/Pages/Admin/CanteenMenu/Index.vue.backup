@@ -1,0 +1,943 @@
+<template>
+  <AdminLayout
+    page-title="Kelola Menu Kantin"
+    page-subtitle="Menu diambil dari Master Barang yang ditandai 'Tampilkan di Menu'"
+  >
+    <div class="space-y-4">
+      <!-- Compact Filter Bar -->
+      <div class="bg-white rounded-xl shadow-md p-4">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
+          <!-- Left Section: Search & Dropdowns -->
+          <div class="flex flex-wrap items-center gap-2">
+            <input
+              v-model="searchQuery"
+              type="text"
+              placeholder="Cari menu..."
+              class="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent text-xs w-48"
+            />
+            <select
+              v-model="filterKategori"
+              class="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent text-xs"
+            >
+              <option value="">Semua Kategori</option>
+              <option v-for="kategori in kategoris" :key="kategori.id" :value="kategori.id">
+                {{ kategori.nama }}
+              </option>
+            </select>
+            <select
+              v-model="filterWorkUnit"
+              class="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent text-xs"
+            >
+              <option value="">Semua Kantin</option>
+              <option v-for="unit in workUnits" :key="unit.id" :value="unit.id">
+                {{ unit.name }}
+              </option>
+            </select>
+
+            <!-- Stats Inline -->
+            <div class="flex items-center gap-2 text-xs border-l pl-2 ml-1">
+              <div class="flex items-center gap-1">
+                <span class="text-gray-500">Total:</span>
+                <span class="font-bold text-gray-900">{{ totalMenus }}</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                <span class="font-semibold text-green-600">{{ availableCount }}</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+                <span class="font-semibold text-orange-600">{{ outOfStockCount }}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Section: Actions -->
+          <div class="flex items-center gap-2">
+            <!-- Toggle Tampilkan Semua -->
+            <button
+              @click="toggleShowAll"
+              class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-colors"
+              :class="showAllKategori ? 'bg-[#996600] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+            >
+              <div class="relative inline-flex h-3.5 w-6 items-center rounded-full transition-colors"
+                :class="showAllKategori ? 'bg-white/20' : 'bg-gray-300'"
+              >
+                <span
+                  class="inline-block h-2.5 w-2.5 transform rounded-full bg-white shadow-sm transition-transform"
+                  :class="showAllKategori ? 'translate-x-3' : 'translate-x-0.5'"
+                ></span>
+              </div>
+              <span>Semua</span>
+            </button>
+
+            <div class="relative">
+              <button
+                @click="toggleDownloadDropdown"
+                class="inline-flex items-center px-2.5 py-1.5 bg-red-600 hover:bg-red-700 text-white font-medium rounded-lg transition-colors text-xs"
+              >
+                <svg class="w-3.5 h-3.5 mr-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+                  <path d="M14 2v6h6"/>
+                  <path d="M12 18v-6"/>
+                  <path d="M9 15l3 3 3-3"/>
+                </svg>
+                Menu
+              </button>
+
+              <!-- Download Dropdown -->
+              <div
+                v-if="showDownloadDropdown"
+                class="absolute right-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-gray-200 z-20"
+              >
+                <div class="py-1">
+                  <button
+                    @click="downloadMenu('with-image')"
+                    class="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors border-b border-gray-100"
+                  >
+                    <svg class="w-3.5 h-3.5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <div class="text-left">
+                      <div class="font-medium text-gray-900">Dengan Gambar</div>
+                      <div class="text-[10px] text-gray-500">Foto & warna</div>
+                    </div>
+                  </button>
+                  <button
+                    @click="downloadMenu('without-image')"
+                    class="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors"
+                  >
+                    <svg class="w-3.5 h-3.5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    <div class="text-left">
+                      <div class="font-medium text-gray-900">Tanpa Gambar</div>
+                      <div class="text-[10px] text-gray-500">Hemat tinta</div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <Link
+              href="/pengelola/opname-stock"
+              class="inline-flex items-center px-2.5 py-1.5 bg-[#996600] hover:bg-[#7a5100] text-white font-medium rounded-lg transition-colors text-xs"
+            >
+              <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+              Master
+            </Link>
+
+            <Link
+              href="/pengelola/setting?tab=subKategoriMenu"
+              class="inline-flex items-center px-2.5 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors text-xs"
+            >
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pills Sub Kategori - Connected dengan Menu -->
+      <div v-if="groupedMenus && groupedMenus.length > 0" class="bg-gradient-to-b from-[#f4efe5] to-white rounded-t-xl shadow-sm p-3 -mb-2">
+        <div v-if="!showAllKategori" class="flex flex-wrap gap-2">
+          <button
+            v-for="sub in subKategoriList"
+            :key="sub.label"
+            @click="selectKategori(sub.label)"
+            :class="[
+              'px-3 py-1.5 rounded-full text-xs font-medium transition-all',
+              activeSubKategori === sub.label
+                ? 'bg-[#996600] text-white shadow-md scale-105'
+                : 'bg-white/80 text-gray-700 hover:bg-white hover:shadow-sm'
+            ]"
+          >
+            {{ sub.label }} <span class="ml-1 opacity-75">({{ sub.count }})</span>
+          </button>
+        </div>
+        <div v-else class="text-xs text-gray-600 font-medium px-2">
+          Menampilkan semua kategori ({{ totalMenus }} menu)
+        </div>
+      </div>
+
+      <!-- Menus Grid -->
+      <div v-if="!groupedMenus || groupedMenus.length === 0">
+        <div class="bg-white rounded-lg shadow-sm p-8 text-center">
+          <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          <h3 class="mt-2 text-sm font-medium text-gray-900">Belum ada menu</h3>
+          <p class="mt-1 text-sm text-gray-500">Tambahkan barang dan tandai sebagai menu kantin.</p>
+          <div class="mt-6">
+            <Link
+              href="/pengelola/opname-stock"
+              class="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-[#996600] hover:bg-[#7a5100]"
+            >
+              Ke Master Barang
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="relative bg-white rounded-b-xl shadow-md p-4">
+        <div v-for="group in paginatedGroups" :key="group.label" class="mb-6">
+          <!-- Group Header -->
+          <div class="mb-3 pb-2 border-b-2 border-[#996600]">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-base font-bold text-[#6b4700]">{{ group.label }}</h2>
+                <p class="text-xs text-gray-600">{{ group.count }} menu</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+            <div
+          v-for="menu in group.items"
+          :key="menu.id"
+          class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+        >
+          <!-- Menu Image -->
+          <div class="relative h-32 bg-gray-200">
+            <img
+              v-if="menu.gambar"
+              :src="menu.gambar"
+              :alt="menu.nama_barang"
+              class="w-full h-full object-cover"
+            />
+            <div v-else class="w-full h-full flex items-center justify-center">
+              <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+
+            <!-- Edit Menu Button (Pencil) -->
+            <div class="absolute bottom-1.5 right-1.5">
+              <button
+                @click.stop="toggleDropdown(menu.id)"
+                class="bg-white/90 hover:bg-white p-1.5 rounded-md shadow-md transition-colors relative z-10"
+                title="Kelola Menu"
+              >
+                <svg class="w-4 h-4 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+              </button>
+
+              <!-- Dropdown Menu -->
+              <div
+                v-if="activeDropdown === menu.id"
+                @click.stop
+                class="absolute bottom-full mb-1 right-0 w-40 bg-white rounded-lg shadow-lg border border-gray-200 z-50"
+              >
+                <button
+                  @click="openEditMenuModal(menu)"
+                  class="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors border-b border-gray-100"
+                >
+                  <svg class="w-3.5 h-3.5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                  <span class="text-gray-700">Edit Item</span>
+                </button>
+                <button
+                  @click="openEditDisplayModal(menu)"
+                  class="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors border-b border-gray-100"
+                >
+                  <svg class="w-3.5 h-3.5 text-[#996600]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                  </svg>
+                  <span class="text-gray-700">Edit Display</span>
+                </button>
+                <button
+                  @click="openUploadModal(menu)"
+                  class="w-full flex items-center space-x-2 px-3 py-2 text-xs hover:bg-gray-50 transition-colors"
+                >
+                  <svg class="w-3.5 h-3.5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span class="text-gray-700">Upload Gambar</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Availability Badge -->
+            <div class="absolute top-1.5 right-1.5">
+              <button
+                @click="toggleAvailability(menu)"
+                :class="[
+                  'px-1.5 py-0.5 text-xs font-semibold rounded-full transition-colors',
+                  menu.is_available
+                    ? 'bg-green-100 text-green-800 hover:bg-green-200'
+                    : 'bg-red-100 text-red-800 hover:bg-red-200'
+                ]"
+              >
+                {{ menu.is_available ? 'Tersedia' : 'Habis' }}
+              </button>
+            </div>
+
+            <!-- Stock Badge -->
+            <div class="absolute top-1.5 left-1.5">
+              <span
+                :class="[
+                  'px-1.5 py-0.5 text-xs font-semibold rounded-full',
+                  menu.stok > 0 ? 'bg-blue-100 text-blue-800' : 'bg-orange-100 text-orange-800'
+                ]"
+              >
+                Stok: {{ menu.stok }}
+              </span>
+            </div>
+          </div>
+
+          <!-- Menu Info -->
+          <div class="p-3">
+            <div class="mb-1.5">
+              <h3 class="text-sm font-semibold text-gray-900 line-clamp-1">{{ menu.nama_barang }}</h3>
+              <p class="text-xs text-gray-500 font-mono">{{ menu.kode_barang }}</p>
+            </div>
+
+            <p class="text-xs text-gray-600 mb-2 line-clamp-2 min-h-[2rem]">
+              {{ menu.deskripsi_display || 'Belum ada deskripsi display' }}
+            </p>
+
+            <!-- Category & Unit -->
+            <div class="flex items-center space-x-1 mb-2">
+              <span v-if="menu.sub_kategori" class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-[#f4efe5] text-[#7a5100]">
+                {{ menu.sub_kategori }}
+              </span>
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">
+                {{ menu.work_unit }}
+              </span>
+            </div>
+
+            <!-- Price -->
+            <div>
+              <span class="text-lg font-bold text-[#996600]">
+                Rp {{ formatPrice(menu.harga_jual) }}
+              </span>
+              <span class="text-xs text-gray-500">/ {{ menu.satuan }}</span>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+
+        <!-- Gradient Fade & Load More Button -->
+        <div v-if="hasMoreItems" class="relative mt-4">
+          <!-- Gradient Fade Overlay -->
+          <div class="absolute -top-24 left-0 right-0 h-24 bg-gradient-to-t from-white via-white/80 to-transparent pointer-events-none"></div>
+
+          <!-- Load More Button -->
+          <div class="relative z-10 flex justify-center pt-8 pb-4">
+            <button
+              @click="loadMore"
+              class="group px-6 py-3 bg-white border-2 border-[#996600] text-[#996600] rounded-lg font-medium hover:bg-[#996600] hover:text-white transition-all shadow-md hover:shadow-lg flex items-center gap-2"
+            >
+              <span>Muat Lebih Banyak</span>
+              <svg class="w-5 h-5 transform group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Upload Image Modal -->
+    <div v-if="showUploadModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50">
+      <div class="bg-white rounded-lg shadow-xl max-w-md w-full p-6">
+        <h3 class="text-lg font-bold text-gray-900 mb-4">Upload Gambar Menu</h3>
+        <p class="text-sm text-gray-600 mb-4">{{ selectedMenu?.nama_barang }}</p>
+
+        <form @submit.prevent="uploadImage">
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Pilih Gambar</label>
+            <input
+              type="file"
+              ref="imageInput"
+              accept="image/*"
+              @change="handleImageSelect"
+              class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-[#996600] file:text-white hover:file:bg-[#7a5100]"
+              required
+            />
+          </div>
+
+          <div v-if="imagePreview" class="mb-4">
+            <img :src="imagePreview" class="w-full h-48 object-cover rounded-lg" alt="Preview" />
+          </div>
+
+          <div class="flex justify-end space-x-3">
+            <button
+              type="button"
+              @click="closeUploadModal"
+              class="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50"
+            >
+              Batal
+            </button>
+            <button
+              type="submit"
+              :disabled="uploading"
+              class="px-4 py-2 bg-[#996600] hover:bg-[#7a5100] text-white rounded-lg disabled:opacity-50"
+            >
+              {{ uploading ? 'Uploading...' : 'Upload' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Edit Display Modal -->
+    <div v-if="showEditModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50" @click.self="closeEditModal">
+      <div class="bg-white rounded-lg shadow-xl max-w-md w-full p-6">
+        <h3 class="text-lg font-bold text-gray-900 mb-4">Edit Display Menu</h3>
+        <p class="text-sm text-gray-600 mb-4">{{ selectedMenu?.nama_barang }}</p>
+
+        <form @submit.prevent="updateDisplay">
+          <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Deskripsi Display</label>
+            <textarea
+              v-model="displayForm.deskripsi_display"
+              rows="4"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent"
+              placeholder="Deskripsi marketing untuk display menu..."
+            ></textarea>
+          </div>
+
+          <div class="flex justify-end space-x-3">
+            <button
+              type="button"
+              @click="closeEditModal"
+              class="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50"
+            >
+              Batal
+            </button>
+            <button
+              type="submit"
+              :disabled="updating"
+              class="px-4 py-2 bg-[#996600] hover:bg-[#7a5100] text-white rounded-lg disabled:opacity-50"
+            >
+              {{ updating ? 'Menyimpan...' : 'Simpan' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Edit Menu Modal -->
+    <div v-if="showEditMenuModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 overflow-y-auto" @click.self="closeEditMenuModal">
+      <div class="bg-white rounded-lg shadow-xl max-w-2xl w-full p-6 my-8">
+        <h3 class="text-lg font-bold text-gray-900 mb-4">Edit Makanan</h3>
+        <p class="text-sm text-gray-600 mb-4">{{ selectedMenu?.nama_barang }}</p>
+
+        <form @submit.prevent="updateMenu" class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Nama Barang</label>
+            <input
+              v-model="menuForm.nama_barang"
+              type="text"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Kategori Barang</label>
+              <select
+                v-model="menuForm.kategori_id"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent"
+              >
+                <option :value="null">Pilih Kategori</option>
+                <option v-for="kategori in kategoris" :key="kategori.id" :value="kategori.id">
+                  {{ kategori.nama }}
+                </option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Sub Kategori Menu
+                <span class="text-xs text-gray-500">(untuk self-order)</span>
+              </label>
+              <select
+                v-model="menuForm.sub_kategori"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent"
+              >
+                <option value="">Pilih Sub Kategori</option>
+                <option v-for="subKat in allSubKategoris" :key="subKat" :value="subKat">
+                  {{ subKat }}
+                </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Harga Jual</label>
+              <input
+                v-model.number="menuForm.harga_jual"
+                type="number"
+                required
+                min="0"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Stok</label>
+              <input
+                v-model.number="menuForm.stok"
+                type="number"
+                required
+                min="0"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#996600] focus:border-transparent"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label class="flex items-center space-x-2">
+              <input
+                v-model="menuForm.tampilkan_di_menu"
+                type="checkbox"
+                class="w-4 h-4 text-[#996600] border-gray-300 rounded focus:ring-[#996600]"
+              />
+              <span class="text-sm font-medium text-gray-700">Tampilkan di Menu Kantin</span>
+            </label>
+          </div>
+
+          <div class="bg-gray-50 rounded-lg p-3 border border-gray-200">
+            <p class="text-xs text-gray-600">
+              <span class="font-medium">Catatan:</span> Untuk mengubah Kode Barang, Satuan, atau Harga Beli, silakan edit di
+              <Link href="/pengelola/opname-stock" class="text-[#996600] hover:underline font-medium">Master Barang</Link>
+            </p>
+          </div>
+
+          <div class="flex justify-end space-x-3 pt-4 border-t">
+            <button
+              type="button"
+              @click="closeEditMenuModal"
+              class="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50"
+            >
+              Batal
+            </button>
+            <button
+              type="submit"
+              :disabled="updating"
+              class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg disabled:opacity-50"
+            >
+              {{ updating ? 'Menyimpan...' : 'Simpan' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Availability Modal -->
+    <div
+      v-if="showAvailabilityModal"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+      @click.self="closeAvailabilityModal"
+    >
+      <div class="bg-white rounded-xl shadow-2xl max-w-md w-full mx-4 overflow-hidden">
+        <div class="bg-gradient-to-r from-[#996600] to-[#7a5100] p-6">
+          <h3 class="text-xl font-bold text-white">Pilih Jenis Menu</h3>
+          <p class="text-sm text-[#f4efe5] mt-1">Tentukan menu yang akan dicetak</p>
+        </div>
+
+        <div class="p-6 space-y-4">
+          <button
+            @click="confirmDownload(false)"
+            class="w-full group hover:scale-[1.02] transition-all"
+          >
+            <div class="flex items-start p-5 border-2 border-gray-200 rounded-xl hover:border-[#996600] hover:bg-[#996600]/5 transition-all">
+              <div class="flex-shrink-0 mr-4">
+                <div class="w-12 h-12 bg-[#996600]/10 rounded-xl flex items-center justify-center">
+                  <svg class="w-6 h-6 text-[#996600]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1 text-left">
+                <h4 class="font-bold text-gray-900 text-base mb-1">Cetak Semua Menu</h4>
+                <p class="text-sm text-gray-600">Termasuk menu yang stok habis (dengan strikethrough)</p>
+              </div>
+            </div>
+          </button>
+
+          <button
+            @click="confirmDownload(true)"
+            class="w-full group hover:scale-[1.02] transition-all"
+          >
+            <div class="flex items-start p-5 border-2 border-gray-200 rounded-xl hover:border-green-600 hover:bg-green-50 transition-all">
+              <div class="flex-shrink-0 mr-4">
+                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+                  <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="flex-1 text-left">
+                <h4 class="font-bold text-gray-900 text-base mb-1">Menu Tersedia Saja</h4>
+                <p class="text-sm text-gray-600">Hanya menu yang masih ada stoknya</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <div class="bg-gray-50 px-6 py-4 border-t">
+          <button
+            @click="closeAvailabilityModal"
+            class="w-full px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+          >
+            Batal
+          </button>
+        </div>
+      </div>
+    </div>
+  </AdminLayout>
+</template>
+
+<script setup>
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
+import { router, Link } from '@inertiajs/vue3';
+import AdminLayout from '@/Layouts/AdminLayout.vue';
+
+const props = defineProps({
+  groupedMenus: Array,
+  workUnits: Array,
+  kategoris: Array,
+  allSubKategoris: Array, // Semua sub kategori dari setting
+  subKategoris: Array, // Sub kategori yang ada menu itemsnya
+  filters: Object,
+});
+
+const searchQuery = ref(props.filters?.search || '');
+const filterWorkUnit = ref(props.filters?.work_unit || '');
+const filterKategori = ref(props.filters?.kategori || '');
+const activeSubKategori = ref('');
+const showAllKategori = ref(false);
+const itemsPerPage = ref(20);
+const currentPage = ref(1);
+const showUploadModal = ref(false);
+const showEditModal = ref(false);
+const showEditMenuModal = ref(false);
+const selectedMenu = ref(null);
+const imageInput = ref(null);
+const imagePreview = ref(null);
+const uploading = ref(false);
+const updating = ref(false);
+const activeDropdown = ref(null);
+const showDownloadDropdown = ref(false);
+const showAvailabilityModal = ref(false);
+const selectedTheme = ref(null);
+
+const displayForm = ref({
+  deskripsi_display: '',
+});
+
+const menuForm = ref({
+  nama_barang: '',
+  kategori_id: null,
+  sub_kategori: '',
+  harga_jual: 0,
+  stok: 0,
+  tampilkan_di_menu: true,
+});
+
+// Watch for filter changes and update URL
+watch([searchQuery, filterWorkUnit, filterKategori], () => {
+  router.get('/pengelola/menu-kantin', {
+    search: searchQuery.value,
+    work_unit: filterWorkUnit.value,
+    kategori: filterKategori.value,
+  }, {
+    preserveState: true,
+    replace: true,
+  });
+}, { debounce: 300 });
+
+const allMenus = computed(() => {
+  return props.groupedMenus?.flatMap(g => g.items) || [];
+});
+
+const totalMenus = computed(() => {
+  return allMenus.value.length;
+});
+
+const availableCount = computed(() => {
+  return allMenus.value.filter(m => m.is_available).length;
+});
+
+const outOfStockCount = computed(() => {
+  return allMenus.value.filter(m => m.stok === 0).length;
+});
+
+const filteredGroups = computed(() => {
+  if (showAllKategori.value) {
+    // Tampilkan semua dengan pagination
+    return props.groupedMenus || [];
+  } else {
+    // Tampilkan satu kategori yang dipilih
+    return props.groupedMenus?.filter(g => g.label === activeSubKategori.value) || [];
+  }
+});
+
+const paginatedGroups = computed(() => {
+  if (!showAllKategori.value) {
+    return filteredGroups.value;
+  }
+
+  // Flatten all items untuk pagination ketika show all
+  const allItems = filteredGroups.value.flatMap(group =>
+    group.items.map(item => ({ ...item, groupLabel: group.label }))
+  );
+
+  const totalToShow = currentPage.value * itemsPerPage.value;
+  const paginatedItems = allItems.slice(0, totalToShow);
+
+  // Group ulang items yang sudah dipaginate
+  const grouped = {};
+  paginatedItems.forEach(item => {
+    if (!grouped[item.groupLabel]) {
+      grouped[item.groupLabel] = {
+        label: item.groupLabel,
+        items: [],
+        count: 0
+      };
+    }
+    const { groupLabel, ...itemWithoutGroup } = item;
+    grouped[item.groupLabel].items.push(itemWithoutGroup);
+    grouped[item.groupLabel].count++;
+  });
+
+  return Object.values(grouped);
+});
+
+const totalItems = computed(() => {
+  return filteredGroups.value.flatMap(g => g.items).length;
+});
+
+const hasMoreItems = computed(() => {
+  if (!showAllKategori.value) return false;
+  return currentPage.value * itemsPerPage.value < totalItems.value;
+});
+
+const loadMore = () => {
+  currentPage.value++;
+};
+
+const toggleShowAll = () => {
+  showAllKategori.value = !showAllKategori.value;
+  currentPage.value = 1; // Reset pagination
+};
+
+const selectKategori = (label) => {
+  activeSubKategori.value = label;
+  currentPage.value = 1; // Reset pagination
+};
+
+const subKategoriList = computed(() => {
+  return props.groupedMenus?.map(g => ({
+    label: g.label,
+    count: g.count
+  })) || [];
+});
+
+const formatPrice = (price) => {
+  return new Intl.NumberFormat('id-ID').format(price);
+};
+
+const openUploadModal = (menu) => {
+  closeDropdown();
+  selectedMenu.value = menu;
+  showUploadModal.value = true;
+  imagePreview.value = null;
+};
+
+const closeUploadModal = () => {
+  showUploadModal.value = false;
+  selectedMenu.value = null;
+  imagePreview.value = null;
+};
+
+const handleImageSelect = (event) => {
+  const file = event.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      imagePreview.value = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+};
+
+const uploadImage = () => {
+  const formData = new FormData();
+  formData.append('gambar', imageInput.value.files[0]);
+
+  uploading.value = true;
+
+  router.post(`/pengelola/menu-kantin/${selectedMenu.value.id}/display`, formData, {
+    preserveState: false,
+    preserveScroll: true,
+    onSuccess: () => {
+      closeUploadModal();
+      uploading.value = false;
+    },
+    onError: () => {
+      uploading.value = false;
+    },
+  });
+};
+
+const openEditDisplayModal = (menu) => {
+  closeDropdown();
+  selectedMenu.value = menu;
+  displayForm.value.deskripsi_display = menu.deskripsi_display || '';
+  showEditModal.value = true;
+};
+
+const closeEditModal = () => {
+  showEditModal.value = false;
+  selectedMenu.value = null;
+};
+
+const updateDisplay = () => {
+  updating.value = true;
+
+  router.post(`/pengelola/menu-kantin/${selectedMenu.value.id}/display`, displayForm.value, {
+    preserveState: false,
+    preserveScroll: true,
+    onSuccess: () => {
+      closeEditModal();
+      updating.value = false;
+    },
+    onError: () => {
+      updating.value = false;
+    },
+  });
+};
+
+const toggleAvailability = (menu) => {
+  router.post(`/pengelola/menu-kantin/${menu.id}/toggle-availability`, {}, {
+    preserveState: false,
+    preserveScroll: true,
+  });
+};
+
+const toggleDropdown = (menuId) => {
+  if (activeDropdown.value === menuId) {
+    activeDropdown.value = null;
+  } else {
+    activeDropdown.value = menuId;
+  }
+};
+
+const openEditMenuModal = (menu) => {
+  closeDropdown();
+  selectedMenu.value = menu;
+  menuForm.value = {
+    nama_barang: menu.nama_barang,
+    kategori_id: menu.kategori_id,
+    sub_kategori: menu.sub_kategori || '',
+    harga_jual: menu.harga_jual,
+    stok: menu.stok,
+    tampilkan_di_menu: menu.tampilkan_di_menu ?? true,
+  };
+  showEditMenuModal.value = true;
+};
+
+const closeEditMenuModal = () => {
+  showEditMenuModal.value = false;
+  selectedMenu.value = null;
+};
+
+const updateMenu = () => {
+  updating.value = true;
+
+  router.put(`/pengelola/menu-kantin/${selectedMenu.value.id}/barang`, menuForm.value, {
+    preserveState: false,
+    preserveScroll: true,
+    onSuccess: () => {
+      closeEditMenuModal();
+      updating.value = false;
+    },
+    onError: () => {
+      updating.value = false;
+    },
+  });
+};
+
+const toggleDownloadDropdown = (event) => {
+  event?.stopPropagation();
+  showDownloadDropdown.value = !showDownloadDropdown.value;
+  console.log('Toggle dropdown:', showDownloadDropdown.value);
+};
+
+const downloadMenu = (theme) => {
+  console.log('Download menu:', theme);
+  showDownloadDropdown.value = false;
+  selectedTheme.value = theme;
+  showAvailabilityModal.value = true;
+};
+
+const confirmDownload = (availableOnly) => {
+  showAvailabilityModal.value = false;
+
+  let url = `/pengelola/menu-kantin/download?theme=${selectedTheme.value}`;
+  if (filterWorkUnit.value) {
+    url += `&work_unit=${filterWorkUnit.value}`;
+  }
+  if (availableOnly) {
+    url += '&available_only=true';
+  }
+
+  window.location.href = url;
+};
+
+const closeAvailabilityModal = () => {
+  showAvailabilityModal.value = false;
+  selectedTheme.value = null;
+};
+
+const closeDropdown = () => {
+  activeDropdown.value = null;
+};
+
+// Close dropdown when clicking outside
+const handleClickOutside = (event) => {
+  // Check if click is outside the pencil dropdown
+  if (activeDropdown.value !== null) {
+    const target = event.target;
+    // Check if clicked on the button or inside dropdown
+    if (!target.closest('[title="Kelola Menu"]') && !target.closest('.z-50')) {
+      activeDropdown.value = null;
+    }
+  }
+
+  // Close download dropdown
+  if (showDownloadDropdown.value) {
+    const target = event.target;
+    if (!target.closest('button')?.textContent?.includes('Download') && !target.closest('.z-20')) {
+      showDownloadDropdown.value = false;
+    }
+  }
+};
+
+onMounted(() => {
+  document.addEventListener('click', handleClickOutside);
+
+  // Set default kategori ke kategori pertama
+  if (subKategoriList.value.length > 0 && !activeSubKategori.value) {
+    activeSubKategori.value = subKategoriList.value[0].label;
+  }
+});
+
+onUnmounted(() => {
+  document.removeEventListener('click', handleClickOutside);
+});
+</script>

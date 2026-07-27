@@ -1,0 +1,1 @@
+function r(){return{playSFX:a=>{try{let e="";if(a==="add"||a==="increment"||a==="decrement"?e="/sfx/tambah_kurangi_item.mp3":a==="remove"?e="/sfx/buang_item.mp3":a==="clear"?e="/sfx/clear_items.mp3":a==="success"&&(e="/sfx/berhasil_transaksi.mp3"),e){const s=new Audio(e);s.volume=.5,s.play().catch(()=>{})}}catch{}}}}export{r as u};

@@ -1,0 +1,173 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use App\Models\Supplier;
+
+class SupplierSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $suppliers = [
+            [
+                'kode_supplier' => 'SUP001',
+                'nama' => 'PT Sumber Alfaria Trijaya',
+                'perusahaan' => 'Alfamart',
+                'alamat' => 'Jl. MH Thamrin No. 9',
+                'kota' => 'Jakarta',
+                'provinsi' => 'DKI Jakarta',
+                'kode_pos' => '10230',
+                'telepon' => '021-3199-2000',
+                'email' => 'corporate@alfamart.co.id',
+                'kontak_person' => 'Customer Service',
+                'telepon_kontak' => '1500-959',
+                'catatan' => 'Supplier retail untuk kebutuhan toko dan kantin',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP002',
+                'nama' => 'PT Indomarco Prismatama',
+                'perusahaan' => 'Indomaret',
+                'alamat' => 'Jl. Ancol VIII No. 1',
+                'kota' => 'Jakarta Utara',
+                'provinsi' => 'DKI Jakarta',
+                'kode_pos' => '14430',
+                'telepon' => '021-690-1888',
+                'email' => 'info@indomaret.co.id',
+                'kontak_person' => 'Customer Service',
+                'telepon_kontak' => '1500-280',
+                'catatan' => 'Supplier retail untuk berbagai kebutuhan',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP003',
+                'nama' => 'CV Sumber Rejeki',
+                'perusahaan' => 'Sumber Rejeki',
+                'alamat' => 'Jl. Cimindi No. 45',
+                'kota' => 'Cimahi',
+                'provinsi' => 'Jawa Barat',
+                'kode_pos' => '40534',
+                'telepon' => '022-6654321',
+                'email' => 'sumberrejeki@email.com',
+                'kontak_person' => 'Bapak Ujang',
+                'telepon_kontak' => '0812-3456-7890',
+                'catatan' => 'Supplier sayur dan buah segar',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP004',
+                'nama' => 'PT Indofood CBP',
+                'perusahaan' => 'Indofood',
+                'alamat' => 'Jl. Jend. Sudirman Kav. 76-78',
+                'kota' => 'Jakarta',
+                'provinsi' => 'DKI Jakarta',
+                'kode_pos' => '12910',
+                'telepon' => '021-5795-8822',
+                'email' => 'corporate@indofood.co.id',
+                'kontak_person' => 'Marketing Division',
+                'telepon_kontak' => '021-5795-8822',
+                'catatan' => 'Supplier makanan instan dan bumbu',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP005',
+                'nama' => 'PT Wings Surya',
+                'perusahaan' => 'Wings Group',
+                'alamat' => 'Jl. Raya Darmo No. 110',
+                'kota' => 'Surabaya',
+                'provinsi' => 'Jawa Timur',
+                'kode_pos' => '60264',
+                'telepon' => '031-567-8900',
+                'email' => 'info@wings.co.id',
+                'kontak_person' => 'Sales Department',
+                'telepon_kontak' => '031-567-8901',
+                'catatan' => 'Supplier produk rumah tangga dan makanan ringan',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP006',
+                'nama' => 'Toko Berkah Jaya',
+                'perusahaan' => 'Berkah Jaya',
+                'alamat' => 'Jl. Setiabudhi No. 234',
+                'kota' => 'Bandung',
+                'provinsi' => 'Jawa Barat',
+                'kode_pos' => '40153',
+                'telepon' => '022-2001-2345',
+                'email' => 'berkahjaya@email.com',
+                'kontak_person' => 'Ibu Siti',
+                'telepon_kontak' => '0813-2345-6789',
+                'catatan' => 'Supplier alat tulis dan perlengkapan kantor',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP007',
+                'nama' => 'PT ABC President Indonesia',
+                'perusahaan' => 'ABC',
+                'alamat' => 'Jl. Raya Bogor KM 27',
+                'kota' => 'Jakarta Timur',
+                'provinsi' => 'DKI Jakarta',
+                'kode_pos' => '13710',
+                'telepon' => '021-8719-2828',
+                'email' => 'corporate@abc-president.com',
+                'kontak_person' => 'Marketing Team',
+                'telepon_kontak' => '021-8719-2829',
+                'catatan' => 'Supplier minuman dan saus',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP008',
+                'nama' => 'UD Sumber Makmur',
+                'perusahaan' => 'Sumber Makmur',
+                'alamat' => 'Jl. Pasar Baru No. 123',
+                'kota' => 'Cimahi',
+                'provinsi' => 'Jawa Barat',
+                'kode_pos' => '40512',
+                'telepon' => '022-6612345',
+                'email' => 'makmur@email.com',
+                'kontak_person' => 'Bapak Ahmad',
+                'telepon_kontak' => '0856-1234-5678',
+                'catatan' => 'Supplier bahan makanan kering',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP009',
+                'nama' => 'PT Mayora Indah',
+                'perusahaan' => 'Mayora',
+                'alamat' => 'Gedung Mayora, Jl. Tomang Raya No. 21-23',
+                'kota' => 'Jakarta Barat',
+                'provinsi' => 'DKI Jakarta',
+                'kode_pos' => '11440',
+                'telepon' => '021-566-5000',
+                'email' => 'info@mayora.co.id',
+                'kontak_person' => 'Corporate Sales',
+                'telepon_kontak' => '021-566-5001',
+                'catatan' => 'Supplier biskuit dan makanan ringan',
+                'is_active' => true,
+            ],
+            [
+                'kode_supplier' => 'SUP010',
+                'nama' => 'CV Fresh Food Supplier',
+                'perusahaan' => 'Fresh Food',
+                'alamat' => 'Jl. Soekarno Hatta No. 567',
+                'kota' => 'Bandung',
+                'provinsi' => 'Jawa Barat',
+                'kode_pos' => '40286',
+                'telepon' => '022-7562-3456',
+                'email' => 'fresh@email.com',
+                'kontak_person' => 'Ibu Rina',
+                'telepon_kontak' => '0822-9876-5432',
+                'catatan' => 'Supplier bahan makanan segar harian',
+                'is_active' => true,
+            ],
+        ];
+
+        foreach ($suppliers as $supplier) {
+            Supplier::create($supplier);
+        }
+    }
+}

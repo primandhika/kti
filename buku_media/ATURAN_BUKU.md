@@ -2,7 +2,40 @@
 
 ## Fungsi Dokumen
 
-Dokumen ini menjadi pedoman bersama untuk menulis, merevisi, dan menata naskah buku media pembelajaran bahasa dan sastra. Aturan ini berlaku untuk semua bab, bagian pendukung, contoh, aktivitas, tabel, dan materi praktis yang disiapkan sebagai bagian dari buku.
+Dokumen ini menjadi pedoman bersama untuk menulis, merevisi, dan menata naskah buku media pembelajaran bahasa dan sastra. Aturan ini berlaku untuk semua bab, bagian pendukung, contoh, aktivitas, tabel, gambar, glosarium, biografi penulis, dan materi praktis yang disiapkan sebagai bagian dari buku.
+
+## Komponen Minimum Naskah Buku
+
+Agar naskah tidak kehilangan bagian penting pada tahap penyusunan, setiap versi kerja buku minimal perlu memeriksa keberadaan komponen berikut.
+
+### Bagian Awal
+
+- Halaman judul atau sampul.
+- Halaman hak cipta bila sudah disiapkan.
+- Pengantar.
+- Daftar isi.
+- Daftar gambar jika buku memuat gambar, diagram, bagan, alur, tangkapan layar, atau ilustrasi yang diberi nomor.
+- Daftar tabel jika buku memuat tabel, matriks, rubrik, atau bentuk tabular lain yang diberi nomor.
+- Cara menggunakan buku bila memang menjadi bagian dari rancangan buku.
+
+### Bagian Isi
+
+- Seluruh bab utama yang telah direncanakan.
+- Pada setiap bab, minimal ada tujuan pembelajaran, kata kunci, uraian materi, contoh yang relevan, serta latihan atau proyek dan refleksi sesuai sifat bab.
+- Pada bab praktik atau studio, minimal ada alat atau bahan yang digunakan, langkah kerja, keluaran yang diharapkan, cara evaluasi, dan tindak lanjut.
+
+### Bagian Akhir
+
+- Glosarium jika buku memuat cukup banyak istilah teknis, pedagogis, digital, atau AI yang perlu dijelaskan secara ringkas.
+- Daftar pustaka terpusat.
+- Indeks bila memang menjadi bagian yang akan disiapkan untuk terbit.
+- Tentang Penulis atau biografi penulis.
+
+### Pemeriksaan Minimum Sebelum Menyatakan Draf Utama Cukup Lengkap
+
+- Pastikan tidak ada bagian penting yang tertinggal, terutama daftar gambar, daftar tabel, glosarium, dan tentang penulis jika unsur-unsurnya sudah hadir dalam buku.
+- Jika suatu komponen belum dapat diisi penuh, sediakan file atau penanda kerja yang jelas agar bagian itu tidak terlewat pada tahap berikutnya.
+- Ketidakhadiran satu komponen harus disengaja dan dapat dijelaskan, bukan terjadi karena luput diperiksa.
 
 ## Ruang Kerja dan Versi Naskah
 
@@ -25,6 +58,12 @@ Dokumen ini menjadi pedoman bersama untuk menulis, merevisi, dan menata naskah b
 ## Isi Akademik dan Referensi
 
 - Pertahankan sitasi dan daftar rujukan yang sudah ada selama masih relevan. Jika suatu sitasi perlu diganti atau dihapus karena tidak lagi relevan, konsultasikan terlebih dahulu.
+- Semua entri daftar pustaka buku disimpan terpusat pada file `buku_media/DAFTAR_PUSTAKA.md`.
+- Jangan menambahkan seksi `Rujukan Bab`, `Referensi`, atau `Sources` di ujung setiap bab, kecuali diminta secara khusus. Bab cukup memuat sitasi dalam narasi, sedangkan daftar pustaka dikumpulkan pada bagian akhir buku.
+- Setiap kali menambah, mengubah, atau menghapus sumber dalam bab, sinkronkan juga entri yang sesuai pada `buku_media/DAFTAR_PUSTAKA.md`.
+- Gunakan gaya referensi APA Edisi ke-7 untuk semua entri daftar pustaka dan sitasi dalam teks.
+- Sitasi dalam teks perlu hadir secara jelas pada pembahasan konseptual atau klaim akademik, baik dalam bentuk naratif seperti `Penulis (Tahun) menyatakan ...` maupun parentetik seperti `... (Penulis, Tahun; Penulis, Tahun)`.
+- Untuk sumber web, dokumen kebijakan, halaman lembaga, dan sumber daring lain, tulis penulis lembaga atau penulis utama, tahun, judul, penerbit bila relevan, dan URL sesuai kaidah APA 7th.
 - Bagian yang membahas perkembangan mutakhir, kebaruan, kebijakan, teknologi, kecerdasan artifisial, platform digital, atau praktik terkini harus menggunakan sumber yang mutakhir, pada umumnya terbit tahun 2022 ke atas.
 - Sumber klasik atau lebih lama tetap dapat digunakan untuk teori dasar yang mapan, sepanjang masih relevan dan tidak diposisikan sebagai bukti kondisi terkini.
 - Jika pembahasan utama menyampaikan klaim akademik, pedagogis, atau evaluatif, dukung dengan sitasi yang memadai. Jangan membangun pembahasan penting hanya dari opini naratif.
@@ -40,6 +79,9 @@ Dokumen ini menjadi pedoman bersama untuk menulis, merevisi, dan menata naskah b
 - Jangan mendorong pembaca memasukkan data pribadi peserta didik, rekaman tanpa izin, bahan ujian rahasia, atau materi berhak cipta yang tidak berizin ke layanan publik berbasis AI.
 - Jika alat berbasis AI digunakan, hasilnya harus ditelaah, diperbaiki, dan dipertanggungjawabkan oleh pengguna. Catat penggunaan alat apabila aktivitas atau tugas memerlukannya.
 - Contoh media dan tugas praktik harus dapat diterapkan untuk pembelajaran bahasa atau sastra, bukan contoh teknologi yang terlepas dari tujuan belajar.
+- Setiap bab perlu memiliki evaluasi pada bagian akhir yang selaras dengan sifat materinya.
+- Untuk bab yang dominan konseptual, utamakan evaluasi berbentuk esai singkat, analisis kasus, audit, atau tugas reflektif yang menuntut penerapan konsep, bukan hanya pertanyaan objektif.
+- Untuk bab yang dominan praktis atau studio, evaluasi harus menuntut keluaran yang nyata, misalnya rancangan, prototipe, media jadi, log proses, hasil uji, atau artefak lain yang dapat ditinjau.
 
 ## Penyajian
 

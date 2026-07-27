@@ -1,0 +1,19 @@
+  Uji Awal (session 2) — 2 row:                                                      
+  - id 80 · 25210044 Muhammad Fauzan Firmansyah · Hobi & Gaya Hidup · nilai 80.00 ·  
+  2025-11-13                                                                         
+  - id 92 · 25210076 Parhan Banani · Hobi & Gaya Hidup · nilai 33.00 · 2025-11-17    
+                                                                                     
+  UAS (session 3) — 4 row:                                                           
+  - id 134 · 25210044 Muhammad Fauzan Firmansyah · Hobi & Gaya Hidup · nilai 86.70 · 
+  2025-12-16                                                                         
+  - id 138 · 25210076 Parhan Banani · Hobi & Gaya Hidup · nilai 68.70 · 2025-12-18 ← 
+  ini yg videonya barusan kita localise (UAS_25210076.webm)                          
+  - id 169 · 25210022 Yaskie Aliansya · Hobi & Gaya Hidup · nilai 69.30 · 2025-12-17 
+  - id 201 · syahdan321 Syahdan Naufal Dhia Mulyandi · (topik null) · nilai 86.70 · 
+  2025-12-23                                                                         
+                                                                                     
+  Catatan:                                                                           
+  - 25210044 & 25210076 & 25210022 punya NIM valid (kelihatannya mereka ikut uji tapi
+   tidak masuk daftar CSV pretes/postes yang kamu kirim).                            
+  - syahdan321 — player_id bukan format NIM, kemungkinan akun manual/tes.            
+                                                                              

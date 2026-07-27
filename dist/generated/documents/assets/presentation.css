@@ -1,0 +1,482 @@
+
+/* ══════════════════════════════════════════════════════════════ */
+/*  THEME: Academic Premium : Navy & Gold, Playfair Display      */
+/* ══════════════════════════════════════════════════════════════ */
+
+:root {
+  --c-navy:       #ffffff;
+  --c-navy-mid:   #f5f5f5;
+  --c-navy-light: #e0e0e0;
+  --c-gold:       #b89c25;
+  --c-gold-light: #cfa81d;
+  --c-gold-dim:   rgba(219,207,77,0.15);
+  --c-primary:    #004c84;
+  --c-secondary:  #41bb6c;
+  --c-fg:         #004c84;
+  --c-fg2:        #333333;
+  --c-fg3:        #555555;
+  --c-border:     rgba(0,76,132,0.15);
+  --c-bg:         #ffffff;
+  --c-bg-alt:     #f4f7f9;
+  --c-bg-card:    #ffffff;
+  --font-heading: "Playfair Display", "Georgia", serif;
+  --font-body:    "Source Serif 4", "Georgia", serif;
+}
+
+/* ── base ── */
+.reveal, .reveal p, .reveal li, .reveal span {
+  font-family: var(--font-body) !important;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: var(--font-heading) !important;
+}
+.reveal {
+  font-size: 24px !important;
+  color: var(--c-fg) !important;
+  background: linear-gradient(160deg, var(--c-navy) 0%, var(--c-navy-mid) 40%, var(--c-navy-light) 100%) !important;
+}
+.reveal .slides {
+  text-align: left !important;
+}
+.reveal .slides section {
+  padding: 0 !important;
+}
+.slide-content {
+  padding: 34px 52px 40px 52px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+/* custom scrollbar */
+.slide-content::-webkit-scrollbar { width: 5px; }
+.slide-content::-webkit-scrollbar-track { background: transparent; }
+.slide-content::-webkit-scrollbar-thumb { background: var(--c-gold-dim); border-radius: 3px; }
+
+/* ── headings ── */
+.reveal h1 {
+  font-size: 1.4em !important;
+  font-weight: 700 !important;
+  color: var(--c-primary) !important;
+  border-bottom: 2px solid var(--c-gold);
+  padding-bottom: 8px;
+  margin: 0 0 20px 0 !important;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 6px rgba(219,207,77,0.15);
+}
+.reveal h2 {
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  color: var(--c-fg) !important;
+  margin: 0 0 12px 0 !important;
+}
+.reveal h3 {
+  font-size: 0.92em !important;
+  font-weight: 600 !important;
+  color: var(--c-fg2) !important;
+  margin: 0 0 10px 0 !important;
+}
+.reveal h1 i, .reveal h2 i {
+  color: var(--c-gold-light) !important;
+  margin-right: 14px;
+  filter: drop-shadow(0 0 4px rgba(219,207,77,0.3));
+}
+
+/* ── text ── */
+.reveal p {
+  font-size: 0.84em !important;
+  line-height: 1.72 !important;
+  color: var(--c-fg2) !important;
+  margin: 0 0 10px 0 !important;
+}
+.reveal li {
+  font-size: 0.84em !important;
+  line-height: 1.65 !important;
+  color: var(--c-fg2) !important;
+  margin-bottom: 5px !important;
+}
+.reveal ul, .reveal ol {
+  margin: 0 0 10px 1.3em !important;
+  padding: 0 !important;
+}
+.reveal ul li::marker {
+  color: var(--c-gold) !important;
+}
+.reveal strong {
+  color: var(--c-primary) !important;
+  font-weight: 700 !important;
+}
+.reveal em {
+  color: var(--c-fg3) !important;
+  font-style: italic !important;
+}
+
+/* ── tables ── */
+.reveal table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  font-size: 0.74em !important;
+  margin: 10px 0 !important;
+  line-height: 1.5;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.reveal table thead th {
+  background: var(--c-primary) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  padding: 8px 10px !important;
+  text-align: center !important;
+  border: none !important;
+  border-bottom: 2px solid var(--c-gold) !important;
+  font-family: var(--font-heading) !important;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+.reveal table tbody td {
+  padding: 6px 10px !important;
+  border: 1px solid rgba(219,207,77,0.15) !important;
+  text-align: center !important;
+  color: var(--c-fg2) !important;
+  transition: background 0.25s ease;
+}
+.reveal table tbody tr:nth-child(even) {
+  background: var(--c-bg-alt) !important;
+}
+.reveal table tbody tr:hover {
+  background: rgba(219,207,77,0.08) !important;
+}
+.reveal table tbody td:first-child {
+  text-align: left !important;
+  font-weight: 600 !important;
+  color: var(--c-fg) !important;
+}
+
+/* ── code / pre ── */
+.reveal pre {
+  background: rgba(10,22,40,0.8) !important;
+  border: none !important;
+  border-left: none !important;
+  border-radius: 6px !important;
+  padding: 12px 16px !important;
+  font-size: 0.74em !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3) !important;
+  color: var(--c-fg) !important;
+}
+.reveal code {
+  font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace !important;
+  color: var(--c-gold-light) !important;
+}
+
+/* ── blockquotes ── */
+.reveal blockquote {
+  background: var(--c-bg-card) !important;
+  border-left: none !important;
+  padding: 10px 16px !important;
+  margin: 12px 0 !important;
+  font-size: 0.8em !important;
+  font-style: italic !important;
+  border-radius: 0 6px 6px 0;
+  color: var(--c-fg2) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.reveal blockquote p {
+  color: var(--c-fg2) !important;
+  margin: 0 !important;
+}
+
+/* ── images ── */
+.reveal img {
+  max-width: 100% !important;
+  max-height: 60vh !important;
+  height: auto !important;
+  width: auto !important;
+  object-fit: contain !important;
+  border-radius: 6px;
+}
+.reveal img.chart {
+  display: block;
+  margin: 10px auto;
+  max-height: 60vh !important;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.reveal section.chart-safe-slide .slide-content {
+  height: 100%;
+  padding: 10px 16px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.reveal section.chart-safe-slide img.chart {
+  max-width: 86% !important;
+  max-height: 54vh !important;
+  margin: 0 auto !important;
+}
+
+/* ── hr ── */
+.reveal hr {
+  border: none !important;
+  border-top: 1px solid var(--c-border) !important;
+  margin: 14px 0 !important;
+}
+
+/* ── slide number ── */
+.reveal .slide-number {
+  font-family: var(--font-body) !important;
+  font-size: 12px !important;
+  color: var(--c-gold) !important;
+  background: rgba(10,22,40,0.6) !important;
+  padding: 4px 10px !important;
+  border-radius: 12px 0 0 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  letter-spacing: 0.05em;
+}
+
+/* ── progress bar ── */
+.reveal .progress {
+  height: 3px !important;
+  color: var(--c-gold) !important;
+}
+.reveal .progress span {
+  background: linear-gradient(90deg, var(--c-gold), var(--c-gold-light)) !important;
+}
+
+/* ── controls ── */
+.reveal .controls {
+  color: var(--c-gold) !important;
+}
+.reveal .controls button {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+.reveal .controls button:hover {
+  opacity: 1;
+}
+
+/* ── flex card panels ── */
+.card-panel {
+  background: var(--c-bg-card) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 22px !important;
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.card-panel:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+  border-color: var(--c-gold) !important;
+}
+.card-panel h3 {
+  color: var(--c-primary) !important;
+  font-family: var(--font-heading) !important;
+  margin-bottom: 12px !important;
+}
+
+
+/* ── cover slide ── */
+.reveal section:first-child .slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  background: radial-gradient(ellipse at center, rgba(26,39,68,0.4) 0%, transparent 70%);
+}
+
+/* ── decorative ornaments ── */
+.ornament {
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--c-gold), transparent);
+  margin: 16px auto;
+}
+.ornament-thin {
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--c-gold-dim), transparent);
+  margin: 10px auto;
+}
+
+/* ── animations ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200px 0; }
+  100% { background-position: 200px 0; }
+}
+.reveal .slides section.present .slide-content > * {
+  animation: fadeInUp 0.6s ease-out both;
+}
+.reveal .slides section.present .slide-content > *:nth-child(1) { animation-delay: 0.05s; }
+.reveal .slides section.present .slide-content > *:nth-child(2) { animation-delay: 0.12s; }
+.reveal .slides section.present .slide-content > *:nth-child(3) { animation-delay: 0.19s; }
+.reveal .slides section.present .slide-content > *:nth-child(4) { animation-delay: 0.26s; }
+.reveal .slides section.present .slide-content > *:nth-child(5) { animation-delay: 0.33s; }
+.reveal .slides section.present .slide-content > *:nth-child(6) { animation-delay: 0.40s; }
+.reveal .slides section.present .slide-content > *:nth-child(7) { animation-delay: 0.47s; }
+.reveal .slides section.present .slide-content > *:nth-child(8) { animation-delay: 0.54s; }
+
+/* -- slow entrance for background slide -- */
+@keyframes backgroundBriefEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+    filter: blur(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+.reveal .slides section.background-brief-slide .slide-content {
+  height: 100%;
+  padding: 30px 64px 34px 64px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.reveal .slides section.background-brief-slide.present .slide-content > * {
+  animation: backgroundBriefEnter 1.55s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+.reveal .slides section.background-brief-slide.present .slide-content > *:nth-child(1) { animation-delay: 0.12s; }
+.reveal .slides section.background-brief-slide.present .slide-content > *:nth-child(2) { animation-delay: 0.36s; }
+.background-brief-slide .brief-kicker {
+  color: var(--c-gold) !important;
+  font-size: 0.64em !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 !important;
+}
+.background-brief-slide .brief-photo {
+  width: min(265px, 26vw);
+  max-height: 86px;
+  object-fit: contain;
+  align-self: flex-start;
+  margin: 0 0 2px 26px;
+  border-radius: 9px;
+  box-shadow: 0 12px 26px rgba(0,0,0,0.16);
+}
+.background-brief-slide .brief-paragraph {
+  max-width: 940px;
+  color: #1f2937 !important;
+  font-size: 0.82em !important;
+  line-height: 1.65 !important;
+  text-align: left !important;
+  letter-spacing: 0.02em;
+  margin: 0 !important;
+  padding-left: 26px;
+  border-left: 4px solid var(--c-gold);
+}
+.background-brief-slide .brief-keyword {
+  color: var(--c-primary) !important;
+  font-weight: 800;
+  background: linear-gradient(180deg, transparent 54%, rgba(219,207,77,0.38) 54%);
+  padding: 0 0.08em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.background-brief-slide .brief-source {
+  max-width: 940px;
+  margin: -2px 0 0 30px !important;
+  color: #4b5563 !important;
+  font-size: 0.34em !important;
+  line-height: 1.12 !important;
+}
+.background-brief-slide .brief-source strong {
+  color: var(--c-primary) !important;
+}
+
+/* ── print adjustments ── */
+@media print {
+  .reveal { background: #fff !important; }
+  .reveal h1 { color: #0a1628 !important; border-color: #0a1628 !important; }
+  .reveal p, .reveal li, .reveal td { color: #333 !important; }
+  .reveal table thead th { background: #0a1628 !important; color: #fff !important; }
+}
+
+/* ── custom cover slide ── */
+.reveal .slides section.cover-slide {
+  background: #ffffff !important;
+}
+.reveal .slides section.cover-slide .slide-content {
+  background: transparent !important;
+}
+.deck-fixed-footer {
+  position: fixed;
+  left: 22px;
+  bottom: 16px;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+  color: #333333;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+.deck-fixed-footer img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+}
+.deck-fixed-footer__name,
+.deck-fixed-footer__nim,
+.deck-fixed-footer__separator {
+  display: inline-block;
+}
+.deck-fixed-footer__separator {
+  color: #777777;
+  font-weight: 500;
+}
+
+/* RQ mapping slide */
+.rq-map-slide,
+.rq-map-slide p,
+.rq-map-slide table,
+.rq-map-slide th,
+.rq-map-slide td {
+  text-align: left !important;
+}
+.rq-map-table thead th {
+  text-align: left !important;
+}
+.rq-map-table tbody td {
+  text-align: left !important;
+  vertical-align: top !important;
+}
+
+/* Keep the background brief image controlled after external CSS loading */
+.background-brief-slide .brief-photo {
+  width: min(520px, 50vw) !important;
+  max-width: 100% !important;
+  max-height: 250px !important;
+  object-fit: contain !important;
+  align-self: flex-start !important;
+  margin: 0 0 16px 26px !important;
+}

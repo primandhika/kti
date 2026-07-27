@@ -1,0 +1,54 @@
+# Daftar Tabel
+
+- **Tabel 1.1** Perbedaan Media, Teknologi, Bahan Ajar, dan Sumber Belajar
+- **Tabel 1.2** Fungsi Media dan Contoh Penggunaannya
+- **Tabel 1.3** Landasan Teoretis dan Implikasinya bagi Media
+- **Tabel 2.1** Perubahan Fungsi Media dalam Lingkungan Digital
+- **Tabel 2.2** Unsur Ekosistem Media Digital
+- **Tabel 2.3** Contoh Peran AI dalam Pembelajaran Bahasa dan Sastra Indonesia
+- **Tabel 2.4** Risiko Penggunaan AI dan Tindakan Pencegahan
+- **Tabel 3.1** Peta Pertanyaan tentang Peserta Didik, Konteks, dan Sumber Daya
+- **Tabel 3.2** Contoh Perumusan Tujuan yang Kurang Tepat dan Perbaikannya
+- **Tabel 3.3** Analisis Materi dan Implikasinya bagi Media
+- **Tabel 3.4** Gejala, Kemungkinan Penyebab, dan Keputusan tentang Media
+- **Tabel 3.5** Komponen Dasar *Design Brief* Media Pembelajaran
+- **Tabel 4.1** Matriks Keselarasan Tujuan, Aktivitas, Media, dan Asesmen
+- **Tabel 4.2** Prinsip Multimedia dan Contoh Penerapannya
+- **Tabel 4.3** Ragam Media dan Pertimbangan Pemilihannya
+- **Tabel 4.4** Pemeriksaan Desain Inklusif dan Aksesibilitas
+- **Tabel 4.5** Rubrik Sederhana Pemilihan dan Evaluasi Media
+- **Tabel 4.6** Contoh Lembar Uji Kelayakan Sederhana
+- **Tabel 5.1** Contoh Media untuk Menyimak dan Memirsa
+- **Tabel 5.2** Contoh Media untuk Berbicara dan Mempresentasikan Gagasan
+- **Tabel 5.3** Contoh Media untuk Membaca dan Menafsirkan Teks
+- **Tabel 5.4** Media untuk Menulis, Menyunting, dan Menerbitkan Karya
+- **Tabel 5.5** Contoh Matriks Pembelajaran Keterampilan Berbahasa Terpadu
+- **Tabel 6.1** Karakteristik Genre Sastra dan Implikasinya bagi Media
+- **Tabel 6.2** Contoh Media untuk Apresiasi Puisi, Prosa, dan Drama
+- **Tabel 6.3** Bentuk Respons Kreatif dalam Pembelajaran Sastra
+- **Tabel 6.4** Media untuk Diskusi, Penafsiran, dan Kolaborasi Sastra
+- **Tabel 6.5** Contoh Matriks Perancangan Pengalaman Belajar Sastra
+- **Tabel 7.1** Pemeriksaan Awal Aset Digital
+- **Tabel 7.2** Unsur Komunikasi Visual dan Penceritaan Digital
+- **Tabel 7.3** Pilihan Format Media Digital
+- **Tabel 7.4** Pemeriksaan Ringkas dan Aksesibel
+- **Tabel 7.5** Lembar Telaah Sederhana Media Digital
+- **Tabel 7.6** Rubrik Ringkas Proyek Studio 1
+- **Tabel 8.1** Fungsi Interaktivitas dalam Pembelajaran
+- **Tabel 8.2** Ragam Aktivitas Interaktif Tanpa Kode
+- **Tabel 8.3** Komponen Aplikasi Pembelajaran Sederhana
+- **Tabel 8.4** Fokus Telaah Purwarupa Interaktif
+- **Tabel 8.5** Dokumentasi Minimum Media Interaktif
+- **Tabel 8.6** Rubrik Ringkas Proyek Studio 2
+- **Tabel 9.1** Peran AI dalam Studio Media Pembelajaran
+- **Tabel 9.2** Komponen Prompt yang Layak Digunakan
+- **Tabel 9.3** Pemanfaatan AI pada Tahap Eksplorasi
+- **Tabel 9.4** Pemeriksaan Awal Purwarupa Vibe Coding
+- **Tabel 9.5** Lembar Telaah Keluaran AI
+- **Tabel 9.6** Rubrik Ringkas Proyek Studio 3
+- **Tabel 10.1** Komponen Persiapan Simulasi
+- **Tabel 10.2** Fokus Observasi pada Uji Penggunaan
+- **Tabel 10.3** Rubrik Evaluasi Pedagogis, Teknis, dan Etis
+- **Tabel 10.4** Prioritas Revisi Media
+- **Tabel 10.5** Komponen Portofolio Media Pembelajaran
+- **Tabel 10.6** Rubrik Ringkas Proyek Akhir

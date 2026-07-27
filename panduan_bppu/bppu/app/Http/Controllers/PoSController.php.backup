@@ -1,0 +1,1146 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Barang;
+use App\Models\Penjualan;
+use App\Models\WorkUnit;
+use App\Models\Setting;
+use App\Services\PoS\BarangService;
+use App\Services\PoS\BuyerService;
+use App\Services\PoS\PenjualanTransactionService;
+use App\Services\PoS\PenjualanVerificationService;
+use App\Services\PoS\PenjualanReportService;
+use App\Services\PoS\SupplierReportService;
+use App\Services\PoS\TransactionProofService;
+use App\Services\PoS\PenjualanReportPdfService;
+use Illuminate\Http\Request;
+use Inertia\Inertia;
+use Barryvdh\DomPDF\Facade\Pdf;
+
+class PoSController extends Controller
+{
+    protected $barangService;
+    protected $buyerService;
+    protected $transactionService;
+    protected $verificationService;
+    protected $reportService;
+    protected $supplierReportService;
+    protected $proofService;
+    protected $pdfService;
+
+    public function __construct(
+        BarangService $barangService,
+        BuyerService $buyerService,
+        PenjualanTransactionService $transactionService,
+        PenjualanVerificationService $verificationService,
+        PenjualanReportService $reportService,
+        SupplierReportService $supplierReportService,
+        TransactionProofService $proofService,
+        PenjualanReportPdfService $pdfService
+    ) {
+        $this->barangService = $barangService;
+        $this->buyerService = $buyerService;
+        $this->transactionService = $transactionService;
+        $this->verificationService = $verificationService;
+        $this->reportService = $reportService;
+        $this->supplierReportService = $supplierReportService;
+        $this->proofService = $proofService;
+        $this->pdfService = $pdfService;
+    }
+
+    /**
+     * Display PoS interface for user kantin
+     */
+    public function index(Request $request)
+    {
+        $user = auth()->user();
+
+        // Get work units yang bisa diakses user
+        if ($user->hasRole('sysadmin')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        // Get selected work unit
+        $selectedWorkUnitId = $request->get('work_unit_id', $workUnits->first()?->id);
+        $selectedWorkUnit = WorkUnit::find($selectedWorkUnitId);
+
+        // Get barangs from selected work unit
+        $barangs = $this->barangService->getBarangs($selectedWorkUnit);
+
+        // Get buyers for customer search
+        $buyers = $this->buyerService->getBuyers();
+
+        // Get points settings
+        $pointsSettings = [
+            'minimal_poin_redeem' => (int) Setting::get('minimal_poin_redeem', 5000),
+            'kurs_poin_ke_rupiah' => (int) Setting::get('kurs_poin_ke_rupiah', 2),
+        ];
+
+        return Inertia::render('PoS/Index', [
+            'workUnits' => $workUnits,
+            'selectedWorkUnit' => $selectedWorkUnit,
+            'barangs' => $barangs,
+            'buyers' => $buyers,
+            'pointsSettings' => $pointsSettings,
+        ]);
+    }
+
+    /**
+     * Refresh barangs data (untuk sync tanpa reload halaman)
+     */
+    public function refreshBarangs(Request $request)
+    {
+        $workUnitId = $request->get('work_unit_id');
+        $selectedWorkUnit = WorkUnit::find($workUnitId);
+
+        if (!$selectedWorkUnit) {
+            return response()->json(['error' => 'Work unit not found'], 404);
+        }
+
+        $user = auth()->user();
+
+        // Check if user can access this work unit
+        if (!$user->canAccessWorkUnit($workUnitId)) {
+            return response()->json(['error' => 'Unauthorized'], 403);
+        }
+
+        $barangs = $this->barangService->getBarangs($selectedWorkUnit);
+
+        return response()->json([
+            'barangs' => $barangs,
+            'timestamp' => now()->toISOString(),
+        ]);
+    }
+
+    /**
+     * Store a new transaction
+     */
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'work_unit_id' => 'required|exists:work_units,id',
+            'tanggal_transaksi' => 'required|date|before_or_equal:today',
+            'items' => 'required|array|min:1',
+            'items.*.barang_id' => 'required|exists:barangs,id',
+            'items.*.varian_id' => 'nullable|exists:barang_varians,id',
+            'items.*.qty' => 'required|integer|min:1',
+            'items.*.harga_satuan' => 'required|numeric|min:0',
+            'items.*.diskon_per_item' => 'nullable|numeric|min:0',
+            'subtotal' => 'required|numeric|min:0',
+            'diskon' => 'nullable|numeric|min:0',
+            'total' => 'required|numeric|min:0',
+            'bayar' => 'required|numeric|min:0',
+            'metode_pembayaran' => 'required|in:tunai,transfer,qris,debit,kredit',
+            'buyer_id' => 'nullable|exists:users,id',
+            'nama_pelanggan' => 'nullable|string|max:255',
+            'catatan' => 'nullable|string',
+            'redeem_points' => 'nullable|integer|min:0',
+        ]);
+
+        $user = auth()->user();
+
+        // Check if user can access this work unit
+        if (!$user->canAccessWorkUnit($validated['work_unit_id'])) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses ke unit kerja ini.']);
+        }
+
+        // Validate all barang_id belong to the same work_unit_id
+        foreach ($validated['items'] as $item) {
+            $barang = Barang::find($item['barang_id']);
+            if (!$barang || $barang->work_unit_id != $validated['work_unit_id']) {
+                return back()->withErrors(['error' => 'Barang dengan ID ' . $item['barang_id'] . ' tidak ditemukan di unit kerja ini.']);
+            }
+        }
+
+        $result = $this->transactionService->store($validated, $user);
+
+        if ($result['success']) {
+            return back()->with('transaction', $result['data']);
+        } else {
+            return back()->withErrors(['error' => 'Terjadi kesalahan: ' . $result['error']]);
+        }
+    }
+
+    /**
+     * Get transaction history for current user
+     */
+    public function history(Request $request)
+    {
+        $user = auth()->user();
+        $workUnitId = $request->get('work_unit_id');
+
+        $query = Penjualan::with(['workUnit', 'user', 'items.barang'])
+            ->where('user_id', $user->id);
+
+        if ($workUnitId) {
+            $query->where('work_unit_id', $workUnitId);
+        }
+
+        $penjualans = $query->orderBy('tanggal_transaksi', 'desc')
+            ->paginate(20);
+
+        return response()->json($penjualans);
+    }
+
+    /**
+     * Show transaction detail
+     */
+    public function show($id)
+    {
+        $penjualan = Penjualan::with(['workUnit', 'user', 'items.barang', 'verifiedBy', 'approvedBy', 'recordedBy'])
+            ->findOrFail($id);
+
+        $user = auth()->user();
+
+        // Check if user can access this transaction
+        $canAccess = $user->hasRole('sysadmin') ||
+                     $user->hasRole('officer') ||
+                     ($user->hasRole('canteen') && $penjualan->user_id === $user->id);
+
+        if (!$canAccess) {
+            abort(403, 'Anda tidak diizinkan melihat transaksi ini');
+        }
+
+        return response()->json($penjualan);
+    }
+
+    /**
+     * Cancel transaction - untuk Kantin & Sysadmin
+     */
+    public function cancel($id)
+    {
+        $penjualan = Penjualan::with(['items', 'buyer'])->findOrFail($id);
+        $user = auth()->user();
+
+        // Check if user can cancel this transaction
+        $canCancel = $user->hasRole('sysadmin') ||
+                     $user->hasRole('officer') ||
+                     ($user->hasRole('canteen') && $penjualan->user_id === $user->id);
+
+        if (!$canCancel) {
+            return back()->with('error', 'Anda tidak diizinkan membatalkan transaksi ini');
+        }
+
+        // Check if transaction can be cancelled (e.g., not older than 24 hours)
+        if ($penjualan->created_at->diffInHours(now()) > 24) {
+            return back()->with('error', 'Transaksi lebih dari 24 jam tidak dapat dibatalkan');
+        }
+
+        $result = $this->transactionService->cancel($penjualan);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->with('error', $result['error']);
+        }
+    }
+
+    /**
+     * Verify single transaction - untuk Kantin (transaksi sendiri), Officer & Sysadmin (semua)
+     */
+    public function verify(Request $request, $id)
+    {
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        $validated = $request->validate([
+            'verify_date' => 'required|date',
+            'metode_pembayaran' => 'required|in:tunai,qris,transfer',
+        ]);
+
+        // Check permission
+        $canVerify = $user->hasRole('officer') ||
+                     $user->hasRole('sysadmin') ||
+                     ($user->hasRole('canteen') && $penjualan->user_id === $user->id);
+
+        if (!$canVerify) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk verifikasi transaksi ini']);
+        }
+
+        // Check if already verified
+        if ($penjualan->is_verified) {
+            return back()->withErrors(['error' => 'Transaksi sudah diverifikasi']);
+        }
+
+        $result = $this->verificationService->verify(
+            $penjualan,
+            $validated['verify_date'],
+            $user,
+            $validated['metode_pembayaran']
+        );
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Verify multiple transactions - untuk Officer & Sysadmin
+     */
+    public function verifyBulk(Request $request)
+    {
+        $validated = $request->validate([
+            'transaction_ids' => 'required|array',
+            'transaction_ids.*' => 'exists:penjualans,id',
+        ]);
+
+        $user = auth()->user();
+
+        // Check permission - Officer, Sysadmin, dan Kantin bisa bulk verify
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin') && !$user->hasRole('canteen')) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk verifikasi transaksi']);
+        }
+
+        $result = $this->verificationService->verifyBulk($validated['transaction_ids'], $user);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Verify all transactions in date range - untuk Officer & Sysadmin
+     */
+    public function verifyAll(Request $request)
+    {
+        $validated = $request->validate([
+            'work_unit_id' => 'nullable|exists:work_units,id',
+            'start_date' => 'required|date',
+            'end_date' => 'required|date|after_or_equal:start_date',
+        ]);
+
+        $user = auth()->user();
+
+        // Check permission
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk verifikasi transaksi']);
+        }
+
+        $result = $this->verificationService->verifyAll($validated, $user);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Approve single transaction - untuk Sysadmin only
+     */
+    public function approve($id)
+    {
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        // Check permission: officer or sysadmin
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Hanya officer atau sysadmin yang dapat approve transaksi']);
+        }
+
+        // Check if already approved
+        if ($penjualan->is_approved) {
+            return back()->withErrors(['error' => 'Transaksi sudah diapprove']);
+        }
+
+        // Check if verified first
+        if (!$penjualan->is_verified) {
+            return back()->withErrors(['error' => 'Transaksi harus diverifikasi terlebih dahulu']);
+        }
+
+        $result = $this->verificationService->approve($penjualan, $user);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Approve multiple transactions - untuk Officer & Sysadmin
+     */
+    public function approveBulk(Request $request)
+    {
+        $validated = $request->validate([
+            'transaction_ids' => 'required|array',
+            'transaction_ids.*' => 'exists:penjualans,id',
+        ]);
+
+        $user = auth()->user();
+
+        // Check permission: officer or sysadmin
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Hanya officer atau sysadmin yang dapat approve transaksi']);
+        }
+
+        $result = $this->verificationService->approveBulk($validated['transaction_ids'], $user);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Record to buku kas - untuk Officer & Sysadmin
+     */
+    public function recordToBukuKas(Request $request, $id)
+    {
+        $validated = $request->validate([
+            'buku_kas_id' => 'required|exists:buku_kas,id',
+            'keterangan' => 'nullable|string|max:500',
+        ]);
+
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        // Check permission
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk merekam ke buku kas']);
+        }
+
+        // Check if already recorded
+        if ($penjualan->is_recorded) {
+            return back()->withErrors(['error' => 'Transaksi sudah direkam ke buku kas']);
+        }
+
+        // Check if approved first
+        if (!$penjualan->is_approved) {
+            return back()->withErrors(['error' => 'Transaksi harus diapprove terlebih dahulu']);
+        }
+
+        $result = $this->verificationService->recordToBukuKas(
+            $penjualan,
+            $user,
+            $validated['buku_kas_id'],
+            $validated['keterangan']
+        );
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Upload image for barang (Kantin only)
+     */
+    public function uploadImage(Request $request)
+    {
+        $validated = $request->validate([
+            'barang_id' => 'required|exists:barangs,id',
+            'image' => 'required|image|mimes:jpeg,png,jpg,webp,gif|max:5120',
+        ]);
+
+        $barang = Barang::findOrFail($validated['barang_id']);
+        $user = auth()->user();
+
+        // Check if user can access this barang's work unit
+        if (!$user->canAccessWorkUnit($barang->work_unit_id)) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk mengubah barang ini.']);
+        }
+
+        $this->barangService->uploadImage($barang, $request->file('image'));
+
+        return back()->with('success', 'Foto berhasil diupload');
+    }
+
+    /**
+     * Delete image for barang (Kantin only)
+     */
+    public function deleteImage(Request $request)
+    {
+        $validated = $request->validate([
+            'barang_id' => 'required|exists:barangs,id',
+        ]);
+
+        $barang = Barang::findOrFail($validated['barang_id']);
+        $user = auth()->user();
+
+        // Check if user can access this barang's work unit
+        if (!$user->canAccessWorkUnit($barang->work_unit_id)) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk mengubah barang ini.']);
+        }
+
+        $this->barangService->deleteImage($barang);
+
+        return back()->with('success', 'Foto berhasil dihapus');
+    }
+
+    /**
+     * Rekap Penjualan - untuk Kantin & Sysadmin
+     */
+    public function rekapPenjualan(Request $request)
+    {
+        $user = auth()->user();
+
+        // Get work units yang bisa diakses user
+        if ($user->hasRole('sysadmin') || $user->hasRole('officer')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        // Get parameters
+        $workUnitIdParam = $request->get('work_unit_id');
+        // Handle "Semua Unit" atau empty string sebagai null
+        if ($workUnitIdParam === 'Semua Unit' || $workUnitIdParam === '' || $workUnitIdParam === 'null') {
+            $selectedWorkUnitId = null;
+        } else {
+            $selectedWorkUnitId = $workUnitIdParam ?: $workUnits->first()?->id;
+        }
+
+        $startDate = $request->get('start_date', now()->format('Y-m-d'));
+        $endDate = $request->get('end_date', now()->format('Y-m-d'));
+        $verifiedOnly = $request->get('verified_only', false);
+        $search = $request->get('search');
+
+        $params = [
+            'work_unit_id' => $selectedWorkUnitId,
+            'start_date' => $startDate,
+            'end_date' => $endDate,
+            'verified_only' => $verifiedOnly,
+            'search' => $search,
+        ];
+
+        $data = $this->reportService->getRekapPenjualan($params, $user, $workUnits);
+
+        // Get paginated results
+        $penjualans = $data['query']->orderBy('tanggal_transaksi', 'desc')
+            ->paginate(20)
+            ->appends($request->only(['work_unit_id', 'start_date', 'end_date', 'verified_only', 'search']));
+
+        // Get buyers untuk assign member
+        $buyers = $this->buyerService->getBuyers();
+
+        // Get buku kas yang aktif untuk record modal
+        $bukuKasQuery = \App\Models\BukuKas::with(['user', 'jenisBukuKas']);
+        if (!$user->hasRole('sysadmin') && !$user->hasRole('head')) {
+            $bukuKasQuery->where('user_id', $user->id);
+        }
+        $bukuKasList = $bukuKasQuery->get()
+            ->map(function ($buku) {
+                return [
+                    'id' => $buku->id,
+                    'nama' => $buku->nama,
+                    'keterangan' => $buku->keterangan,
+                    'user_name' => $buku->user->name,
+                    'jenis_buku_kas' => $buku->jenisBukuKas ? [
+                        'id' => $buku->jenisBukuKas->id,
+                        'nama' => $buku->jenisBukuKas->nama,
+                        'kode' => $buku->jenisBukuKas->kode,
+                        'warna' => $buku->jenisBukuKas->warna,
+                    ] : null,
+                ];
+            });
+
+        return Inertia::render('PoS/RekapPenjualan', [
+            'workUnits' => $workUnits,
+            'selectedWorkUnitId' => $selectedWorkUnitId,
+            'startDate' => $startDate,
+            'endDate' => $endDate,
+            'penjualans' => $penjualans,
+            'summary' => $data['summary'],
+            'itemSummary' => $data['itemSummary'],
+            'buyers' => $buyers,
+            'bukuKasList' => $bukuKasList,
+        ]);
+    }
+
+    /**
+     * Export item summary to CSV
+     */
+    public function exportItemSummary(Request $request)
+    {
+        $user = auth()->user();
+
+        $validated = $request->validate([
+            'work_unit_id' => 'nullable|exists:work_units,id',
+            'start_date' => 'required|date',
+            'end_date' => 'required|date|after_or_equal:start_date',
+        ]);
+
+        // Get work units
+        if ($user->hasRole('sysadmin')) {
+            $workUnits = WorkUnit::where('is_active', true)->pluck('id');
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->pluck('id');
+        }
+
+        $csvData = $this->reportService->exportItemSummary($validated, $user, $workUnits);
+        $filename = 'ringkasan-item-' . $validated['start_date'] . '-' . $validated['end_date'] . '.csv';
+
+        return response($csvData, 200)
+            ->header('Content-Type', 'text/csv; charset=UTF-8')
+            ->header('Content-Disposition', 'attachment; filename="' . $filename . '"')
+            ->header('Content-Transfer-Encoding', 'binary');
+    }
+
+    /**
+     * Get buyer points information
+     */
+    public function getBuyerPoints($buyerId)
+    {
+        $data = $this->buyerService->getBuyerPoints($buyerId);
+
+        if (!$data) {
+            return response()->json(['error' => 'Buyer not found'], 404);
+        }
+
+        return response()->json($data);
+    }
+
+    /**
+     * Preview redeem points to rupiah discount
+     */
+    public function redeemPreview(Request $request)
+    {
+        $validated = $request->validate([
+            'buyer_id' => 'required|exists:users,id',
+            'points_to_redeem' => 'required|integer|min:1',
+        ]);
+
+        $result = $this->buyerService->redeemPreview($validated['buyer_id'], $validated['points_to_redeem']);
+
+        if (!$result) {
+            return response()->json(['error' => 'Buyer not found'], 404);
+        }
+
+        if (isset($result['error'])) {
+            return response()->json($result, 400);
+        }
+
+        return response()->json($result);
+    }
+
+    /**
+     * Assign member buyer to transaction (Officer & Sysadmin only)
+     */
+    public function assignMember(Request $request, $id)
+    {
+        $user = auth()->user();
+
+        // Only Officer and Sysadmin can assign member
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Unauthorized']);
+        }
+
+        $validated = $request->validate([
+            'buyer_id' => 'required|exists:users,id',
+        ]);
+
+        $penjualan = Penjualan::findOrFail($id);
+
+        // Cannot assign member if already verified
+        if ($penjualan->is_verified) {
+            return back()->withErrors(['error' => 'Tidak bisa assign member ke transaksi yang sudah diverifikasi']);
+        }
+
+        $result = $this->verificationService->assignMember($penjualan, $validated['buyer_id']);
+
+        if ($result['success']) {
+            return back();
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Unverify transaction - untuk Officer & Sysadmin (untuk koreksi)
+     */
+    public function unverify($id)
+    {
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        // Check permission
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Anda tidak memiliki akses untuk unverify transaksi']);
+        }
+
+        // Check if not verified
+        if (!$penjualan->is_verified) {
+            return back()->withErrors(['error' => 'Transaksi belum diverifikasi']);
+        }
+
+        // Check if already approved
+        if ($penjualan->is_approved) {
+            return back()->withErrors(['error' => 'Transaksi sudah diapprove, tidak bisa di-unverify. Silakan unapprove terlebih dahulu.']);
+        }
+
+        // Check if already recorded
+        if ($penjualan->is_recorded) {
+            return back()->withErrors(['error' => 'Transaksi sudah tercatat di buku kas, tidak bisa di-unverify']);
+        }
+
+        $result = $this->verificationService->unverify($penjualan);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Unapprove transaction - untuk Sysadmin only (untuk koreksi)
+     */
+    public function unapprove($id)
+    {
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        // Check permission: officer or sysadmin
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            return back()->withErrors(['error' => 'Hanya officer atau sysadmin yang dapat unapprove transaksi']);
+        }
+
+        // Check if not approved
+        if (!$penjualan->is_approved) {
+            return back()->withErrors(['error' => 'Transaksi belum diapprove']);
+        }
+
+        // Check if already recorded
+        if ($penjualan->is_recorded) {
+            return back()->withErrors(['error' => 'Transaksi sudah tercatat di buku kas, tidak bisa di-unapprove. Silakan hapus pencatatan di buku kas terlebih dahulu.']);
+        }
+
+        $result = $this->verificationService->unapprove($penjualan);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Get summary of approved penjualan by work unit (for Buku Kas integration)
+     */
+    public function getApprovedSummaryByUnit()
+    {
+        $summary = $this->reportService->getApprovedSummaryByUnit();
+
+        return response()->json([
+            'success' => true,
+            'data' => $summary,
+        ]);
+    }
+
+    /**
+     * Get approved penjualan detail by work unit (for Buku Kas integration)
+     */
+    public function getApprovedByUnit($workUnitId)
+    {
+        $penjualan = $this->reportService->getApprovedByUnit($workUnitId);
+
+        return response()->json([
+            'success' => true,
+            'penjualan' => $penjualan,
+        ]);
+    }
+
+    /**
+     * Pembagian per Mitra - Akumulasi harga jual item dari setiap mitra
+     */
+    public function pembagianMitra(Request $request)
+    {
+        $user = auth()->user();
+
+        // Get work units yang bisa diakses user
+        if ($user->hasRole('sysadmin') || $user->hasRole('officer')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        // Get selected work unit dan date range
+        $selectedWorkUnitId = $request->get('work_unit_id', $workUnits->first()?->id);
+        $startDate = $request->get('start_date', now()->format('Y-m-d'));
+        $endDate = $request->get('end_date', now()->format('Y-m-d'));
+        $verifiedOnly = $request->get('verified_only', true); // Default true: hanya tampilkan yang sudah verified
+
+        $params = [
+            'work_unit_id' => $selectedWorkUnitId,
+            'start_date' => $startDate,
+            'end_date' => $endDate,
+            'verified_only' => $verifiedOnly,
+        ];
+
+        $data = $this->supplierReportService->getPembagianMitra($params, $user, $workUnits);
+
+        // Paginate manually
+        $perPage = 20;
+        $currentPage = $request->get('page', 1);
+        $offset = ($currentPage - 1) * $perPage;
+
+        $paginatedPembagian = new \Illuminate\Pagination\LengthAwarePaginator(
+            $data['pembagian']->slice($offset, $perPage)->values(),
+            $data['pembagian']->count(),
+            $perPage,
+            $currentPage,
+            ['path' => $request->url(), 'query' => $request->query()]
+        );
+
+        return Inertia::render('PoS/PembagianMitra', [
+            'workUnits' => $workUnits,
+            'selectedWorkUnitId' => $selectedWorkUnitId,
+            'startDate' => $startDate,
+            'endDate' => $endDate,
+            'verifiedOnly' => $verifiedOnly,
+            'pembagian' => $paginatedPembagian,
+            'summary' => $data['summary'],
+        ]);
+    }
+
+    /**
+     * Buku Tagihan - Daftar member dengan transaksi yang belum diapprove
+     */
+    public function bukuTagihan(Request $request)
+    {
+        $user = auth()->user();
+
+        // Get work units yang bisa diakses user
+        if ($user->hasRole('sysadmin') || $user->hasRole('officer')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        // Get selected work unit
+        $selectedWorkUnitId = $request->get('work_unit_id', $workUnits->first()?->id);
+
+        $params = [
+            'work_unit_id' => $selectedWorkUnitId,
+        ];
+
+        $data = $this->supplierReportService->getBukuTagihan($params, $user, $workUnits);
+
+        // Paginate manually
+        $perPage = 20;
+        $currentPage = $request->get('page', 1);
+        $offset = ($currentPage - 1) * $perPage;
+
+        $paginatedTagihan = new \Illuminate\Pagination\LengthAwarePaginator(
+            $data['transaksi']->slice($offset, $perPage)->values(),
+            $data['transaksi']->count(),
+            $perPage,
+            $currentPage,
+            ['path' => $request->url(), 'query' => $request->query()]
+        );
+
+        return Inertia::render('PoS/BukuTagihan', [
+            'workUnits' => $workUnits,
+            'selectedWorkUnitId' => $selectedWorkUnitId,
+            'tagihan' => $paginatedTagihan,
+            'summary' => $data['summary'],
+        ]);
+    }
+
+    /**
+     * Export Buku Tagihan to CSV
+     */
+    public function exportBukuTagihan(Request $request)
+    {
+        $user = auth()->user();
+
+        // Get work units yang bisa diakses user
+        if ($user->hasRole('sysadmin') || $user->hasRole('officer')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        $selectedWorkUnitId = $request->get('work_unit_id');
+
+        $params = [
+            'work_unit_id' => $selectedWorkUnitId,
+        ];
+
+        $transaksi = $this->supplierReportService->exportBukuTagihan($params, $user, $workUnits);
+
+        // Generate CSV
+        $filename = 'buku-tagihan-' . now()->format('Y-m-d-His') . '.csv';
+
+        $headers = [
+            'Content-Type' => 'text/csv; charset=UTF-8',
+            'Content-Disposition' => "attachment; filename=\"$filename\"",
+        ];
+
+        $callback = function () use ($transaksi) {
+            $file = fopen('php://output', 'w');
+
+            // UTF-8 BOM
+            fprintf($file, chr(0xEF) . chr(0xBB) . chr(0xBF));
+
+            // Header
+            fputcsv($file, ['Tanggal', 'ID Transaksi', 'Member', 'Kode Member', 'Unit Kerja', 'Nominal Tagihan', 'Status Verifikasi']);
+
+            // Data
+            foreach ($transaksi as $t) {
+                fputcsv($file, [
+                    $t->tanggal_transaksi->format('d/m/Y H:i'),
+                    $t->nomor_transaksi,
+                    $t->buyer?->name ?? '-',
+                    $t->buyer?->member_code ?? '-',
+                    $t->workUnit?->name ?? '-',
+                    $t->total,
+                    $t->is_verified ? 'Verified' : 'Pending',
+                ]);
+            }
+
+            fclose($file);
+        };
+
+        return response()->stream($callback, 200, $headers);
+    }
+
+    /**
+     * Export Pembagian Mitra to CSV
+     */
+    public function exportPembagianMitra(Request $request)
+    {
+        $user = auth()->user();
+
+        // Get work units yang bisa diakses user
+        if ($user->hasRole('sysadmin') || $user->hasRole('officer')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        $selectedWorkUnitId = $request->get('work_unit_id');
+        $startDate = $request->get('start_date', now()->format('Y-m-d'));
+        $endDate = $request->get('end_date', now()->format('Y-m-d'));
+        $verifiedOnly = $request->get('verified_only', true); // Ikut filter verified_only
+
+        $params = [
+            'work_unit_id' => $selectedWorkUnitId,
+            'start_date' => $startDate,
+            'end_date' => $endDate,
+            'verified_only' => $verifiedOnly,
+        ];
+
+        $csvData = $this->supplierReportService->exportPembagianMitra($params, $user, $workUnits);
+        $filename = 'pembagian-mitra-' . $startDate . '-' . $endDate . '.csv';
+
+        $headers = [
+            'Content-Type' => 'text/csv; charset=UTF-8',
+            'Content-Disposition' => "attachment; filename=\"$filename\"",
+        ];
+
+        $callback = function () use ($csvData) {
+            echo $csvData;
+        };
+
+        return response()->stream($callback, 200, $headers);
+    }
+
+    /**
+     * Simpan riwayat pembagian mitra
+     */
+    public function simpanRiwayatPembagian(Request $request)
+    {
+        $request->validate([
+            'work_unit_id' => 'nullable|exists:work_units,id',
+            'start_date' => 'required|date',
+            'end_date' => 'required|date|after_or_equal:start_date',
+            'pembagian' => 'required|array',
+            'catatan' => 'nullable|string',
+        ]);
+
+        $user = auth()->user();
+        $workUnitId = $request->work_unit_id;
+        $startDate = $request->start_date;
+        $endDate = $request->end_date;
+        $pembagianData = $request->pembagian;
+        $catatan = $request->catatan;
+
+        try {
+            foreach ($pembagianData as $item) {
+                if ($item['supplier_id'] === null) {
+                    continue; // Skip "Tanpa Mitra"
+                }
+
+                \App\Models\PembagianMitraHistory::create([
+                    'supplier_id' => $item['supplier_id'],
+                    'work_unit_id' => $workUnitId,
+                    'periode_mulai' => $startDate,
+                    'periode_selesai' => $endDate,
+                    'jenis_skema' => $item['skema_bisnis']['jenis_skema'] ?? 'supplier',
+                    'skema_config' => json_encode($item['skema_bisnis'] ?? []),
+                    'total_penjualan' => $item['total_penjualan'],
+                    'total_qty' => $item['total_qty'],
+                    'total_items' => $item['total_items'],
+                    'bagian_vendor' => $item['pembagian']['bagian_vendor'] ?? 0,
+                    'bagian_badan_usaha' => $item['pembagian']['bagian_badan_usaha'] ?? 0,
+                    'detail_items' => json_encode($item['items'] ?? []),
+                    'status' => 'finalized',
+                    'finalized_by' => $user->id,
+                    'finalized_at' => now(),
+                    'catatan' => $catatan,
+                ]);
+            }
+
+            return redirect()->back()->with('success', 'Riwayat pembagian berhasil disimpan!');
+        } catch (\Exception $e) {
+            return redirect()->back()->with('error', 'Gagal menyimpan riwayat: ' . $e->getMessage());
+        }
+    }
+
+    /**
+     * Lihat riwayat pembagian mitra
+     */
+    public function riwayatPembagian(Request $request)
+    {
+        $user = auth()->user();
+
+        $query = \App\Models\PembagianMitraHistory::with(['supplier.user', 'workUnit', 'finalizedBy'])
+            ->orderBy('periode_selesai', 'desc')
+            ->orderBy('created_at', 'desc');
+
+        // Filter by work unit if not sysadmin
+        if (!$user->hasRole('sysadmin') && !$user->hasRole('officer')) {
+            $workUnitIds = $user->workUnits()->pluck('id');
+            $query->whereIn('work_unit_id', $workUnitIds);
+        }
+
+        $riwayat = $query->paginate(20);
+
+        // Parse detail_items JSON and attach work_unit names
+        $riwayat->getCollection()->transform(function ($item) {
+            if ($item->detail_items && is_array($item->detail_items)) {
+                $item->detail_items = collect($item->detail_items)->map(function ($detailItem) {
+                    // Get work unit name if work_unit_id exists
+                    if (isset($detailItem['work_unit_id'])) {
+                        $workUnit = \App\Models\WorkUnit::find($detailItem['work_unit_id']);
+                        $detailItem['work_unit'] = $workUnit ? ['name' => $workUnit->name] : null;
+                    }
+                    return $detailItem;
+                })->toArray();
+            }
+            return $item;
+        });
+
+        return Inertia::render('PoS/RiwayatPembagian', [
+            'riwayat' => $riwayat,
+        ]);
+    }
+
+    /**
+     * Hapus riwayat pembagian
+     */
+    public function hapusRiwayatPembagian($id)
+    {
+        $riwayat = \App\Models\PembagianMitraHistory::findOrFail($id);
+        $riwayat->delete();
+
+        return redirect()->back()->with('success', 'Riwayat berhasil dihapus!');
+    }
+
+    /**
+     * Upload foto bukti transaksi
+     */
+    public function uploadFotoBukti(Request $request, $id)
+    {
+        $validated = $request->validate([
+            'foto_bukti' => 'required|image|mimes:jpeg,png,jpg,webp,gif|max:10240',
+        ]);
+
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        // Check if user can access this transaction
+        $canAccess = $user->hasRole('sysadmin') ||
+                     $user->hasRole('officer') ||
+                     ($user->hasRole('canteen') && $penjualan->user_id === $user->id);
+
+        if (!$canAccess) {
+            return back()->withErrors(['error' => 'Anda tidak diizinkan mengupload foto bukti untuk transaksi ini']);
+        }
+
+        $result = $this->proofService->uploadFotoBukti($penjualan, $request->file('foto_bukti'));
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Delete foto bukti transaksi
+     */
+    public function deleteFotoBukti($id)
+    {
+        $penjualan = Penjualan::findOrFail($id);
+        $user = auth()->user();
+
+        // Check if user can access this transaction
+        $canAccess = $user->hasRole('sysadmin') ||
+                     $user->hasRole('officer') ||
+                     ($user->hasRole('canteen') && $penjualan->user_id === $user->id);
+
+        if (!$canAccess) {
+            return back()->withErrors(['error' => 'Anda tidak diizinkan menghapus foto bukti untuk transaksi ini']);
+        }
+
+        $result = $this->proofService->deleteFotoBukti($penjualan);
+
+        if ($result['success']) {
+            return back()->with('success', $result['message']);
+        } else {
+            return back()->withErrors(['error' => $result['error']]);
+        }
+    }
+
+    /**
+     * Generate PDF Laporan Rekap Penjualan
+     */
+    public function downloadRekapPdf(Request $request)
+    {
+        $user = auth()->user();
+
+        // Only officer and sysadmin can download PDF
+        if (!$user->hasRole('officer') && !$user->hasRole('sysadmin')) {
+            abort(403, 'Anda tidak memiliki akses untuk download PDF');
+        }
+
+        // Get work units
+        if ($user->hasRole('sysadmin') || $user->hasRole('officer')) {
+            $workUnits = WorkUnit::where('is_active', true)->get();
+        } else {
+            $workUnits = $user->workUnits()->where('is_active', true)->get();
+        }
+
+        $selectedWorkUnitId = $request->get('work_unit_id');
+        $startDate = $request->get('start_date', now()->format('Y-m-d'));
+        $endDate = $request->get('end_date', now()->format('Y-m-d'));
+
+        $params = [
+            'work_unit_id' => $selectedWorkUnitId,
+            'start_date' => $startDate,
+            'end_date' => $endDate,
+        ];
+
+        $data = $this->pdfService->generateReportData($params, $user, $workUnits);
+
+        // Generate PDF
+        $pdf = Pdf::loadView('pdf.rekap-penjualan', ['data' => $data]);
+        $pdf->setPaper('a4', 'portrait');
+
+        $filename = 'Laporan_Rekap_Penjualan_' . $data['work_unit'] . '_' . date('Ymd_His') . '.pdf';
+
+        return $pdf->download($filename);
+    }
+}

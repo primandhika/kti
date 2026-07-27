@@ -1,0 +1,95 @@
+/* Toast Notification Custom Styles - Simple & Focused */
+
+:root {
+  --toastify-color-success: #10b981;
+  --toastify-color-error: #ef4444;
+  --toastify-color-warning: #f59e0b;
+  --toastify-color-info: #3b82f6;
+}
+
+.Vue-Toastification__toast {
+  min-height: 50px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.Vue-Toastification__toast--success {
+  background-color: var(--toastify-color-success);
+  color: white;
+}
+
+.Vue-Toastification__toast--error {
+  background-color: var(--toastify-color-error);
+  color: white;
+}
+
+.Vue-Toastification__toast--warning {
+  background-color: var(--toastify-color-warning);
+  color: white;
+}
+
+.Vue-Toastification__toast--info {
+  background-color: var(--toastify-color-info);
+  color: white;
+}
+
+.Vue-Toastification__progress-bar {
+  height: 3px;
+  opacity: 0.8;
+}
+
+.Vue-Toastification__toast-body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.Vue-Toastification__close-button {
+  color: white;
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Vue-Toastification__close-button:hover {
+  opacity: 1;
+}
+
+.Vue-Toastification__icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .Vue-Toastification__toast {
+    margin-bottom: 8px;
+    border-radius: 6px;
+  }
+
+  .Vue-Toastification__container {
+    width: calc(100% - 16px);
+    padding: 8px;
+  }
+}
+
+/* Animation */
+.Vue-Toastification__fade-enter-active,
+.Vue-Toastification__fade-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.Vue-Toastification__fade-enter-from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.Vue-Toastification__fade-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}

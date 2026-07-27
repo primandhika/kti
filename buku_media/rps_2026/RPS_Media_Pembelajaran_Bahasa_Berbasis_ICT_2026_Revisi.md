@@ -15,7 +15,7 @@
     <th colspan="2" rowspan="2">Otorisasi</th><th colspan="2">Koordinator Pengembang RPS</th><th>Koordinator Bidang Keahlian</th><th colspan="2">Ka-PRODI</th>
   </tr>
   <tr>
-    <td colspan="2">Sary Sukawati, M.Pd.</td><td>Dr. Hj. Wikanengsih, M.Pd.</td><td colspan="2">Diena San Fauziya, M.Pd.</td>
+    <td colspan="2">Restu Bias Primandhika, M.Pd.</td><td>Dr. Hj. Wikanengsih, M.Pd.</td><td colspan="2">Diena San Fauziya, M.Pd.</td>
   </tr>
   <tr><th colspan="2" rowspan="5">Capaian Pembelajaran (CP)</th><th colspan="5">CPL-PRODI (Capaian Pembelajaran Lulusan Program Studi)</th></tr>
   <tr><td>CP-S7</td><td colspan="4">Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara.</td></tr>

@@ -22,7 +22,7 @@
 
 | Koordinator Pengembang RPS | Koordinator Bidang Keahlian | Ka-PRODI |
 | :--- | :--- | :--- |
-| Sary Sukawati, M.Pd. | Dr. Hj. Wikanengsih, M.Pd. | Diena San Fauziya, M.Pd. |
+| Restu Bias Primandhika, M.Pd. | Dr. Hj. Wikanengsih, M.Pd. | Diena San Fauziya, M.Pd. |
 
 ---
 

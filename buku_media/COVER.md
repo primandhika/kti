@@ -2,9 +2,9 @@
 ## Teori, Desain, dan Praktik Digital Berbasis AI
 
 
-**Dr. Diena San Fauziya, M.Pd.**<br>
-**Restu Bias Primandhika, M.Pd.**<br>
-**Sary Sukawati, M.Pd.**<br>
-**Aurelia Sakti Yani, M.Pd.**
+**Restu Bias Primandhika**<br>
+**Diena San Fauziya**<br>
+**Sary Sukawati**<br>
+**Aurelia Sakti Yani**
 
 2026

@@ -1,0 +1,6 @@
+- JANGAN DIBIASAKAN MEMBUAT FILE PANJANG >1000 lines - KALAU SUDAH PASTI AKAN 1000 LINES, mening BUAT ITU MODULAR DULU!
+- no need to create documentation if not asked
+- make sure every feature you made is modular, not to bulk or put everything in one files, dont be lazy!
+- JANGAN PERNAH PAKAI EMOJI! DAN SELALU MENGACU @WARNA_UTAMA_IKIP.md
+- THE USE OF EMOJIS ARE STRICTLY PROHIBITED!
+- DO NOT EVER USER MIGRATE FRESH! ITS A FUCKING PROD!

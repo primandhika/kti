@@ -1,0 +1,33 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('kategori_transaksi', function (Blueprint $table) {
+            $table->id();
+            $table->string('nama');
+            $table->enum('jenis', ['pemasukan', 'pengeluaran', 'both'])->default('both');
+            $table->string('kode_akun')->nullable(); // Untuk kode akuntansi
+            $table->text('deskripsi')->nullable();
+            $table->boolean('is_active')->default(true);
+            $table->integer('urutan')->default(0); // Untuk sorting
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('kategori_transaksi');
+    }
+};

@@ -1,0 +1,35 @@
+kode_barang,nama_produk,stok,harga_beli,harga_jual,jenis_produk,subkategori_produk,mitra
+MG-001,Mie Gacor Level 0,999,6600,12000,Makanan,Mie,Mie Gacor
+MG-002,Mie Gacor Level 1-2,999,7800,14000,Makanan,Mie,Mie Gacor
+MG-003,Mie Gacor Level 3-5,999,8400,15000,Makanan,Mie,Mie Gacor
+MG-004,Mie Gacor Keju Lekoh Tidak Pedas,999,7800,14000,Makanan,Mie Keju,Mie Gacor
+MG-005,Mie Gacor Keju Lekoh Pedas/Chili Oil,999,9000,16000,Makanan,Mie Keju,Mie Gacor
+MG-006,Toping Telur Rebus 1/2,999,1500,3500,Tambahan,Toping,Mie Gacor
+MG-007,Toping Baso,999,1800,4000,Tambahan,Toping,Mie Gacor
+MG-008,Toping Suki,999,2100,4500,Tambahan,Toping,Mie Gacor
+MG-009,Basreng Chili Oil,999,6600,12000,Cemilan,Basreng,Mie Gacor
+MG-010,Basreng Ayam Bawang,999,6600,12000,Cemilan,Basreng,Mie Gacor
+MG-011,Basreng Keju,999,6600,12000,Cemilan,Basreng,Mie Gacor
+MG-012,Bapau Taro Pandan,999,6600,12000,Cemilan,Bakpao,Mie Gacor
+MG-013,Nasi Goreng Daging Kebab,999,15000,26000,Makanan,Nasi Goreng,Mie Gacor
+MG-014,Nasi Goreng Daging Ayam,999,12000,21000,Makanan,Nasi Goreng,Mie Gacor
+MG-015,Nasi Goreng Biasa,999,9000,16000,Makanan,Nasi Goreng,Mie Gacor
+MG-016,Roti Kebab Beef,999,9000,16000,Cemilan,Roti Bakar,Mie Gacor
+MG-017,Roti Kebab Beef Cheesy,999,10800,19000,Cemilan,Roti Bakar,Mie Gacor
+MG-018,Roti Kebab Beef Mozarella,999,11400,20000,Cemilan,Roti Bakar,Mie Gacor
+MG-019,Roti Bakar Strawberry,999,4800,9000,Cemilan,Roti Bakar,Mie Gacor
+MG-020,Roti Bakar Tiramisu,999,4800,9000,Cemilan,Roti Bakar,Mie Gacor
+MG-021,Roti Bakar Coklat,999,4800,9000,Cemilan,Roti Bakar,Mie Gacor
+MG-022,Roti Bakar Abon,999,6000,11000,Cemilan,Roti Bakar,Mie Gacor
+MG-023,Roti Bakar Keju,999,4800,9000,Cemilan,Roti Bakar,Mie Gacor
+MG-024,Dimsum Keju Mozarella,999,7800,14000,Cemilan,Dimsum,Mie Gacor
+MG-025,Dimsum Toping Beef,999,7800,14000,Cemilan,Dimsum,Mie Gacor
+MG-026,Dimsum Mix,999,7800,14000,Cemilan,Dimsum,Mie Gacor
+MG-027,Chiken Shrimp Roll,999,7800,14000,Cemilan,Dimsum,Mie Gacor
+MG-028,Dimsum Mentai,999,12000,21000,Cemilan,Dimsum,Mie Gacor
+MG-029,Es Teh Manis,999,4800,9000,Minuman,Dingin,Mie Gacor
+MG-030,Es Lemon Tea,999,5400,10000,Minuman,Dingin,Mie Gacor
+MG-031,Es Lyche Tea,999,5400,10000,Minuman,Dingin,Mie Gacor
+MG-032,Es Lemonade,999,5400,10000,Minuman,Dingin,Mie Gacor
+MG-033,Es Strawberry,999,5400,10000,Minuman,Dingin,Mie Gacor
+MG-034,Es Cokelat Premium,999,6600,12000,Minuman,Dingin,Mie Gacor

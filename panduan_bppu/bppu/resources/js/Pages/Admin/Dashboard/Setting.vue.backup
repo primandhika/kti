@@ -1,0 +1,1481 @@
+<template>
+  <component :is="layoutComponent" page-title="Setting">
+    <div class="space-y-6">
+      <!-- Header -->
+      <div class="bg-gradient-to-r from-primary-900 to-primary-950 rounded-2xl shadow-xl p-8 text-white">
+        <div class="flex items-center space-x-4">
+          <div class="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold">Pengaturan Sistem</h1>
+            <p class="text-gray-200 mt-1">Kelola konfigurasi dan preferensi aplikasi</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Settings Tabs -->
+      <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+        <!-- Tab Navigation -->
+        <div class="border-b border-gray-200">
+          <nav class="flex -mb-px overflow-x-auto">
+            <button
+              @click="activeTab = 'general'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'general'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Umum
+            </button>
+            <button
+              @click="activeTab = 'profile'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'profile'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Profil
+            </button>
+            <button
+              @click="activeTab = 'security'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'security'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Keamanan
+            </button>
+            <button
+              @click="activeTab = 'notification'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'notification'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Notifikasi
+            </button>
+            <button
+              v-if="$page.props.auth.user.roles.includes('sysadmin') || $page.props.auth.user.roles.includes('head') || $page.props.auth.user.roles.includes('officer')"
+              @click="activeTab = 'workUnits'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'workUnits'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Unit Kerja
+            </button>
+            <button
+              v-if="$page.props.auth.user.roles.includes('sysadmin') || $page.props.auth.user.roles.includes('officer')"
+              @click="activeTab = 'report'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'report'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Laporan
+            </button>
+            <button
+              v-if="$page.props.auth.user.roles.includes('sysadmin')"
+              @click="activeTab = 'kategoriBarang'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'kategoriBarang'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Kategori Barang
+            </button>
+            <button
+              v-if="$page.props.auth.user.roles.includes('sysadmin')"
+              @click="activeTab = 'kategoriKas'"
+              :class="[
+                'px-6 py-4 text-sm font-medium whitespace-nowrap border-b-2 transition-colors',
+                activeTab === 'kategoriKas'
+                  ? 'border-primary-900 text-primary-900'
+                  : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+              ]"
+            >
+              Kategori Kas
+            </button>
+          </nav>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="p-6">
+          <!-- General Tab -->
+          <div v-show="activeTab === 'general'" class="space-y-6">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Nama Aplikasi</label>
+              <input
+                type="text"
+                value="BPPU | IKIP Siliwangi"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Tagline</label>
+              <input
+                type="text"
+                value="Sistem Pengelolaan BPPU"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Email Kontak</label>
+              <input
+                type="email"
+                value="bppu@ikipsiliwangi.ac.id"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Zona Waktu</label>
+              <select class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <option>WIB (UTC+7)</option>
+                <option>WITA (UTC+8)</option>
+                <option>WIT (UTC+9)</option>
+              </select>
+            </div>
+
+            <div class="flex items-center justify-between py-3 border-t border-gray-200">
+              <div>
+                <p class="text-sm font-medium text-gray-900">Mode Maintenance</p>
+                <p class="text-xs text-gray-500">Aktifkan untuk menonaktifkan akses sementara</p>
+              </div>
+              <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-900 focus:ring-offset-2">
+                <span class="translate-x-1 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+              </button>
+            </div>
+
+            <div class="pt-4">
+              <button class="px-6 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold">
+                Simpan Perubahan
+              </button>
+            </div>
+          </div>
+
+          <!-- Profile Tab -->
+          <div v-show="activeTab === 'profile'" class="space-y-6">
+            <div class="flex items-center space-x-6">
+              <div class="w-24 h-24 bg-primary-900 rounded-full flex items-center justify-center text-white text-3xl font-bold">
+                A
+              </div>
+              <div>
+                <button class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium text-sm">
+                  Ubah Foto
+                </button>
+                <p class="text-xs text-gray-500 mt-2">JPG, PNG maksimal 2MB</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Nama Depan</label>
+                <input
+                  type="text"
+                  value="Admin"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Nama Belakang</label>
+                <input
+                  type="text"
+                  value="User"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+              <input
+                type="email"
+                value="admin@bppu.ac.id"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Nomor Telepon</label>
+              <input
+                type="tel"
+                value="+62 812 3456 7890"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div class="pt-4">
+              <button class="px-6 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold">
+                Update Profil
+              </button>
+            </div>
+          </div>
+
+          <!-- Security Tab -->
+          <div v-show="activeTab === 'security'" class="space-y-6">
+            <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+              <div class="flex items-start space-x-3">
+                <svg class="w-5 h-5 text-yellow-600 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <div>
+                  <h4 class="text-sm font-semibold text-yellow-800">Perhatian</h4>
+                  <p class="text-sm text-yellow-700 mt-1">Gunakan password yang kuat dan unik untuk keamanan akun Anda</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Password Saat Ini</label>
+              <input
+                type="password"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Password Baru</label>
+              <input
+                type="password"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Konfirmasi Password Baru</label>
+              <input
+                type="password"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              />
+            </div>
+
+            <div class="flex items-center justify-between py-3 border-t border-gray-200">
+              <div>
+                <p class="text-sm font-medium text-gray-900">Autentikasi Dua Faktor</p>
+                <p class="text-xs text-gray-500">Tambahkan lapisan keamanan ekstra</p>
+              </div>
+              <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-900 focus:ring-offset-2">
+                <span class="translate-x-1 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+              </button>
+            </div>
+
+            <div class="pt-4">
+              <button class="px-6 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold">
+                Ubah Password
+              </button>
+            </div>
+          </div>
+
+          <!-- Notification Tab -->
+          <div v-show="activeTab === 'notification'" class="space-y-6">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between py-3 border-b border-gray-200">
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Notifikasi Email</p>
+                  <p class="text-xs text-gray-500">Terima pembaruan melalui email</p>
+                </div>
+                <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-900 focus:ring-offset-2">
+                  <span class="translate-x-6 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between py-3 border-b border-gray-200">
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Laporan Baru</p>
+                  <p class="text-xs text-gray-500">Notifikasi saat ada laporan baru</p>
+                </div>
+                <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-900 focus:ring-offset-2">
+                  <span class="translate-x-6 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between py-3 border-b border-gray-200">
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Tugas Baru</p>
+                  <p class="text-xs text-gray-500">Notifikasi saat ada tugas baru</p>
+                </div>
+                <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-900 focus:ring-offset-2">
+                  <span class="translate-x-6 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between py-3 border-b border-gray-200">
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Komentar & Balasan</p>
+                  <p class="text-xs text-gray-500">Notifikasi saat ada komentar atau balasan</p>
+                </div>
+                <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                  <span class="translate-x-1 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between py-3">
+                <div>
+                  <p class="text-sm font-medium text-gray-900">Ringkasan Mingguan</p>
+                  <p class="text-xs text-gray-500">Terima ringkasan aktivitas setiap minggu</p>
+                </div>
+                <button class="relative inline-flex h-6 w-11 items-center rounded-full bg-primary-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-900 focus:ring-offset-2">
+                  <span class="translate-x-6 inline-block h-4 w-4 transform rounded-full bg-white transition-transform"></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="pt-4">
+              <button class="px-6 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold">
+                Simpan Preferensi
+              </button>
+            </div>
+          </div>
+
+          <!-- Kategori Barang Tab -->
+          <div v-show="activeTab === 'kategoriBarang'" class="space-y-6">
+            <div class="flex items-center justify-between mb-6">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900">Manajemen Kategori Barang</h3>
+                <p class="text-sm text-gray-500 mt-1">Kelola kategori untuk pengelompokan barang</p>
+              </div>
+              <button
+                @click="openAddKategoriBarangModal"
+                class="px-4 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold flex items-center space-x-2"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                </svg>
+                <span>Tambah Kategori</span>
+              </button>
+            </div>
+
+            <!-- Kategori Barang Table -->
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+              <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Kode</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nama Kategori</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Deskripsi</th>
+                      <th class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Jumlah Barang</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                      <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                    <tr v-if="kategoriBarangsLoading">
+                      <td colspan="6" class="px-6 py-4 text-center text-sm text-gray-500">Memuat data...</td>
+                    </tr>
+                    <tr v-else-if="kategoriBarangs.length === 0">
+                      <td colspan="6" class="px-6 py-4 text-center text-sm text-gray-500">Belum ada kategori barang</td>
+                    </tr>
+                    <tr v-else v-for="kategori in kategoriBarangs" :key="kategori.id" class="hover:bg-gray-50">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="text-sm font-mono font-semibold text-primary-900">{{ kategori.kode || '-' }}</span>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="text-sm font-medium text-gray-900">{{ kategori.nama }}</div>
+                      </td>
+                      <td class="px-6 py-4">
+                        <div class="text-sm text-gray-500">{{ kategori.deskripsi || '-' }}</div>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-center">
+                        <span class="px-2 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">
+                          {{ kategori.barangs_count || 0 }}
+                        </span>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <button
+                          @click="toggleKategoriBarangStatus(kategori)"
+                          :class="[
+                            'px-2 py-1 text-xs font-medium rounded-full transition-colors',
+                            kategori.is_active
+                              ? 'bg-green-100 text-green-800 hover:bg-green-200'
+                              : 'bg-red-100 text-red-800 hover:bg-red-200'
+                          ]"
+                        >
+                          {{ kategori.is_active ? 'Aktif' : 'Nonaktif' }}
+                        </button>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <button
+                          @click="openEditKategoriBarangModal(kategori)"
+                          class="text-primary-900 hover:text-primary-950 mr-3"
+                        >
+                          Edit
+                        </button>
+                        <button
+                          @click="deleteKategoriBarang(kategori)"
+                          class="text-red-600 hover:text-red-900"
+                        >
+                          Hapus
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kategori Kas Tab -->
+          <div v-show="activeTab === 'kategoriKas'" class="space-y-6">
+            <div class="flex items-center justify-between mb-6">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900">Manajemen Kategori Kas</h3>
+                <p class="text-sm text-gray-500 mt-1">Kelola kategori untuk transaksi kas</p>
+              </div>
+              <button
+                @click="openAddKategoriKasModal"
+                class="px-4 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold flex items-center space-x-2"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                </svg>
+                <span>Tambah Kategori</span>
+              </button>
+            </div>
+
+            <!-- Kategori Kas Table -->
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+              <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Kode</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nama Kategori</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tipe</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Deskripsi</th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                      <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                    <tr v-if="kategoriKasLoading">
+                      <td colspan="6" class="px-6 py-4 text-center text-sm text-gray-500">Memuat data...</td>
+                    </tr>
+                    <tr v-else-if="kategoriKas.length === 0">
+                      <td colspan="6" class="px-6 py-4 text-center text-sm text-gray-500">Belum ada kategori kas</td>
+                    </tr>
+                    <tr v-else v-for="kategori in kategoriKas" :key="kategori.id" class="hover:bg-gray-50">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="text-sm font-mono font-semibold text-primary-900">{{ kategori.kode || '-' }}</span>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="text-sm font-medium text-gray-900">{{ kategori.nama }}</div>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <span :class="[
+                          'px-2 py-1 text-xs font-medium rounded-full',
+                          kategori.tipe === 'pemasukan' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                        ]">
+                          {{ kategori.tipe }}
+                        </span>
+                      </td>
+                      <td class="px-6 py-4">
+                        <div class="text-sm text-gray-500">{{ kategori.deskripsi || '-' }}</div>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <button
+                          @click="toggleKategoriKasStatus(kategori)"
+                          :class="[
+                            'px-2 py-1 text-xs font-medium rounded-full transition-colors',
+                            kategori.is_active
+                              ? 'bg-green-100 text-green-800 hover:bg-green-200'
+                              : 'bg-red-100 text-red-800 hover:bg-red-200'
+                          ]"
+                        >
+                          {{ kategori.is_active ? 'Aktif' : 'Nonaktif' }}
+                        </button>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <button
+                          @click="openEditKategoriKasModal(kategori)"
+                          class="text-primary-900 hover:text-primary-950 mr-3"
+                        >
+                          Edit
+                        </button>
+                        <button
+                          @click="deleteKategoriKas(kategori)"
+                          class="text-red-600 hover:text-red-900"
+                        >
+                          Hapus
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Report Tab -->
+          <div v-show="activeTab === 'report'" class="space-y-6">
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-4">Pengaturan Laporan</h3>
+              <p class="text-sm text-gray-500 mb-6">Konfigurasi data yang akan ditampilkan pada laporan PDF</p>
+            </div>
+
+            <form @submit.prevent="saveReportSettings" class="space-y-6">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                  Nama Kepala BPPU <span class="text-red-500">*</span>
+                </label>
+                <input
+                  v-model="reportForm.kepala_bppu_nama"
+                  type="text"
+                  required
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                  placeholder="Contoh: Dr. Nama Kepala BPPU, M.Pd."
+                />
+                <p class="text-xs text-gray-500 mt-1">Nama yang akan ditampilkan pada tanda tangan laporan PDF</p>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">NIP Kepala BPPU</label>
+                <input
+                  v-model="reportForm.kepala_bppu_nip"
+                  type="text"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                  placeholder="Contoh: 198501012010121001"
+                />
+                <p class="text-xs text-gray-500 mt-1">Opsional - NIP yang akan ditampilkan pada laporan</p>
+              </div>
+
+              <div class="pt-4 border-t border-gray-200">
+                <button
+                  type="submit"
+                  :disabled="reportFormLoading"
+                  class="px-6 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold disabled:opacity-50"
+                >
+                  {{ reportFormLoading ? 'Menyimpan...' : 'Simpan Perubahan' }}
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Work Units Tab -->
+          <div v-show="activeTab === 'workUnits'" class="space-y-6">
+            <div class="flex items-center justify-between mb-6">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-900">Manajemen Unit Kerja</h3>
+                <p class="text-sm text-gray-500 mt-1">Kelola unit-unit kerja yang ada di BPPU</p>
+              </div>
+              <button
+                @click="openAddModal"
+                class="px-4 py-2.5 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold flex items-center space-x-2"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                </svg>
+                <span>Tambah Unit Kerja</span>
+              </button>
+            </div>
+
+            <!-- Work Units Table -->
+            <div class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+              <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        ID Unit
+                      </th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Nama Unit
+                      </th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Tipe
+                      </th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Lokasi
+                      </th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Pengelola
+                      </th>
+                      <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Status
+                      </th>
+                      <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Aksi
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                    <tr v-if="workUnitsLoading">
+                      <td colspan="7" class="px-6 py-4 text-center text-sm text-gray-500">
+                        Memuat data...
+                      </td>
+                    </tr>
+                    <tr v-else-if="workUnits.length === 0">
+                      <td colspan="7" class="px-6 py-4 text-center text-sm text-gray-500">
+                        Belum ada unit kerja
+                      </td>
+                    </tr>
+                    <tr v-else v-for="unit in workUnits" :key="unit.id" class="hover:bg-gray-50">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="text-sm font-mono font-semibold text-primary-900">#{{ unit.unit_id }}</span>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="text-sm font-medium text-gray-900">{{ unit.name }}</div>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <span class="px-2 py-1 text-xs font-medium rounded-full bg-primary-100 text-primary-900">
+                          {{ unit.type }}
+                        </span>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {{ unit.location || '-' }}
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {{ unit.manager_name || '-' }}
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        <button
+                          @click="toggleUnitActive(unit)"
+                          :class="[
+                            'px-2 py-1 text-xs font-medium rounded-full transition-colors',
+                            unit.is_active
+                              ? 'bg-green-100 text-green-800 hover:bg-green-200'
+                              : 'bg-red-100 text-red-800 hover:bg-red-200'
+                          ]"
+                        >
+                          {{ unit.is_active ? 'Aktif' : 'Nonaktif' }}
+                        </button>
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <button
+                          @click="openEditModal(unit)"
+                          class="text-primary-900 hover:text-primary-950 mr-3"
+                        >
+                          Edit
+                        </button>
+                        <button
+                          @click="deleteUnit(unit)"
+                          class="text-red-600 hover:text-red-900"
+                        >
+                          Hapus
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Unit Modal -->
+    <div
+      v-if="showWorkUnitModal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+      @click.self="closeWorkUnitModal"
+    >
+      <div class="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        <div class="p-6 border-b border-gray-200">
+          <h3 class="text-xl font-bold text-gray-900">
+            {{ editingUnit ? 'Edit Unit Kerja' : 'Tambah Unit Kerja Baru' }}
+          </h3>
+        </div>
+
+        <form @submit.prevent="saveWorkUnit" class="p-6 space-y-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Nama Unit <span class="text-red-500">*</span>
+              </label>
+              <input
+                v-model="workUnitForm.name"
+                type="text"
+                required
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                placeholder="Contoh: Kantin Gedung G"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">
+                Tipe Unit <span class="text-red-500">*</span>
+              </label>
+              <select
+                v-model="workUnitForm.type"
+                required
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              >
+                <option value="">Pilih Tipe</option>
+                <option value="Kantin">Kantin</option>
+                <option value="Shop">Shop</option>
+                <option value="Koperasi">Koperasi</option>
+                <option value="Lainnya">Lainnya</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Deskripsi</label>
+            <textarea
+              v-model="workUnitForm.description"
+              rows="3"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              placeholder="Deskripsi singkat tentang unit kerja"
+            ></textarea>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Lokasi</label>
+              <input
+                v-model="workUnitForm.location"
+                type="text"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                placeholder="Contoh: Gedung G Lantai 1"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Nama Pengelola</label>
+              <input
+                v-model="workUnitForm.manager_name"
+                type="text"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                placeholder="Nama pengelola unit"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Nomor Kontak</label>
+              <input
+                v-model="workUnitForm.contact_phone"
+                type="tel"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                placeholder="081234567890"
+              />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Email Kontak</label>
+              <input
+                v-model="workUnitForm.contact_email"
+                type="email"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+                placeholder="unit@ikipsiliwangi.ac.id"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Jam Operasional</label>
+            <input
+              v-model="workUnitForm.operating_hours"
+              type="text"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              placeholder="Senin-Sabtu, 07:00-15:00"
+            />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Foto Unit Usaha</label>
+            <div class="space-y-3">
+              <div v-if="workUnitForm.logoPreview || (editingUnit && editingUnit.logo)" class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden">
+                <img
+                  :src="workUnitForm.logoPreview || `/storage/${editingUnit.logo}`"
+                  alt="Preview"
+                  class="w-full h-full object-cover"
+                />
+                <button
+                  type="button"
+                  @click="removeWorkUnitLogo"
+                  class="absolute top-2 right-2 bg-red-600 text-white rounded-full p-2 hover:bg-red-700 transition-colors"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              <div class="flex items-center justify-center w-full">
+                <label class="flex flex-col items-center justify-center w-full h-32 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
+                  <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                    <svg class="w-8 h-8 mb-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                    </svg>
+                    <p class="mb-1 text-sm text-gray-500">
+                      <span class="font-semibold">Klik untuk upload</span>
+                    </p>
+                    <p class="text-xs text-gray-500">PNG, JPG atau JPEG (Max. 2MB)</p>
+                  </div>
+                  <input
+                    type="file"
+                    class="hidden"
+                    accept="image/jpeg,image/png,image/jpg"
+                    @change="handleWorkUnitLogoUpload"
+                  />
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <input
+              v-model="workUnitForm.is_active"
+              type="checkbox"
+              id="is_active"
+              class="w-4 h-4 text-primary-900 border-gray-300 rounded focus:ring-primary-900"
+            />
+            <label for="is_active" class="text-sm font-medium text-gray-700">
+              Unit Aktif
+            </label>
+          </div>
+
+          <div class="flex items-center justify-end space-x-3 pt-4 border-t border-gray-200">
+            <button
+              type="button"
+              @click="closeWorkUnitModal"
+              class="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors font-medium"
+            >
+              Batal
+            </button>
+            <button
+              type="submit"
+              :disabled="workUnitFormLoading"
+              class="px-6 py-2 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold disabled:opacity-50"
+            >
+              {{ workUnitFormLoading ? 'Menyimpan...' : 'Simpan' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Kategori Barang Modal -->
+    <div
+      v-if="showKategoriBarangModal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+      @click.self="closeKategoriBarangModal"
+    >
+      <div class="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        <div class="p-6 border-b border-gray-200">
+          <h3 class="text-xl font-bold text-gray-900">
+            {{ editingKategoriBarang ? 'Edit Kategori Barang' : 'Tambah Kategori Barang Baru' }}
+          </h3>
+        </div>
+
+        <form @submit.prevent="saveKategoriBarang" class="p-6 space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">
+              Nama Kategori <span class="text-red-500">*</span>
+            </label>
+            <input
+              v-model="kategoriBarangForm.nama"
+              type="text"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              placeholder="Contoh: Makanan & Minuman"
+            />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Kode Kategori</label>
+            <input
+              v-model="kategoriBarangForm.kode"
+              type="text"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              placeholder="Contoh: F&B"
+            />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Deskripsi</label>
+            <textarea
+              v-model="kategoriBarangForm.deskripsi"
+              rows="3"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              placeholder="Deskripsi singkat tentang kategori"
+            ></textarea>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <input
+              v-model="kategoriBarangForm.is_active"
+              type="checkbox"
+              id="kb_is_active"
+              class="w-4 h-4 text-primary-900 border-gray-300 rounded focus:ring-primary-900"
+            />
+            <label for="kb_is_active" class="text-sm font-medium text-gray-700">
+              Kategori Aktif
+            </label>
+          </div>
+
+          <div class="flex items-center justify-end space-x-3 pt-4 border-t border-gray-200">
+            <button
+              type="button"
+              @click="closeKategoriBarangModal"
+              class="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors font-medium"
+            >
+              Batal
+            </button>
+            <button
+              type="submit"
+              :disabled="kategoriBarangFormLoading"
+              class="px-6 py-2 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold disabled:opacity-50"
+            >
+              {{ kategoriBarangFormLoading ? 'Menyimpan...' : 'Simpan' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Kategori Kas Modal -->
+    <div
+      v-if="showKategoriKasModal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+      @click.self="closeKategoriKasModal"
+    >
+      <div class="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        <div class="p-6 border-b border-gray-200">
+          <h3 class="text-xl font-bold text-gray-900">
+            {{ editingKategoriKas ? 'Edit Kategori Kas' : 'Tambah Kategori Kas Baru' }}
+          </h3>
+        </div>
+
+        <form @submit.prevent="saveKategoriKas" class="p-6 space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">
+              Nama Kategori <span class="text-red-500">*</span>
+            </label>
+            <input
+              v-model="kategoriKasForm.nama"
+              type="text"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              placeholder="Contoh: Penjualan"
+            />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">
+              Tipe <span class="text-red-500">*</span>
+            </label>
+            <select
+              v-model="kategoriKasForm.tipe"
+              required
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+            >
+              <option value="">Pilih Tipe</option>
+              <option value="pemasukan">Pemasukan</option>
+              <option value="pengeluaran">Pengeluaran</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Kode Kategori</label>
+            <input
+              v-model="kategoriKasForm.kode"
+              type="text"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              placeholder="Contoh: IN-01"
+            />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Deskripsi</label>
+            <textarea
+              v-model="kategoriKasForm.deskripsi"
+              rows="3"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-900 focus:border-transparent"
+              placeholder="Deskripsi singkat tentang kategori"
+            ></textarea>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <input
+              v-model="kategoriKasForm.is_active"
+              type="checkbox"
+              id="kk_is_active"
+              class="w-4 h-4 text-primary-900 border-gray-300 rounded focus:ring-primary-900"
+            />
+            <label for="kk_is_active" class="text-sm font-medium text-gray-700">
+              Kategori Aktif
+            </label>
+          </div>
+
+          <div class="flex items-center justify-end space-x-3 pt-4 border-t border-gray-200">
+            <button
+              type="button"
+              @click="closeKategoriKasModal"
+              class="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors font-medium"
+            >
+              Batal
+            </button>
+            <button
+              type="submit"
+              :disabled="kategoriKasFormLoading"
+              class="px-6 py-2 bg-primary-900 text-white rounded-lg hover:bg-primary-950 transition-colors font-semibold disabled:opacity-50"
+            >
+              {{ kategoriKasFormLoading ? 'Menyimpan...' : 'Simpan' }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </component>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue';
+import { usePage } from '@inertiajs/vue3';
+import AdminLayout from '@/Layouts/AdminLayout.vue';
+import CanteenLayout from '@/Layouts/CanteenLayout.vue';
+import axios from 'axios';
+
+// Define props to receive data from controller
+const props = defineProps({
+  workUnits: {
+    type: Array,
+    default: () => []
+  },
+  kategoriBarangs: {
+    type: Array,
+    default: () => []
+  },
+  kategoriKas: {
+    type: Array,
+    default: () => []
+  },
+  reportSettings: {
+    type: Object,
+    default: () => ({})
+  }
+});
+
+const page = usePage();
+
+// Pilih layout berdasarkan role user
+const layoutComponent = computed(() => {
+  const user = page.props.auth?.user
+  if (user?.roles?.includes('canteen') && !user?.roles?.includes('officer') && !user?.roles?.includes('sysadmin')) {
+    return CanteenLayout
+  }
+  return AdminLayout
+});
+
+// Check for tab query parameter
+const urlParams = new URLSearchParams(window.location.search);
+const tabParam = urlParams.get('tab');
+const activeTab = ref(tabParam || 'general');
+
+// Work Units State - initialized from props
+const workUnits = ref(props.workUnits);
+const workUnitsLoading = ref(false);
+const showWorkUnitModal = ref(false);
+const editingUnit = ref(null);
+const workUnitFormLoading = ref(false);
+const workUnitForm = ref({
+  name: '',
+  type: '',
+  description: '',
+  location: '',
+  manager_name: '',
+  contact_phone: '',
+  contact_email: '',
+  operating_hours: '',
+  is_active: true,
+  logoFile: null,
+  logoPreview: null,
+});
+
+// Kategori Barang State - initialized from props
+const kategoriBarangs = ref(props.kategoriBarangs);
+const kategoriBarangsLoading = ref(false);
+const showKategoriBarangModal = ref(false);
+const editingKategoriBarang = ref(null);
+const kategoriBarangFormLoading = ref(false);
+const kategoriBarangForm = ref({
+  nama: '',
+  kode: '',
+  deskripsi: '',
+  is_active: true,
+});
+
+// Kategori Kas State - initialized from props
+const kategoriKas = ref(props.kategoriKas);
+const kategoriKasLoading = ref(false);
+const showKategoriKasModal = ref(false);
+const editingKategoriKas = ref(null);
+const kategoriKasFormLoading = ref(false);
+const kategoriKasForm = ref({
+  nama: '',
+  tipe: '',
+  kode: '',
+  deskripsi: '',
+  is_active: true,
+});
+
+// Report Settings State
+const reportFormLoading = ref(false);
+const reportForm = ref({
+  kepala_bppu_nama: props.reportSettings?.kepala_bppu_nama || '',
+  kepala_bppu_nip: props.reportSettings?.kepala_bppu_nip || '',
+});
+
+// Refresh work units from server
+const loadWorkUnits = async () => {
+  workUnitsLoading.value = true;
+  try {
+    const response = await axios.get('/pengelola/unit-kerja');
+    workUnits.value = response.data;
+  } catch (error) {
+    console.error('Error loading work units:', error);
+    alert('Gagal memuat data unit kerja');
+  } finally {
+    workUnitsLoading.value = false;
+  }
+};
+
+const handleWorkUnitLogoUpload = (event) => {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  if (file.size > 2048 * 1024) {
+    alert('Ukuran file terlalu besar. Maksimal 2MB');
+    return;
+  }
+
+  workUnitForm.value.logoFile = file;
+  workUnitForm.value.logoPreview = URL.createObjectURL(file);
+};
+
+const removeWorkUnitLogo = () => {
+  workUnitForm.value.logoFile = null;
+  workUnitForm.value.logoPreview = null;
+};
+
+const openAddModal = () => {
+  editingUnit.value = null;
+  workUnitForm.value = {
+    name: '',
+    type: '',
+    description: '',
+    location: '',
+    manager_name: '',
+    contact_phone: '',
+    contact_email: '',
+    operating_hours: '',
+    is_active: true,
+    logoFile: null,
+    logoPreview: null,
+  };
+  showWorkUnitModal.value = true;
+};
+
+const openEditModal = (unit) => {
+  editingUnit.value = unit;
+  workUnitForm.value = {
+    name: unit.name,
+    type: unit.type,
+    description: unit.description || '',
+    location: unit.location || '',
+    manager_name: unit.manager_name || '',
+    contact_phone: unit.contact_phone || '',
+    contact_email: unit.contact_email || '',
+    operating_hours: unit.operating_hours || '',
+    is_active: unit.is_active,
+    logoFile: null,
+    logoPreview: null,
+  };
+  showWorkUnitModal.value = true;
+};
+
+const closeWorkUnitModal = () => {
+  showWorkUnitModal.value = false;
+  editingUnit.value = null;
+  // Cleanup preview URL
+  if (workUnitForm.value.logoPreview) {
+    URL.revokeObjectURL(workUnitForm.value.logoPreview);
+  }
+};
+
+const saveWorkUnit = async () => {
+  workUnitFormLoading.value = true;
+  try {
+    const formData = new FormData();
+
+    // Append all form fields
+    formData.append('name', workUnitForm.value.name);
+    formData.append('type', workUnitForm.value.type);
+    formData.append('description', workUnitForm.value.description || '');
+    formData.append('location', workUnitForm.value.location || '');
+    formData.append('manager_name', workUnitForm.value.manager_name || '');
+    formData.append('contact_phone', workUnitForm.value.contact_phone || '');
+    formData.append('contact_email', workUnitForm.value.contact_email || '');
+    formData.append('operating_hours', workUnitForm.value.operating_hours || '');
+    formData.append('is_active', workUnitForm.value.is_active ? '1' : '0');
+
+    // Append logo file if selected
+    if (workUnitForm.value.logoFile) {
+      formData.append('logo', workUnitForm.value.logoFile);
+    }
+
+    if (editingUnit.value) {
+      // Laravel doesn't support PUT with FormData, so we use POST with _method
+      formData.append('_method', 'PUT');
+      await axios.post(`/pengelola/unit-kerja/${editingUnit.value.id}`, formData, {
+        headers: { 'Content-Type': 'multipart/form-data' }
+      });
+      alert('Unit kerja berhasil diperbarui');
+    } else {
+      // Create new unit
+      await axios.post('/pengelola/unit-kerja', formData, {
+        headers: { 'Content-Type': 'multipart/form-data' }
+      });
+      alert('Unit kerja berhasil ditambahkan');
+    }
+    closeWorkUnitModal();
+    loadWorkUnits();
+  } catch (error) {
+    console.error('Error saving work unit:', error);
+    alert('Gagal menyimpan unit kerja');
+  } finally {
+    workUnitFormLoading.value = false;
+  }
+};
+
+const toggleUnitActive = async (unit) => {
+  try {
+    await axios.post(`/pengelola/unit-kerja/${unit.id}/toggle`);
+    loadWorkUnits();
+  } catch (error) {
+    console.error('Error toggling unit status:', error);
+    alert('Gagal mengubah status unit');
+  }
+};
+
+const deleteUnit = async (unit) => {
+  if (!confirm(`Apakah Anda yakin ingin menghapus unit "${unit.name}"?`)) {
+    return;
+  }
+
+  try {
+    await axios.delete(`/pengelola/unit-kerja/${unit.id}`);
+    alert('Unit kerja berhasil dihapus');
+    loadWorkUnits();
+  } catch (error) {
+    console.error('Error deleting work unit:', error);
+    alert('Gagal menghapus unit kerja');
+  }
+};
+
+// Kategori Barang Functions - refresh from server after changes
+const loadKategoriBarangs = async () => {
+  kategoriBarangsLoading.value = true;
+  try {
+    const response = await axios.get('/pengelola/kategori-barang');
+    kategoriBarangs.value = response.data;
+  } catch (error) {
+    console.error('Error loading kategori barang:', error);
+    alert('Gagal memuat data kategori barang');
+  } finally {
+    kategoriBarangsLoading.value = false;
+  }
+};
+
+const openAddKategoriBarangModal = () => {
+  editingKategoriBarang.value = null;
+  kategoriBarangForm.value = {
+    nama: '',
+    kode: '',
+    deskripsi: '',
+    is_active: true,
+  };
+  showKategoriBarangModal.value = true;
+};
+
+const openEditKategoriBarangModal = (kategori) => {
+  editingKategoriBarang.value = kategori;
+  kategoriBarangForm.value = {
+    nama: kategori.nama,
+    kode: kategori.kode || '',
+    deskripsi: kategori.deskripsi || '',
+    is_active: kategori.is_active,
+  };
+  showKategoriBarangModal.value = true;
+};
+
+const closeKategoriBarangModal = () => {
+  showKategoriBarangModal.value = false;
+  editingKategoriBarang.value = null;
+};
+
+const saveKategoriBarang = async () => {
+  kategoriBarangFormLoading.value = true;
+  try {
+    if (editingKategoriBarang.value) {
+      await axios.put(`/pengelola/kategori-barang/${editingKategoriBarang.value.id}`, kategoriBarangForm.value);
+      alert('Kategori barang berhasil diperbarui');
+    } else {
+      await axios.post('/pengelola/kategori-barang', kategoriBarangForm.value);
+      alert('Kategori barang berhasil ditambahkan');
+    }
+    closeKategoriBarangModal();
+    loadKategoriBarangs();
+  } catch (error) {
+    console.error('Error saving kategori barang:', error);
+    alert(error.response?.data?.message || 'Gagal menyimpan kategori barang');
+  } finally {
+    kategoriBarangFormLoading.value = false;
+  }
+};
+
+const toggleKategoriBarangStatus = async (kategori) => {
+  try {
+    await axios.post(`/pengelola/kategori-barang/${kategori.id}/toggle`);
+    loadKategoriBarangs();
+  } catch (error) {
+    console.error('Error toggling kategori barang status:', error);
+    alert('Gagal mengubah status kategori');
+  }
+};
+
+const deleteKategoriBarang = async (kategori) => {
+  if (!confirm(`Apakah Anda yakin ingin menghapus kategori "${kategori.nama}"?`)) {
+    return;
+  }
+
+  try {
+    await axios.delete(`/pengelola/kategori-barang/${kategori.id}`);
+    alert('Kategori barang berhasil dihapus');
+    loadKategoriBarangs();
+  } catch (error) {
+    console.error('Error deleting kategori barang:', error);
+    alert(error.response?.data?.message || 'Gagal menghapus kategori barang');
+  }
+};
+
+// Kategori Kas Functions - refresh from server after changes
+const loadKategoriKas = async () => {
+  kategoriKasLoading.value = true;
+  try {
+    const response = await axios.get('/pengelola/kategori-transaksi');
+    kategoriKas.value = response.data;
+  } catch (error) {
+    console.error('Error loading kategori kas:', error);
+    alert('Gagal memuat data kategori kas');
+  } finally {
+    kategoriKasLoading.value = false;
+  }
+};
+
+const openAddKategoriKasModal = () => {
+  editingKategoriKas.value = null;
+  kategoriKasForm.value = {
+    nama: '',
+    tipe: '',
+    kode: '',
+    deskripsi: '',
+    is_active: true,
+  };
+  showKategoriKasModal.value = true;
+};
+
+const openEditKategoriKasModal = (kategori) => {
+  editingKategoriKas.value = kategori;
+  kategoriKasForm.value = {
+    nama: kategori.nama,
+    tipe: kategori.tipe,
+    kode: kategori.kode || '',
+    deskripsi: kategori.deskripsi || '',
+    is_active: kategori.is_active,
+  };
+  showKategoriKasModal.value = true;
+};
+
+const closeKategoriKasModal = () => {
+  showKategoriKasModal.value = false;
+  editingKategoriKas.value = null;
+};
+
+const saveKategoriKas = async () => {
+  kategoriKasFormLoading.value = true;
+  try {
+    if (editingKategoriKas.value) {
+      await axios.put(`/pengelola/kategori-transaksi/${editingKategoriKas.value.id}`, kategoriKasForm.value);
+      alert('Kategori kas berhasil diperbarui');
+    } else {
+      await axios.post('/pengelola/kategori-transaksi', kategoriKasForm.value);
+      alert('Kategori kas berhasil ditambahkan');
+    }
+    closeKategoriKasModal();
+    loadKategoriKas();
+  } catch (error) {
+    console.error('Error saving kategori kas:', error);
+    alert(error.response?.data?.message || 'Gagal menyimpan kategori kas');
+  } finally {
+    kategoriKasFormLoading.value = false;
+  }
+};
+
+const toggleKategoriKasStatus = async (kategori) => {
+  try {
+    await axios.post(`/pengelola/kategori-transaksi/${kategori.id}/toggle`);
+    loadKategoriKas();
+  } catch (error) {
+    console.error('Error toggling kategori kas status:', error);
+    alert('Gagal mengubah status kategori');
+  }
+};
+
+const deleteKategoriKas = async (kategori) => {
+  if (!confirm(`Apakah Anda yakin ingin menghapus kategori "${kategori.nama}"?`)) {
+    return;
+  }
+
+  try {
+    await axios.delete(`/pengelola/kategori-transaksi/${kategori.id}`);
+    alert('Kategori kas berhasil dihapus');
+    loadKategoriKas();
+  } catch (error) {
+    console.error('Error deleting kategori kas:', error);
+    alert(error.response?.data?.message || 'Gagal menghapus kategori kas');
+  }
+};
+
+// Report Settings Functions
+const saveReportSettings = async () => {
+  reportFormLoading.value = true;
+  try {
+    await axios.post('/pengelola/settings/report', reportForm.value);
+    alert('Pengaturan laporan berhasil disimpan');
+  } catch (error) {
+    console.error('Error saving report settings:', error);
+    alert(error.response?.data?.message || 'Gagal menyimpan pengaturan laporan');
+  } finally {
+    reportFormLoading.value = false;
+  }
+};
+
+// No need to load on mount - data is already passed from controller via props
+// The load functions are only called after CRUD operations to refresh the data
+</script>

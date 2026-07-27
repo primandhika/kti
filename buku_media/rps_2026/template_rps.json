@@ -1,0 +1,668 @@
+{
+  "_petunjuk": {
+    "tentang": "Template impor RPS (Rencana Pembelajaran Semester) berbasis OBE untuk Simaung LMS. Isi nilai pada tiap kunci, lalu impor berkas ini lewat menu RPS > Import .json.",
+    "aturan": [
+      "Semua kunci yang diawali garis bawah (_petunjuk) diabaikan sistem, boleh dihapus.",
+      "Kolom yang tidak relevan boleh dikosongkan (\"\") atau dibuat daftar kosong [].",
+      "Acuan antar bagian memakai KODE, bukan nomor urut. Kode CPMK dipakai di sub_cpmk.cpmk_code; kode Sub-CPMK dipakai di meetings.sub_cpmk_ids.",
+      "cpl[].code dipakai pada cpmk[].cpl_codes dan sub_cpmk[].cpl_codes. CPL yang tercantum di sini otomatis masuk 'CPL dibebankan' dan bank CPL prodi.",
+      "meetings[].jenis: pembelajaran | uts | uas | praktikum | proyek | remedial | pengayaan. Untuk uts/uas cukup isi minggu_ke, jenis, sub_cpmk_teks (opsional), dan bobot_persen.",
+      "Total seluruh meetings[].bobot_persen harus 100.",
+      "tanggal_penyusunan format YYYY-MM-DD."
+    ]
+  },
+  "mata_kuliah_nama": "Media Pembelajaran Bahasa Berbasis ICT",
+  "mata_kuliah_kode": "421221213",
+  "rumpun": "PBS Indonesia",
+  "sks_total": 2,
+  "sks_teori": 2,
+  "sks_praktik": 0,
+  "semester_kurikulum": 2,
+  "kode_dokumen": "",
+  "tanggal_penyusunan": "2026-07-01",
+  "bahasa_pengantar": "Indonesia",
+  "mode_pembelajaran": [
+    "Luring",
+    "Daring",
+    "Bauran"
+  ],
+  "deskripsi_singkat": "Mata kuliah ini membekali mahasiswa dengan landasan teoretis dan keterampilan praktik untuk memilih, merancang, memproduksi, menguji, serta mengimplementasikan media pembelajaran bahasa dan sastra Indonesia berbasis ICT. Pertemuan 1–7 berfokus pada konsep media, analisis kebutuhan, desain pembelajaran, pembelajaran multimedia, aksesibilitas, diferensiasi, dan literasi AI yang etis. Pertemuan 9–15 berbentuk studio proyek untuk menghasilkan media digital, aplikasi sederhana tanpa pemrograman, dan prototipe aplikasi web berbasis vibe coding, yang diuji dan disimulasikan penggunaannya dalam pembelajaran.",
+  "ruang_lingkup": [
+    "Konsep dasar media pembelajaran bahasa: pengertian, fungsi, prinsip penggunaan, dan pembedaan media, bahan ajar, serta sumber belajar.",
+    "Analisis kebutuhan media: karakteristik peserta didik, tujuan, konteks, ketersediaan perangkat, dan capaian pembelajaran Bahasa Indonesia.",
+    "Teori belajar, desain pesan, pembelajaran multimedia, beban kognitif, aksesibilitas, dan diferensiasi.",
+    "Ragam dan evaluasi media grafis, audio, audiovisual, objek/lingkungan, multimedia, web, dan media interaktif.",
+    "Perancangan pengalaman belajar bermakna dengan media untuk keterampilan berbahasa dan apresiasi sastra.",
+    "Literasi digital dan AI: validasi informasi, bias, privasi, hak cipta, lisensi, atribusi, dan integritas akademik.",
+    "Design brief, storyboard, alur pengguna, rubrik, dan rencana uji pakai.",
+    "UTS: analisis dan rancangan media pembelajaran bahasa berbasis ICT.",
+    "Produksi aset visual dan aktivitas digital interaktif.",
+    "Pembuatan kuis, permainan, formulir bercabang, atau latihan digital tanpa pemrograman.",
+    "Pembuatan aplikasi sederhana tanpa kode untuk pembelajaran bahasa atau sastra.",
+    "Pembuatan prototipe interaktif melalui Canva Code atau platform setara.",
+    "Pembuatan aplikasi web sederhana dengan vibe coding.",
+    "Uji pakai, cek aksesibilitas, keamanan data, hak cipta, dan perbaikan produk.",
+    "Simulasi implementasi media dalam pembelajaran bahasa atau sastra Indonesia.",
+    "UAS: portofolio produk media, panduan penggunaan, bukti uji pakai, dan refleksi."
+  ],
+  "prasyarat": {
+    "memiliki": false,
+    "mata_kuliah": [],
+    "ketentuan": "-"
+  },
+  "otorisasi": {
+    "pengembang": [
+      "Restu Bias Primandhika, M.Pd."
+    ],
+    "koordinator_kbk": "Dr. Hj. Wikanengsih, M.Pd.",
+    "ketua_prodi": "Diena San Fauziya, M.Pd.",
+    "dosen_pengampu": [
+      "Sary Sukawati, M.Pd.",
+      "Latifah, M.Pd."
+    ]
+  },
+  "cpl": [
+    {
+      "code": "CP-S7",
+      "category": "Sikap",
+      "description": "Taat hukum dan disiplin dalam kehidupan bermasyarakat dan bernegara."
+    },
+    {
+      "code": "CP-P3",
+      "category": "Pengetahuan",
+      "description": "Menguasai prinsip-prinsip pedagogi dan psikologi pendidikan."
+    },
+    {
+      "code": "CP-KU3",
+      "category": "Keterampilan Umum",
+      "description": "Mampu mengkaji implikasi pengembangan atau implementasi ilmu pengetahuan dan teknologi dengan memperhatikan nilai humaniora, kaidah, tata cara, dan etika ilmiah untuk menghasilkan solusi, gagasan, desain, atau kritik seni."
+    },
+    {
+      "code": "CP-KK4",
+      "category": "Keterampilan Khusus",
+      "description": "Mampu merencanakan dan melakukan kajian implementasi pendidikan bahasa dan sastra Indonesia secara terintegrasi serta menghasilkan produk kreatif dalam bidang pembelajarannya."
+    },
+    {
+      "code": "CP-KK5",
+      "category": "Keterampilan Khusus",
+      "description": "Mampu merencanakan dan melakukan kajian implementasi pendidikan bahasa dan sastra Indonesia secara terintegrasi serta menghasilkan produk kreatif dalam bidang pembelajarannya."
+    }
+  ],
+  "cpmk": [
+    {
+      "code": "CPMK-1",
+      "rumusan": "Menjelaskan konsep, fungsi, klasifikasi, dan prinsip pemilihan media pembelajaran bahasa berbasis ICT secara kritis.",
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KU3",
+        "CP-KK4"
+      ],
+      "domain_kemampuan": "Pengetahuan",
+      "level_kognitif": "C2-C4",
+      "kata_kerja": "menjelaskan"
+    },
+    {
+      "code": "CPMK-2",
+      "rumusan": "Menganalisis kebutuhan media berdasarkan tujuan pembelajaran, karakteristik peserta didik, konteks sekolah, dan capaian pembelajaran Bahasa Indonesia.",
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KU3",
+        "CP-KK4"
+      ],
+      "domain_kemampuan": "Keterampilan Khusus",
+      "level_kognitif": "C4",
+      "kata_kerja": "menganalisis"
+    },
+    {
+      "code": "CPMK-3",
+      "rumusan": "Merancang pembelajaran bahasa dan sastra Indonesia yang mengintegrasikan media digital secara bermakna, aksesibel, dan berdiferensiasi.",
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KU3",
+        "CP-KK4",
+        "CP-KK5"
+      ],
+      "domain_kemampuan": "Keterampilan Khusus",
+      "level_kognitif": "C6",
+      "kata_kerja": "merancang"
+    },
+    {
+      "code": "CPMK-4",
+      "rumusan": "Mengevaluasi kualitas pedagogis, teknis, etis, dan legal dari media digital, termasuk konten yang dibantu AI.",
+      "cpl_codes": [
+        "CP-S7",
+        "CP-KU3",
+        "CP-KK4"
+      ],
+      "domain_kemampuan": "Keterampilan Umum",
+      "level_kognitif": "C5",
+      "kata_kerja": "mengevaluasi"
+    },
+    {
+      "code": "CPMK-5",
+      "rumusan": "Memproduksi media digital, aplikasi sederhana tanpa pemrograman, serta prototipe aplikasi web berbasis vibe coding.",
+      "cpl_codes": [
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "domain_kemampuan": "Keterampilan Khusus",
+      "level_kognitif": "C6",
+      "kata_kerja": "memproduksi"
+    },
+    {
+      "code": "CPMK-6",
+      "rumusan": "Mensimulasikan penggunaan media, mengumpulkan umpan balik, dan merevisi produk berdasarkan bukti.",
+      "cpl_codes": [
+        "CP-S7",
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "domain_kemampuan": "Keterampilan Khusus",
+      "level_kognitif": "C6",
+      "kata_kerja": "mensimulasikan"
+    }
+  ],
+  "sub_cpmk": [
+    {
+      "code": "SUB-CPMK-1",
+      "cpmk_code": "CPMK-1",
+      "urutan": 1,
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KU3"
+      ],
+      "rumusan": "Mampu menjelaskan kedudukan media, bahan ajar, sumber belajar, dan teknologi pembelajaran dalam pembelajaran bahasa dan sastra Indonesia."
+    },
+    {
+      "code": "SUB-CPMK-2",
+      "cpmk_code": "CPMK-2",
+      "urutan": 2,
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KK4"
+      ],
+      "rumusan": "Mampu menganalisis kebutuhan media berdasarkan tujuan, peserta didik, konteks, sumber daya, dan capaian pembelajaran."
+    },
+    {
+      "code": "SUB-CPMK-3",
+      "cpmk_code": "CPMK-1",
+      "urutan": 3,
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KU3"
+      ],
+      "rumusan": "Mampu menjelaskan prinsip desain pesan, pembelajaran multimedia, aksesibilitas, dan pembelajaran berdiferensiasi."
+    },
+    {
+      "code": "SUB-CPMK-4",
+      "cpmk_code": "CPMK-4",
+      "urutan": 4,
+      "cpl_codes": [
+        "CP-KU3",
+        "CP-KK4"
+      ],
+      "rumusan": "Mampu mengklasifikasikan serta mengevaluasi media grafis, audio, audiovisual, objek/lingkungan, multimedia, dan media berbasis web."
+    },
+    {
+      "code": "SUB-CPMK-5",
+      "cpmk_code": "CPMK-3",
+      "urutan": 5,
+      "cpl_codes": [
+        "CP-P3",
+        "CP-KK4",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu menyusun rancangan pembelajaran bahasa atau sastra Indonesia yang mengintegrasikan media secara pedagogis."
+    },
+    {
+      "code": "SUB-CPMK-6",
+      "cpmk_code": "CPMK-4",
+      "urutan": 6,
+      "cpl_codes": [
+        "CP-S7",
+        "CP-KU3"
+      ],
+      "rumusan": "Mampu menerapkan literasi AI, perlindungan data, hak cipta, atribusi, dan integritas akademik dalam pengembangan media."
+    },
+    {
+      "code": "SUB-CPMK-7",
+      "cpmk_code": "CPMK-3",
+      "urutan": 7,
+      "cpl_codes": [
+        "CP-KK4",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu menyusun design brief, alur pengguna, storyboard, dan rencana uji pakai."
+    },
+    {
+      "code": "SUB-CPMK-8",
+      "cpmk_code": "CPMK-5",
+      "urutan": 8,
+      "cpl_codes": [
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu membuat aset visual dan aktivitas digital interaktif sesuai tujuan pembelajaran."
+    },
+    {
+      "code": "SUB-CPMK-9",
+      "cpmk_code": "CPMK-5",
+      "urutan": 9,
+      "cpl_codes": [
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu mengembangkan aplikasi sederhana tanpa pemrograman kompleks untuk pembelajaran bahasa atau sastra."
+    },
+    {
+      "code": "SUB-CPMK-10",
+      "cpmk_code": "CPMK-5",
+      "urutan": 10,
+      "cpl_codes": [
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu membuat prototipe aplikasi web sederhana melalui vibe coding dengan pengujian dan kendali manusia."
+    },
+    {
+      "code": "SUB-CPMK-11",
+      "cpmk_code": "CPMK-6",
+      "urutan": 11,
+      "cpl_codes": [
+        "CP-S7",
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu melakukan uji pakai, audit aksesibilitas dan etika, serta revisi produk media."
+    },
+    {
+      "code": "SUB-CPMK-12",
+      "cpmk_code": "CPMK-6",
+      "urutan": 12,
+      "cpl_codes": [
+        "CP-S7",
+        "CP-KU3",
+        "CP-KK5"
+      ],
+      "rumusan": "Mampu mensimulasikan implementasi media dalam pembelajaran bahasa atau sastra Indonesia dan merefleksikan hasilnya."
+    }
+  ],
+  "referensi": {
+    "utama": [
+      "Mayer, R. E. (2020). Multimedia Learning (3rd ed.). Cambridge University Press.",
+      "Kustandi, C., & Darmawan, D. (2020). Pengembangan Media Pembelajaran. Kencana.",
+      "UNESCO. (2023). Guidance for Generative AI in Education and Research. UNESCO.",
+      "Kementerian Pendidikan Dasar dan Menengah Republik Indonesia. (2025). Pedoman Implementasi Pembelajaran Mendalam pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah.",
+      "Kementerian Pendidikan Dasar dan Menengah Republik Indonesia. (2025). Capaian Pembelajaran Bahasa Indonesia."
+    ],
+    "pendukung": [
+      "Yaumi, M. (2019). Media dan Teknologi Pembelajaran. Prenadamedia Group.",
+      "Sanjaya, W. (2013). Media Pembelajaran. Kencana Prenadamedia Group.",
+      "Canva. (2026). Canva Code 2.0: Vibe coding that matches your vision. Dokumentasi produk resmi."
+    ]
+  },
+  "meetings": [
+    {
+      "minggu_ke": 1,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-1"
+      ],
+      "indikator": "Menjelaskan pengertian, fungsi, prinsip, serta pembedaan media, bahan ajar, dan sumber belajar.",
+      "kriteria_bentuk": "Kriteria: ketepatan konsep dan argumentasi. Bentuk: peta konsep dan refleksi.",
+      "luring": [
+        "Diskusi kelompok",
+        "Analisis contoh",
+        "Presentasi singkat",
+        "Metode: diskusi berbasis masalah",
+        "TM: 1 × (2 × 50 menit)"
+      ],
+      "daring": [
+        "Diskusi kelas melalui LMS (lms.ikipsiliwangi.ac.id)",
+        "Konferensi video",
+        "Unggah refleksi"
+      ],
+      "materi": [
+        "Hakikat media pembelajaran bahasa",
+        "Fungsi media pembelajaran",
+        "Prinsip penggunaan media"
+      ],
+      "bobot_persen": 4
+    },
+    {
+      "minggu_ke": 2,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-2"
+      ],
+      "indikator": "Mengidentifikasi tujuan, karakteristik peserta didik, konteks, perangkat, dan capaian pembelajaran yang relevan.",
+      "kriteria_bentuk": "Kriteria: kelengkapan dan ketajaman analisis. Bentuk: lembar analisis kebutuhan.",
+      "luring": [
+        "Studi kasus",
+        "Lokakarya pemetaan kebutuhan",
+        "Metode: case-based learning"
+      ],
+      "daring": [
+        "Diskusi kasus melalui LMS (lms.ikipsiliwangi.ac.id)",
+        "Umpan balik antarmahasiswa"
+      ],
+      "materi": [
+        "Analisis kebutuhan media untuk pembelajaran bahasa dan sastra Indonesia"
+      ],
+      "bobot_persen": 4
+    },
+    {
+      "minggu_ke": 3,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-3"
+      ],
+      "indikator": "Menganalisis penerapan teori belajar, desain pesan, pembelajaran multimedia, aksesibilitas, dan diferensiasi.",
+      "kriteria_bentuk": "Kriteria: kemampuan menghubungkan teori dengan desain. Bentuk: audit desain dua media.",
+      "luring": [
+        "Bedah media",
+        "Diskusi berbasis bacaan",
+        "Metode: diskusi kritis"
+      ],
+      "daring": [
+        "Forum analisis media",
+        "Unggah laporan audit"
+      ],
+      "materi": [
+        "Teori belajar",
+        "Desain pesan",
+        "Multimedia",
+        "Aksesibilitas",
+        "Diferensiasi"
+      ],
+      "bobot_persen": 4
+    },
+    {
+      "minggu_ke": 4,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-4"
+      ],
+      "indikator": "Mengklasifikasikan media grafis, audio, audiovisual, objek/lingkungan, multimedia, web, dan interaktif berdasarkan tujuan penggunaannya.",
+      "kriteria_bentuk": "Kriteria: ketepatan klasifikasi dan evaluasi. Bentuk: ulasan komparatif media.",
+      "luring": [
+        "Demonstrasi",
+        "Klasifikasi media",
+        "Kritik sejawat",
+        "Metode: collaborative learning"
+      ],
+      "daring": [
+        "Galeri digital",
+        "Kritik sejawat melalui LMS (lms.ikipsiliwangi.ac.id)"
+      ],
+      "materi": [
+        "Ragam media",
+        "Karakteristik media",
+        "Kelebihan dan keterbatasan media",
+        "Kriteria pemilihan media"
+      ],
+      "bobot_persen": 4
+    },
+    {
+      "minggu_ke": 5,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-5"
+      ],
+      "indikator": "Menyelaraskan tujuan, aktivitas, asesmen, dan media untuk keterampilan menyimak, membaca atau memirsa, berbicara atau mempresentasikan, menulis, atau sastra.",
+      "kriteria_bentuk": "Kriteria: keselarasan rancangan dan relevansi konteks. Bentuk: skenario pembelajaran.",
+      "luring": [
+        "Lokakarya perancangan",
+        "Konsultasi",
+        "Metode: project-based learning"
+      ],
+      "daring": [
+        "Kolaborasi dokumen",
+        "Konsultasi daring terjadwal"
+      ],
+      "materi": [
+        "Pembelajaran mendalam",
+        "Perencanaan pengalaman belajar",
+        "Integrasi media"
+      ],
+      "bobot_persen": 4
+    },
+    {
+      "minggu_ke": 6,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-6"
+      ],
+      "indikator": "Memeriksa validitas informasi, bias, privasi, hak cipta, lisensi, atribusi, dan penggunaan AI secara transparan.",
+      "kriteria_bentuk": "Kriteria: ketepatan pertimbangan etis dan legal. Bentuk: checklist etika dan deklarasi penggunaan AI.",
+      "luring": [
+        "Studi kasus",
+        "Latihan verifikasi",
+        "Metode: problem-based learning"
+      ],
+      "daring": [
+        "Forum kasus",
+        "Kuis literasi AI",
+        "Unggah checklist"
+      ],
+      "materi": [
+        "Literasi AI",
+        "Privasi data",
+        "Hak cipta",
+        "Lisensi",
+        "Atribusi",
+        "Integritas akademik"
+      ],
+      "bobot_persen": 4
+    },
+    {
+      "minggu_ke": 7,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-7"
+      ],
+      "indikator": "Menyusun design brief, persona pengguna, storyboard, alur pengguna, rubrik, dan rencana uji pakai.",
+      "kriteria_bentuk": "Kriteria: kelayakan dan kelengkapan rancangan. Bentuk: proposal proyek.",
+      "luring": [
+        "Studio desain",
+        "Konsultasi proyek",
+        "Metode: project-based learning"
+      ],
+      "daring": [
+        "Unggah proposal",
+        "Konsultasi daring melalui LMS (lms.ikipsiliwangi.ac.id)"
+      ],
+      "materi": [
+        "Design brief",
+        "Storyboard",
+        "Alur pengguna",
+        "Rubrik",
+        "Rencana uji pakai"
+      ],
+      "bobot_persen": 6
+    },
+    {
+      "minggu_ke": 8,
+      "jenis": "uts",
+      "sub_cpmk_teks": "UTS: Analisis dan rancangan media pembelajaran bahasa berbasis ICT (cakupan Sub-CPMK 1–7).",
+      "bobot_persen": 20
+    },
+    {
+      "minggu_ke": 9,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-8"
+      ],
+      "indikator": "Menghasilkan aset visual yang jelas, estetis, aksesibel, dan selaras dengan tujuan pembelajaran.",
+      "kriteria_bentuk": "Kriteria: kualitas desain, keterbacaan, dan kesesuaian pedagogis. Bentuk: produk aset visual dan panduan penggunaan.",
+      "luring": [
+        "Studio praktik desain digital",
+        "Metode: demonstrasi dan kritik desain"
+      ],
+      "daring": [
+        "Tutorial mandiri",
+        "Unggah karya",
+        "Kritik sejawat"
+      ],
+      "materi": [
+        "Produksi infografik",
+        "Presentasi interaktif",
+        "Kartu digital",
+        "Aset visual menggunakan Canva atau platform setara"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 10,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-8"
+      ],
+      "indikator": "Mengembangkan kuis, permainan, formulir bercabang, atau latihan digital yang memiliki umpan balik jelas.",
+      "kriteria_bentuk": "Kriteria: fungsi interaksi, kejelasan instruksi, dan keterkaitan dengan tujuan. Bentuk: aktivitas yang dapat digunakan.",
+      "luring": [
+        "Studio praktik",
+        "Uji coba antarkelompok",
+        "Metode: learning by doing"
+      ],
+      "daring": [
+        "Uji coba daring",
+        "Pengumpulan umpan balik pengguna"
+      ],
+      "materi": [
+        "Kuis digital",
+        "Permainan",
+        "Formulir bercabang",
+        "Latihan digital tanpa pemrograman"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 11,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-9"
+      ],
+      "indikator": "Membuat aplikasi atau sistem sederhana yang membantu pembelajaran bahasa atau sastra, misalnya bank kosakata, pelacak membaca, pemilih alur cerita, atau latihan adaptif sederhana.",
+      "kriteria_bentuk": "Kriteria: fungsi, kemudahan pakai, dan relevansi pembelajaran. Bentuk: prototipe aplikasi dan panduan pengguna.",
+      "luring": [
+        "Studio proyek",
+        "Konsultasi teknis-pedagogis",
+        "Metode: project-based learning"
+      ],
+      "daring": [
+        "Prototipe dibagikan untuk diuji pengguna secara daring"
+      ],
+      "materi": [
+        "Aplikasi sederhana tanpa kode menggunakan platform yang disetujui dosen"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 12,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-10"
+      ],
+      "indikator": "Menggunakan instruksi bahasa alami untuk membuat pengalaman interaktif dan mendokumentasikan proses pembuatan serta pengujiannya.",
+      "kriteria_bentuk": "Kriteria: fungsi, desain interaksi, dokumentasi proses, dan pemeriksaan manusia. Bentuk: prototipe dan log pengembangan.",
+      "luring": [
+        "Demonstrasi",
+        "Praktik prompting",
+        "Pengujian fungsi",
+        "Revisi"
+      ],
+      "daring": [
+        "Tutorial",
+        "Konsultasi",
+        "Pengumpulan log proses melalui LMS (lms.ikipsiliwangi.ac.id)"
+      ],
+      "materi": [
+        "Canva Code atau platform setara untuk permainan kebahasaan, halaman belajar, atau alat latihan interaktif"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 13,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-10"
+      ],
+      "indikator": "Menyusun kebutuhan pengguna, prompt, prototipe, pemeriksaan isi, dan pengujian aplikasi web untuk pembelajaran bahasa atau sastra.",
+      "kriteria_bentuk": "Kriteria: ketepatan kebutuhan, kelayakan fungsi, keamanan dasar, dan design rationale. Bentuk: prototipe aplikasi web.",
+      "luring": [
+        "Studio proyek",
+        "Peer review",
+        "Konsultasi",
+        "Metode: project-based learning"
+      ],
+      "daring": [
+        "Pengujian aplikasi web melalui tautan prototipe",
+        "Review sejawat"
+      ],
+      "materi": [
+        "Vibe coding",
+        "Prototipe aplikasi web",
+        "Validasi konten",
+        "Pengujian pengguna"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 14,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-11"
+      ],
+      "indikator": "Mengumpulkan umpan balik calon pengguna dan melakukan cek aksesibilitas, kejelasan instruksi, keamanan data, hak cipta, serta potensi bias AI.",
+      "kriteria_bentuk": "Kriteria: kualitas bukti uji pakai dan ketepatan revisi. Bentuk: laporan uji pakai dan versi revisi.",
+      "luring": [
+        "Uji pakai terbatas",
+        "Klinik revisi",
+        "Metode: evaluasi formatif"
+      ],
+      "daring": [
+        "Pengumpulan data umpan balik",
+        "Revisi kolaboratif daring"
+      ],
+      "materi": [
+        "Uji pakai",
+        "Aksesibilitas",
+        "Etika",
+        "Keamanan data",
+        "Hak cipta",
+        "Revisi produk"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 15,
+      "jenis": "pembelajaran",
+      "sub_cpmk_ids": [
+        "SUB-CPMK-12"
+      ],
+      "indikator": "Menerapkan produk dalam microteaching, menjelaskan peran guru dan peserta didik, serta merefleksikan keterlaksanaan pembelajaran.",
+      "kriteria_bentuk": "Kriteria: kesesuaian implementasi, komunikasi, pengelolaan kelas, dan refleksi. Bentuk: simulasi dan lembar observasi.",
+      "luring": [
+        "Simulasi pembelajaran",
+        "Expo karya",
+        "Observasi",
+        "Kritik sejawat"
+      ],
+      "daring": [
+        "Simulasi sinkron atau dokumentasi video",
+        "Refleksi pada LMS (lms.ikipsiliwangi.ac.id)"
+      ],
+      "materi": [
+        "Simulasi implementasi media untuk pembelajaran bahasa atau sastra Indonesia"
+      ],
+      "bobot_persen": 5
+    },
+    {
+      "minggu_ke": 16,
+      "jenis": "uas",
+      "sub_cpmk_teks": "UAS: Portofolio media pembelajaran bahasa berbasis ICT (cakupan Sub-CPMK 8–12).",
+      "bobot_persen": 15
+    }
+  ]
+}

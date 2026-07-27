@@ -47,7 +47,7 @@ Gambar 1.2 memperlihatkan bahwa penggunaan media seharusnya dimulai dari tujuan 
 
 ### 2.2 Media, Teknologi, Bahan Ajar, dan Sumber Belajar
 
-Dalam percakapan sehari-hari, istilah media, teknologi, bahan ajar, dan sumber belajar sering digunakan secara bergantian. Keempatnya memang dapat saling beririsan, tetapi mempunyai penekanan yang berbeda.
+Dalam percakapan sehari-hari, istilah media, teknologi, bahan ajar, dan sumber belajar sering digunakan secara bergantian. Keempatnya memang dapat saling beririsan, tetapi mempunyai penekanan yang berbeda (Kustandi & Darmawan, 2020; Yaumi, 2019).
 
 **Tabel 1.1 Perbedaan Media, Teknologi, Bahan Ajar, dan Sumber Belajar**
 
@@ -70,7 +70,7 @@ Dalam kegiatan menyimak, media audio dapat menghadirkan variasi penutur, intonas
 
 Pembelajaran sastra membutuhkan pertimbangan yang sedikit berbeda. Karya sastra tidak hanya menyampaikan informasi, tetapi juga mengundang pengalaman estetis dan penafsiran. Rekaman pembacaan puisi dapat membuka pembicaraan tentang bunyi dan suasana. Peta tokoh dapat membantu pembaca melihat hubungan dan konflik dalam novel. Pementasan, cerita digital, atau adaptasi visual dapat menjadi jalan untuk memahami pilihan artistik. Media sebaiknya tidak mengunci satu tafsir, melainkan menyediakan pijakan agar peserta didik dapat membangun dan mempertanggungjawabkan tafsirnya.
 
-Ruang lingkup itu juga mencakup media non-digital, digital, dan gabungan keduanya. Pilihan bentuk tidak menunjukkan tingkatan mutu. Kartu fisik dapat lebih efektif daripada aplikasi untuk menyusun urutan paragraf jika akses perangkat terbatas atau interaksi tatap muka menjadi tujuan utama. Sebaliknya, dokumen kolaboratif mungkin lebih sesuai ketika peserta didik perlu menyunting teks secara bersamaan dan menyimpan jejak perubahan. Nilai media ditentukan oleh kesesuaian fungsi, bukan oleh label digitalnya.
+Ruang lingkup itu juga mencakup media non-digital, digital, dan gabungan keduanya. Pilihan bentuk tidak menunjukkan tingkatan mutu. Kartu fisik dapat lebih efektif daripada aplikasi untuk menyusun urutan paragraf jika akses perangkat terbatas atau interaksi tatap muka menjadi tujuan utama. Sebaliknya, dokumen kolaboratif mungkin lebih sesuai ketika peserta didik perlu menyunting teks secara bersamaan dan menyimpan jejak perubahan. Nilai media ditentukan oleh kesesuaian fungsi, bukan oleh label digitalnya (Kustandi & Darmawan, 2020; Yaumi, 2019).
 
 ## 3. Fungsi Media dalam Pembelajaran Bahasa dan Sastra Indonesia
 
@@ -86,11 +86,11 @@ Fungsi atensi tidak sama dengan membuat pembelajaran selalu ramai atau penuh efe
 
 Sebagian konsep kebahasaan dan kesastraan sulit dipahami apabila hanya dijelaskan secara verbal. Struktur argumentasi dapat divisualisasikan melalui hubungan antara klaim, alasan, bukti, dan sanggahan. Perubahan alur dalam cerpen dapat dipetakan pada garis waktu. Perbedaan intonasi dalam tuturan lebih mudah dipahami melalui contoh audio daripada definisi tertulis semata.
 
-Media membantu mengubah sesuatu yang abstrak menjadi representasi yang dapat diamati dan dibicarakan. Representasi tersebut tidak selalu harus konkret dalam arti fisik. Diagram, simbol, warna, dan susunan ruang dapat membuat hubungan antargagasan terlihat. Namun, penyederhanaan perlu dijaga agar tidak mengubah konsep secara keliru. Diagram struktur teks, misalnya, harus diperlakukan sebagai alat bantu membaca, bukan rumus kaku yang membuat semua teks dianggap memiliki bentuk identik.
+Media membantu mengubah sesuatu yang abstrak menjadi representasi yang dapat diamati dan dibicarakan (Mayer, 2020). Representasi tersebut tidak selalu harus konkret dalam arti fisik. Diagram, simbol, warna, dan susunan ruang dapat membuat hubungan antargagasan terlihat. Namun, penyederhanaan perlu dijaga agar tidak mengubah konsep secara keliru. Diagram struktur teks, misalnya, harus diperlakukan sebagai alat bantu membaca, bukan rumus kaku yang membuat semua teks dianggap memiliki bentuk identik.
 
 ### 3.3 Mendukung Pengolahan dan Pengorganisasian Informasi
 
-Peserta didik tidak belajar hanya dengan menerima informasi. Mereka perlu memilih bagian yang relevan, menghubungkannya dengan pengetahuan yang sudah dimiliki, lalu membentuk pemahaman yang dapat digunakan kembali. Media dapat mendukung proses tersebut melalui penandaan, pengelompokan, perbandingan, visualisasi hubungan, dan pemberian contoh yang berurutan.
+Peserta didik tidak belajar hanya dengan menerima informasi. Mereka perlu memilih bagian yang relevan, menghubungkannya dengan pengetahuan yang sudah dimiliki, lalu membentuk pemahaman yang dapat digunakan kembali. Media dapat mendukung proses tersebut melalui penandaan, pengelompokan, perbandingan, visualisasi hubungan, dan pemberian contoh yang berurutan (Mayer, 2020).
 
 Pada pembelajaran menulis teks eksposisi, sebuah peta argumen dapat membantu peserta didik menguji hubungan antara pendapat dan bukti sebelum menyusun paragraf. Dalam kajian novel, tabel perbandingan sudut pandang dapat menolong pembaca mengaitkan cara penceritaan dengan informasi yang diperoleh. Media dalam contoh tersebut bukan pengganti berpikir. Media memberi struktur sementara agar proses berpikir lebih dapat dikelola.
 
@@ -110,13 +110,13 @@ Interaktivitas tidak selalu bergantung pada tombol atau layar. Sebuah foto dapat
 
 Peserta didik memiliki pengalaman awal, kemampuan bahasa, kebutuhan akses, kecepatan belajar, dan kondisi teknologi yang beragam. Media dapat menyediakan beberapa jalan untuk mengakses materi dan menunjukkan pemahaman. Teks takarir membantu pembaca mengikuti video. Transkrip membantu peserta didik meninjau kembali rekaman. Ukuran huruf yang memadai, kontras warna yang jelas, navigasi sederhana, serta versi berkas yang ringan dapat memperluas akses.
 
-Keragaman ini tidak perlu disederhanakan menjadi label gaya belajar yang tetap. Pendidik lebih berguna mengamati hambatan nyata yang dihadapi peserta didik dan menyediakan dukungan yang dapat dipilih sesuai tugas. Seorang peserta didik mungkin membutuhkan transkrip ketika menganalisis isi podcast, tetapi tetap memerlukan latihan menyimak tanpa teks untuk tujuan yang berbeda. Media yang inklusif memberi akses tanpa menghilangkan kompetensi yang hendak dilatih.
+Keragaman ini tidak perlu disederhanakan menjadi label gaya belajar yang tetap. Pendidik lebih berguna mengamati hambatan nyata yang dihadapi peserta didik dan menyediakan dukungan yang dapat dipilih sesuai tugas. Seorang peserta didik mungkin membutuhkan transkrip ketika menganalisis isi podcast, tetapi tetap memerlukan latihan menyimak tanpa teks untuk tujuan yang berbeda. Media yang inklusif memberi akses tanpa menghilangkan kompetensi yang hendak dilatih (CAST, 2024).
 
 ### 3.7 Mendukung Latihan, Asesmen, dan Umpan Balik
 
 Media dapat membantu peserta didik melihat kemajuan dan memperbaiki kinerja. Kuis singkat dapat digunakan untuk memeriksa pemahaman awal. Rekaman presentasi dapat dianalisis menggunakan rubrik. Dokumen dengan riwayat perubahan dapat menunjukkan proses revisi tulisan. Portofolio digital dapat memperlihatkan perkembangan karya dalam rentang waktu tertentu.
 
-Umpan balik otomatis berguna untuk hal yang jawabannya terstruktur, seperti latihan ejaan atau pengenalan unsur teks. Untuk kemampuan yang memerlukan penalaran, kreativitas, dan penafsiran, umpan balik manusia tetap penting. Media seharusnya membantu menyediakan bukti belajar dan mempercepat respons, bukan menyederhanakan seluruh kualitas berbahasa menjadi skor.
+Umpan balik otomatis berguna untuk hal yang jawabannya terstruktur, seperti latihan ejaan atau pengenalan unsur teks. Untuk kemampuan yang memerlukan penalaran, kreativitas, dan penafsiran, umpan balik manusia tetap penting. Media seharusnya membantu menyediakan bukti belajar dan mempercepat respons, bukan menyederhanakan seluruh kualitas berbahasa menjadi skor (Kustandi & Darmawan, 2020; Yaumi, 2019).
 
 **Tabel 1.2 Fungsi Media dan Contoh Penggunaannya**
 
@@ -140,7 +140,7 @@ Keputusan menggunakan media selalu membawa asumsi tentang bagaimana orang belaja
 
 Perspektif behavioristik melihat belajar melalui perubahan perilaku yang dapat diamati sebagai respons terhadap stimulus dan konsekuensinya. Dalam kerangka ini, media dapat menyajikan rangsangan, memberi kesempatan latihan, dan menyediakan penguatan atau koreksi dengan segera.
 
-Latihan ejaan, tanda baca, kosakata, atau pengenalan pola kalimat dapat memanfaatkan prinsip tersebut. Peserta didik melihat soal, memberi respons, menerima umpan balik, lalu mencoba kembali. Kelebihannya terletak pada kejelasan target dan kesempatan berlatih. Keterbatasannya muncul ketika pembelajaran berhenti pada jawaban benar atau salah. Menulis argumentasi, menafsirkan puisi, dan menilai kualitas sumber tidak dapat dikembangkan hanya melalui pengulangan respons sederhana.
+Latihan ejaan, tanda baca, kosakata, atau pengenalan pola kalimat dapat memanfaatkan prinsip tersebut (Yaumi, 2019). Peserta didik melihat soal, memberi respons, menerima umpan balik, lalu mencoba kembali. Kelebihannya terletak pada kejelasan target dan kesempatan berlatih. Keterbatasannya muncul ketika pembelajaran berhenti pada jawaban benar atau salah. Menulis argumentasi, menafsirkan puisi, dan menilai kualitas sumber tidak dapat dikembangkan hanya melalui pengulangan respons sederhana.
 
 ### 4.2 Perspektif Kognitif dan Pembelajaran Multimedia
 
@@ -166,7 +166,7 @@ Forum diskusi, kegiatan penyuntingan sejawat, wawancara, podcast kelas, dan peme
 
 Pembelajaran digital membuat pengetahuan tersebar pada berbagai sumber, platform, komunitas, dan perangkat. Perspektif konektivisme menyoroti kemampuan membangun hubungan dengan sumber pengetahuan, menilai kualitas informasi, memperbarui pemahaman, dan mengetahui ke mana harus mencari ketika informasi berubah.
 
-Perspektif ini relevan ketika peserta didik menelusuri berita, membandingkan korpus bahasa, mengikuti diskusi sastra, atau mengelola referensi dari berbagai sumber. Akan tetapi, akses luas tidak otomatis menghasilkan pemahaman. Peserta didik memerlukan literasi informasi, kemampuan memeriksa sumber, dan kesadaran bahwa popularitas konten tidak sama dengan kebenaran. Pembahasan lebih lanjut tentang ekosistem digital dan literasi AI akan diberikan pada Bab 2.
+Perspektif ini relevan ketika peserta didik menelusuri berita, membandingkan korpus bahasa, mengikuti diskusi sastra, atau mengelola referensi dari berbagai sumber. Akan tetapi, akses luas tidak otomatis menghasilkan pemahaman. Peserta didik memerlukan literasi informasi, kemampuan memeriksa sumber, dan kesadaran bahwa popularitas konten tidak sama dengan kebenaran (Yaumi, 2019). Pembahasan lebih lanjut tentang ekosistem digital dan literasi AI akan diberikan pada Bab 2.
 
 ### 4.6 Pengalaman Konkret dan Representasi Abstrak
 
@@ -191,7 +191,7 @@ Tidak ada satu perspektif yang harus digunakan untuk semua situasi. Latihan ejaa
 
 ## 5. Prinsip Penggunaan Media Pembelajaran
 
-Media yang efektif tidak ditentukan oleh jumlah fitur atau tingkat kebaruannya. Efektivitas bergantung pada hubungan antara tujuan, isi, aktivitas, peserta didik, dan konteks. Prinsip berikut dapat digunakan untuk memilih media yang sudah ada maupun menilai rancangan media yang akan dibuat.
+Media yang efektif tidak ditentukan oleh jumlah fitur atau tingkat kebaruannya. Efektivitas bergantung pada hubungan antara tujuan, isi, aktivitas, peserta didik, dan konteks. Prinsip berikut dapat digunakan untuk memilih media yang sudah ada maupun menilai rancangan media yang akan dibuat. Secara umum, prinsip-prinsip ini dirangkum dari pembahasan media pembelajaran oleh Sanjaya (2013), Yaumi (2019), Kustandi dan Darmawan (2020), serta Mayer (2020).
 
 ### 5.1 Selaras dengan Tujuan dan Asesmen
 
@@ -372,13 +372,3 @@ Lakukan pengamatan sederhana terhadap satu praktik penggunaan media dalam pembel
 Simpan hasil pengamatan sebagai bagian awal portofolio pengembangan media. Catatan tersebut akan digunakan kembali ketika membahas transformasi media, ekosistem digital, dan AI pada Bab 2, kemudian diperdalam melalui analisis kebutuhan dan perencanaan pada Bab 3.
 
 Pada akhirnya, kualitas media tidak berdiri pada perangkatnya. Media memperoleh nilai ketika membantu peserta didik berjumpa dengan bahasa dan sastra, mengolah pengalaman, menyampaikan pemikiran, serta memperbaiki pemahamannya. Pendidiklah yang menjaga agar hubungan antara tujuan, media, aktivitas, dan manusia tetap utuh.
-
-## Rujukan Bab 1
-
-Kustandi, C., & Darmawan, D. (2020). *Pengembangan media pembelajaran*. Kencana.
-
-Mayer, R. E. (2020). *Multimedia learning* (3rd ed.). Cambridge University Press.
-
-Sanjaya, W. (2013). *Media komunikasi pembelajaran*. Kencana Prenadamedia Group.
-
-Yaumi, M. (2019). *Media dan teknologi pembelajaran*. Prenadamedia Group.
