@@ -1,4 +1,4 @@
-# Daftar Isi Sementara
+# Daftar Isi
 
 ## Bagian I. Fondasi Presentasi Ilmiah
 

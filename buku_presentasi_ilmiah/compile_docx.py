@@ -16,9 +16,9 @@ from pathlib import Path
 
 try:
     from docx import Document
-    from docx.shared import Pt, Cm, RGBColor
+    from docx.shared import Pt, Cm, Emu, Inches, RGBColor
     from docx.enum.text import WD_ALIGN_PARAGRAPH
-    from docx.enum.table import WD_TABLE_ALIGNMENT
+    from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
     from docx.oxml.ns import qn, nsdecls
     from docx.oxml import parse_xml
 except ImportError:
@@ -35,10 +35,10 @@ PAGE_PRESETS = {
     "A5": {
         "page_width": 14.8,
         "page_height": 21.0,
-        "margin_top": 1.5,
-        "margin_bottom": 1.5,
-        "margin_dalam": 2.0,
-        "margin_luar": 1.5,
+        "margin_top": 2.0,
+        "margin_bottom": 2.0,
+        "margin_dalam": 2.5,
+        "margin_luar": 1.8,
         "font_body": 11,
         "font_h1": 14,
         "font_h2": 12,
@@ -156,6 +156,34 @@ def get_config(args) -> dict:
     return cfg
 
 
+def _strip_theme_from_run(run):
+    """Hapus semua atribut theme dari run agar Word tidak override warna/font."""
+    rPr = run._element.find(qn("w:rPr"))
+    if rPr is None:
+        return
+    # Hapus theme color
+    for color_el in rPr.findall(qn("w:color")):
+        for attr in ["themeColor", "themeShade", "themeTint"]:
+            color_el.attrib.pop(qn(f"w:{attr}"), None)
+    # Hapus theme font references
+    for rFonts in rPr.findall(qn("w:rFonts")):
+        for attr in ["asciiTheme", "hAnsiTheme", "eastAsiaTheme", "cstheme"]:
+            rFonts.attrib.pop(qn(f"w:{attr}"), None)
+
+
+def _strip_theme_from_style(style_element):
+    """Hapus semua atribut theme dari style definition."""
+    rPr = style_element.find(qn("w:rPr"))
+    if rPr is None:
+        return
+    for color_el in rPr.findall(qn("w:color")):
+        for attr in ["themeColor", "themeShade", "themeTint"]:
+            color_el.attrib.pop(qn(f"w:{attr}"), None)
+    for rFonts in rPr.findall(qn("w:rFonts")):
+        for attr in ["asciiTheme", "hAnsiTheme", "eastAsiaTheme", "cstheme"]:
+            rFonts.attrib.pop(qn(f"w:{attr}"), None)
+
+
 class MarkdownParser:
     def __init__(self, doc: Document, cfg: dict):
         self.doc = doc
@@ -251,28 +279,109 @@ class MarkdownParser:
         table.alignment = WD_TABLE_ALIGNMENT.CENTER
         table.style = "Table Grid"
 
+        # ── Hitung lebar kolom proporsional ──
+        # Lebar area cetak (halaman - margin)
+        page_w_cm = self.cfg["page_width"]
+        margin_in = self.cfg["margin_dalam"]
+        margin_out = self.cfg["margin_luar"]
+        usable_cm = page_w_cm - margin_in - margin_out
+        usable_emu = int(usable_cm * 360000)
+
+        # Paksa tabel full-width
+        tbl = table._tbl
+        tblPr = tbl.find(qn("w:tblPr"))
+        if tblPr is None:
+            tblPr = parse_xml(f'<w:tblPr {nsdecls("w")}/>')
+            tbl.insert(0, tblPr)
+        # Set table width = 100% (pct = 5000 = 100%)
+        tblW = tblPr.find(qn("w:tblW"))
+        if tblW is not None:
+            tblPr.remove(tblW)
+        tblPr.append(parse_xml(
+            f'<w:tblW {nsdecls("w")} w:type="pct" w:w="5000"/>'
+        ))
+
+        # Cell margin (padding dalam sel)
+        tblCellMar = parse_xml(
+            f'<w:tblCellMar {nsdecls("w")}>'
+            f'  <w:top w:w="40" w:type="dxa"/>'
+            f'  <w:left w:w="80" w:type="dxa"/>'
+            f'  <w:bottom w:w="40" w:type="dxa"/>'
+            f'  <w:right w:w="80" w:type="dxa"/>'
+            f'</w:tblCellMar>'
+        )
+        existing_mar = tblPr.find(qn("w:tblCellMar"))
+        if existing_mar is not None:
+            tblPr.remove(existing_mar)
+        tblPr.append(tblCellMar)
+
+        # Distribusi kolom: hitung proporsi berdasarkan panjang konten
+        col_lengths = [0] * num_cols
+        for row_data in rows:
+            for j, cell_text in enumerate(row_data):
+                if j < num_cols:
+                    col_lengths[j] = max(col_lengths[j], len(cell_text))
+        # Minimum 8 char per kolom agar tidak terlalu sempit
+        col_lengths = [max(c, 8) for c in col_lengths]
+        total_len = sum(col_lengths)
+        col_widths_emu = [int(usable_emu * cl / total_len) for cl in col_lengths]
+
         ft = self.cfg["font_table"]
         for i, row_data in enumerate(rows):
             row = table.rows[i]
-            for j, cell_text in enumerate(row_data):
-                if j < num_cols:
-                    cell = row.cells[j]
-                    cell.paragraphs[0].clear()
-                    self._add_inline_formatting(cell.paragraphs[0], cell_text)
-                    for run in cell.paragraphs[0].runs:
-                        run.font.name = FONT_NAME
-                        run.font.size = Pt(ft)
-                        if i == 0:
-                            run.bold = True
-                    cell.paragraphs[0].paragraph_format.space_before = Pt(2)
-                    cell.paragraphs[0].paragraph_format.space_after = Pt(2)
-                    cell.paragraphs[0].paragraph_format.line_spacing = 1.15
+            for j in range(num_cols):
+                cell = row.cells[j]
+                cell_text = row_data[j] if j < len(row_data) else ""
+
+                # Set lebar kolom via tcPr
+                tcPr = cell._element.get_or_add_tcPr()
+                tcW = tcPr.find(qn("w:tcW"))
+                if tcW is not None:
+                    tcPr.remove(tcW)
+                tcPr.append(parse_xml(
+                    f'<w:tcW {nsdecls("w")} w:type="dxa" '
+                    f'w:w="{int(col_widths_emu[j] / 635)}"/>'
+                ))
+
+                # Vertical alignment: top
+                vAlign = tcPr.find(qn("w:vAlign"))
+                if vAlign is not None:
+                    tcPr.remove(vAlign)
+                tcPr.append(parse_xml(
+                    f'<w:vAlign {nsdecls("w")} w:val="top"/>'
+                ))
+
+                # Isi sel
+                cell.paragraphs[0].clear()
+                self._add_inline_formatting(cell.paragraphs[0], cell_text)
+                for run in cell.paragraphs[0].runs:
+                    run.font.name = FONT_NAME
+                    run.font.size = Pt(ft)
                     if i == 0:
-                        shading = parse_xml(
-                            f'<w:shd {nsdecls("w")} w:fill="D9E2F3" w:val="clear"/>'
-                        )
-                        cell._element.get_or_add_tcPr().append(shading)
-        self.doc.add_paragraph()
+                        run.bold = True
+
+                # Format paragraf dalam sel
+                pf = cell.paragraphs[0].paragraph_format
+                pf.space_before = Pt(2)
+                pf.space_after = Pt(2)
+                pf.line_spacing = 1.15
+                # Header: rata kiri (bukan center — lebih rapi untuk tabel isi)
+                pf.alignment = WD_ALIGN_PARAGRAPH.LEFT
+
+                # Header row: shading abu-abu netral (bukan biru)
+                if i == 0:
+                    # Hapus shading lama jika ada
+                    for old_shd in tcPr.findall(qn("w:shd")):
+                        tcPr.remove(old_shd)
+                    shading = parse_xml(
+                        f'<w:shd {nsdecls("w")} w:fill="E8E8E8" w:val="clear"/>'
+                    )
+                    tcPr.append(shading)
+
+        # Spasi setelah tabel
+        p_after = self.doc.add_paragraph()
+        p_after.paragraph_format.space_before = Pt(0)
+        p_after.paragraph_format.space_after = Pt(4)
 
     def _is_image_placeholder(self, line: str) -> bool:
         stripped = line.strip()
@@ -310,19 +419,32 @@ class MarkdownParser:
             4: self.cfg["font_h4"],
         }
         font_size = size_map.get(level, self.cfg["font_body"])
-        p = self.doc.add_paragraph()
+        style_level = min(max(level, 1), 4)
+        p = self.doc.add_paragraph(style=f"Heading {style_level}")
         self._add_inline_formatting(p, text)
-        alignment = (WD_ALIGN_PARAGRAPH.CENTER
-                     if (level <= 2 or is_cover)
-                     else WD_ALIGN_PARAGRAPH.LEFT)
+        # Buku: hanya judul bab (H1) yang center; H2/H3/H4 rata kiri
+        if is_cover:
+            alignment = WD_ALIGN_PARAGRAPH.CENTER
+        elif level == 1:
+            alignment = WD_ALIGN_PARAGRAPH.CENTER
+        else:
+            alignment = WD_ALIGN_PARAGRAPH.LEFT
         space_before = 24 if level == 1 else (18 if level == 2 else 12)
         space_after = 12 if level <= 2 else 6
         self._format_paragraph(p, font_size=font_size, bold=True,
                                alignment=alignment,
                                space_before=space_before,
                                space_after=space_after)
+        # Jenjang indentasi heading: h4 diberi indent
+        if level == 4 and not is_cover:
+            p.paragraph_format.left_indent = Cm(0.5)
+        # Paksa warna hitam — hapus semua theme color dari runs
+        for run in p.runs:
+            run.font.color.rgb = RGBColor(0x00, 0x00, 0x00)
+            _strip_theme_from_run(run)
 
-    def _add_list_item(self, text: str, ordered: bool = False, number: int = 1):
+    def _add_list_item(self, text: str, ordered: bool = False,
+                       number: int = 1, indent_level: int = 0):
         p = self.doc.add_paragraph()
         prefix = f"{number}. " if ordered else "• "
         p.add_run(prefix)
@@ -330,7 +452,40 @@ class MarkdownParser:
         self._format_paragraph(p, alignment=WD_ALIGN_PARAGRAPH.JUSTIFY,
                                space_before=0, space_after=3,
                                first_line_indent=0)
-        p.paragraph_format.left_indent = Cm(self.cfg["list_indent"])
+        base_indent = self.cfg["list_indent"]
+        p.paragraph_format.left_indent = Cm(base_indent + indent_level * 0.6)
+
+    def _add_blockquote(self, lines: list[str]):
+        """Render blockquote: Consolas, indent kiri, border kiri abu-abu."""
+        for raw_line in lines:
+            # Buang leading '>' dan spasi
+            text = re.sub(r"^>\s?", "", raw_line).strip()
+            if not text:
+                continue
+            p = self.doc.add_paragraph()
+            self._add_inline_formatting(p, text)
+            # Override SEMUA runs ke Consolas
+            for run in p.runs:
+                run.font.name = "Consolas"
+                run.font.size = Pt(self.cfg["font_code"] + 1)  # sedikit lebih besar dari code
+                run.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
+            pf = p.paragraph_format
+            pf.left_indent = Cm(0.8)
+            pf.space_before = Pt(2)
+            pf.space_after = Pt(2)
+            pf.line_spacing = 1.2
+            pf.alignment = WD_ALIGN_PARAGRAPH.LEFT
+            # Border kiri: garis abu solid
+            pPr = p._element.get_or_add_pPr()
+            borders = parse_xml(
+                f'<w:pBdr {nsdecls("w")}>'
+                f'  <w:left w:val="single" w:sz="12" w:space="8" w:color="999999"/>'
+                f'</w:pBdr>'
+            )
+            existing = pPr.find(qn("w:pBdr"))
+            if existing is not None:
+                pPr.remove(existing)
+            pPr.append(borders)
 
     def _add_code_block(self, lines: list[str]):
         for line in lines:
@@ -407,6 +562,16 @@ class MarkdownParser:
                 i += 1
                 continue
 
+            # ── Blockquote ──
+            if stripped.startswith(">"):
+                bq_lines = []
+                while i < len(lines) and lines[i].strip().startswith(">"):
+                    bq_lines.append(lines[i])
+                    i += 1
+                self._add_blockquote(bq_lines)
+                continue
+
+            # ── Code block ──
             if stripped.startswith("```"):
                 code_lines = []
                 i += 1
@@ -449,12 +614,19 @@ class MarkdownParser:
             ol_match = re.match(r"^(\d+)\.\s+(.+)$", stripped)
             if ol_match:
                 num = int(ol_match.group(1))
-                self._add_list_item(ol_match.group(2), ordered=True, number=num)
+                # Hitung indent level dari spasi awal baris asli
+                leading = len(line) - len(line.lstrip())
+                indent_level = leading // 2  # tiap 2 spasi = 1 level
+                self._add_list_item(ol_match.group(2), ordered=True,
+                                    number=num, indent_level=indent_level)
                 i += 1
                 continue
 
             if stripped.startswith("- ") or stripped.startswith("* "):
-                self._add_list_item(stripped[2:], ordered=False)
+                leading = len(line) - len(line.lstrip())
+                indent_level = leading // 2
+                self._add_list_item(stripped[2:], ordered=False,
+                                    indent_level=indent_level)
                 i += 1
                 continue
 
@@ -466,6 +638,7 @@ class MarkdownParser:
                         or nl.startswith("#")
                         or nl.startswith("|")
                         or nl.startswith("```")
+                        or nl.startswith(">")
                         or nl.startswith("- ")
                         or nl.startswith("* ")
                         or re.match(r"^\d+\.\s+", nl)
@@ -516,6 +689,54 @@ def setup_document(cfg: dict) -> Document:
     if rFonts is None:
         rFonts = parse_xml(f'<w:rFonts {nsdecls("w")} w:eastAsia="{FONT_NAME}"/>')
         rpr.append(rFonts)
+
+    heading_sizes = {
+        "Heading 1": cfg["font_h1"],
+        "Heading 2": cfg["font_h2"],
+        "Heading 3": cfg["font_h3"],
+        "Heading 4": cfg["font_h4"],
+    }
+    for style_name, size in heading_sizes.items():
+        hstyle = doc.styles[style_name]
+        hstyle.font.name = FONT_NAME
+        hstyle.font.size = Pt(size)
+        hstyle.font.bold = True
+        hstyle.font.color.rgb = RGBColor(0x00, 0x00, 0x00)
+
+        # ── NUCLEAR OPTION: hapus SEMUA atribut theme dari style ──
+        _strip_theme_from_style(hstyle.element)
+
+        hrpr = hstyle.element.get_or_add_rPr()
+
+        # Hapus elemen w:color yang masih punya theme, ganti dengan hitam murni
+        for color_el in list(hrpr.findall(qn("w:color"))):
+            hrpr.remove(color_el)
+        hrpr.append(parse_xml(
+            f'<w:color {nsdecls("w")} w:val="000000"/>'
+        ))
+
+        # Paksa font tanpa theme
+        for rf in list(hrpr.findall(qn("w:rFonts"))):
+            hrpr.remove(rf)
+        hrpr.append(parse_xml(
+            f'<w:rFonts {nsdecls("w")} '
+            f'w:ascii="{FONT_NAME}" w:hAnsi="{FONT_NAME}" '
+            f'w:eastAsia="{FONT_NAME}" w:cs="{FONT_NAME}"/>'
+        ))
+
+        # Heading 1: CAPS kecil (small caps) opsional — biar tampak buku
+        # Heading alignment di level style (bukan hanya per-paragraph)
+        pPr = hstyle.element.find(qn("w:pPr"))
+        if pPr is None:
+            pPr = parse_xml(f'<w:pPr {nsdecls("w")}/>')
+            hstyle.element.append(pPr)
+        # H1 center, H2+ left
+        for old_jc in list(pPr.findall(qn("w:jc"))):
+            pPr.remove(old_jc)
+        if style_name == "Heading 1":
+            pPr.append(parse_xml(f'<w:jc {nsdecls("w")} w:val="center"/>'))
+        else:
+            pPr.append(parse_xml(f'<w:jc {nsdecls("w")} w:val="left"/>'))
 
     return doc
 

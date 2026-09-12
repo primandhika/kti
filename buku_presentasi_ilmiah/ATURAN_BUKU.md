@@ -51,6 +51,7 @@ Agar naskah tidak kehilangan bagian penting pada tahap penyusunan, setiap versi 
 - Gunakan bahasa Indonesia yang baik, benar, sopan, dan wajar sesuai EYD Edisi V.
 - Jangan menggunakan em dash. Gunakan tanda baca atau susunan kalimat lain yang lebih tepat.
 - Tulis dengan ritme yang alami. Jangan membuat setiap paragraf atau kalimat berpola sama, misalnya selalu diawali definisi, selalu terdiri dari tiga kalimat, atau selalu ditutup dengan simpulan yang seragam.
+- Hindari pembuka atau transisi yang terlalu mekanis dan terlalu eksplisit seperti `Bab ini membahas ...`, `Pada bab ini akan dijelaskan ...`, atau pola serupa yang terasa datar. Lebih utamakan kalimat yang mengalir, implisit, dan langsung membawa pembaca ke situasi, masalah, atau langkah belajar, misalnya dengan pola seperti `Setelah mempelajari ...`, `Pada tahap ini ...`, atau langsung masuk ke pokok persoalan.
 - Variasikan panjang kalimat dan paragraf sesuai kebutuhan gagasan, tetapi tetap utamakan kejelasan.
 - Hindari bahasa yang kaku, bertele-tele, promosi berlebihan, atau terlalu teknis tanpa penjelasan bagi pembaca sasaran.
 - Gunakan istilah secara konsisten. Saat istilah baru atau teknis pertama kali muncul, jelaskan secara singkat dalam konteks pembelajaran.
@@ -71,6 +72,7 @@ Agar naskah tidak kehilangan bagian penting pada tahap penyusunan, setiap versi 
 - Bagian yang membahas perkembangan mutakhir, kebaruan, teknologi, kecerdasan artifisial, platform digital, atau praktik terkini harus menggunakan sumber yang mutakhir, pada umumnya terbit tahun 2022 ke atas.
 - Sumber klasik atau lebih lama tetap dapat digunakan untuk teori dasar yang mapan, sepanjang masih relevan dan tidak diposisikan sebagai bukti kondisi terkini.
 - Jika pembahasan utama menyampaikan klaim akademik, pedagogis, atau evaluatif, dukung dengan sitasi yang memadai. Jangan membangun pembahasan penting hanya dari opini naratif.
+- Untuk penataan rujukan, bedakan fungsi sumber dengan jelas. Artikel jurnal terutama dipakai untuk mendukung temuan empiris, studi kasus, hasil evaluasi, atau contoh penelitian. Untuk landasan teoretis utama, utamakan buku, karya konseptual, atau rujukan teori yang memang bersifat dasar dan mapan. Jangan menjadikan artikel jurnal sebagai penyangga utama uraian teori jika fungsi yang dibutuhkan sebenarnya adalah penjelasan konseptual.
 - Upayakan sebagian rujukan relevan dengan konteks Indonesia atau sumber lokal, khususnya pada pendidikan tinggi, komunikasi ilmiah, retorika akademik, dan pembelajaran.
 - Pencarian referensi tambahan dilakukan hanya jika diminta. Fokuskan pada bagian yang sedang dikerjakan dan gunakan sumber secukupnya, bukan menelusuri ulang seluruh buku.
 - Jangan membuat data, hasil penelitian, kutipan, tautan, atau detail bibliografis yang tidak dapat diverifikasi.
@@ -81,6 +83,8 @@ Agar naskah tidak kehilangan bagian penting pada tahap penyusunan, setiap versi 
 - Saat membahas strategi microlearning, pastikan setiap unit latihan ringkas tetap terhubung dengan capaian presentasi ilmiah yang lebih besar.
 - Setiap bab sebaiknya dibagi menjadi unit-unit belajar kecil. Idealnya, satu unit memuat: konsep inti yang singkat, contoh atau ilustrasi, lalu latihan langsung. Jangan menunggu sampai akhir bab untuk pertama kali mengajak pembaca berlatih.
 - Jika satu bab memiliki banyak subbagian, sisipkan latihan mikro, tugas bicara 30 sampai 90 detik, audit singkat, atau cek pemahaman terapan di tengah alur bab, bukan hanya pada bagian penutup.
+- Prinsip microlearning diterapkan pada desain pengalaman belajar, bukan harus selalu disebutkan secara eksplisit kepada pembaca. Hindari label yang terlalu teknis atau terlalu telanjang seperti `Jeda Microlearning` atau `Jeda belajar mikro` sebagai pola tetap di setiap bab.
+- Untuk menandai latihan singkat di tengah bab, gunakan penanda yang lebih natural dan menyatu dengan alur buku, misalnya subbagian biasa, `Latihan singkat`, `Coba sekarang`, `Uji cepat`, `Aktivitas`, atau pemisah visual sederhana bila diperlukan.
 - Saat membahas strategi metakognitif, kaitkan aktivitas dengan tahap merencanakan, memantau, dan mengevaluasi performa presentasi.
 - Jelaskan batasan penggunaan alat digital, termasuk aksesibilitas, privasi data, hak cipta, atribusi, bias, dan tanggung jawab pengguna.
 - Jangan mendorong pembaca memasukkan data pribadi, rekaman tanpa izin, bahan ujian rahasia, atau materi berhak cipta yang tidak berizin ke layanan publik berbasis AI.

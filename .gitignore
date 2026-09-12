@@ -1,2 +1,8 @@
 .ssh/id_ed25519
 .ssh/id_ed25519.pub
+
+# Virtual environment
+.venv/
+
+# Build outputs
+outputs/

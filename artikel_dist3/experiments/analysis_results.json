@@ -1,0 +1,44 @@
+{
+  "speaking": {
+    "n_exp": 40,
+    "n_con": 37,
+    "exp_pre_M": 70.84,
+    "exp_pre_SD": 5.55,
+    "con_pre_M": 71.21,
+    "con_pre_SD": 1.84,
+    "exp_post_M": 82.7,
+    "exp_post_SD": 5.18,
+    "con_post_M": 79.46,
+    "con_post_SD": 3.41,
+    "adj_diff": 3.32,
+    "adj_ci_lo": 1.33,
+    "adj_ci_hi": 5.3,
+    "adj_p": 0.00136,
+    "adj_hedges_g": 0.75,
+    "gain_diff": 3.61,
+    "gain_ci_lo": 1.17,
+    "gain_ci_hi": 6.06,
+    "gain_t": 2.955,
+    "gain_p": 0.00443,
+    "gain_hedges_g": 0.65
+  },
+  "metacognitive": {
+    "n_exp": 40,
+    "n_con": 37,
+    "adj_diff": 4.14,
+    "adj_ci_lo": 0.33,
+    "adj_ci_hi": 7.95,
+    "adj_p": 0.03376,
+    "adj_hedges_g": 0.51,
+    "gain_diff": 8.09,
+    "gain_ci_lo": 3.16,
+    "gain_ci_hi": 13.02,
+    "gain_t": 3.268,
+    "gain_p": 0.00164,
+    "gain_hedges_g": 0.73
+  },
+  "reliability": {
+    "alpha_pre_subscale": 0.694,
+    "alpha_post_subscale": 0.733
+  }
+}

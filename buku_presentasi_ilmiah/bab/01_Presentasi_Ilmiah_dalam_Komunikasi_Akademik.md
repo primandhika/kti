@@ -1,12 +1,12 @@
 # Bab 1 Presentasi Ilmiah dalam Komunikasi Akademik
 
-## Pengantar Bab
+## Pengantar
 
-Di perguruan tinggi, mahasiswa tidak hanya diminta memahami gagasan, teori, metode, atau hasil penelitian, tetapi juga menjelaskannya kepada orang lain secara lisan. Karena itu, presentasi ilmiah bukan kegiatan tambahan yang sekadar melengkapi perkuliahan. Presentasi ilmiah merupakan salah satu bentuk komunikasi akademik yang memperlihatkan bagaimana seseorang memahami persoalan, menyusun argumen, memilih bukti, dan mempertanggungjawabkan penjelasannya di hadapan audiens.
+Di perguruan tinggi, kita tidak hanya diminta memahami gagasan, teori, metode, atau hasil penelitian, tetapi juga menjelaskannya kepada orang lain secara lisan. Karena itu, presentasi ilmiah bukan kegiatan tambahan yang sekadar melengkapi perkuliahan. Presentasi ilmiah merupakan salah satu bentuk komunikasi akademik yang memperlihatkan bagaimana seseorang memahami persoalan, menyusun argumen, memilih bukti, dan mempertanggungjawabkan penjelasannya di hadapan audiens.
 
-Kemampuan presentasi juga tidak dapat disamakan begitu saja dengan keberanian berbicara di depan umum. Seseorang dapat tampak percaya diri, tetapi isi presentasinya kabur, terlalu panjang, tidak akurat, atau tidak sesuai forum. Sebaliknya, ada pula mahasiswa yang memahami materi dengan baik, tetapi kesulitan menyampaikan gagasannya secara runtut dan meyakinkan. Karena itu, presentasi ilmiah perlu dipahami sebagai keterampilan yang menggabungkan isi, struktur, etika, dan performa.
+Kemampuan presentasi juga tidak dapat disamakan begitu saja dengan keberanian berbicara di depan umum. Seseorang dapat tampak percaya diri, tetapi isi presentasinya kabur, terlalu panjang, tidak akurat, atau tidak sesuai forum. Sebaliknya, ada pula di antara kita yang memahami materi dengan baik, tetapi kesulitan menyampaikan gagasannya secara runtut dan meyakinkan. Karena itu, presentasi ilmiah perlu dipahami sebagai keterampilan yang menggabungkan isi, struktur, etika, dan performa.
 
-Setyonegoro et al. (2020) menempatkan keterampilan berbicara sebagai kemampuan yang tidak cukup dipahami sebagai teori, tetapi harus dikuasai melalui latihan yang terarah. Dalam konteks presentasi, Indrajaya (2020) juga menekankan pentingnya pesan utama yang jelas agar audiens menangkap inti pembicaraan, bukan tenggelam dalam rincian yang berlebihan. Van Ginkel et al. (2015) memperkuat pandangan ini dengan menunjukkan bahwa kompetensi presentasi lisan memang merupakan tujuan penting dalam pendidikan tinggi. Tiga pijakan ini penting sebagai landasan awal buku ini. Mahasiswa perlu melihat presentasi ilmiah sebagai keterampilan akademik yang dapat dipelajari, dilatih, dan diperbaiki secara bertahap.
+Keterampilan berbicara tidak cukup dipahami sebagai teori, tetapi perlu dikuasai melalui latihan yang terarah (Setyonegoro et al., 2020). Sejalan dengan itu, presentasi yang baik harus berangkat dari pesan utama yang jelas agar audiens menangkap inti pembicaraan, bukan tenggelam dalam rincian yang berlebihan (Indrajaya, 2020). Dalam lingkup pendidikan tinggi, kompetensi presentasi lisan memang termasuk tujuan penting pembelajaran akademik (van Ginkel et al., 2015). Tiga pijakan ini menjadi landasan awal buku ini. Kita perlu melihat presentasi ilmiah sebagai keterampilan akademik yang dapat dipelajari, dilatih, dan diperbaiki secara bertahap.
 
 ## Tujuan Pembelajaran
 
@@ -24,7 +24,7 @@ Setyonegoro et al. (2020) menempatkan keterampilan berbicara sebagai kemampuan y
 
 ## Uraian Materi
 
-**Cara belajar bab ini:** baca satu subbagian, berhenti sejenak, lalu kerjakan jeda belajar mikro yang menyertainya. Jangan tunggu sampai akhir bab untuk mulai berlatih. Buku ini memang dirancang agar pemahaman tumbuh bersama praktik bicara yang singkat, terarah, dan berulang.
+**Cara belajar bagian ini:** baca satu subbagian, berhenti sejenak, lalu kerjakan latihan singkat yang menyertainya. Jangan tunggu sampai akhir bab untuk mulai berlatih. Buku ini memang dirancang agar pemahaman tumbuh bersama praktik bicara yang singkat, terarah, dan berulang.
 
 ### 1.1 Presentasi ilmiah sebagai bentuk komunikasi akademik
 
@@ -32,9 +32,13 @@ Presentasi ilmiah adalah kegiatan menyampaikan gagasan, temuan, rancangan peneli
 
 Karena termasuk komunikasi akademik, presentasi ilmiah menuntut beberapa hal sekaligus. Pertama, isi presentasi harus berbasis pengetahuan yang sahih, data yang relevan, atau telaah yang dapat dipertanggungjawabkan. Kedua, penyaji harus menyusun penjelasan secara logis agar audiens dapat mengikuti alur pikirnya. Ketiga, penyaji perlu memperhatikan forum, waktu, serta siapa audiensnya. Keempat, penyaji harus siap menerima pertanyaan, kritik, atau masukan sebagai bagian dari proses akademik.
 
+[Gambar 1.1: Diagram empat tuntutan presentasi ilmiah — isi sahih, penjelasan logis, kepekaan konteks, kesiapan berdialog]
+Gambar 1.1 Empat tuntutan utama presentasi ilmiah
+
+
 Dalam tradisi keterampilan berbicara, berbicara dipahami sebagai sarana menyampaikan gagasan, memengaruhi, memberi informasi, dan membangun pemahaman dengan orang lain (Setyonegoro et al., 2020). Dalam konteks presentasi, mutu pembicaraan tidak diukur dari banyaknya slide atau rumitnya istilah yang dipakai, tetapi dari seberapa baik audiens menangkap inti pesan yang disampaikan. Karena itu, presentasi ilmiah perlu dipahami sebagai bentuk komunikasi akademik yang menuntut kejelasan isi sekaligus ketepatan penyampaian.
 
-#### Jeda belajar mikro 1. Jelaskan ulang dalam 30 detik
+#### Latihan singkat 1. Jelaskan ulang dalam 30 detik
 
 Tanpa membaca ulang paragraf di atas, coba ucapkan dengan bahasa Anda sendiri:
 
@@ -42,13 +46,12 @@ Tanpa membaca ulang paragraf di atas, coba ucapkan dengan bahasa Anda sendiri:
 
 Lanjutkan kalimat tersebut selama **30 detik**. Jika masih tersendat, baca lagi bagian 1.1 lalu ulangi sekali lagi.
 
-**Keluaran yang diharapkan:** penjelasan lisan singkat 30 detik dengan bahasa sendiri.
 
 ### 1.2 Mengapa presentasi ilmiah penting di perguruan tinggi
 
-Di lingkungan perguruan tinggi, presentasi ilmiah hadir dalam banyak bentuk. Mahasiswa mempresentasikan hasil diskusi, proposal, rancangan proyek, kajian pustaka, hasil penelitian, sampai artikel ilmiah. Dosen juga mempresentasikan gagasan dalam seminar, kuliah umum, konferensi, atau forum akademik lain. Karena itu, presentasi ilmiah bukan keterampilan yang hanya berguna untuk lulus satu mata kuliah, tetapi bagian dari praktik akademik yang berulang.
+Di lingkungan perguruan tinggi, presentasi ilmiah hadir dalam banyak bentuk. Kita mempresentasikan hasil diskusi, proposal, rancangan proyek, kajian pustaka, hasil penelitian, sampai artikel ilmiah. Dosen juga mempresentasikan gagasan dalam seminar, kuliah umum, konferensi, atau forum akademik lain. Karena itu, presentasi ilmiah bukan keterampilan yang hanya berguna untuk lulus satu mata kuliah, tetapi bagian dari praktik akademik yang berulang.
 
-Van Ginkel et al. (2015) menunjukkan bahwa kemampuan presentasi lisan dipandang sebagai kompetensi penting dalam pendidikan tinggi dan kehidupan profesional. Sejalan dengan itu, Setyonegoro et al. (2020) menekankan bahwa kemampuan berbicara berkembang jika pembelajar diberi ruang praktik, bukan hanya penjelasan teoritis. Artinya, penguasaan presentasi ilmiah membantu mahasiswa bukan hanya saat kuliah, tetapi juga ketika harus menjelaskan proyek, memaparkan data, menyampaikan hasil kerja, atau mempertahankan keputusan profesional di masa depan.
+Kemampuan presentasi lisan dipandang sebagai kompetensi penting dalam pendidikan tinggi dan kehidupan profesional (van Ginkel et al., 2015). Sejalan dengan itu, kemampuan berbicara berkembang jika pembelajar diberi ruang praktik, bukan hanya penjelasan teoritis (Setyonegoro et al., 2020). Artinya, penguasaan presentasi ilmiah membantu kita bukan hanya saat kuliah, tetapi juga ketika harus menjelaskan proyek, memaparkan data, menyampaikan hasil kerja, atau mempertahankan keputusan profesional di masa depan.
 
 Di samping itu, presentasi ilmiah memiliki fungsi akademik yang khas.
 
@@ -58,22 +61,21 @@ Di samping itu, presentasi ilmiah memiliki fungsi akademik yang khas.
 - Presentasi menjadi sarana evaluasi, baik oleh dosen, penguji, maupun teman sejawat.
 - Presentasi memperlihatkan apakah seseorang benar-benar memahami materi yang ia bawa.
 
-Dengan demikian, presentasi ilmiah perlu dipahami sebagai bagian dari proses belajar, bukan hanya alat penilaian. Ketika mahasiswa menyiapkan presentasi, sebenarnya ia sedang berlatih memilih ide pokok, menyederhanakan penjelasan, menimbang bukti, dan memperkirakan kebutuhan audiens.
+Dengan demikian, presentasi ilmiah perlu dipahami sebagai bagian dari proses belajar, bukan hanya alat penilaian. Ketika kita menyiapkan presentasi, sebenarnya kita sedang berlatih memilih ide pokok, menyederhanakan penjelasan, menimbang bukti, dan memperkirakan kebutuhan audiens.
 
-#### Jeda belajar mikro 2. Sebutkan tiga alasan terpenting
+#### Latihan singkat 2. Sebutkan tiga alasan terpenting
 
 Pilih **tiga alasan** mengapa presentasi ilmiah penting di perguruan tinggi. Setelah itu, sampaikan alasan tersebut kepada teman atau rekam sendiri dalam **45 detik**.
 
 Agar tidak melebar, gunakan pola sederhana berikut:
 1. presentasi ilmiah penting karena ...;
 2. presentasi ilmiah juga penting karena ...;
-3. yang paling menentukan, presentasi ilmiah membantu mahasiswa ... .
+3. yang paling menentukan, presentasi ilmiah membantu kita ... .
 
-**Keluaran yang diharapkan:** penjelasan lisan 45 detik, bukan daftar panjang tertulis.
 
 ### 1.3 Ciri-ciri utama presentasi ilmiah
 
-Presentasi ilmiah memiliki ciri yang membedakannya dari jenis presentasi lain. Ciri-ciri ini penting dipahami sejak awal agar mahasiswa tidak keliru mengira bahwa presentasi ilmiah cukup dibuat menarik secara visual atau dibawakan dengan percaya diri.
+Presentasi ilmiah memiliki ciri yang membedakannya dari jenis presentasi lain. Ciri-ciri ini penting dipahami sejak awal agar kita tidak keliru mengira bahwa presentasi ilmiah cukup dibuat menarik secara visual atau dibawakan dengan percaya diri.
 
 #### a. Berbasis tujuan akademik yang jelas
 
@@ -85,7 +87,7 @@ Isi presentasi ilmiah tidak boleh hanya berupa opini umum. Presentasi perlu didu
 
 #### c. Tersusun secara logis
 
-Audiens perlu dapat mengikuti jalan pikiran penyaji. Itu sebabnya presentasi ilmiah menuntut struktur yang runtut, misalnya dari latar belakang ke masalah, dari tujuan ke metode, lalu ke hasil dan simpulan. Indrajaya (2020) mengingatkan bahwa presentasi yang kuat selalu bertumpu pada pesan utama yang jelas. Saran ini penting karena banyak presentasi mahasiswa gagal justru karena terlalu banyak ide dibawa sekaligus.
+Audiens perlu dapat mengikuti jalan pikiran penyaji. Itu sebabnya presentasi ilmiah menuntut struktur yang runtut, misalnya dari latar belakang ke masalah, dari tujuan ke metode, lalu ke hasil dan simpulan. Presentasi yang kuat selalu bertumpu pada pesan utama yang jelas (Indrajaya, 2020). Saran ini penting karena banyak presentasi kita gagal justru karena terlalu banyak ide dibawa sekaligus.
 
 #### d. Menuntut ketepatan bahasa
 
@@ -99,7 +101,7 @@ Presentasi ilmiah harus jujur dalam menyajikan data, tidak melebih-lebihkan temu
 
 Presentasi ilmiah hampir selalu diikuti sesi tanya jawab atau tanggapan. Ini menunjukkan bahwa presentasi ilmiah bukan monolog yang kebal dari evaluasi, melainkan bagian dari percakapan akademik.
 
-#### Jeda belajar mikro 3. Uji enam ciri dalam satu contoh
+#### Latihan singkat 3. Uji enam ciri dalam satu contoh
 
 Ambil satu presentasi yang pernah Anda lihat. Lalu jawab secara lisan, masing-masing **satu kalimat pendek**:
 - apa tujuan akademiknya;
@@ -113,7 +115,7 @@ Latihan ini membantu Anda melihat bahwa ciri-ciri presentasi ilmiah bukan teori 
 
 ### 1.4 Ragam forum presentasi ilmiah
 
-Mahasiswa sering membayangkan presentasi ilmiah hanya sebagai sidang skripsi. Padahal bentuknya jauh lebih beragam. Masing-masing forum menuntut penyesuaian tujuan, bahasa, durasi, dan kedalaman materi.
+Kita sering membayangkan presentasi ilmiah hanya sebagai sidang skripsi. Padahal bentuknya jauh lebih beragam. Masing-masing forum menuntut penyesuaian tujuan, bahasa, durasi, dan kedalaman materi.
 
 | Forum | Tujuan utama | Karakter umum |
 |---|---|---|
@@ -124,7 +126,11 @@ Mahasiswa sering membayangkan presentasi ilmiah hanya sebagai sidang skripsi. Pa
 | Seminar atau konferensi | Menyampaikan hasil riset kepada komunitas akademik yang lebih luas | Waktu biasanya terbatas dan audiens beragam |
 | Poster talk | Menjelaskan inti penelitian secara ringkas dengan dukungan visual | Menuntut pemadatan pesan dan respons cepat |
 
-Dengan memahami ragam forum tersebut, mahasiswa dapat menyadari bahwa presentasi ilmiah selalu kontekstual. Penyajian untuk kelas biasa tentu berbeda dari penyajian di seminar hasil atau konferensi.
+[Gambar 1.2: Peta ragam forum presentasi ilmiah — dari presentasi kelas hingga konferensi, dengan tingkat formalitas dan kedalaman yang berbeda]
+Gambar 1.2 Ragam forum presentasi ilmiah berdasarkan tingkat formalitas
+
+
+Dengan memahami ragam forum tersebut, kita dapat menyadari bahwa presentasi ilmiah selalu kontekstual. Penyajian untuk kelas biasa tentu berbeda dari penyajian di seminar hasil atau konferensi.
 
 ### 1.5 Perbedaan presentasi ilmiah dan presentasi umum
 
@@ -141,7 +147,7 @@ Presentasi umum dapat bertujuan menghibur, menjual gagasan, mempromosikan produk
 
 Perbedaan ini tidak berarti presentasi ilmiah harus kaku atau membosankan. Presentasi ilmiah tetap dapat komunikatif, menarik, dan mudah diikuti. Namun, daya tarik dalam presentasi ilmiah harus mendukung kejelasan pesan, bukan menutup kelemahan isi.
 
-#### Jeda belajar mikro 4. Ilmiah atau umum?
+#### Latihan singkat 4. Ilmiah atau umum?
 
 Pilih satu topik sederhana, misalnya "dampak gawai pada belajar mahasiswa". Lalu buat dua kalimat pembuka secara lisan:
 1. pembuka untuk presentasi ilmiah;
@@ -149,7 +155,6 @@ Pilih satu topik sederhana, misalnya "dampak gawai pada belajar mahasiswa". Lalu
 
 Sesudah itu, tanyakan pada diri sendiri: kalimat mana yang lebih menonjolkan data, tujuan akademik, atau masalah yang akan diuji?
 
-**Keluaran yang diharapkan:** dua pembuka lisan singkat dan satu kesimpulan tentang perbedaannya.
 
 ### 1.6 Unsur pokok yang perlu ada dalam presentasi ilmiah
 
@@ -172,23 +177,23 @@ Pada bab-bab berikutnya, unsur-unsur ini akan dibahas lebih rinci, mulai dari an
 
 ### 1.7 Tantangan umum mahasiswa dalam presentasi ilmiah
 
-Mahasiswa sering menghadapi sejumlah kesulitan yang berulang saat presentasi ilmiah. Kesulitan ini tidak selalu muncul karena mahasiswa tidak belajar. Kadang masalahnya justru terletak pada cara menyiapkan dan menyampaikan materi.
+Kita sering menghadapi sejumlah kesulitan yang berulang saat presentasi ilmiah. Kesulitan ini tidak selalu muncul karena kita tidak belajar. Kadang masalahnya justru terletak pada cara menyiapkan dan menyampaikan materi.
 
 #### a. Terlalu banyak isi
 
-Salah satu kesalahan paling umum adalah memindahkan terlalu banyak bagian dari naskah ke presentasi. Akibatnya, slide menjadi padat, penjelasan melebar, dan audiens kehilangan fokus. Indrajaya (2020) menekankan pentingnya merumuskan pesan utama agar penyaji tidak terjebak pada keinginan membawa semua hal ke dalam satu presentasi. Penyaji harus memilih poin yang paling penting.
+Salah satu kesalahan paling umum adalah memindahkan terlalu banyak bagian dari naskah ke presentasi. Akibatnya, slide menjadi padat, penjelasan melebar, dan audiens kehilangan fokus. Perumusan pesan utama menjadi kunci agar penyaji tidak terjebak pada keinginan membawa semua hal ke dalam satu presentasi (Indrajaya, 2020). Penyaji harus memilih poin yang paling penting.
 
 #### b. Tidak memiliki gagasan utama
 
-Sebagian mahasiswa menyiapkan presentasi dengan cara mengumpulkan semua hal yang dianggap penting tanpa menentukan satu pesan inti. Indrajaya (2020) menyarankan agar pembicara terlebih dahulu merumuskan pesan utama yang ingin diingat audiens. Tanpa itu, presentasi mudah terasa seperti daftar informasi yang tidak saling terhubung.
+Sebagian dari kita menyiapkan presentasi dengan cara mengumpulkan semua hal yang dianggap penting tanpa menentukan satu pesan inti. Pembicara perlu terlebih dahulu merumuskan pesan utama yang ingin diingat audiens (Indrajaya, 2020). Tanpa itu, presentasi mudah terasa seperti daftar informasi yang tidak saling terhubung.
 
 #### c. Gugup dan takut dinilai
 
-Ketegangan saat presentasi merupakan hal yang umum. Grieve et al. (2021) menunjukkan bahwa ketakutan mahasiswa dalam presentasi lisan sering berkaitan dengan rasa takut dihakimi, gejala fisik saat berbicara, ketidakpastian terhadap topik, dan dampak negatif terhadap pengalaman belajar. Dalam konteks Indonesia, Baharman et al. (2026) juga menunjukkan bahwa tekanan evaluatif, rasa malu, kurang pengalaman, dan persiapan yang lemah dapat membentuk kecemasan berbicara dalam presentasi kelas.
+Ketegangan saat presentasi merupakan hal yang umum. Ketakutan mahasiswa dalam presentasi lisan sering berkaitan dengan rasa takut dihakimi, gejala fisik saat berbicara, ketidakpastian terhadap topik, dan dampak negatif terhadap pengalaman belajar (Grieve et al., 2021). Dalam konteks Indonesia, tekanan evaluatif, rasa malu, kurang pengalaman, dan persiapan yang lemah juga dapat membentuk kecemasan berbicara dalam presentasi kelas (Baharman et al., 2026).
 
 #### d. Membaca slide atau naskah terus-menerus
 
-Ketika gugup, mahasiswa sering bersembunyi di balik teks slide atau membaca naskah kata demi kata. Kebiasaan ini memang terasa aman bagi penyaji, tetapi justru melemahkan hubungan dengan audiens dan membuat penjelasan terdengar tidak alami.
+Ketika gugup, kita sering bersembunyi di balik teks slide atau membaca naskah kata demi kata. Kebiasaan ini memang terasa aman bagi penyaji, tetapi justru melemahkan hubungan dengan audiens dan membuat penjelasan terdengar tidak alami.
 
 #### e. Sulit menyesuaikan materi dengan audiens
 
@@ -196,9 +201,9 @@ Materi yang cocok untuk dosen pembimbing belum tentu cocok untuk teman sekelas. 
 
 #### f. Lemah dalam menanggapi pertanyaan
 
-Ada mahasiswa yang mempersiapkan presentasi hanya sampai bagian pemaparan, tetapi tidak berlatih menjawab pertanyaan. Padahal, dalam banyak forum akademik, kualitas respons terhadap pertanyaan justru sangat menentukan penilaian.
+Ada dari kita yang mempersiapkan presentasi hanya sampai bagian pemaparan, tetapi tidak berlatih menjawab pertanyaan. Padahal, dalam banyak forum akademik, kualitas respons terhadap pertanyaan justru sangat menentukan penilaian.
 
-#### Jeda belajar mikro 5. Diagnosis cepat kelemahan diri
+#### Latihan singkat 5. Diagnosis cepat kelemahan diri
 
 Pilih **satu** tantangan yang paling sering Anda alami saat presentasi:
 - terlalu banyak isi;
@@ -212,13 +217,12 @@ Lalu jelaskan secara lisan selama **30 sampai 45 detik**:
 - mengapa masalah itu paling sering muncul pada Anda;
 - apa satu langkah kecil yang bisa Anda lakukan untuk memperbaikinya minggu ini.
 
-**Keluaran yang diharapkan:** diagnosis lisan singkat dan satu rencana perbaikan kecil.
 
 ### 1.8 Presentasi ilmiah sebagai keterampilan yang dapat dilatih
 
-Penting ditekankan sejak awal bahwa kemampuan presentasi ilmiah bukan bakat bawaan yang hanya dimiliki sebagian orang. Van Ginkel et al. (2015) memperlihatkan bahwa kompetensi presentasi dapat dikembangkan melalui tujuan yang jelas, tugas yang autentik, kesempatan berlatih, umpan balik, penilaian teman sejawat, dan penilaian diri. Artinya, presentasi ilmiah dapat dibangun melalui proses pembelajaran yang sistematis.
+Penting ditekankan sejak awal bahwa kemampuan presentasi ilmiah bukan bakat bawaan yang hanya dimiliki sebagian orang. Kompetensi presentasi dapat dikembangkan melalui tujuan yang jelas, tugas yang autentik, kesempatan berlatih, umpan balik, penilaian teman sejawat, dan penilaian diri (van Ginkel et al., 2015). Artinya, presentasi ilmiah dapat dibangun melalui proses pembelajaran yang sistematis.
 
-Karena itu, mahasiswa tidak perlu menunggu menjadi pembicara yang sangat percaya diri untuk mulai belajar. Yang lebih penting adalah membangun kebiasaan latihan yang terarah. Dalam buku ini, pendekatan itu akan dikembangkan melalui dua jalur utama. Pertama, **microlearning** untuk memecah keterampilan besar menjadi unit latihan kecil. Kedua, **metakognitif** untuk membantu pembaca merencanakan, memantau, dan mengevaluasi perkembangan dirinya sendiri.
+Karena itu, kita tidak perlu menunggu menjadi pembicara yang sangat percaya diri untuk mulai belajar. Yang lebih penting adalah membangun kebiasaan latihan yang terarah. Dalam buku ini, pendekatan itu akan dikembangkan melalui dua jalur utama. Pertama, **microlearning** untuk memecah keterampilan besar menjadi unit latihan kecil. Kedua, **metakognitif** untuk membantu pembaca merencanakan, memantau, dan mengevaluasi perkembangan dirinya sendiri.
 
 Dengan landasan tersebut, Bab 1 dapat ditutup dengan satu pemahaman penting: presentasi ilmiah adalah bagian dari kerja berpikir akademik yang diwujudkan secara lisan. Karena itu, kualitas presentasi tidak hanya ditentukan oleh cara berbicara, tetapi juga oleh kejernihan gagasan, ketepatan bukti, dan kesediaan berdialog secara ilmiah.
 
@@ -255,7 +259,6 @@ Gunakan panduan berikut saat berbicara:
 - apakah struktur penjelasannya mudah diikuti;
 - apa satu kekuatan dan satu kelemahan utamanya.
 
-**Keluaran yang diharapkan:** ulasan lisan 2 menit dan catatan poin-poin singkat, bukan esai panjang.
 
 ### Latihan 2. Dua pembuka untuk dua jenis presentasi
 
@@ -266,7 +269,6 @@ Pilih satu topik, misalnya "penggunaan AI dalam pendidikan". Siapkan dua versi p
 
 Setelah itu, tampilkan keduanya. Bandingkan secara lisan perbedaan tujuan, bahasa, bukti, dan nada penyampaiannya.
 
-**Keluaran yang diharapkan:** dua pembuka lisan pendek dan satu penjelasan lisan singkat tentang perbedaan keduanya.
 
 ### Latihan 3. Satu gagasan utama, satu menit bicara
 
@@ -278,7 +280,6 @@ Tuliskan satu topik penelitian atau kajian yang Anda miliki. Setelah itu, rumusk
 
 Sesudah merumuskan kalimat inti, jelaskan topik tersebut secara lisan selama **1 menit** tanpa membaca naskah lengkap. Fokuskan penjelasan hanya pada gagasan utama dan dua atau tiga poin pendukung.
 
-**Keluaran yang diharapkan:** satu kalimat pesan inti dan rekaman atau penampilan lisan 1 menit.
 
 ## Refleksi Metakognitif
 
@@ -311,7 +312,6 @@ Lakukan presentasi lisan berdurasi **2 sampai 3 menit** tentang satu topik akade
 4. Sampaikan presentasi secara lisan tanpa membaca teks penuh.
 5. Minta satu teman atau dosen memberi umpan balik singkat.
 
-**Keluaran yang diharapkan:**
 - outline singkat;
 - penampilan lisan langsung atau rekaman 2 sampai 3 menit;
 - catatan umpan balik singkat.

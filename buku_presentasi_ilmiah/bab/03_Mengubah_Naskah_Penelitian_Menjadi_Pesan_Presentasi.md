@@ -1,12 +1,12 @@
 # Bab 3 Mengubah Naskah Penelitian Menjadi Pesan Presentasi
 
-## Pengantar Bab
+## Pengantar
 
-Banyak mahasiswa merasa sudah siap presentasi begitu naskah proposal, artikel, atau skripsinya selesai ditulis. Padahal, naskah akademik dan presentasi lisan tidak bekerja dengan cara yang sama. Naskah ditulis untuk dibaca dengan tenang, dapat diulang, dan dapat diperiksa kembali bagian demi bagiannya. Presentasi lisan, sebaliknya, diterima audiens secara langsung, dalam waktu terbatas, dan harus dipahami sambil berjalan. Karena itu, isi naskah tidak bisa dipindahkan mentah-mentah ke slide lalu dibacakan.
+Banyak dari kita merasa sudah siap presentasi begitu naskah proposal, artikel, atau skripsinya selesai ditulis. Padahal, naskah akademik dan presentasi lisan tidak bekerja dengan cara yang sama. Naskah ditulis untuk dibaca dengan tenang, dapat diulang, dan dapat diperiksa kembali bagian demi bagiannya. Presentasi lisan, sebaliknya, diterima audiens secara langsung, dalam waktu terbatas, dan harus dipahami sambil berjalan. Karena itu, isi naskah tidak bisa dipindahkan mentah-mentah ke slide lalu dibacakan.
 
-Kesalahan ini sangat sering terjadi. Mahasiswa merasa sayang membuang bagian yang sudah susah payah ditulis, sehingga definisi, kutipan teori, tabel panjang, rincian metode, bahkan kalimat-kalimat lengkap dari naskah ikut dibawa ke presentasi. Akibatnya, presentasi menjadi padat, lambat, dan sulit diikuti. Audiens melihat banyak informasi, tetapi tidak segera menangkap pesan utamanya.
+Kesalahan ini sangat sering terjadi. Kita sering merasa sayang membuang bagian yang sudah susah payah ditulis, sehingga definisi, kutipan teori, tabel panjang, rincian metode, bahkan kalimat-kalimat lengkap dari naskah ikut dibawa ke presentasi. Akibatnya, presentasi menjadi padat, lambat, dan sulit diikuti. Audiens melihat banyak informasi, tetapi tidak segera menangkap pesan utamanya.
 
-Indrajaya (2020) menekankan bahwa pembicara perlu merumuskan pesan utama yang ingin diingat audiens. Sementara itu, Setyonegoro et al. (2020) mengingatkan bahwa kegiatan berbicara selalu terkait dengan tujuan, situasi, dan lawan bicara. Dua gagasan ini sangat penting untuk Bab 3. Mengubah naskah menjadi presentasi bukan pekerjaan memendekkan teks semata, melainkan pekerjaan memilih pesan, menata ulang isi, lalu mengubahnya menjadi penjelasan lisan yang fokus, akurat, dan mudah dipahami.
+Pembicara perlu merumuskan pesan utama yang ingin diingat audiens (Indrajaya, 2020). Penekanan itu menjadi lebih tajam jika dibaca bersama pengingat bahwa kegiatan berbicara selalu terkait dengan tujuan, situasi, dan lawan bicara (Setyonegoro et al., 2020). Dua gagasan ini sangat penting untuk Bab 3. Mengubah naskah menjadi presentasi bukan pekerjaan memendekkan teks semata, melainkan pekerjaan memilih pesan, menata ulang isi, lalu mengubahnya menjadi penjelasan lisan yang fokus, akurat, dan mudah dipahami.
 
 ## Tujuan Pembelajaran
 
@@ -24,7 +24,7 @@ Indrajaya (2020) menekankan bahwa pembicara perlu merumuskan pesan utama yang in
 
 ## Uraian Materi
 
-**Cara belajar bab ini:** baca satu subbagian, lalu berhenti untuk mengerjakan jeda belajar mikro yang menyertainya. Jangan tunggu sampai akhir bab untuk mencoba. Bab ini dirancang agar Anda belajar mengubah naskah menjadi presentasi melalui keputusan-keputusan kecil yang langsung dapat dipraktikkan.
+**Cara belajar bagian ini:** baca satu subbagian, lalu berhenti untuk mengerjakan latihan singkat yang menyertainya. Jangan tunggu sampai akhir bab untuk mencoba. Bagian ini dirancang agar Anda belajar mengubah naskah menjadi presentasi melalui keputusan-keputusan kecil yang langsung dapat dipraktikkan.
 
 ### 3.1 Mengapa naskah penelitian tidak bisa dipindah mentah ke presentasi
 
@@ -32,11 +32,11 @@ Naskah penelitian ditulis untuk kebutuhan kelengkapan akademik. Di dalamnya ada 
 
 Presentasi lisan punya tuntutan yang berbeda. Audiens tidak membaca perlahan seperti saat membuka skripsi. Mereka mendengar, melihat slide, lalu mencoba menangkap inti penjelasan dalam waktu yang terbatas. Karena itu, presentasi perlu lebih selektif. Penyaji harus memutuskan bagian mana yang benar-benar perlu dibawa ke forum, bagian mana yang cukup diringkas, dan bagian mana yang lebih baik disimpan sebagai cadangan untuk sesi tanya jawab.
 
-Setyonegoro et al. (2020) menjelaskan bahwa berbicara adalah kegiatan komunikasi yang selalu terkait dengan tujuan dan lawan bicara. Ini berarti bentuk bahasa lisan tidak bisa disamakan begitu saja dengan bentuk tulisan. Dalam naskah, Anda dapat menuliskan definisi panjang dan beberapa kutipan berurutan. Dalam presentasi, cara seperti itu justru sering memutus perhatian audiens. Audiens lebih membutuhkan arah, penekanan, dan hubungan antargagasan yang jelas.
+Berbicara adalah kegiatan komunikasi yang selalu terkait dengan tujuan dan lawan bicara (Setyonegoro et al., 2020). Ini berarti bentuk bahasa lisan tidak bisa disamakan begitu saja dengan bentuk tulisan. Dalam naskah, Anda dapat menuliskan definisi panjang dan beberapa kutipan berurutan. Dalam presentasi, cara seperti itu justru sering memutus perhatian audiens. Audiens lebih membutuhkan arah, penekanan, dan hubungan antargagasan yang jelas.
 
 Karena itu, tugas pertama penyaji bukan memendekkan semua halaman naskah, melainkan mengubah cara berpikirnya. Pertanyaan yang seharusnya muncul bukan lagi, “Bagian mana dari naskah yang belum saya pindahkan?” tetapi, “Apa yang paling perlu dipahami audiens dari penelitian ini?”
 
-#### Jeda belajar mikro 1. Ringkas naskah Anda dalam satu napas
+#### Latihan singkat 1. Ringkas naskah Anda dalam satu napas
 
 Ambil satu naskah, proposal, atau makalah yang Anda miliki. Tanpa membuka seluruh isinya, coba jelaskan secara lisan dalam **30 detik**:
 - topiknya apa;
@@ -45,13 +45,12 @@ Ambil satu naskah, proposal, atau makalah yang Anda miliki. Tanpa membuka seluru
 
 Jika Anda langsung tenggelam ke rincian teori atau metode, itu tanda bahwa Anda masih berpikir sebagai penulis naskah, belum sebagai penyaji.
 
-**Keluaran yang diharapkan:** penjelasan lisan 30 detik tentang topik dan masalah inti.
 
 ### 3.2 Menemukan inti pesan ilmiah
 
 Inti pesan adalah satu gagasan utama yang paling ingin Anda tinggalkan di benak audiens. Inti pesan tidak sama dengan judul penelitian. Judul bisa panjang dan formal, sedangkan inti pesan harus tajam, mudah diingat, dan langsung menunjukkan arah presentasi.
 
-Indrajaya (2020) menekankan bahwa pembicara perlu mengetahui pesan utama yang ingin disampaikan. Dalam konteks presentasi ilmiah, pesan utama ini biasanya lahir dari hubungan tiga hal: masalah yang dikaji, jawaban atau temuan yang diperoleh, dan makna dari jawaban tersebut.
+Pembicara perlu mengetahui pesan utama yang ingin disampaikan (Indrajaya, 2020). Dalam konteks presentasi ilmiah, pesan utama ini biasanya lahir dari hubungan tiga hal: masalah yang dikaji, jawaban atau temuan yang diperoleh, dan makna dari jawaban tersebut.
 
 Perhatikan perbedaan berikut.
 
@@ -60,6 +59,10 @@ Perhatikan perbedaan berikut.
 | Judul naskah | Pengaruh penggunaan kuis berbasis gim terhadap partisipasi mahasiswa pada mata kuliah metodologi penelitian |
 | Topik presentasi | Partisipasi mahasiswa dalam pembelajaran dengan kuis berbasis gim |
 | Inti pesan | Kuis berbasis gim meningkatkan partisipasi mahasiswa, tetapi efeknya paling kuat ketika pertanyaan dipakai sebagai pemantik diskusi, bukan sekadar lomba cepat menjawab |
+
+[Gambar 3.1: Diagram alur transformasi naskah penelitian menjadi pesan presentasi — dari seleksi isi, perumusan pesan inti, penyederhanaan bahasa, hingga penyusunan alur lisan]
+Gambar 3.1 Proses mengubah naskah penelitian menjadi pesan presentasi
+
 
 Dari tabel itu terlihat bahwa presentasi yang baik bergerak dari topik ke pesan. Audiens tidak cukup hanya tahu Anda meneliti apa. Mereka perlu tahu apa yang paling penting dari penelitian itu.
 
@@ -71,7 +74,7 @@ Salah satu cara sederhana untuk menemukan inti pesan adalah dengan menjawab tiga
 
 Jika tiga pertanyaan ini sudah terjawab, Anda akan lebih mudah memilih apa yang perlu dipresentasikan dan apa yang tidak.
 
-#### Jeda belajar mikro 2. Ubah judul menjadi pesan
+#### Latihan singkat 2. Ubah judul menjadi pesan
 
 Ucapkan judul penelitian Anda. Setelah itu, ubah menjadi kalimat dengan pola berikut:
 
@@ -79,7 +82,6 @@ Ucapkan judul penelitian Anda. Setelah itu, ubah menjadi kalimat dengan pola ber
 
 Jika kalimat Anda masih terdengar seperti judul formal atau terlalu panjang, ringkas lagi sampai terdengar seperti satu pesan yang dapat diingat audiens.
 
-**Keluaran yang diharapkan:** satu kalimat lisan yang berisi inti pesan penelitian.
 
 ### 3.3 Menentukan bagian naskah yang layak dipresentasikan
 
@@ -100,9 +102,9 @@ Secara umum, bagian-bagian berikut paling sering muncul dalam presentasi ilmiah.
 
 Dalam seminar proposal, bagian metode biasanya perlu mendapat porsi lebih besar karena forum ingin menilai kelayakan rancangan penelitian. Dalam seminar hasil atau presentasi artikel, justru hasil dan makna temuan lebih layak ditonjolkan. Ini berarti pemilihan isi selalu bergantung pada tujuan forum, seperti sudah dibahas pada Bab 2.
 
-Mahasiswa sering keliru karena merasa semua bagian naskah harus muncul demi menunjukkan kerja kerasnya. Padahal, presentasi ilmiah bukan ujian menampilkan semua yang telah ditulis. Presentasi adalah ujian memilih yang paling penting untuk dipahami audiens.
+Kita sering keliru karena merasa semua bagian naskah harus muncul demi menunjukkan kerja kerasnya. Padahal, presentasi ilmiah bukan ujian menampilkan semua yang telah ditulis. Presentasi adalah ujian memilih yang paling penting untuk dipahami audiens.
 
-#### Jeda belajar mikro 3. Wajib, padat, atau simpan?
+#### Latihan singkat 3. Wajib, padat, atau simpan?
 
 Pilih satu naskah Anda. Lalu sebutkan secara lisan tiga kategori berikut:
 - bagian yang **wajib tampil**;
@@ -111,11 +113,10 @@ Pilih satu naskah Anda. Lalu sebutkan secara lisan tiga kategori berikut:
 
 Lakukan dalam **45 sampai 60 detik**. Jika semua bagian terasa wajib, berarti Anda belum benar-benar melakukan seleksi.
 
-**Keluaran yang diharapkan:** keputusan lisan singkat tentang tiga kategori isi presentasi.
 
 ### 3.4 Menyederhanakan tanpa mengorbankan akurasi ilmiah
 
-Menyederhanakan bukan berarti menurunkan mutu ilmiah. Menyederhanakan berarti membuat gagasan lebih mudah ditangkap tanpa mengubah maknanya. Mak (2021) menekankan bahwa kompetensi presentasi akademik juga melibatkan kemampuan menggunakan bentuk bahasa dan wacana yang memudahkan pemahaman audiens. Jadi, kejelasan bukan tambahan kosmetik, melainkan bagian dari kompetensi itu sendiri.
+Menyederhanakan bukan berarti menurunkan mutu ilmiah. Menyederhanakan berarti membuat gagasan lebih mudah ditangkap tanpa mengubah maknanya. Kompetensi presentasi akademik juga melibatkan kemampuan menggunakan bentuk bahasa dan wacana yang memudahkan pemahaman audiens (Mak, 2021). Jadi, kejelasan bukan tambahan kosmetik, melainkan bagian dari kompetensi itu sendiri.
 
 Dalam praktiknya, penyederhanaan dapat dilakukan dengan beberapa cara.
 
@@ -149,7 +150,7 @@ Naskah ditulis dalam paragraf. Presentasi lebih mudah dibangun dari poin-poin bi
 
 Penyederhanaan tidak boleh membuat simpulan menjadi terlalu berani. Jika data Anda menunjukkan kecenderungan pada konteks tertentu, jangan mengubahnya di presentasi menjadi seolah berlaku universal.
 
-#### Jeda belajar mikro 4. Ubah abstrak menjadi penjelasan 45 detik
+#### Latihan singkat 4. Ubah abstrak menjadi penjelasan 45 detik
 
 Ambil abstrak penelitian Anda atau abstrak contoh dari dosen. Lalu lakukan dua langkah berikut:
 1. tandai ide yang benar-benar inti;
@@ -157,11 +158,10 @@ Ambil abstrak penelitian Anda atau abstrak contoh dari dosen. Lalu lakukan dua l
 
 Tujuannya bukan menghafal abstrak, tetapi melatih Anda memindahkan isi dari bahasa tulis ke bahasa lisan.
 
-**Keluaran yang diharapkan:** penjelasan lisan 45 detik yang lebih sederhana daripada abstrak tertulis.
 
 ### 3.5 Menyeleksi data, tabel, kutipan, dan temuan utama
 
-Salah satu bagian yang paling sulit dipangkas adalah data. Mahasiswa sering merasa semua tabel, semua angka, dan semua hasil analisis perlu ditampilkan agar presentasinya tampak kuat. Padahal, terlalu banyak data justru dapat membuat pesan utama tenggelam.
+Salah satu bagian yang paling sulit dipangkas adalah data. Kita sering merasa semua tabel, semua angka, dan semua hasil analisis perlu ditampilkan agar presentasinya tampak kuat. Padahal, terlalu banyak data justru dapat membuat pesan utama tenggelam.
 
 Prinsip sederhananya adalah: **jangan tampilkan semua yang Anda punya; tampilkan yang paling membantu audiens memahami klaim utama Anda.**
 
@@ -180,16 +180,15 @@ Beberapa pedoman praktis dapat membantu.
 - Jika ada tiga hasil penting, jangan menjejalkan tujuh hasil tambahan yang tidak mengubah inti simpulan.
 - Data pelengkap dapat disimpan sebagai slide cadangan untuk sesi tanya jawab.
 
-Indrajaya (2020) menekankan pentingnya fokus pesan. Dalam konteks data, fokus berarti keberanian memilih bukti yang paling berbobot, bukan kebiasaan menumpuk sebanyak mungkin angka.
+Fokus pesan menjadi kunci penting dalam presentasi (Indrajaya, 2020). Dalam konteks data, fokus berarti keberanian memilih bukti yang paling berbobot, bukan kebiasaan menumpuk sebanyak mungkin angka.
 
-#### Jeda belajar mikro 5. Pilih satu temuan yang paling layak ditampilkan
+#### Latihan singkat 5. Pilih satu temuan yang paling layak ditampilkan
 
 Lihat bagian hasil penelitian Anda. Lalu jawab secara lisan dalam **30 sampai 45 detik**:
 - temuan mana yang paling penting;
 - data mana yang paling tepat untuk mendukungnya;
 - data mana yang boleh disimpan sebagai cadangan.
 
-**Keluaran yang diharapkan:** keputusan lisan tentang satu temuan utama dan bukti pendukungnya.
 
 ### 3.6 Menyusun klaim utama dan bukti pendukung
 
@@ -198,6 +197,10 @@ Setelah isi dipilih, Anda perlu menyusunnya menjadi klaim yang jelas. Klaim utam
 Bentuk sederhana yang sangat membantu adalah pola berikut.
 
 > **Klaim utama** → **bukti 1** → **bukti 2** → **bukti 3** → **makna atau implikasi**
+
+[Gambar 3.2: Diagram pola argumentasi lisan — klaim utama ditopang tiga bukti dan ditutup dengan implikasi]
+Gambar 3.2 Pola argumentasi lisan dari klaim ke implikasi
+
 
 Misalnya:
 
@@ -209,9 +212,9 @@ Misalnya:
 
 Struktur seperti ini membantu Anda menghindari dua kesalahan yang sering muncul. Kesalahan pertama adalah presentasi yang penuh data tetapi tidak jelas sedang membuktikan apa. Kesalahan kedua adalah presentasi yang penuh klaim tetapi bukti pendukungnya lemah.
 
-Setyonegoro et al. (2020) mengingatkan bahwa tujuan berbicara harus jelas agar pembicaraan tetap fokus. Dalam presentasi ilmiah, kejelasan tujuan itu tampak pada hubungan yang rapi antara klaim dan bukti.
+Tujuan berbicara harus jelas agar pembicaraan tetap fokus (Setyonegoro et al., 2020). Dalam presentasi ilmiah, kejelasan tujuan itu tampak pada hubungan yang rapi antara klaim dan bukti.
 
-#### Jeda belajar mikro 6. Satu klaim, tiga bukti
+#### Latihan singkat 6. Satu klaim, tiga bukti
 
 Lengkapi pola berikut untuk topik Anda sendiri:
 
@@ -219,7 +222,6 @@ Lengkapi pola berikut untuk topik Anda sendiri:
 
 Sesudah itu, sebutkan **tiga bukti pendukung** secara lisan. Batas waktunya **60 detik**. Jika bukti yang Anda sebut tidak langsung menopang klaim, berarti susunannya masih perlu diperbaiki.
 
-**Keluaran yang diharapkan:** satu klaim utama dan tiga bukti pendukung dalam penjelasan lisan singkat.
 
 ### 3.7 Menyusun alur dari pembuka hingga penutup
 
@@ -250,9 +252,9 @@ Agar lebih mudah diterapkan, perhatikan contoh berikut.
 | Implikasi | Lalu, apa arti temuan itu? |
 | Penutup | Apa yang harus diingat audiens? |
 
-Indrajaya (2020) menekankan bahwa audiens perlu pulang dengan membawa satu pesan utama. Itu sebabnya penutup presentasi tidak boleh hanya berhenti pada “sekian presentasi saya”. Penutup perlu mengunci kembali jawaban atau makna yang paling penting.
+Audiens perlu pulang dengan membawa satu pesan utama (Indrajaya, 2020). Itu sebabnya penutup presentasi tidak boleh hanya berhenti pada “sekian presentasi saya”. Penutup perlu mengunci kembali jawaban atau makna yang paling penting.
 
-#### Jeda belajar mikro 7. Buat kerangka lisan 5 bagian
+#### Latihan singkat 7. Buat kerangka lisan 5 bagian
 
 Tanpa menulis naskah lengkap, sebutkan secara lisan kerangka presentasi Anda dalam lima bagian:
 1. masalah;
@@ -263,7 +265,6 @@ Tanpa menulis naskah lengkap, sebutkan secara lisan kerangka presentasi Anda dal
 
 Batas waktunya **60 sampai 90 detik**. Jika urutannya masih meloncat-loncat, itu tanda bahwa alur presentasi Anda belum siap.
 
-**Keluaran yang diharapkan:** kerangka lisan 5 bagian yang runtut.
 
 ### 3.8 Kesalahan umum saat mengubah naskah menjadi presentasi
 
@@ -337,7 +338,6 @@ Ambil satu abstrak penelitian, bisa milik sendiri atau contoh dari dosen. Lalu u
 
 Setelah outline selesai, jelaskan outline itu secara lisan selama **90 detik**.
 
-**Keluaran yang diharapkan:** outline singkat dan penjelasan lisan 90 detik.
 
 ### Latihan 2. Pilih satu hasil, bukan semua hasil
 
@@ -348,7 +348,6 @@ Buka bagian hasil penelitian Anda. Pilih **satu** hasil yang paling penting. Sia
 
 Jangan menyebut semua angka yang ada. Pilih hanya yang paling membantu audiens menangkap maknanya.
 
-**Keluaran yang diharapkan:** penjelasan lisan 60 detik tentang satu temuan utama.
 
 ### Latihan 3. Pangkas naskah menjadi 5 slide inti
 
@@ -361,11 +360,10 @@ Bayangkan Anda diminta presentasi mendadak dan hanya boleh membawa **5 slide int
 
 Sesudah itu, jelaskan secara lisan mengapa Anda memilih lima slide tersebut dan apa yang sengaja Anda tinggalkan.
 
-**Keluaran yang diharapkan:** kerangka 5 slide dan penjelasan lisan tentang alasan seleksinya.
 
 ## Refleksi Metakognitif
 
-Setelah mempelajari bab ini, renungkan pertanyaan berikut secara singkat dan jujur.
+Setelah mempelajari bagian ini, renungkan pertanyaan berikut secara singkat dan jujur.
 
 1. Saat menyiapkan presentasi, apakah saya masih cenderung memindahkan isi naskah terlalu banyak?
 2. Apakah saya sudah bisa membedakan judul penelitian, topik presentasi, dan pesan utama?
@@ -394,7 +392,6 @@ Pilih satu naskah akademik yang Anda miliki, misalnya proposal penelitian, artik
 4. Susun outline maksimal **5 bagian inti** atau **5 slide inti**.
 5. Lakukan presentasi lisan tanpa membaca naskah lengkap.
 
-**Keluaran yang diharapkan:**
 - satu kalimat pesan utama;
 - outline 5 bagian atau 5 slide inti;
 - penampilan lisan langsung atau rekaman 3 sampai 4 menit.

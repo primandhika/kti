@@ -1,12 +1,12 @@
 # Bab 2 Audiens, Tujuan, dan Konteks Presentasi Ilmiah
 
-## Pengantar Bab
+## Pengantar
 
-Banyak mahasiswa mengira bahwa presentasi akan berhasil jika materi sudah disiapkan dan slide sudah dibuat. Padahal, materi yang baik belum tentu efektif jika disampaikan kepada audiens yang keliru sasaran, dengan kedalaman yang tidak sesuai, atau dalam gaya yang tidak cocok dengan forum. Presentasi ilmiah selalu terjadi dalam situasi komunikasi tertentu. Ada penyaji, ada audiens, ada tujuan, ada batas waktu, ada aturan forum, dan ada harapan yang perlu dibaca sejak awal.
+Banyak dari kita mengira bahwa presentasi akan berhasil jika materi sudah disiapkan dan slide sudah dibuat. Padahal, materi yang baik belum tentu efektif jika disampaikan kepada audiens yang keliru sasaran, dengan kedalaman yang tidak sesuai, atau dalam gaya yang tidak cocok dengan forum. Presentasi ilmiah selalu terjadi dalam situasi komunikasi tertentu. Ada penyaji, ada audiens, ada tujuan, ada batas waktu, ada aturan forum, dan ada harapan yang perlu dibaca sejak awal.
 
-Karena itu, salah satu keterampilan dasar dalam presentasi ilmiah adalah kemampuan menyesuaikan pesan. Penyaji tidak cukup bertanya, “Apa yang ingin saya sampaikan?” Ia juga perlu bertanya, “Siapa yang akan mendengar?”, “Apa yang mereka perlukan?”, “Apa yang diharapkan forum ini?”, dan “Sejauh mana saya perlu menjelaskan?” Setyonegoro et al. (2020) menempatkan analisis tujuan dan audiens sebagai bagian penting dari persiapan berbicara. Indrajaya (2020) juga menegaskan bahwa presentasi bukan terutama tentang banyaknya hal yang diucapkan, melainkan tentang seberapa jelas pesan utama diterima oleh audiens.
+Karena itu, salah satu keterampilan dasar dalam presentasi ilmiah adalah kemampuan menyesuaikan pesan. Penyaji tidak cukup bertanya, “Apa yang ingin saya sampaikan?” Ia juga perlu bertanya, “Siapa yang akan mendengar?”, “Apa yang mereka perlukan?”, “Apa yang diharapkan forum ini?”, dan “Sejauh mana saya perlu menjelaskan?” Analisis tujuan dan audiens merupakan bagian penting dari persiapan berbicara (Setyonegoro et al., 2020). Penekanan ini cocok dengan pandangan bahwa presentasi bukan terutama soal banyaknya hal yang diucapkan, melainkan soal seberapa jelas pesan utama diterima oleh audiens (Indrajaya, 2020).
 
-Dalam konteks akademik, kebutuhan ini menjadi semakin penting karena presentasi ilmiah jarang berlangsung dalam ruang yang sepenuhnya homogen. Dalam satu forum, bisa saja hadir audiens yang sangat memahami topik, audiens yang hanya mengenal konsep dasarnya, dan audiens yang tertarik pada implikasi praktisnya. Akibatnya, penyesuaian presentasi bukan sekadar soal memilih bahasa yang lebih sederhana, tetapi juga soal memilih fokus, contoh, tingkat detail, dan strategi penjelasan. Bab ini membahas cara membaca audiens, merumuskan tujuan presentasi, dan menyesuaikan penyampaian dengan konteks forum.
+Dalam konteks akademik, kebutuhan ini menjadi semakin penting karena presentasi ilmiah jarang berlangsung dalam ruang yang sepenuhnya homogen. Dalam satu forum, bisa saja hadir audiens yang sangat memahami topik, audiens yang hanya mengenal konsep dasarnya, dan audiens yang tertarik pada implikasi praktisnya. Akibatnya, penyesuaian presentasi bukan sekadar soal memilih bahasa yang lebih sederhana, tetapi juga soal memilih fokus, contoh, tingkat detail, dan strategi penjelasan. Di titik ini, yang perlu dilakukan adalah membaca audiens, merumuskan tujuan presentasi, dan menyesuaikan penyampaian dengan konteks forum.
 
 ## Tujuan Pembelajaran
 
@@ -24,19 +24,19 @@ Dalam konteks akademik, kebutuhan ini menjadi semakin penting karena presentasi 
 
 ## Uraian Materi
 
-**Cara belajar bab ini:** selesaikan satu subbagian, lalu berhenti untuk mengerjakan jeda belajar mikro yang terkait. Dengan cara ini, Anda tidak hanya memahami konsep audiens, tujuan, dan konteks, tetapi langsung mencoba memakainya dalam keputusan presentasi yang nyata.
+**Cara belajar bagian ini:** selesaikan satu subbagian, lalu berhenti untuk mengerjakan latihan singkat yang terkait. Dengan cara ini, Anda tidak hanya memahami konsep audiens, tujuan, dan konteks, tetapi langsung mencoba memakainya dalam keputusan presentasi yang nyata.
 
 ### 2.1 Mengapa audiens harus dibaca sejak awal
 
-Presentasi ilmiah sering gagal bukan karena topiknya lemah, melainkan karena penyaji menyampaikan materi seolah-olah semua orang di ruangan memiliki kebutuhan yang sama. Dalam praktiknya, audiens dapat berbeda dalam pengetahuan awal, kepentingan, posisi akademik, pengalaman, bahkan bahasa kerja yang digunakan. Setyonegoro et al. (2020) menunjukkan bahwa pembicara perlu memahami audiens, tujuan, dan situasi sebelum mulai mengembangkan materi. Dengan begitu, penyaji tidak hanya menyiapkan apa yang ingin ia katakan, tetapi juga menimbang apa yang benar-benar perlu didengar oleh audiens.
+Presentasi ilmiah sering gagal bukan karena topiknya lemah, melainkan karena penyaji menyampaikan materi seolah-olah semua orang di ruangan memiliki kebutuhan yang sama. Dalam praktiknya, audiens dapat berbeda dalam pengetahuan awal, kepentingan, posisi akademik, pengalaman, bahkan bahasa kerja yang digunakan. Pembicara perlu memahami audiens, tujuan, dan situasi sebelum mulai mengembangkan materi (Setyonegoro et al., 2020). Dengan begitu, penyaji tidak hanya menyiapkan apa yang ingin ia katakan, tetapi juga menimbang apa yang benar-benar perlu didengar oleh audiens.
 
 Saran tersebut sangat relevan dalam konteks pendidikan tinggi. Presentasi yang ditujukan kepada dosen penguji tentu berbeda dari presentasi untuk teman sekelas. Presentasi pada seminar hasil berbeda dari presentasi pada konferensi mahasiswa. Presentasi untuk forum lintas disiplin juga berbeda dari forum yang seluruh pesertanya berasal dari satu bidang yang sama.
 
-Mak (2021) menunjukkan bahwa dalam pengembangan kompetensi presentasi akademik, mahasiswa sering mengalami kesenjangan antara apa yang mereka kira dibutuhkan dan apa yang sebenarnya diharapkan oleh dosen atau instruktur bidang studi. Temuan ini penting karena menandakan bahwa masalah presentasi tidak selalu terletak pada kemampuan berbicara saja, tetapi juga pada kemampuan membaca ekspektasi akademik.
+Dalam pengembangan kompetensi presentasi akademik, mahasiswa sering mengalami kesenjangan antara apa yang mereka kira dibutuhkan dan apa yang sebenarnya diharapkan oleh dosen atau instruktur bidang studi (Mak, 2021). Temuan ini penting karena menandakan bahwa masalah presentasi tidak selalu terletak pada kemampuan berbicara saja, tetapi juga pada kemampuan membaca ekspektasi akademik.
 
 Dengan demikian, analisis audiens perlu dilakukan sejak tahap awal. Semakin jelas gambaran audiens, semakin tepat penyaji menentukan titik berat presentasinya.
 
-#### Jeda belajar mikro 1. Sebut nama audiens Anda
+#### Latihan singkat 1. Sebut nama audiens Anda
 
 Pikirkan satu presentasi yang sedang atau akan Anda siapkan. Lalu jawab secara lisan dalam **30 detik**:
 - siapa audiens utamanya;
@@ -44,7 +44,6 @@ Pikirkan satu presentasi yang sedang atau akan Anda siapkan. Lalu jawab secara l
 
 Jangan jawab terlalu umum. Sebutkan audiensnya secara nyata, misalnya dosen penguji, teman sekelas, peserta seminar fakultas, atau guru mitra.
 
-**Keluaran yang diharapkan:** penjelasan lisan 30 detik tentang audiens nyata Anda.
 
 ### 2.2 Siapa audiens dalam presentasi ilmiah
 
@@ -86,7 +85,7 @@ Agar analisis audiens tidak berhenti pada dugaan umum, penyaji dapat memetakan b
 
 Analisis ini tidak harus selalu dilakukan secara rumit. Bahkan beberapa pertanyaan sederhana sudah sangat membantu. Misalnya: siapa yang hadir, apa yang mereka ketahui, apa yang mereka harapkan, dan keputusan apa yang harus saya ambil terhadap isi presentasi saya.
 
-#### Jeda belajar mikro 2. Peta audiens cepat
+#### Latihan singkat 2. Peta audiens cepat
 
 Isi cepat di kepala atau pada secarik catatan:
 - audiens saya sudah tahu ...;
@@ -95,11 +94,10 @@ Isi cepat di kepala atau pada secarik catatan:
 
 Sesudah itu, jelaskan hasilnya secara lisan selama **45 detik**. Jika Anda tidak bisa membedakan tiga hal itu, berarti analisis audiens Anda masih terlalu kabur.
 
-**Keluaran yang diharapkan:** peta audiens singkat dan penjelasan lisan 45 detik.
 
 ### 2.4 Menentukan tujuan presentasi secara tepat
 
-Setelah memahami audiens, langkah berikutnya adalah merumuskan tujuan presentasi. Banyak mahasiswa menyiapkan presentasi tanpa benar-benar menegaskan tujuan utamanya. Akibatnya, presentasi menjadi terlalu luas, tidak fokus, atau tidak sesuai harapan forum.
+Setelah memahami audiens, langkah berikutnya adalah merumuskan tujuan presentasi. Banyak dari kita menyiapkan presentasi tanpa benar-benar menegaskan tujuan utamanya. Akibatnya, presentasi menjadi terlalu luas, tidak fokus, atau tidak sesuai harapan forum.
 
 Secara umum, tujuan presentasi ilmiah dapat berupa:
 
@@ -113,9 +111,9 @@ Satu presentasi dapat memiliki lebih dari satu tujuan, tetapi biasanya ada satu 
 
 Misalnya, dalam seminar proposal, tujuan utama umumnya bukan memamerkan banyak teori, melainkan menunjukkan bahwa masalah penelitian layak dikaji, tujuan penelitian jelas, dan rancangan metode masuk akal. Dalam seminar hasil, tujuan utamanya bergeser ke pemaparan hasil, penafsiran temuan, dan pertanggungjawaban analisis. Dalam presentasi konferensi, tujuan utamanya sering kali menjelaskan hasil penelitian secara cepat dan meyakinkan di hadapan audiens yang waktunya sangat terbatas.
 
-Indrajaya (2020) mengingatkan bahwa pembicara perlu merumuskan pesan utama yang ingin diingat audiens. Dalam praktik presentasi ilmiah, pesan utama itu kemudian perlu ditopang oleh beberapa bukti atau poin pendukung yang paling relevan. Saran ini berguna karena membantu penyaji mengubah tujuan umum menjadi arah penjelasan yang lebih spesifik.
+Pembicara perlu merumuskan pesan utama yang ingin diingat audiens (Indrajaya, 2020). Dalam praktik presentasi ilmiah, pesan utama itu kemudian perlu ditopang oleh beberapa bukti atau poin pendukung yang paling relevan. Saran ini berguna karena membantu penyaji mengubah tujuan umum menjadi arah penjelasan yang lebih spesifik.
 
-#### Jeda belajar mikro 3. Satu tujuan, satu kalimat
+#### Latihan singkat 3. Satu tujuan, satu kalimat
 
 Lengkapi kalimat berikut untuk topik Anda sendiri:
 
@@ -123,7 +121,6 @@ Lengkapi kalimat berikut untuk topik Anda sendiri:
 
 Ucapkan kalimat itu keras-keras. Jika kalimatnya terlalu panjang, terlalu kabur, atau memuat terlalu banyak tujuan sekaligus, ringkas lagi sampai terasa tajam.
 
-**Keluaran yang diharapkan:** satu tujuan dominan dalam satu kalimat lisan yang jelas.
 
 ### 2.5 Membaca konteks forum presentasi
 
@@ -133,7 +130,7 @@ Beberapa unsur konteks yang perlu diperhatikan adalah sebagai berikut.
 
 #### a. Durasi
 
-Durasi sangat menentukan kedalaman penjelasan. Presentasi 5 menit membutuhkan seleksi yang jauh lebih ketat dibandingkan presentasi 15 menit. Setyonegoro et al. (2020) mengingatkan bahwa pembicara perlu mempersiapkan materi sesuai waktu yang tersedia dan tidak memaksakan seluruh bahan masuk ke dalam satu kesempatan berbicara.
+Durasi sangat menentukan kedalaman penjelasan. Presentasi 5 menit membutuhkan seleksi yang jauh lebih ketat dibandingkan presentasi 15 menit. Pembicara perlu mempersiapkan materi sesuai waktu yang tersedia dan tidak memaksakan seluruh bahan masuk ke dalam satu kesempatan berbicara (Setyonegoro et al., 2020).
 
 #### b. Sifat forum
 
@@ -151,7 +148,7 @@ Presentasi yang dilakukan pada pagi hari di sesi awal tentu berbeda nuansanya de
 
 Jika forum menggunakan bahasa Indonesia, bahasa Inggris, atau campuran, penyaji perlu menyesuaikan pilihan istilah, kecepatan bicara, dan beban kognitif audiens.
 
-#### Jeda belajar mikro 4. Ubah forum, ubah keputusan
+#### Latihan singkat 4. Ubah forum, ubah keputusan
 
 Ambil satu topik yang sama, lalu jawab cepat secara lisan:
 - jika hanya diberi **5 menit**, apa yang harus saya pangkas;
@@ -160,7 +157,6 @@ Ambil satu topik yang sama, lalu jawab cepat secara lisan:
 
 Latihan ini melatih Anda melihat bahwa konteks forum bukan hiasan, melainkan penentu isi presentasi.
 
-**Keluaran yang diharapkan:** tiga keputusan lisan cepat berdasarkan perubahan forum.
 
 ### 2.6 Menyesuaikan kedalaman materi
 
@@ -170,7 +166,7 @@ Berikut beberapa prinsip penyesuaian kedalaman materi.
 
 #### a. Jangan menjelaskan semua yang diketahui
 
-Penyaji hampir selalu tahu atau membaca lebih banyak daripada yang bisa dipresentasikan. Indrajaya (2020) menunjukkan bahwa kejelasan presentasi justru muncul ketika pembicara sanggup memilih pesan inti dan menyisihkan bahan yang tidak langsung mendukung tujuan presentasi.
+Penyaji hampir selalu tahu atau membaca lebih banyak daripada yang bisa dipresentasikan. Kejelasan presentasi justru muncul ketika pembicara sanggup memilih pesan inti dan menyisihkan bahan yang tidak langsung mendukung tujuan presentasi (Indrajaya, 2020).
 
 #### b. Berikan konteks secukupnya
 
@@ -184,7 +180,7 @@ Dalam seminar proposal, metode perlu dijelaskan lebih rinci karena itu akan dini
 
 Contoh dapat menjembatani konsep abstrak dengan pemahaman audiens. Namun, contoh juga perlu dipilih sesuai forum. Contoh yang terlalu lokal mungkin efektif di kelas sendiri, tetapi kurang tepat untuk forum yang lebih luas.
 
-#### Jeda belajar mikro 5. Pangkas isi, pilih inti
+#### Latihan singkat 5. Pangkas isi, pilih inti
 
 Bayangkan Anda punya **10 slide**, tetapi sekarang diminta bicara hanya dengan **3 slide**. Sebutkan secara lisan:
 1. slide atau bagian mana yang pasti dipertahankan;
@@ -193,11 +189,10 @@ Bayangkan Anda punya **10 slide**, tetapi sekarang diminta bicara hanya dengan *
 
 Jika Anda sulit memilih, biasanya masalahnya ada pada belum jelasnya tujuan dominan presentasi.
 
-**Keluaran yang diharapkan:** keputusan lisan singkat tentang apa yang dipertahankan, dipadatkan, dan dibuang.
 
 ### 2.7 Menyesuaikan bahasa, istilah, dan gaya penjelasan
 
-Penyesuaian audiens tidak berarti mengurangi mutu ilmiah. Penyesuaian berarti membuat isi yang sama menjadi lebih dapat dipahami. Mak (2021) menyoroti pentingnya kemampuan menggunakan fitur linguistik dan wacana untuk memfasilitasi pemahaman audiens. Ini menunjukkan bahwa kejelasan penyampaian bukan unsur tambahan, melainkan bagian dari kompetensi presentasi akademik.
+Penyesuaian audiens tidak berarti mengurangi mutu ilmiah. Penyesuaian berarti membuat isi yang sama menjadi lebih dapat dipahami. Kemampuan menggunakan fitur linguistik dan wacana untuk memfasilitasi pemahaman audiens juga menjadi bagian penting dari kompetensi presentasi akademik (Mak, 2021). Ini menunjukkan bahwa kejelasan penyampaian bukan unsur tambahan, melainkan bagian dari kompetensi presentasi akademik.
 
 Dalam praktiknya, penyesuaian bahasa dapat dilakukan dengan beberapa cara berikut.
 
@@ -207,9 +202,9 @@ Dalam praktiknya, penyesuaian bahasa dapat dilakukan dengan beberapa cara beriku
 - Mengurangi jargon yang tidak perlu.
 - Menggunakan contoh singkat agar konsep lebih mudah ditangkap.
 
-Saran ini sejalan dengan penekanan pada keterampilan berbicara yang efektif: bahasa perlu cukup jelas, langsung, dan mudah diikuti audiens tanpa kehilangan ketepatan akademiknya (Setyonegoro et al., 2020). Mahasiswa tidak perlu mengira bahwa bahasa akademik selalu harus rumit.
+Saran ini sejalan dengan penekanan pada keterampilan berbicara yang efektif: bahasa perlu cukup jelas, langsung, dan mudah diikuti audiens tanpa kehilangan ketepatan akademiknya (Setyonegoro et al., 2020). Kita tidak perlu mengira bahwa bahasa akademik selalu harus rumit.
 
-#### Jeda belajar mikro 6. Terjemahkan istilah teknis
+#### Latihan singkat 6. Terjemahkan istilah teknis
 
 Pilih satu istilah teknis dari bidang Anda. Jelaskan istilah itu dalam dua versi lisan:
 1. versi untuk dosen atau teman satu bidang;
@@ -217,11 +212,10 @@ Pilih satu istilah teknis dari bidang Anda. Jelaskan istilah itu dalam dua versi
 
 Batasnya sederhana: versi kedua harus lebih mudah dipahami tanpa membuat maknanya salah.
 
-**Keluaran yang diharapkan:** dua penjelasan lisan pendek untuk istilah yang sama.
 
 ### 2.8 Kesalahan umum karena gagal membaca audiens dan konteks
 
-Beberapa kesalahan berikut sering muncul dalam presentasi ilmiah mahasiswa.
+Beberapa kesalahan berikut sering muncul dalam presentasi ilmiah kita.
 
 #### a. Menganggap semua audiens tahu apa yang penyaji tahu
 
@@ -303,7 +297,6 @@ Pilih satu forum presentasi yang akan atau pernah Anda hadapi. Petakan terlebih 
 
 Setelah pemetaan selesai, buat dan tampilkan **pembuka lisan 60 detik** yang benar-benar disesuaikan dengan audiens tersebut.
 
-**Keluaran yang diharapkan:** catatan pemetaan audiens dan pembuka lisan 60 detik.
 
 ### Latihan 2. Satu topik, tiga forum, tiga cara bicara
 
@@ -320,7 +313,6 @@ Saat menampilkan ketiganya, perhatikan perubahan pada:
 - hasil atau urgensi yang ditonjolkan;
 - penutup singkat.
 
-**Keluaran yang diharapkan:** tiga versi penjelasan lisan pendek untuk topik yang sama.
 
 ### Latihan 3. Tujuan dominan dan tiga bukti pendukung
 
@@ -333,7 +325,6 @@ Setelah itu, pilih tiga bukti atau tiga poin utama yang paling mendukung tujuan 
 - tiga poin pendukung;
 - satu kalimat penutup.
 
-**Keluaran yang diharapkan:** rumusan tujuan dominan dan penampilan lisan 90 detik.
 
 ## Refleksi Metakognitif
 
@@ -349,7 +340,7 @@ Setelah berlatih, renungkan pertanyaan berikut secara singkat dan jujur.
 
 Presentasi ilmiah yang efektif selalu mempertimbangkan audiens, tujuan, dan konteks forum. Audiens dapat berbeda dalam pengetahuan awal, keahlian, harapan, posisi akademik, dan latar bahasa. Karena itu, penyaji perlu melakukan analisis audiens sebelum menyusun isi presentasi. Tujuan presentasi juga harus dirumuskan dengan jelas, apakah untuk melaporkan, menjelaskan, mempertahankan argumen, meyakinkan, atau membuka diskusi. Selain itu, konteks forum seperti durasi, sifat evaluatif, media, dan bahasa kerja ikut menentukan bentuk presentasi.
 
-Penyesuaian presentasi tidak berarti mengurangi mutu ilmiah, melainkan membuat pesan ilmiah lebih dapat dipahami oleh audiens yang tepat dalam situasi yang tepat. Kesalahan umum mahasiswa biasanya muncul ketika mereka menganggap semua audiens sama, memakai satu model presentasi untuk semua forum, atau tidak menyeleksi isi berdasarkan waktu dan tujuan. Dengan membaca audiens, menetapkan tujuan, dan memahami konteks, penyaji akan lebih mudah menentukan fokus isi, kedalaman penjelasan, dan gaya penyampaian.
+Penyesuaian presentasi tidak berarti mengurangi mutu ilmiah, melainkan membuat pesan ilmiah lebih dapat dipahami oleh audiens yang tepat dalam situasi yang tepat. Kesalahan umum yang sering terjadi biasanya muncul ketika kita menganggap semua audiens sama, memakai satu model presentasi untuk semua forum, atau tidak menyeleksi isi berdasarkan waktu dan tujuan. Dengan membaca audiens, menetapkan tujuan, dan memahami konteks, penyaji akan lebih mudah menentukan fokus isi, kedalaman penjelasan, dan gaya penyampaian.
 
 ## Evaluasi atau Tugas
 
@@ -366,7 +357,6 @@ Siapkan dan lakukan presentasi lisan berdurasi **3 menit** untuk satu forum akad
 4. Tentukan istilah apa yang perlu dijelaskan dan apa yang perlu dipadatkan.
 5. Sampaikan presentasi lisan 3 menit.
 
-**Keluaran yang diharapkan:**
 - profil audiens singkat;
 - tujuan dominan presentasi;
 - outline 3 poin utama;
@@ -390,4 +380,4 @@ Setelah itu, jelaskan secara lisan perubahan yang Anda lakukan pada:
 - bukti yang ditonjolkan;
 - penutup.
 
-Tugas ini membantu mahasiswa menyadari bahwa presentasi yang baik bukan sekadar hafal isi, tetapi sanggup menyesuaikan cara bicara dengan forum yang dihadapi.
+Tugas ini membantu Anda menyadari bahwa presentasi yang baik bukan sekadar hafal isi, tetapi sanggup menyesuaikan cara bicara dengan forum yang dihadapi.
