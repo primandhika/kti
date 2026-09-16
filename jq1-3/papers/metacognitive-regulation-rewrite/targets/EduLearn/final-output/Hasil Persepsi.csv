@@ -1,0 +1,81 @@
+id,nim,responden,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12
+1,25210027,Dira Laura Sanifiyanti,3,3,1,3,2,1,2,2,3,1,2,3
+2,25210082,Rianti Khoirunnisa,3,3,2,4,2,2,3,2,3,2,3,3
+3,25210050,Reifa Nazwa Shakira,3,4,2,3,1,2,4,1,4,2,2,2
+4,25210066,Jihan Shafira,3,3,3,3,1,2,3,2,4,2,1,4
+5,25210064,Anisha Delaneira Novelianda,4,3,2,3,1,1,3,2,4,2,1,3
+6,25210053,Mochamad Rifki Al Malik,2,4,2,3,3,1,3,2,3,2,1,4
+7,25210073,Nazmi Yulia,3,3,3,3,2,3,4,2,2,1,3,3
+8,25210058,Zahra Bilbina Ramadhani,3,2,3,2,2,2,3,2,3,2,2,3
+9,25210061,Nur Ainun Nadhifah Gumilar,3,4,2,4,2,1,4,2,4,2,1,4
+10,25210086,Mardian Reza Susanto,3,4,2,3,3,1,2,2,3,2,2,3
+11,25210047,Lismaya Aulia Zakian,4,3,2,3,3,1,4,2,4,2,2,4
+12,25210060,Nur Sifa Awaliah,4,3,1,3,1,2,2,2,3,1,3,3
+13,25210048,Lena Septiana,3,3,2,3,2,2,4,2,4,2,2,3
+14,25210049,Hadi Wikarsa,4,3,2,4,1,1,3,1,2,2,2,3
+15,25210041,Widya Tri Nugroho,3,4,2,4,3,1,4,1,3,2,2,4
+16,25210016,Risma Ardina,3,4,2,3,1,3,3,1,2,2,2,4
+17,25210077,Niwati Halawa,3,3,2,4,2,1,4,1,4,1,1,3
+18,25210103,Revalina,3,4,3,3,2,2,4,2,3,2,3,3
+19,25210091,Nurwanti,2,3,1,3,2,1,3,2,3,2,2,3
+20,25210079,Putri naesilla lupia Sifa,3,3,2,4,2,3,4,1,3,3,1,4
+21,25210084,Fitriah Nur Oktaviani,2,2,1,3,2,2,4,2,3,2,2,4
+22,25210087,Novelia Andara Putri,3,4,1,3,2,2,2,2,4,1,2,4
+23,25210080,Amellia Triwulandari,4,4,2,4,2,2,4,1,3,2,3,4
+24,25210052,Andini suci ayu trisna,4,3,2,3,2,1,3,3,3,2,2,4
+25,25210097,Bagus Agri Ramdhani,4,4,1,4,3,3,4,1,4,3,2,3
+26,25210081,M Akmal,3,4,3,3,2,2,4,2,4,1,1,4
+27,25210069,M RIVALDI RAMADHAN,4,4,2,4,1,1,4,4,4,1,2,4
+28,25210068,Moch Raihan Wijaya,4,4,2,3,3,2,3,3,3,2,2,3
+29,25210085,Muhamad Usman,2,4,3,3,1,2,3,2,3,3,1,3
+30,25210056,Muhammad Wildan Nurdin,3,3,1,3,3,2,4,2,3,1,2,4
+31,25210063,Muhammad Yusril Albarrabbani,3,2,2,2,1,1,3,2,4,2,1,3
+32,25210095,Nahdiatul aidah,4,3,2,3,3,1,3,2,3,2,1,4
+33,25220007,NIWATI HALAWA,4,2,1,4,2,2,3,2,4,2,2,4
+34,25210061,Nur Ainun Nadzifah,4,4,2,3,1,1,4,2,3,2,3,4
+35,25210096,Rafi Nurdiansyah,4,4,3,3,2,1,3,1,3,2,2,4
+36,25210023,Rostianiputri,3,4,3,4,2,1,4,2,3,2,2,4
+37,25210092,Sabrina Humaira,4,3,1,3,2,2,4,2,3,2,1,4
+38,25210072,Sandrina Nurpadilah,3,4,2,3,2,2,3,2,3,3,2,4
+39,25210057,Siti Nurhani Rahmayanti,3,3,2,3,3,2,3,2,4,2,2,3
+40,25210074,Syatifa Yasmin,2,2,1,3,2,2,3,1,2,2,1,3
+41,25210075,Tania Nurlaila,4,4,3,4,1,1,4,3,4,1,1,4
+42,25210033,Abdul Rahman Reyhan Alzaelani,4,3,1,3,2,2,4,2,3,3,2,3
+43,25210035,Afdil Miftahussudur,2,3,2,2,2,2,3,2,3,1,2,3
+44,25210030,Alma Nazwa Agustina,4,4,2,3,2,1,4,3,4,1,1,3
+45,25210039,chaesar Bintara yudha,4,4,2,4,2,2,4,2,4,1,1,4
+46,25210018,Dandi Putra Septiana,3,2,1,2,1,3,3,3,2,2,2,1
+47,99999999,Dimitria,4,4,3,4,2,2,4,2,4,2,1,3
+48,25210038,Dinar Alifa Diyanti,4,4,1,4,2,1,2,1,3,2,1,4
+49,25210002,Hesel Aziz Mutaqin,4,4,1,4,2,1,4,2,4,2,2,4
+50,25210006,Irmayanti,3,3,1,2,2,2,3,1,3,2,2,3
+51,25210021,Khoerul mufti faikar,3,4,1,4,3,1,4,2,4,1,2,4
+52,25210019,Lisna Yulianti,4,4,2,4,1,2,4,2,3,2,2,3
+53,25210059,M ZULFAN RIZQULLAH,4,3,3,3,1,3,4,2,4,1,2,4
+54,25210017,Merliyansya,2,3,3,4,2,2,2,3,3,2,1,3
+55,25210013,Moch Kahfi Arasyadin,4,4,2,4,2,1,3,2,3,2,1,4
+56,25210007,Muhamad Raihan A,3,2,2,4,2,3,3,2,3,2,2,4
+57,25210007,Muhamad Raihan Aziz,4,4,3,4,2,1,4,2,4,1,1,3
+58,25210008,Muhamad Sabi As Shiddiq,2,3,2,2,2,1,3,2,3,2,2,2
+59,25210043,Muhammad faiz nuralim,3,3,4,4,2,2,3,2,3,2,2,4
+60,25210101,Muhammad zidan alfarizi,3,3,3,3,1,1,4,1,3,2,2,4
+61,25210099,Muhammad Zulfiqar,4,4,3,4,2,2,4,2,4,1,3,4
+62,25210012,Mutia aulia r,4,3,2,3,3,2,3,3,3,2,2,2
+63,25210054,Nabila Nuraini,4,4,2,3,2,2,2,2,3,2,2,4
+64,25210088,Nadva Khusifa Lail,3,2,2,3,2,3,3,2,2,2,2,4
+65,25210026,Reva intan aurellia,4,4,1,4,2,2,4,2,4,2,2,4
+66,25210028,Revalina putri R W,3,4,2,3,1,3,3,2,3,2,3,3
+67,25210020,Rina karlina,3,4,1,4,1,1,3,2,4,1,1,4
+68,25210040,Rizqia Dwi Putri,3,4,2,4,2,2,4,2,4,2,2,4
+69,25210024,Septia Sapitri,3,2,1,3,2,1,2,2,3,1,1,4
+70,25210025,Siria ayu,4,3,3,4,2,1,4,2,4,2,1,4
+71,25210001,Siti Fauziah,4,3,2,3,2,2,3,2,4,3,2,3
+72,25210004,Siti Khumaeso,4,4,1,4,2,1,4,2,4,3,2,4
+73,25210034,Syahdan Azkia Wardani,3,4,2,4,1,1,4,1,4,1,2,4
+74,25210051,Syahdan Naufal Dhia Mulyandi,3,3,2,3,2,2,3,3,3,1,2,4
+75,25200029,syahla widhi Oktovia,3,3,2,4,1,1,4,2,4,2,2,3
+76,25210037,Syifa Dewi Lestari,2,2,2,2,3,2,4,2,2,2,2,3
+77,25210015,Sylva Amelia Putri Ramdhani,4,4,2,3,1,2,4,1,4,1,1,4
+78,25210010,Tarisya Sukma Oktaviani,4,3,2,3,2,2,3,2,3,1,2,3
+79,25210036,Widya putri alrasyid,3,3,2,4,1,1,4,2,4,1,2,4
+80,25210032,zihan shalma,3,3,2,2,4,2,3,2,3,2,1,3
