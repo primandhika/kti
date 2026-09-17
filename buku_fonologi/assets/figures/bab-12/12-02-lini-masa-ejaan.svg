@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="850" viewBox="0 0 1700 850"><title>Lini masa ejaan bahasa Indonesia</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="850.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Perubahan Sistem Ejaan Bahasa Indonesia</text>
+<line x1="90" y1="90" x2="1610" y2="90" stroke="#111" stroke-width="2"/>
+<line x1="150" y1="425" x2="1550" y2="425" stroke="#111" stroke-width="6" marker-end="url(#arrow)"/>
+<circle cx="220" cy="425" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="220" y1="403" x2="220" y2="295" stroke="#111" stroke-width="2"/>
+<text x="220" y="230" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" font-style="normal" fill="#111">1901</text>
+<text x="220" y="272" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Ejaan van</text>
+<text x="220" y="304" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Ophuijsen</text>
+<circle cx="520" cy="425" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="520" y1="447" x2="520" y2="510" stroke="#111" stroke-width="2"/>
+<text x="520" y="545" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" font-style="normal" fill="#111">1947</text>
+<text x="520" y="587" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Ejaan</text>
+<text x="520" y="619" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Soewandi</text>
+<circle cx="820" cy="425" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="820" y1="403" x2="820" y2="295" stroke="#111" stroke-width="2"/>
+<text x="820" y="230" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" font-style="normal" fill="#111">1972</text>
+<text x="820" y="272" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Ejaan yang</text>
+<text x="820" y="304" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Disempurnakan</text>
+<circle cx="1120" cy="425" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="1120" y1="447" x2="1120" y2="510" stroke="#111" stroke-width="2"/>
+<text x="1120" y="545" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" font-style="normal" fill="#111">2015</text>
+<text x="1120" y="587" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Pedoman Umum</text>
+<text x="1120" y="619" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Ejaan Bahasa Indonesia</text>
+<circle cx="1420" cy="425" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="1420" y1="403" x2="1420" y2="295" stroke="#111" stroke-width="2"/>
+<text x="1420" y="230" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" font-style="normal" fill="#111">2022</text>
+<text x="1420" y="272" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Ejaan Bahasa</text>
+<text x="1420" y="304" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">Indonesia V</text>
+<text x="850" y="760" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="italic" fill="#111">Perubahan ejaan mengatur representasi tulis; sistem bunyi tetap dikaji tersendiri.</text></svg>

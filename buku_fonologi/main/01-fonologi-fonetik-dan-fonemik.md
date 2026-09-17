@@ -34,7 +34,7 @@ Dalam bahasa Indonesia, kontras antarfonem sangat menentukan makna kata. Perhati
 
 Pasangan kata seperti di atas disebut **pasangan minimal** (*minimal pair*), yaitu dua kata yang hanya berbeda satu fonem pada posisi yang sama tetapi memiliki makna yang berlainan. Pasangan minimal merupakan alat utama dalam fonologi untuk membuktikan bahwa dua bunyi merupakan fonem yang berbeda (Chaer, 2009; Muslich, 2013). Jika mengganti satu bunyi menghasilkan kata bermakna lain, maka kedua bunyi itu berstatus fonem yang berbeda.
 
-[Diagram yang menggambarkan hubungan antara fonologi, fonetik, dan fonemik sebagai dua cabang utama fonologi. Fonologi berada di posisi payung, dengan fonetik dan fonemik sebagai dua cabang yang saling melengkapi.]
+![Hubungan fonologi, fonetik, dan fonemik](../assets/figures/bab-01/01-01-hubungan-kajian.png){width="5.8in"}
 
 Gambar 1.1 Hubungan Fonologi, Fonetik, dan Fonemik
 
@@ -58,7 +58,7 @@ Dalam kajian linguistik, bunyi bahasa dibedakan menjadi dua konsep penting (Chae
 
 Perbedaan antara fon dan fonem dapat dipahami melalui konsep *parole* dan *langue* yang diperkenalkan oleh Ferdinand de Saussure (1916/2011). Fon termasuk ranah *parole*, yaitu ujaran nyata yang terjadi dalam komunikasi lisan sehari-hari. Fonem termasuk ranah *langue*, yaitu sistem bahasa abstrak yang ada dalam pikiran penutur. Muslich (2013) mengibaratkan hubungan ini seperti hubungan antara "cetak biru bangunan" (fonem) dan "bangunan jadi" (fon): cetak biru selalu sama, tetapi bangunan jadinya bisa sedikit berbeda tergantung pelaksanaan.
 
-[Diagram dua lapis yang menunjukkan hubungan fon dan fonem. Lapisan atas bertuliskan "Fonem (abstrak, langue, /.../)"; lapisan bawah bertuliskan "Fon (konkret, parole, [...])". Panah menunjukkan bahwa satu fonem dapat memiliki beberapa realisasi fon (alofon).]
+![Hubungan fonem abstrak dan realisasi fonetis](../assets/figures/bab-01/01-02-fon-fonem-alofon.png){width="5.8in"}
 
 Gambar 1.2 Hubungan Fon dan Fonem
 
@@ -79,7 +79,7 @@ Secara ringkas, bunyi bahasa memiliki beberapa ciri penting (Marsono, 2019):
 
 3. ***Fonetik auditori*** (*auditory phonetics*): mempelajari cara bunyi diterima dan diproses oleh telinga, sistem saraf, dan otak pendengar.
 
-[Diagram alur tiga tahap komunikasi bunyi: (1) Penutur dan fonetik artikulatoris, (2) Gelombang bunyi dan fonetik akustik, (3) Pendengar dan fonetik auditori. Setiap tahap diberi label dan ikon sederhana.]
+![Tiga subdisiplin fonetik dalam rangkaian komunikasi bunyi](../assets/figures/bab-01/01-03-subdisiplin-fonetik.png){width="5.8in"}
 
 Gambar 1.3 Tiga Subdisiplin Fonetik
 

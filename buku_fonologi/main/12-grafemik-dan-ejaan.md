@@ -43,6 +43,10 @@ Dalam sistem tulisan alfabetis seperti yang digunakan bahasa Indonesia, setiap g
 
 Dari tabel ini terlihat bahwa korespondensi grafem-fonem bahasa Indonesia sebagian besar bersifat teratur (satu grafem = satu fonem), dengan beberapa pengecualian pada digraf dan huruf "e" (Chaer, 2009).
 
+![Contoh hubungan antara grafem dan fonem dalam bahasa Indonesia](../assets/figures/bab-12/12-01-grafem-fonem.png){width="5.8in"}
+
+Gambar 12.1 Hubungan Grafem dan Fonem dalam Bahasa Indonesia
+
 ### Tingkat Keteraturan Korespondensi
 
 Bahasa-bahasa di dunia memiliki tingkat keteraturan korespondensi grafem-fonem yang sangat bervariasi. Bahasa Indonesia termasuk bahasa dengan korespondensi yang cukup teratur, yang dalam literatur disebut memiliki **ortografi transparan** atau **ortografi dangkal** (*shallow orthography*). Bandingkan dengan bahasa Inggris yang memiliki **ortografi dalam** (*deep orthography*), di mana hubungan huruf dan bunyi sangat tidak teratur: huruf "ough" saja dapat diucapkan setidaknya enam cara berbeda dalam kata "though," "through," "rough," "cough," "thought," dan "bough" (Coulmas, 2003).
@@ -127,6 +131,10 @@ Pada tahun 1972, pemerintah Indonesia menetapkan **Ejaan Yang Disempurnakan (EYD
 | /tʃ/ | tj | tj | c |
 | /ɲ/ | nj | nj | ny |
 | /x/ | ch | ch | kh |
+
+![Lini masa perubahan sistem ejaan bahasa Indonesia](../assets/figures/bab-12/12-02-lini-masa-ejaan.png){width="6.2in"}
+
+Gambar 12.2 Lini Masa Sistem Ejaan Bahasa Indonesia. Acuan mutakhir: Ejaan Bahasa Indonesia Edisi V (2022), Badan Pengembangan dan Pembinaan Bahasa.
 
 ### EYD Edisi V dan PUEBI
 

@@ -38,9 +38,9 @@ Praat dipilih untuk bab ini karena beberapa alasan:
 3. **Standar akademik.** Praat merupakan perangkat lunak yang paling banyak digunakan dan dirujuk dalam publikasi fonetik dan fonologi (Boersma & Weenink, 2024).
 4. **Dokumentasi lengkap.** Praat memiliki manual bawaan yang komprehensif dan banyak tutorial daring yang tersedia secara gratis.
 
-[Tangkapan layar antarmuka utama Praat yang menunjukkan dua jendela: Praat Objects (jendela daftar objek) dan Praat Picture (jendela gambar). Jendela Objects menampilkan berkas suara yang telah dibuka, dengan tombol-tombol untuk memutar, menyunting, dan menganalisis.]
+![Jendela Praat Objects setelah audio uji dibuka](../assets/figures/bab-13/13-02-praat-opened-sound.png){width="5.8in"}
 
-Gambar 13.1 Antarmuka Utama Praat
+Gambar 13.1 Jendela Praat Objects setelah Berkas Audio Dibuka (Praat 7.0.02; audio uji sintetis)
 
 ## 13.2 Instalasi dan Penyiapan Praat
 
@@ -75,6 +75,10 @@ Setelah Praat terpasang, kita dapat mulai menganalisis bunyi bahasa Indonesia. S
 
 ### Membuka dan Menavigasi Berkas Suara
 
+![Alur dasar membuka dan mengukur audio dengan Praat](../assets/figures/bab-13/13-04-alur-praktik.png){width="5.8in"}
+
+Gambar 13.2 Alur Dasar Analisis Audio dengan Praat
+
 **Langkah 1.** Pada jendela Praat Objects, pilih menu **Open** → **Read from file...** untuk membuka berkas audio yang sudah ada, atau pilih **New** → **Record mono Sound...** untuk merekam suara baru.
 
 **Langkah 2.** Setelah berkas suara muncul di daftar Objects, klik **View & Edit** untuk membuka jendela editor suara.
@@ -82,6 +86,10 @@ Setelah Praat terpasang, kita dapat mulai menganalisis bunyi bahasa Indonesia. S
 **Langkah 3.** Jendela editor menampilkan dua panel utama:
 - **Panel atas**: gelombang bunyi (*waveform*) yang menunjukkan amplitudo sepanjang waktu.
 - **Panel bawah**: spektrogram yang menunjukkan distribusi frekuensi sepanjang waktu. Area yang lebih gelap menandakan energi akustik yang lebih tinggi.
+
+![Jendela View and Edit pada Praat dengan gelombang bunyi dan spektrogram](../assets/figures/bab-13/13-03-praat-editor.png){width="6.0in"}
+
+Gambar 13.3 Jendela *View & Edit* pada Praat 7.0.02 (audio uji sintetis)
 
 ### Membaca Gelombang Bunyi
 
@@ -101,9 +109,9 @@ Spektrogram merupakan alat analisis yang lebih kaya informasi daripada gelombang
 
 Pada spektrogram, vokal tampak sebagai pita-pita horizontal gelap yang disebut **forman**. Forman pertama (F1, pita terendah) berkorelasi dengan tinggi-rendah posisi lidah, dan forman kedua (F2, pita di atasnya) berkorelasi dengan maju-mundur posisi lidah (Ladefoged & Johnson, 2011). Dengan mengukur nilai F1 dan F2, kita dapat mengidentifikasi vokal yang diucapkan dan membandingkannya dengan data vokal bahasa Indonesia standar.
 
-[Tangkapan layar spektrogram kata "bapak" dalam Praat, dengan label yang menunjukkan setiap segmen bunyi: [b] (letupan bersuara), [a] (vokal, forman terlihat jelas), [p] (jeda + letupan), [a] (vokal), [ʔ] (hambat glotal di akhir kata). Forman F1 dan F2 ditandai pada vokal [a].]
+![Skema ilustratif pembacaan gelombang bunyi dan spektrogram](../assets/figures/bab-13/13-05-skema-spektrogram.png){width="5.8in"}
 
-Gambar 13.2 Spektrogram Kata "Bapak" dengan Identifikasi Segmen Bunyi
+Gambar 13.4 Skema Ilustratif Pembacaan Spektrogram dan Forman (bukan hasil pengukuran)
 
 ## 13.4 Visualisasi Data Fonologi
 
@@ -148,9 +156,9 @@ Untuk membuat plot vokal dari data Praat:
 
 Nilai-nilai pada tabel ini bersifat ilustratif. Nilai forman bervariasi antarindividu, antarjenis kelamin (forman perempuan umumnya lebih tinggi karena saluran vokal lebih pendek), dan antardialek. Yang penting bukan angka absolutnya, melainkan pola relatifnya: /i/ memiliki F1 rendah dan F2 tinggi (vokal tinggi depan), /a/ memiliki F1 tinggi dan F2 sedang (vokal rendah pusat), dan seterusnya.
 
-[Diagram plot vokal berdasarkan data Tabel 13.1. Sumbu horizontal menampilkan F2 (terbalik, dari kiri tinggi ke kanan rendah). Sumbu vertikal menampilkan F1 (terbalik, dari atas rendah ke bawah tinggi). Enam titik vokal ditandai dan dihubungkan membentuk trapesium vokal akustik bahasa Indonesia.]
+![Plot vokal berdasarkan nilai F1 dan F2 ilustratif](../assets/figures/bab-13/13-06-plot-vokal.png){width="5.8in"}
 
-Gambar 13.3 Plot Vokal Bahasa Indonesia Berdasarkan Data Forman
+Gambar 13.5 Plot Vokal Berdasarkan Data Ilustratif pada Tabel 13.1
 
 ## 13.5 Praktik: Analisis Bunyi Bahasa Indonesia
 

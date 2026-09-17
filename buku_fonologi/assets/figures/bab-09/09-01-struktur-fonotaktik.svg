@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Struktur fonotaktik</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Fonotaktik: Bunyi yang Diizinkan dalam Posisi Tertentu</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="120" y="150" width="1160" height="130" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="197" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">POLA SILABEL</text>
+<text x="700.0" y="241" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">(K)(K)V(K) • kurung menandai unsur opsional</text>
+<rect x="70" y="390" width="250" height="190" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="195.0" y="437" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">ONSET</text>
+<text x="195.0" y="481" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">K atau KK</text>
+<rect x="390" y="390" width="250" height="190" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="515.0" y="437" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">NUKLEUS</text>
+<text x="515.0" y="481" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">V</text>
+<rect x="710" y="390" width="250" height="190" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="835.0" y="437" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">KODA</text>
+<text x="835.0" y="481" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">K</text>
+<rect x="1000" y="390" width="250" height="190" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1125.0" y="437" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">BATAS</text>
+<text x="1125.0" y="481" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">awal/akhir</text>
+<line x1="245" y1="585" x2="1175" y2="585" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="700" y="640" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="italic" fill="#111">urutan posisi dalam silabel</text>
+<text x="700" y="740" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="normal" fill="#111">Bentuk yang mungkin ditentukan oleh sistem bahasa, bukan oleh kemudahan semata.</text></svg>

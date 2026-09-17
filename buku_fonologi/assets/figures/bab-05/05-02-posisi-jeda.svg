@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Posisi jeda dan perubahan makna</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Posisi Jeda Mengarahkan Pengelompokan Makna</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="120" y="160" width="1160" height="200" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="207" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">VERSI A</text>
+<text x="700.0" y="251" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Ibu guru | baru datang</text>
+<text x="700.0" y="289" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Ibu guru baru saja tiba.</text>
+<line x1="690" y1="245" x2="690" y2="315" stroke="#111" stroke-width="4" stroke-dasharray="7 7"/>
+<rect x="120" y="450" width="1160" height="200" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="497" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">VERSI B</text>
+<text x="700.0" y="541" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Ibu | guru baru datang</text>
+<text x="700.0" y="579" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Seseorang memberi tahu ibu bahwa guru baru telah datang.</text>
+<line x1="445" y1="535" x2="445" y2="605" stroke="#111" stroke-width="4" stroke-dasharray="7 7"/>
+<text x="700" y="755" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="italic" fill="#111">Kata-kata sama; posisi jeda mengubah pengelompokan makna.</text></svg>

@@ -38,9 +38,9 @@ Tanda [  ̯] (busur kecil di bawah huruf) dalam transkripsi fonetis menunjukkan 
 
 Ketiga diftong ini termasuk **diftong naik** atau **diftong menutup** (*closing diphthong*): posisi lidah bergerak dari vokal yang lebih terbuka (rendah) ke vokal yang lebih tertutup (tinggi). Bahasa Indonesia tidak memiliki diftong turun (*opening diphthong*) yang bergerak dari vokal tinggi ke vokal rendah.
 
-[Diagram trapesium vokal. Tiga panah menunjukkan arah pergerakan diftong: panah pertama dari [a] di bawah tengah ke [i] di atas depan (diftong /ai/), panah kedua dari [a] ke [u] di atas belakang (diftong /au/), panah ketiga dari [o] di tengah belakang ke [i] di atas depan (diftong /oi/). Setiap panah diberi label diftong dan contoh kata.]
+![Gerak kualitas vokal pada diftong ai au dan oi](../assets/figures/bab-10/10-01-gerak-diftong.png){width="5.8in"}
 
-Gambar 10.1 Arah Pergerakan Tiga Diftong Bahasa Indonesia pada Trapesium Vokal
+Gambar 10.1 Arah Pergerakan Tiga Diftong Bahasa Indonesia
 
 ### Distribusi Diftong
 
@@ -164,7 +164,7 @@ Penting untuk membedakan kluster konsonan (dalam satu silabel) dari **deret kons
 
 Deret konsonan lintas silabel sangat umum dalam bahasa Indonesia (misalnya /mp/ pada "am-pun," /nt/ pada "pin-ta," /ŋk/ pada "bang-ku") dan bukan merupakan kluster dalam pengertian fonotaktik. Setiap konsonan dalam deret lintas silabel menjadi bagian dari silabel yang berbeda, sehingga tidak melanggar aturan fonotaktik tentang kombinasi konsonan dalam satu silabel.
 
-[Diagram dua baris. Baris atas menunjukkan kluster konsonan: kata "pra-ja" dengan /p/ dan /r/ diberi kurung bersama di dalam satu kotak silabel "pra", diberi label "kluster: dua konsonan dalam SATU silabel". Baris bawah menunjukkan deret lintas silabel: kata "am-pun" dengan /m/ di dalam kotak silabel "am" dan /p/ di dalam kotak silabel "pun", diberi label "deret lintas silabel: konsonan di silabel BERBEDA".]
+![Perbandingan kluster dalam satu silabel dan deret konsonan lintas silabel](../assets/figures/bab-10/10-02-kluster-deret.png){width="5.8in"}
 
 Gambar 10.2 Perbedaan Kluster Konsonan dan Deret Konsonan Lintas Silabel
 

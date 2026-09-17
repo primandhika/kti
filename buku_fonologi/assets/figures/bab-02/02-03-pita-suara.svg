@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Keadaan pita suara</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Glotis pada Bunyi Tak Bersuara dan Bersuara</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="110" y="150" width="520" height="520" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="370.0" y="197" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">TAK BERSUARA</text>
+<text x="370.0" y="241" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">glotis terbuka</text>
+<text x="370.0" y="279" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">udara lewat tanpa getaran</text>
+<text x="370.0" y="317" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">contoh: [p], [t], [s]</text>
+<rect x="770" y="150" width="520" height="520" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1030.0" y="197" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">BERSUARA</text>
+<text x="1030.0" y="241" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">pita suara merapat</text>
+<text x="1030.0" y="279" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">aliran udara memicu getaran</text>
+<text x="1030.0" y="317" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">contoh: [b], [d], [z]</text>
+<path d="M235 365 C315 300 395 300 505 365 C395 430 315 430 235 365" fill="#eee" stroke="#111" stroke-width="4"/>
+<ellipse cx="370" cy="365" rx="48" ry="150" fill="#fff" stroke="#111" stroke-width="4"/>
+<path d="M895 365 C980 300 1060 300 1165 365 C1060 430 980 430 895 365" fill="#eee" stroke="#111" stroke-width="4"/>
+<line x1="1022" y1="295" x2="1022" y2="435" stroke="#111" stroke-width="12"/>
+<path d="M950 500 C980 475 1000 525 1025 500 C1050 475 1070 525 1100 500" fill="none" stroke="#111" stroke-width="4"/>
+<text x="700" y="755" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="italic" fill="#111">Tampak dari atas</text></svg>

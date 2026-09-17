@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="1000" viewBox="0 0 1350 1000"><title>Plot vokal ilustratif</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="675.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Plot Vokal Berdasarkan Data Latihan</text>
+<line x1="90" y1="90" x2="1260" y2="90" stroke="#111" stroke-width="2"/>
+<text x="675.0" y="125" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="italic" fill="#111">Nilai F1 dan F2 bersifat ilustratif</text>
+<line x1="170" y1="180" x2="170" y2="850" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1190" y1="180" x2="170" y2="180" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="90" y="515" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">F1 (Hz)</text>
+<text x="680" y="125" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">F2 (Hz)</text>
+<line x1="170" y1="240.9090909090909" x2="1190" y2="240.9090909090909" stroke="#bbb" stroke-width="1"/>
+<text x="145" y="248.9090909090909" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">300</text>
+<line x1="170" y1="362.72727272727275" x2="1190" y2="362.72727272727275" stroke="#bbb" stroke-width="1"/>
+<text x="145" y="370.72727272727275" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">400</text>
+<line x1="170" y1="484.54545454545456" x2="1190" y2="484.54545454545456" stroke="#bbb" stroke-width="1"/>
+<text x="145" y="492.54545454545456" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">500</text>
+<line x1="170" y1="606.3636363636364" x2="1190" y2="606.3636363636364" stroke="#bbb" stroke-width="1"/>
+<text x="145" y="614.3636363636364" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">600</text>
+<line x1="170" y1="728.1818181818182" x2="1190" y2="728.1818181818182" stroke="#bbb" stroke-width="1"/>
+<text x="145" y="736.1818181818182" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">700</text>
+<line x1="170" y1="850.0" x2="1190" y2="850.0" stroke="#bbb" stroke-width="1"/>
+<text x="145" y="858.0" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">800</text>
+<line x1="1136.3157894736842" y1="180" x2="1136.3157894736842" y2="850" stroke="#bbb" stroke-width="1"/>
+<text x="1136.3157894736842" y="160" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">700</text>
+<line x1="921.578947368421" y1="180" x2="921.578947368421" y2="850" stroke="#bbb" stroke-width="1"/>
+<text x="921.578947368421" y="160" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">1100</text>
+<line x1="706.8421052631579" y1="180" x2="706.8421052631579" y2="850" stroke="#bbb" stroke-width="1"/>
+<text x="706.8421052631579" y="160" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">1500</text>
+<line x1="492.10526315789474" y1="180" x2="492.10526315789474" y2="850" stroke="#bbb" stroke-width="1"/>
+<text x="492.10526315789474" y="160" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">1900</text>
+<line x1="277.36842105263156" y1="180" x2="277.36842105263156" y2="850" stroke="#bbb" stroke-width="1"/>
+<text x="277.36842105263156" y="160" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">2300</text>
+<circle cx="277.36842105263156" cy="228.72727272727272" r="29" fill="#111" stroke="#111" stroke-width="3"/>
+<text x="277.36842105263156" y="237.72727272727272" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#fff">/i/</text>
+<circle cx="492.10526315789474" cy="423.6363636363636" r="29" fill="#111" stroke="#111" stroke-width="3"/>
+<text x="492.10526315789474" y="432.6363636363636" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#fff">/e/</text>
+<circle cx="706.8421052631579" cy="484.54545454545456" r="29" fill="#111" stroke="#111" stroke-width="3"/>
+<text x="706.8421052631579" y="493.54545454545456" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#fff">/ə/</text>
+<circle cx="814.2105263157895" cy="789.0909090909091" r="29" fill="#111" stroke="#111" stroke-width="3"/>
+<text x="814.2105263157895" y="798.0909090909091" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#fff">/a/</text>
+<circle cx="1082.6315789473683" cy="253.0909090909091" r="29" fill="#111" stroke="#111" stroke-width="3"/>
+<text x="1082.6315789473683" y="262.0909090909091" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#fff">/u/</text>
+<circle cx="1028.9473684210525" cy="484.54545454545456" r="29" fill="#111" stroke="#111" stroke-width="3"/>
+<text x="1028.9473684210525" y="493.54545454545456" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#fff">/o/</text>
+<text x="680" y="935" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="italic" fill="#111">Semakin ke kiri F2 makin tinggi; semakin ke bawah F1 makin tinggi.</text></svg>

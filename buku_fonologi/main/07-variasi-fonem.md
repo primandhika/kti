@@ -68,9 +68,9 @@ Alofon adalah varian pengucapan dari satu fonem yang tidak membedakan makna (Mus
 
 Perlu dicatat bahwa status alofon [β] untuk /b/ antarvokal masih diperdebatkan dalam literatur fonologi bahasa Indonesia. Tidak semua penutur menunjukkan spirantisasi ini, dan fenomena ini lebih umum dalam ragam ujaran cepat (Lapoliwa, 1981).
 
-[Peta sederhana kepulauan Indonesia yang menandai beberapa daerah dengan variasi fonem yang dibahas dalam bab ini: Jakarta/Betawi (elisi /h/ akhir), Minangkabau (realisasi /r/ sebagai uvular), Jawa (devoicing /d/ akhir), dan Papua (penambahan bunyi glotalisasi). Setiap daerah diberi label singkat variasi fonemnya.]
+![Pengamatan variasi pelafalan melalui rekaman dan pencatatan data](../assets/figures/bab-07/07-01-observasi-variasi.png){width="5.8in"}
 
-Gambar 7.1 Sebaran Variasi Fonem di Beberapa Daerah Indonesia
+Gambar 7.1 Pengamatan Variasi Pelafalan melalui Rekaman dan Pencatatan Data
 
 ## 7.2 Perubahan Fonem dalam Dialek
 
@@ -165,9 +165,9 @@ Meskipun fonem hilang, pendengar biasanya tidak mengalami kesulitan memahami uja
 
 Variasi fonem tidak terjadi dalam ruang hampa. Di balik setiap variasi, terdapat faktor sosial yang memengaruhi mengapa penutur tertentu menggunakan varian tertentu. **Sosiolinguistik**, yaitu cabang ilmu bahasa yang mempelajari hubungan antara bahasa dan masyarakat, memberikan kerangka untuk memahami variasi ini (Wardhaugh & Fuller, 2015; Trudgill, 2000).
 
-[Diagram yang menunjukkan faktor-faktor yang mempengaruhi variasi fonem. Di tengah terdapat lingkaran bertuliskan "Variasi Fonem". Di sekelilingnya terdapat empat kotak: "Faktor Geografis" (dialek regional), "Faktor Sosial" (kelas, pendidikan), "Faktor Situasional" (formal vs informal), dan "Faktor Historis" (perubahan bahasa seiring waktu). Panah dari setiap kotak menuju lingkaran pusat.]
+![Faktor wilayah, sosial, situasi, dan individu yang memengaruhi variasi pelafalan](../assets/figures/bab-07/07-02-faktor-variasi.png){width="5.8in"}
 
-Gambar 7.2 Faktor-faktor yang Mempengaruhi Variasi Fonem
+Gambar 7.2 Faktor-Faktor yang Memengaruhi Variasi Fonem
 
 ### Variasi Fonem dan Kelas Sosial
 

@@ -17,9 +17,11 @@ Bab ini mengajak kita menjelajahi bagaimana bunyi bahasa dihasilkan. Pembahasan 
 
 ## 2.1 Anatomi Alat Ucap
 
-[Diagram potongan sagital kepala dan leher yang menunjukkan posisi organ-organ alat ucap: paru-paru, trakea, laring/pita suara, epiglotis, faring, rongga mulut (lidah, gigi, bibir, langit-langit keras, langit-langit lunak/velum, uvula), dan rongga hidung. Setiap organ diberi label.]
+![Potongan sagital alat ucap manusia dengan penomoran organ](../assets/figures/bab-02/02-01-anatomi-alat-ucap.png){width="5.8in"}
 
-Gambar 2.1 Anatomi Alat Ucap Manusia
+Gambar 2.1 Anatomi Alat Ucap Manusia. Sumber: Tavin (2011), Wikimedia Commons, lisensi CC BY 3.0.
+
+Keterangan angka: 1 rongga hidung; 2 rongga mulut; 3 langit-langit keras; 4 velum; 5 gigi; 6 uvula; 7 bibir; 8 faring; 9 ujung lidah; 10 epiglotis; 11 daun lidah; 12 pita suara; 13 bagian depan lidah; 14 glotis; 15 bagian belakang lidah; 16 trakea; 17 laring.
 
 Alat ucap manusia merupakan sistem kompleks yang melibatkan berbagai organ untuk menghasilkan bunyi bahasa (Ladefoged & Johnson, 2011). Menariknya, tidak satu pun organ ini yang dirancang khusus untuk berbicara. Paru-paru berfungsi utama untuk pernapasan, lidah untuk menelan makanan, dan pita suara untuk melindungi saluran napas. Kemampuan menghasilkan bunyi bahasa merupakan fungsi sekunder yang berkembang seiring evolusi manusia (Lieberman, 2006).
 
@@ -72,7 +74,7 @@ Tabel 2.2 disusun berdasarkan klasifikasi IPA (*International Phonetic Alphabet*
 
 ## 2.2 Mekanisme Produksi Bunyi
 
-[Diagram alur empat tahap produksi bunyi bahasa: (1) Inisiasi di paru-paru, (2) Fonasi di laring/pita suara, (3) Artikulasi di rongga mulut, (4) Resonansi di rongga mulut/hidung/tenggorokan. Panah menunjukkan arah aliran udara dari paru-paru ke luar.]
+![Empat tahap produksi bunyi dari inisiasi hingga resonansi](../assets/figures/bab-02/02-02-tahapan-produksi.png){width="5.8in"}
 
 Gambar 2.2 Tahapan Produksi Bunyi Bahasa
 
@@ -90,7 +92,7 @@ Produksi bunyi bahasa merupakan proses yang terkoordinasi, melibatkan kerja sama
 
 Letakkan jari di tenggorokan (di area jakun) dan ucapkan bunyi [s] lalu [z] secara bergantian. Pada bunyi [s] (tak bersuara), pita suara tidak bergetar dan jari tidak merasakan getaran. Pada bunyi [z] (bersuara), pita suara bergetar dan jari merasakan getaran halus. Perbedaan bersuara dan tak bersuara ini merupakan salah satu parameter utama dalam klasifikasi bunyi konsonan.
 
-[Ilustrasi dua keadaan pita suara: (1) Pita suara terbuka, celah glotis lebar, label "tak bersuara" dengan contoh [s], [p], [t]; (2) Pita suara merapat, bergetar, label "bersuara" dengan contoh [z], [b], [d]. Tampak dari atas seperti diagram laring.]
+![Perbandingan keadaan glotis pada bunyi tak bersuara dan bersuara](../assets/figures/bab-02/02-03-pita-suara.png){width="5.8in"}
 
 Gambar 2.3 Pita Suara dalam Keadaan Terbuka (Tak Bersuara) dan Bergetar (Bersuara)
 

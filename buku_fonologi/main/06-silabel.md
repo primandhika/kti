@@ -19,7 +19,7 @@ Pemahaman tentang silabel menjadi dasar penting untuk mempelajari fonotaktik (Ba
 
 Silabel (suku kata) adalah satuan ritmis terkecil dalam arus ujaran yang ditandai oleh satu puncak kenyaringan atau *sonoritas* (Chaer, 2009). Puncak sonoritas ini hampir selalu jatuh pada vokal karena vokal memiliki tingkat kenyaringan tertinggi di antara bunyi-bunyi bahasa. Dalam bahasa Indonesia, setiap silabel tersusun dari tiga komponen (Marsono, 2019):
 
-[Diagram pohon struktur silabel. Di puncak tertulis "Silabel (σ)". Cabang pertama ke kiri bertuliskan "Onset (O)" berisi konsonan awal, cabang tengah bertuliskan "Nukleus (N)" berisi vokal sebagai puncak, cabang kanan bertuliskan "Koda (K)" berisi konsonan akhir. Contoh kata "man" dari "man-di" diurai: m = onset, a = nukleus, n = koda.]
+![Struktur silabel dengan onset dan rima yang terdiri atas nukleus dan koda](../assets/figures/bab-06/06-01-struktur-silabel.png){width="5.8in"}
 
 Gambar 6.1 Struktur Silabel: Onset, Nukleus, dan Koda
 
@@ -78,7 +78,7 @@ Pecahkan kata "perpustakaan" menjadi suku kata: **per-pus-ta-ka-an**. Perhatikan
 
 Berdasarkan bunyi akhirnya, silabel dibedakan menjadi dua jenis (Chaer, 2009; Muslich, 2013):
 
-[Diagram dua kotak berdampingan. Kotak kiri bertuliskan "Silabel Terbuka" dengan pola (K)V, contoh: "ba", "ta", "i", "su". Kotak kanan bertuliskan "Silabel Tertutup" dengan pola (K)VK, contoh: "man", "duk", "rak", "an". Masing-masing kotak diberi penanda bahwa silabel terbuka berakhir vokal dan silabel tertutup berakhir konsonan.]
+![Perbandingan silabel terbuka dan tertutup](../assets/figures/bab-06/06-02-terbuka-tertutup.png){width="5.8in"}
 
 Gambar 6.2 Silabel Terbuka dan Silabel Tertutup
 

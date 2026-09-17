@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Pungtuasi dan prosodi</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Tanda Baca dan Petunjuk Prosodi</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<text x="700.0" y="125" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="italic" fill="#111">Tanda baca membantu pembaca, tetapi tidak merekam prosodi secara lengkap</text>
+<rect x="120" y="165" width="330" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="285.0" y="212" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="27" font-weight="bold" font-style="normal" fill="#111">Koma (,)</text>
+<text x="285.0" y="256" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">jeda singkat</text>
+<line x1="450" y1="217" x2="650" y2="217" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="680" y="165" width="600" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="980.0" y="212" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#111">PETUNJUK, BUKAN PADANAN MUTLAK</text>
+<text x="980.0" y="256" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">kontur berlanjut</text>
+<rect x="120" y="305" width="330" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="285.0" y="352" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="27" font-weight="bold" font-style="normal" fill="#111">Titik (.)</text>
+<text x="285.0" y="396" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">batas ujaran</text>
+<line x1="450" y1="357" x2="650" y2="357" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="680" y="305" width="600" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="980.0" y="352" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#111">PETUNJUK, BUKAN PADANAN MUTLAK</text>
+<text x="980.0" y="396" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">kontur menurun</text>
+<rect x="120" y="445" width="330" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="285.0" y="492" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="27" font-weight="bold" font-style="normal" fill="#111">Tanda tanya (?)</text>
+<text x="285.0" y="536" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">fungsi interogatif</text>
+<line x1="450" y1="497" x2="650" y2="497" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="680" y="445" width="600" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="980.0" y="492" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#111">PETUNJUK, BUKAN PADANAN MUTLAK</text>
+<text x="980.0" y="536" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">kontur bergantung konteks</text>
+<rect x="120" y="585" width="330" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="285.0" y="632" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="27" font-weight="bold" font-style="normal" fill="#111">Tanda seru (!)</text>
+<text x="285.0" y="676" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">penegasan</text>
+<line x1="450" y1="637" x2="650" y2="637" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="680" y="585" width="600" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="980.0" y="632" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="#111">PETUNJUK, BUKAN PADANAN MUTLAK</text>
+<text x="980.0" y="676" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">intensitas atau rentang nada</text>
+<text x="700" y="765" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="27" font-weight="normal" font-style="italic" fill="#111">Prosodi harus diperiksa pada ujaran nyata.</text></svg>

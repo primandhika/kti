@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Deret vokal dan satu silabel</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Apakah Dua Vokal Membentuk Satu atau Dua Silabel?</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="90" y="155" width="570" height="475" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="375.0" y="202" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">SATU SILABEL</text>
+<text x="375.0" y="246" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">satu puncak sonoritas</text>
+<text x="375.0" y="284" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">gerak vokal berkesinambungan</text>
+<text x="375.0" y="322" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">contoh diftong: /ai/</text>
+<path d="M180 495 C285 265 445 265 565 495" fill="none" stroke="#111" stroke-width="5"/>
+<text x="375" y="545" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="italic" fill="#111">satu puncak</text>
+<rect x="740" y="155" width="570" height="475" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1025.0" y="202" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">DUA SILABEL</text>
+<text x="1025.0" y="246" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">dua puncak sonoritas</text>
+<text x="1025.0" y="284" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">dapat disisipi batas silabel</text>
+<text x="1025.0" y="322" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">contoh deret: /a.i/</text>
+<path d="M825 495 C875 315 965 315 1010 495 C1055 315 1145 315 1225 495" fill="none" stroke="#111" stroke-width="5"/>
+<line x1="1025" y1="270" x2="1025" y2="525" stroke="#111" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1025" y="545" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="italic" fill="#111">batas silabel</text>
+<text x="700" y="745" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">Putuskan melalui pelafalan, distribusi, dan pola tekanan.</text></svg>

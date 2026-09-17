@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Struktur silabel</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Struktur Dasar Silabel</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="500" y="135" width="400" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="182" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">SILABEL (σ)</text>
+<line x1="700" y1="240" x2="420" y2="355" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="700" y1="240" x2="980" y2="355" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="250" y="370" width="340" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="420.0" y="417" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">ONSET</text>
+<text x="420.0" y="461" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">konsonan awal</text>
+<rect x="810" y="370" width="340" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="980.0" y="417" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">RIMA</text>
+<text x="980.0" y="461" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">inti + koda</text>
+<line x1="980" y1="475" x2="860" y2="585" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="980" y1="475" x2="1100" y2="585" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="705" y="600" width="310" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="860.0" y="647" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">NUKLEUS</text>
+<text x="860.0" y="691" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">puncak silabel</text>
+<rect x="1045" y="600" width="260" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1175.0" y="647" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">KODA</text>
+<text x="1175.0" y="691" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">konsonan akhir</text>
+<text x="420" y="790" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="normal" fill="#111">Contoh /pan/: onset /p/</text>
+<text x="980" y="790" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="normal" fill="#111">rima /an/ = nukleus /a/ + koda /n/</text></svg>

@@ -21,7 +21,7 @@ Bab ini mengajak kita menyelidiki realisasi fonem secara sistematis. Kita akan m
 
 Dalam kajian fonologi, kita membedakan dua tataran bunyi (Chaer, 2009). Tataran pertama adalah **fonem**, satuan abstrak yang tersimpan dalam sistem bahasa (*langue*). Tataran kedua adalah **fon**, wujud bunyi konkret yang benar-benar terdengar ketika seseorang berbicara (*parole*). Hubungan keduanya dapat diilustrasikan sebagai berikut: fonem adalah "cetak biru," sedangkan fon adalah "bangunan jadi" yang mungkin sedikit berbeda dari cetaknya tergantung bahan, cuaca, dan tukang yang membangunnya.
 
-[Diagram dua lapis. Lapisan atas bertuliskan "Fonem /k/" dengan keterangan "abstrak, tersimpan dalam sistem bahasa, ditulis di antara garis miring /.../". Lapisan bawah terbagi menjadi tiga kotak yang masing-masing bertuliskan "[k] (plosif velar di awal kata)", "[k̚] (tak terlepas di akhir suku kata)", dan "[ʔ] (hambat glotal di akhir kata)". Panah dari lapisan atas menuju setiap kotak menunjukkan bahwa satu fonem memiliki beberapa realisasi (alofon).]
+![Fonem abstrak dan beberapa realisasi alofonis](../assets/figures/bab-08/08-01-fonem-alofon.png){width="5.8in"}
 
 Gambar 8.1 Hubungan Fonem dan Alofon: Satu Fonem, Beberapa Realisasi
 
@@ -105,9 +105,9 @@ Proses ini merupakan salah satu contoh realisasi fonem yang dipengaruhi oleh kon
 - "kakak" → [kakaʔ]
 - "masak" → [masaʔ]
 
-[Diagram alur yang menunjukkan proses glotalisasi. Kotak pertama berisi "Fonem /k/ di akhir kata". Panah menuju kotak keputusan berbentuk belah ketupat bertuliskan "Ragam informal?". Jika ya, panah menuju kotak "Realisasi [ʔ]". Jika tidak, panah menuju kotak "Realisasi [k̚]".]
+![Perbandingan realisasi fonem k pada posisi awal atau tengah dan akhir kata](../assets/figures/bab-08/08-02-glotalisasi.png){width="5.8in"}
 
-Gambar 8.2 Proses Glotalisasi Fonem /k/ di Akhir Kata
+Gambar 8.2 Realisasi Fonem /k/ pada Posisi Berbeda
 
 ### 3. Aspirasi
 
@@ -151,9 +151,9 @@ Perbedaan realisasi vokal /a/ di akhir kata terbuka merupakan penanda dialektal 
 - **Dialek Melayu Jakarta / Betawi**: /a/ di akhir kata sering bergeser ke [ɛ]. "Saya" → [sajɛ], "apa" → [apɛ].
 - **Dialek Jawa Timuran**: /a/ di akhir kata terbuka cenderung menjadi [ɔ]. "Apa" → [ɔpɔ].
 
-[Diagram trapesium vokal sederhana yang menunjukkan pergeseran realisasi /a/ di tiga dialek. Titik pertama di posisi [a] pusat bawah (baku), panah ke kiri menuju [ɛ] (Jakarta/Betawi), panah ke kanan menuju [ɔ] (Jawa Timuran). Setiap titik diberi label dialek dan contoh kata.]
+![Rentang kemungkinan realisasi fonetis fonem a](../assets/figures/bab-08/08-03-variasi-vokal-a.png){width="5.8in"}
 
-Gambar 8.3 Pergeseran Realisasi Vokal /a/ Akhir Kata dalam Tiga Dialek
+Gambar 8.3 Rentang Realisasi Fonetis Fonem /a/
 
 ### Contoh Nyata
 

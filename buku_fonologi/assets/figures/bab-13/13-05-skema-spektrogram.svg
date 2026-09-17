@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="930" viewBox="0 0 1500 930"><title>Skema pembacaan spektrogram</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="750.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Skema Ilustratif Pembacaan Spektrogram</text>
+<line x1="90" y1="90" x2="1410" y2="90" stroke="#111" stroke-width="2"/>
+<text x="750.0" y="125" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="italic" fill="#111">Bukan hasil pengukuran</text>
+<text x="95" y="190" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">Sinyal</text>
+<rect x="170" y="135" width="1230" height="180" rx="0" fill="#fff" stroke="#111" stroke-width="3"/>
+<path d="M180 225 C210 160 240 290 270 225 C300 155 330 295 360 225 C410 190 440 260 480 225 C535 170 570 285 610 225 C670 195 700 260 745 225 C810 165 840 290 885 225 C950 185 990 270 1035 225 C1090 170 1130 285 1180 225 C1250 195 1300 255 1390 225" fill="none" stroke="#111" stroke-width="3"/>
+<text x="95" y="420" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">Frekuensi</text>
+<rect x="170" y="345" width="1230" height="400" rx="0" fill="url(#dots)" stroke="#111" stroke-width="3"/>
+<path d="M180 650 C430 625 700 672 940 640 C1120 620 1260 665 1390 650" fill="none" stroke="#111" stroke-width="17"/>
+<text x="1420" y="658" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">F1</text>
+<path d="M180 535 C430 510 700 557 940 525 C1120 505 1260 550 1390 535" fill="none" stroke="#111" stroke-width="17"/>
+<text x="1420" y="543" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">F2</text>
+<path d="M180 420 C430 395 700 442 940 410 C1120 390 1260 435 1390 420" fill="none" stroke="#111" stroke-width="17"/>
+<text x="1420" y="428" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">F3</text>
+<line x1="760" y1="345" x2="760" y2="745" stroke="#111" stroke-width="3" stroke-dasharray="9 8"/>
+<text x="760" y="795" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">titik ukur</text>
+<line x1="170" y1="790" x2="1400" y2="790" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1430" y="798" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="#111">waktu</text>
+<text x="750" y="875" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="italic" fill="#111">Pita gelap mendatar menyederhanakan lintasan formant.</text></svg>

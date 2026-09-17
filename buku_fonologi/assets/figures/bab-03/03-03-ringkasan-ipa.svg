@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1000" viewBox="0 0 1700 1000"><title>Ringkasan lambang IPA</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="850.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Ringkasan Lambang IPA yang Digunakan dalam Buku</text>
+<line x1="90" y1="90" x2="1610" y2="90" stroke="#111" stroke-width="2"/>
+<text x="850.0" y="125" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="italic" fill="#111">Pilihan lambang, bukan reproduksi seluruh bagan IPA</text>
+<rect x="70" y="165" width="760" height="330" rx="0" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="450.0" y="213" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">VOKAL</text>
+<line x1="70" y1="235" x2="830" y2="235" stroke="#111" stroke-width="2"/>
+<text x="115" y="280" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Depan</text>
+<text x="785" y="280" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">i  e  ɛ</text>
+<text x="115" y="335" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Pusat</text>
+<text x="785" y="335" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">ə  a</text>
+<text x="115" y="390" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Belakang</text>
+<text x="785" y="390" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">u  o  ɔ</text>
+<rect x="870" y="165" width="760" height="330" rx="0" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1250.0" y="213" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">KONSONAN UTAMA</text>
+<line x1="870" y1="235" x2="1630" y2="235" stroke="#111" stroke-width="2"/>
+<text x="915" y="280" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Hambat</text>
+<text x="1585" y="280" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">p b  t d  k g  ʔ</text>
+<text x="915" y="335" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Nasal</text>
+<text x="1585" y="335" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">m n ɲ ŋ</text>
+<text x="915" y="390" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Frikatif</text>
+<text x="1585" y="390" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">f v s z ʃ x h</text>
+<text x="915" y="445" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Lain</text>
+<text x="1585" y="445" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">tʃ dʒ l r w j</text>
+<rect x="70" y="545" width="760" height="275" rx="0" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="450.0" y="593" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">DIAKRITIK PILIHAN</text>
+<line x1="70" y1="615" x2="830" y2="615" stroke="#111" stroke-width="2"/>
+<text x="115" y="660" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Aspirasi</text>
+<text x="785" y="660" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">ʰ</text>
+<text x="115" y="715" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Tak terlepas</text>
+<text x="785" y="715" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111"> ̚</text>
+<text x="115" y="770" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Nasalisasi</text>
+<text x="785" y="770" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111"> ̃</text>
+<rect x="870" y="545" width="760" height="275" rx="0" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1250.0" y="593" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">NOTASI</text>
+<line x1="870" y1="615" x2="1630" y2="615" stroke="#111" stroke-width="2"/>
+<text x="915" y="660" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Fonem</text>
+<text x="1585" y="660" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">/.../</text>
+<text x="915" y="715" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Realisasi fonetis</text>
+<text x="1585" y="715" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">[...]</text>
+<text x="915" y="770" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Batas silabel</text>
+<text x="1585" y="770" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">.</text>
+<text x="915" y="825" text-anchor="start" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Bentuk tidak berterima</text>
+<text x="1585" y="825" text-anchor="end" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" font-style="normal" fill="#111">*</text>
+<text x="850" y="920" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="22" font-weight="normal" font-style="italic" fill="#111">Diadaptasi dari organisasi bagan resmi International Phonetic Association.</text></svg>

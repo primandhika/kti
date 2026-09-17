@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Hubungan fonem, fon, dan alofon</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Dari Satuan Abstrak ke Bunyi Konkret</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="430" y="145" width="540" height="145" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="192" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">FONEM /k/</text>
+<text x="700.0" y="236" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">abstrak • ditulis /.../</text>
+<line x1="700" y1="290" x2="355" y2="430" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="175" y="445" width="360" height="160" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="355.0" y="492" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[k]</text>
+<text x="355.0" y="536" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">awal kata: kaki</text>
+<line x1="700" y1="290" x2="700" y2="430" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="520" y="445" width="360" height="160" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="492" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[k̚]</text>
+<text x="700.0" y="536" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">akhir silabel: praktik</text>
+<line x1="700" y1="290" x2="1045" y2="430" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="865" y="445" width="360" height="160" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1045.0" y="492" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[ʔ]</text>
+<text x="1045.0" y="536" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">akhir kata: bapak</text>
+<rect x="135" y="690" width="1130" height="85" rx="40" fill="#f2f2f2" stroke="#111" stroke-width="3"/>
+<text x="700" y="744" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="27" font-weight="normal" font-style="normal" fill="#111">Satu fonem dapat mempunyai beberapa realisasi fonetis.</text></svg>

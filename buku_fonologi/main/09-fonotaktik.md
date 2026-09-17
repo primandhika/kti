@@ -26,9 +26,9 @@ Fonotaktik (dari bahasa Yunani *phōnē* 'bunyi' dan *taktikós* 'berkenaan deng
 
 Aturan fonotaktik sangat erat kaitannya dengan struktur silabel yang telah dibahas pada Bab 6. Jika kita ingat, setiap silabel bahasa Indonesia tersusun dari onset (konsonan awal), nukleus (vokal), dan koda (konsonan akhir). Fonotaktik menentukan fonem apa saja yang boleh mengisi posisi onset, nukleus, dan koda, serta berapa banyak konsonan yang boleh berjajar di setiap posisi.
 
-[Diagram tiga kolom. Kolom kiri bertuliskan "Onset" dengan daftar kemungkinan: kosong, satu konsonan (K), dua konsonan (KK), tiga konsonan (KKK, hanya kata serapan). Kolom tengah bertuliskan "Nukleus" dengan keterangan: selalu satu vokal (V) atau diftong. Kolom kanan bertuliskan "Koda" dengan daftar kemungkinan: kosong, satu konsonan (K), dua konsonan (KK, terbatas). Di bawah diagram tertulis contoh kata untuk setiap pola: "a-ir" (onset kosong), "bu-ku" (onset K), "pra-ja" (onset KK), "teks" (koda KK).]
+![Posisi onset, nukleus, dan koda dalam pola fonotaktik](../assets/figures/bab-09/09-01-struktur-fonotaktik.png){width="5.8in"}
 
-Gambar 9.1 Kemungkinan Pengisi Posisi Onset, Nukleus, dan Koda dalam Silabel Bahasa Indonesia
+Gambar 9.1 Struktur Fonotaktik Silabel Bahasa Indonesia
 
 ### Distribusi Fonem Berdasarkan Posisi
 
@@ -103,9 +103,9 @@ Berikut beberapa batasan fonotaktik utama dalam bahasa Indonesia:
 
 5. **Deret vokal identik jarang terjadi.** Bahasa Indonesia umumnya menghindari dua vokal identik yang berurutan dalam satu kata dasar. Ketika vokal identik bertemu akibat afiksasi, sering terjadi penyisipan konsonan atau perubahan bentuk. Misalnya, "ke-" + "enak" menjadi "keenakan" yang dalam ujaran sering terdengar dengan penyisipan hambat glotal [kəʔenakan].
 
-[Diagram Venn dua lingkaran. Lingkaran kiri bertuliskan "Kombinasi yang diizinkan" berisi contoh: /pr/, /bl/, /str/, /KVK/, /KKVK/. Lingkaran kanan bertuliskan "Kombinasi yang dilarang" berisi contoh: */ŋr/, */bd/, */tl/, */nb/ di awal kata. Irisan tengah bertuliskan "Zona abu-abu: kata serapan" berisi contoh: /ks/ di koda, /f/ di awal kata, /dʒ/ di awal kata.]
+![Prosedur menguji kemungkinan urutan bunyi](../assets/figures/bab-09/09-02-batasan-fonotaktik.png){width="5.8in"}
 
-Gambar 9.2 Batasan Fonotaktik Bahasa Indonesia: Yang Diizinkan, Yang Dilarang, dan Zona Kata Serapan
+Gambar 9.2 Prosedur Menguji Batasan Fonotaktik Bahasa Indonesia
 
 ### Perbandingan dengan Bahasa Lain
 
@@ -241,9 +241,9 @@ Salah satu pola fonotaktik yang paling konsisten dalam bahasa Indonesia adalah h
 
 Kaidah ini sangat kuat: dalam bahasa Indonesia asli, kita tidak akan menemukan kombinasi */mk/ (nasal bilabial + plosif velar) atau */ŋt/ (nasal velar + plosif alveolar) di dalam satu silabel. Ketika nasal dan plosif berurutan, keduanya selalu berbagi tempat artikulasi. Ini merupakan salah satu aturan fonotaktik bahasa Indonesia yang paling teratur dan mudah diamati (Lapoliwa, 1981).
 
-[Diagram empat baris. Setiap baris menunjukkan pasangan nasal-plosif: baris 1 menampilkan bibir (bilabial) dengan /m/+/p/ dan /m/+/b/; baris 2 menampilkan gusi (alveolar) dengan /n/+/t/ dan /n/+/d/; baris 3 menampilkan langit-langit keras (palatal) dengan /ɲ/+/tʃ/ dan /ɲ/+/dʒ/; baris 4 menampilkan langit-langit lunak (velar) dengan /ŋ/+/k/ dan /ŋ/+/g/. Setiap baris diberi contoh kata.]
+![Asimilasi nasal menurut tempat artikulasi konsonan berikutnya](../assets/figures/bab-09/09-03-homorgan.png){width="5.8in"}
 
-Gambar 9.3 Kaidah Homorgan: Nasal Selalu Satu Tempat Artikulasi dengan Plosif Pasangannya
+Gambar 9.3 Kaidah Homorgan pada Urutan Nasal dan Konsonan
 
 ### Implikasi untuk Pemelajar Bahasa
 

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Hubungan fonologi, fonetik, dan fonemik</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Fonologi sebagai Kajian Sistem Bunyi</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="470" y="140" width="460" height="125" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="700.0" y="187" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">FONOLOGI</text>
+<text x="700.0" y="231" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">sistem dan pola bunyi bahasa</text>
+<line x1="700" y1="265" x2="370" y2="380" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="700" y1="265" x2="1030" y2="380" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="150" y="395" width="440" height="235" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="370.0" y="442" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">FONETIK</text>
+<text x="370.0" y="486" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">bunyi sebagai gejala fisik</text>
+<text x="370.0" y="524" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">produksi, akustik, persepsi</text>
+<rect x="810" y="395" width="440" height="235" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1030.0" y="442" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">FONEMIK</text>
+<text x="1030.0" y="486" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">bunyi sebagai unsur sistem</text>
+<text x="1030.0" y="524" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">kontras, distribusi, makna</text>
+<line x1="590" y1="540" x2="810" y2="540" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="810" y1="585" x2="590" y2="585" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="700" y="530" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="21" font-weight="normal" font-style="normal" fill="#111">data bunyi</text>
+<text x="700" y="620" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="21" font-weight="normal" font-style="normal" fill="#111">analisis sistem</text>
+<text x="700" y="745" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" font-style="italic" fill="#111">Keduanya saling melengkapi dalam analisis fonologi.</text></svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Gerak diftong</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Diftong sebagai Gerak dalam Satu Silabel</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="95" y="150" width="390" height="500" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="290" y="205" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="32" font-weight="bold" font-style="normal" fill="#111">/ai/</text>
+<text x="290" y="250" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">[a] → [i]</text>
+<line x1="165" y1="580" x2="415" y2="580" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="165" y1="580" x2="165" y2="290" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="235" cy="540" r="22" fill="#fff" stroke="#111" stroke-width="3"/>
+<circle cx="360" cy="300" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="250" y1="525" x2="345" y2="315" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="505" y="150" width="390" height="500" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="700" y="205" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="32" font-weight="bold" font-style="normal" fill="#111">/au/</text>
+<text x="700" y="250" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">[a] → [u]</text>
+<line x1="575" y1="580" x2="825" y2="580" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="575" y1="580" x2="575" y2="290" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="645" cy="540" r="22" fill="#fff" stroke="#111" stroke-width="3"/>
+<circle cx="810" cy="300" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="660" y1="525" x2="795" y2="315" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="915" y="150" width="390" height="500" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1110" y="205" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="32" font-weight="bold" font-style="normal" fill="#111">/oi/</text>
+<text x="1110" y="250" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">[o] → [i]</text>
+<line x1="985" y1="580" x2="1235" y2="580" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="985" y1="580" x2="985" y2="290" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="1085" cy="425" r="22" fill="#fff" stroke="#111" stroke-width="3"/>
+<circle cx="1220" cy="300" r="22" fill="#111" stroke="#111" stroke-width="3"/>
+<line x1="1100" y1="410" x2="1205" y2="315" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="700" y="750" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="italic" fill="#111">Panah menunjukkan perpindahan kualitas vokal dalam satu puncak silabel.</text></svg>

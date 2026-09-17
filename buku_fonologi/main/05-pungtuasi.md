@@ -17,9 +17,9 @@ Dalam konteks fonologi, *pungtuasi* tidak hanya merujuk pada tanda baca dalam tu
 
 Memahami hubungan ini penting karena pungtuasi lisan sering kali menentukan makna ujaran secara lebih langsung daripada kata-kata itu sendiri. Jeda yang salah posisi atau intonasi yang tidak tepat dapat mengubah makna kalimat secara drastis.
 
-[Diagram dua kolom berdampingan: kolom kiri bertuliskan "Pungtuasi Tulisan" berisi simbol tanda baca (titik, koma, tanda tanya, tanda seru); kolom kanan bertuliskan "Pungtuasi Lisan" berisi padanan suprasegmentalnya (jeda panjang, jeda pendek, intonasi naik, intonasi tinggi/volume naik). Garis penghubung menunjukkan padanan antara keduanya.]
+![Hubungan tanda baca dan petunjuk prosodi](../assets/figures/bab-05/05-01-pungtuasi-tulisan-lisan.png){width="5.8in"}
 
-Gambar 5.1 Padanan Pungtuasi Tulisan dan Pungtuasi Lisan
+Gambar 5.1 Hubungan Pungtuasi Tulisan dan Pungtuasi Lisan
 
 ## 5.1 Fungsi Pungtuasi dalam Ujaran Lisan
 
@@ -139,7 +139,7 @@ Salah satu kesalahan yang sering terjadi dalam presentasi atau pidato adalah men
 
 Hanya dengan memindahkan posisi jeda, makna kalimat berubah total. Kata-kata yang digunakan persis sama, tetapi pungtuasi lisan (jeda) menentukan bagaimana pendengar mengelompokkan kata-kata tersebut dan memahami strukturnya (Halim, 1984).
 
-[Diagram dua versi kalimat "Ibu guru baru datang" dengan posisi jeda yang berbeda, ditandai garis vertikal putus-putus. Versi pertama: jeda setelah "guru". Versi kedua: jeda setelah "Ibu". Di bawah masing-masing dituliskan makna yang dihasilkan.]
+![Dua posisi jeda yang menghasilkan pengelompokan makna berbeda](../assets/figures/bab-05/05-02-posisi-jeda.png){width="5.8in"}
 
 Gambar 5.2 Pengaruh Posisi Jeda terhadap Makna Kalimat
 

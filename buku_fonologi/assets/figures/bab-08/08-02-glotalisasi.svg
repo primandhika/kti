@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Glotalisasi konsonan velar</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Realisasi /k/ pada Posisi Berbeda</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="105" y="170" width="500" height="420" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="355.0" y="217" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">AWAL ATAU TENGAH</text>
+<text x="355.0" y="261" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">/k/ → [k]</text>
+<text x="355.0" y="299" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">kaki [kaki]</text>
+<text x="355.0" y="337" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">bakar [bakar]</text>
+<rect x="795" y="170" width="500" height="420" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1045.0" y="217" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">AKHIR KATA</text>
+<text x="1045.0" y="261" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">/k/ → [ʔ] (sering)</text>
+<text x="1045.0" y="299" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">bapak [bapaʔ]</text>
+<text x="1045.0" y="337" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">tidak [tidaʔ]</text>
+<line x1="605" y1="380" x2="795" y2="380" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="700" y="350" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="21" font-weight="normal" font-style="normal" fill="#111">perubahan</text>
+<text x="700" y="680" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="italic" fill="#111">Kecenderungan ini bergantung pada ragam dan penutur.</text></svg>

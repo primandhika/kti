@@ -31,7 +31,7 @@ Bunyi segmental menjadi dasar fonologi karena perbedaan dalam fonem segmental da
 
 Bunyi suprasegmental adalah unsur bunyi yang tidak berdiri sendiri sebagai segmen fonem, melainkan menyebar melintasi suku kata, kata, atau frasa (Ladefoged & Johnson, 2011). Istilah "suprasegmental" berarti "di atas segmen," menunjukkan bahwa unsur-unsur ini bersifat "menumpang" pada bunyi segmental. Crystal (2008) mengidentifikasi empat unsur suprasegmental utama: tekanan, nada, intonasi, dan durasi.
 
-[Diagram empat kotak tersusun vertikal, masing-masing berisi satu unsur suprasegmental: (1) Tekanan, ditandai ikon suku kata yang ditebalkan; (2) Nada, ditandai garis melengkung naik/turun; (3) Intonasi, ditandai kontur nada sepanjang kalimat; (4) Durasi, ditandai garis panjang vs pendek. Setiap kotak disertai contoh singkat dalam bahasa Indonesia.]
+![Empat unsur suprasegmental](../assets/figures/bab-04/04-01-unsur-suprasegmental.png){width="5.8in"}
 
 Gambar 4.1 Empat Unsur Suprasegmental
 
@@ -98,9 +98,9 @@ Pola suprasegmental juga bervariasi antarbahasa dan antarbudaya. Penutur bahasa 
 
 Dalam bahasa Indonesia, intonasi saja sudah cukup untuk membedakan pernyataan dan pertanyaan tanpa mengubah satu kata pun. Bandingkan "Kamu sudah makan." (intonasi turun = pernyataan) dengan "Kamu sudah makan?" (intonasi naik = pertanyaan). Struktur kalimat persis sama, tetapi intonasi mengubah fungsi ujaran secara keseluruhan. Dalam percakapan informal, penutur bahasa Indonesia bahkan sering tidak menggunakan kata tanya "apakah". Cukup dengan menaikkan intonasi di akhir, pernyataan berubah menjadi pertanyaan.
 
-[Diagram kontur intonasi sederhana untuk dua kalimat di atas. Garis horizontal mewakili waktu, garis vertikal mewakili tinggi nada. Kalimat pernyataan ditunjukkan dengan garis yang menurun di akhir; kalimat pertanyaan ditunjukkan dengan garis yang naik di akhir.]
+![Kontur intonasi pernyataan dan pertanyaan](../assets/figures/bab-04/04-02-kontur-intonasi.png){width="5.8in"}
 
-Gambar 4.2 Kontur Intonasi: Pernyataan vs Pertanyaan
+Gambar 4.2 Kontur Intonasi: Pernyataan dan Pertanyaan
 
 ## Rangkuman
 

@@ -15,7 +15,7 @@ Setiap kali kita berbicara, kita menghasilkan berbagai jenis bunyi bahasa secara
 
 Pengelompokan bunyi bahasa bukan sekadar urusan teknis. Klasifikasi ini membantu kita memahami mengapa fonem tertentu dapat saling menggantikan (membentuk pasangan minimal), mengapa beberapa bunyi lebih sering muncul di posisi tertentu, dan bagaimana sistem bunyi bahasa Indonesia berbeda dari bahasa lain. Bab ini membahas klasifikasi bunyi vokal dan konsonan, perbedaan bunyi segmental dan suprasegmental, serta gambaran umum sistem fonologis bahasa Indonesia.
 
-[Diagram trapesium vokal (*vowel trapezoid*) yang menunjukkan posisi vokal bahasa Indonesia berdasarkan dua sumbu: tinggi-rendah lidah (sumbu vertikal) dan depan-belakang lidah (sumbu horizontal). Vokal /i/, /e/, /a/, /o/, /u/, dan /ə/ ditandai pada posisinya masing-masing.]
+![Trapesium vokal bahasa Indonesia](../assets/figures/bab-03/03-01-trapesium-vokal.png){width="5.8in"}
 
 Gambar 3.1 Trapesium Vokal Bahasa Indonesia
 
@@ -99,9 +99,13 @@ Konsonan juga dibedakan berdasarkan ada tidaknya getaran pita suara. Konsonan **
 
 Keterangan: Fonem /f/, /v/, /z/, /ʃ/, dan /x/ merupakan fonem serapan yang masuk melalui bahasa Arab, Belanda, dan Inggris. Tidak semua penutur bahasa Indonesia menggunakan fonem-fonem ini secara konsisten; sebagian menggantinya dengan fonem asli yang terdekat, misalnya /f/ → [p] dan /v/ → [p] (Chaer, 2009).
 
-[Bagan konsonan bahasa Indonesia disusun dalam format tabel dua dimensi: baris menunjukkan cara artikulasi (plosif, nasal, frikatif, afrikat, lateral, getar, semivokal) dan kolom menunjukkan tempat artikulasi (bilabial, labiodental, alveolar, alveopalatal, palatal, velar, glotal). Setiap sel berisi fonem yang sesuai, dengan fonem serapan ditandai berbeda.]
+![Bagan konsonan bahasa Indonesia menurut tempat dan cara artikulasi](../assets/figures/bab-03/03-02-bagan-konsonan.png){width="5.8in"}
 
 Gambar 3.2 Bagan Konsonan Bahasa Indonesia
+
+![Ringkasan lambang IPA yang digunakan dalam buku](../assets/figures/bab-03/03-03-ringkasan-ipa.png){width="6.2in"}
+
+Gambar 3.3 Ringkasan Lambang IPA yang Digunakan dalam Buku. Diadaptasi dari bagan resmi International Phonetic Association, lisensi CC BY-SA 4.0.
 
 ## 3.3 Bunyi Segmental dan Suprasegmental
 

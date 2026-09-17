@@ -63,6 +63,10 @@ Deret konsonan lintas silabel harus dibedakan dari **kluster konsonan** yang ber
 
 Ambil kata "Indonesia" dan pecahkan menjadi silabel: In-do-ne-si-a. Perhatikan deret vokal /i.a/ di akhir kata (si-a). Sekarang ambil kata "kompleks" dan pecahkan: kom-pleks. Perhatikan deret konsonan /m.p/ (lintas silabel) pada "kom-" dan kluster /pl/ (dalam satu onset) pada "-pleks." Dalam satu kata saja, kita menemukan deret konsonan lintas silabel dan kluster sekaligus.
 
+![Perbandingan satu puncak dan dua puncak sonoritas pada urutan vokal](../assets/figures/bab-11/11-01-deret-vs-satu-silabel.png){width="5.8in"}
+
+Gambar 11.1 Perbandingan Urutan Vokal dalam Satu Silabel dan Dua Silabel
+
 ## 11.2 Deret Fonem dalam Morfologi
 
 Deret fonem sering muncul sebagai akibat dari proses morfologis, terutama ketika afiks bertemu dengan kata dasar. Batas morfem (tempat afiks dan kata dasar bertemu) sering kali menghasilkan deret fonem yang tidak ditemukan di dalam morfem tunggal (Chaer, 2009; Muslich, 2013).
@@ -126,6 +130,10 @@ Untuk menganalisis deret fonem secara sistematis, diperlukan prosedur yang jelas
 5. **Klasifikasi deret.** Tentukan jenis deret: deret vokal atau deret konsonan. Untuk deret konsonan, tentukan apakah deret tersebut terjadi di dalam kata dasar atau di batas morfem.
 
 6. **Analisis pola.** Periksa apakah deret yang ditemukan mengikuti kaidah fonotaktik bahasa Indonesia. Identifikasi deret yang lazim (misalnya nasal + plosif homorgan) dan deret yang jarang atau hanya muncul pada kata serapan.
+
+![Prosedur menentukan status urutan vokal](../assets/figures/bab-11/11-02-prosedur-analisis.png){width="5.8in"}
+
+Gambar 11.2 Prosedur Menentukan Status Urutan Vokal
 
 ### Contoh Analisis
 

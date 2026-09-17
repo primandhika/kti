@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Empat unsur suprasegmental</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Unsur Suprasegmental dalam Ujaran</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="145" y="170" width="300" height="440" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="295.0" y="217" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">TEKANAN</text>
+<text x="295.0" y="261" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">buku → BÚku</text>
+<text x="295.0" y="299" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">penonjolan suku kata</text>
+<rect x="415" y="170" width="300" height="440" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="565.0" y="217" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">NADA</text>
+<text x="565.0" y="261" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">rendah ↗ tinggi</text>
+<text x="565.0" y="299" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">tinggi nada</text>
+<rect x="685" y="170" width="300" height="440" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="835.0" y="217" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">INTONASI</text>
+<text x="835.0" y="261" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">Dia datang. ↘</text>
+<text x="835.0" y="299" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">kontur ujaran</text>
+<rect x="955" y="170" width="300" height="440" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1105.0" y="217" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">DURASI</text>
+<text x="1105.0" y="261" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">[a] : [aː]</text>
+<text x="1105.0" y="299" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="#111">lama-pendek bunyi</text>
+<path d="M210 330 L390 330" fill="none" stroke="#111" stroke-width="10"/>
+<path d="M500 355 C540 400 590 285 650 320" fill="none" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M770 350 C835 300 875 305 930 390" fill="none" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1035" y1="350" x2="1135" y2="350" stroke="#111" stroke-width="4"/>
+<line x1="1035" y1="390" x2="1210" y2="390" stroke="#111" stroke-width="9"/>
+<text x="700" y="735" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="normal" font-style="normal" fill="#111">Keempat unsur bekerja bersama dalam ujaran alami.</text></svg>

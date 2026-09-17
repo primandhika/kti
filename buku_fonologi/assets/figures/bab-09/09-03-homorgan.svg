@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850"><title>Asimilasi homorgan</title><rect width="100%" height="100%" fill="#fff"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#111"/></marker><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777"/></pattern></defs><text x="700.0" y="65" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="#111">Asimilasi Nasal Menurut Tempat Artikulasi</text>
+<line x1="90" y1="90" x2="1310" y2="90" stroke="#111" stroke-width="2"/>
+<rect x="90" y="150" width="320" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="250.0" y="197" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">/N/ + /p,b/</text>
+<line x1="410" y1="202" x2="510" y2="202" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="520" y="150" width="210" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="625.0" y="197" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[m]</text>
+<text x="625.0" y="241" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">bilabial</text>
+<line x1="730" y1="202" x2="825" y2="202" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="835" y="150" width="475" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1072.5" y="197" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">mem+baca → membaca</text>
+<rect x="90" y="295" width="320" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="250.0" y="342" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">/N/ + /t,d/</text>
+<line x1="410" y1="347" x2="510" y2="347" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="520" y="295" width="210" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="625.0" y="342" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[n]</text>
+<text x="625.0" y="386" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">alveolar</text>
+<line x1="730" y1="347" x2="825" y2="347" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="835" y="295" width="475" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1072.5" y="342" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">men+dengar → mendengar</text>
+<rect x="90" y="440" width="320" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="250.0" y="487" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">/N/ + /c,j/</text>
+<line x1="410" y1="492" x2="510" y2="492" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="520" y="440" width="210" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="625.0" y="487" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[ɲ]</text>
+<text x="625.0" y="531" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">palatal</text>
+<line x1="730" y1="492" x2="825" y2="492" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="835" y="440" width="475" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1072.5" y="487" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">men+cari → mencari</text>
+<rect x="90" y="585" width="320" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="250.0" y="632" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="#111">/N/ + /k,g/</text>
+<line x1="410" y1="637" x2="510" y2="637" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="520" y="585" width="210" height="105" rx="8" fill="#eee" stroke="#111" stroke-width="3"/>
+<text x="625.0" y="632" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="#111">[ŋ]</text>
+<text x="625.0" y="676" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="20" font-weight="normal" font-style="normal" fill="#111">velar</text>
+<line x1="730" y1="637" x2="825" y2="637" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="835" y="585" width="475" height="105" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+<text x="1072.5" y="632" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="bold" font-style="normal" fill="#111">meng+gali → menggali</text>
+<text x="700" y="775" text-anchor="middle" font-family="Noto Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" font-style="italic" fill="#111">Nasal menyesuaikan tempat artikulasi dengan konsonan berikutnya.</text></svg>
